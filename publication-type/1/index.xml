@@ -5,7 +5,7 @@
     <link>https://example.com/publication-type/1/</link>
       <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,22 +13,155 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>MES Dynamic interoperability for SMEs in the Factory of the Future perspective</title>
+      <link>https://example.com/publication/chohan-20221329/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/chohan-20221329/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system*</title>
+      <link>https://example.com/publication/liu-2021771/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2021771/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isometric-Based Approach for Detecting Localized Muscular Fatigue during Complex Dynamic Manufacturing Operations</title>
+      <link>https://example.com/publication/chand-20211940/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/chand-20211940/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-agent-based self-organizing manufacturing network towards mass personalization</title>
+      <link>https://example.com/publication/qin-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/qin-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A reconfigurable jig assistant assembly system based on wearable devices</title>
+      <link>https://example.com/publication/qin-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/qin-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A reference human-centric architecture model: A skill-based approach for education of future workforce</title>
+      <link>https://example.com/publication/flores-20201094/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/flores-20201094/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized coordination of autonomous AGVs for flexible factory automation in the context of Industry 4.0</title>
+      <link>https://example.com/publication/xia-2020488/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/xia-2020488/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital thread enabled manufacturing automation towards mass personalization</title>
+      <link>https://example.com/publication/ramesh-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/ramesh-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Cyber-Physical Systems: A skill-based correlation between humans and machines</title>
+      <link>https://example.com/publication/flores-20201313/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/flores-20201313/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning to Empower a Cyber-Physical Machine Tool</title>
+      <link>https://example.com/publication/letford-2020989/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/letford-2020989/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standards for smart manufacturing: A review</title>
+      <link>https://example.com/publication/lu-201973/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-201973/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital twin reference model for smart manufacturing</title>
+      <link>https://example.com/publication/lu-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A review on digital twin in manufacturing process</title>
+      <link>https://example.com/publication/wardhani-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/wardhani-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manufacturing service reliability assessment in cloud manufacturing</title>
+      <link>https://example.com/publication/mubarok-2018940/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/mubarok-2018940/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards cyber-physical system intelligent services in cloud manufacturing</title>
+      <link>https://example.com/publication/mubarok-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/mubarok-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyber-physical production network for energy-efficient manufacturing: A framework</title>
+      <link>https://example.com/publication/lu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process and production planning in a cloud manufacturing environment</title>
+      <link>https://example.com/publication/lu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud manufacturing for a service-oriented paradigm shift</title>
+      <link>https://example.com/publication/lu-20141146/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-20141146/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new paradigm shift for manufacturing businesses</title>
+      <link>https://example.com/publication/lu-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2013/</guid>
+      <description></description>
     </item>
     
   </channel>

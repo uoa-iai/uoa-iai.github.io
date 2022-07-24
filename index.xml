@@ -33,6 +33,230 @@
     </item>
     
     <item>
+      <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
+      <link>https://example.com/publication/liu-2022811/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2022811/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A fusion-based spiking neural network approach for predicting collaboration request in human-robot collaboration</title>
+      <link>https://example.com/publication/zhang-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic method for constructing machining process knowledge base from knowledge graph</title>
+      <link>https://example.com/publication/guo-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/guo-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation</title>
+      <link>https://example.com/publication/wang-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/wang-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
+      <link>https://example.com/publication/liu-2022390/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2022390/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MES Dynamic interoperability for SMEs in the Factory of the Future perspective</title>
+      <link>https://example.com/publication/chohan-20221329/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/chohan-20221329/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlook on human-centric manufacturing towards Industry 5.0</title>
+      <link>https://example.com/publication/lu-2022612/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2022612/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic artificial intelligence for smart manufacturing automation</title>
+      <link>https://example.com/publication/lu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://example.com/publication/zhou-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhou-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service-oriented industrial internet of things gateway for cloud manufacturing</title>
+      <link>https://example.com/publication/liu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital twin-driven human-robot collaborative assembly approach in the wake of COVID-19</title>
+      <link>https://example.com/publication/lv-2021837/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lv-2021837/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A hybrid 3D feature recognition method based on rule and graph</title>
+      <link>https://example.com/publication/guo-2021257/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/guo-2021257/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Knowledge-Driven Digital Twin Modeling Method for Machining Products Based on Biomimicry [知识驱动的加工产品数字孪生拟态建模方法]</title>
+      <link>https://example.com/publication/liu-2021182/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2021182/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A machining accuracy informed adaptive positioning method for finish machining of assembly interfaces of large-scale aircraft components</title>
+      <link>https://example.com/publication/fan-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/fan-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
+      <link>https://example.com/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhou-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system*</title>
+      <link>https://example.com/publication/liu-2021771/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2021771/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic machining process decision-making system based on knowledge graph</title>
+      <link>https://example.com/publication/guo-20211348/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/guo-20211348/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Twin as a Service (DTaaS) in Industry 4.0: An Architecture Reference Model</title>
+      <link>https://example.com/publication/aheleroff-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/aheleroff-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital twin modeling method based on biomimicry for machining aerospace components</title>
+      <link>https://example.com/publication/liu-2021180/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2021180/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Twin-driven online anomaly detection for an automation system based on edge intelligence</title>
+      <link>https://example.com/publication/huang-2021138/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/huang-2021138/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humans Are Not Machines—Anthropocentric Human–Machine Symbiosis for Ultra-Flexible Smart Manufacturing</title>
+      <link>https://example.com/publication/lu-2021734/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2021734/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry 4.0 and Industry 5.0—Inception, conception and perception</title>
+      <link>https://example.com/publication/xu-2021530/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/xu-2021530/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isometric-Based Approach for Detecting Localized Muscular Fatigue during Complex Dynamic Manufacturing Operations</title>
+      <link>https://example.com/publication/chand-20211940/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/chand-20211940/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machining process-oriented monitoring method based on digital twin via augmented reality</title>
+      <link>https://example.com/publication/liu-20213491/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-20213491/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-agent-based self-organizing manufacturing network towards mass personalization</title>
+      <link>https://example.com/publication/qin-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/qin-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale evolution mechanism and knowledge construction of a digital twin mimic model</title>
+      <link>https://example.com/publication/liu-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of Visual SLAM in Dynamic Environment [动态环境下的视觉SLAM 研究评述]</title>
+      <link>https://example.com/publication/wang-2021715/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/wang-2021715/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-organizing manufacturing network: A paradigm towards smart manufacturing in mass personalization</title>
+      <link>https://example.com/publication/qin-202135/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/qin-202135/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://example.com/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -109,6 +333,126 @@
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A reconfigurable jig assistant assembly system based on wearable devices</title>
+      <link>https://example.com/publication/qin-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/qin-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A reference human-centric architecture model: A skill-based approach for education of future workforce</title>
+      <link>https://example.com/publication/flores-20201094/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/flores-20201094/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic extraction of engineering rules from unstructured text: A natural language processing approach</title>
+      <link>https://example.com/publication/ye-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/ye-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized coordination of autonomous AGVs for flexible factory automation in the context of Industry 4.0</title>
+      <link>https://example.com/publication/xia-2020488/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/xia-2020488/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital thread enabled manufacturing automation towards mass personalization</title>
+      <link>https://example.com/publication/ramesh-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/ramesh-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Twin-driven smart manufacturing: Connotation, reference model, applications and research issues</title>
+      <link>https://example.com/publication/lu-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental Investigation of the Surface Roughness of Finish-Machined High-Volume-Fraction SiCp/Al Composites</title>
+      <link>https://example.com/publication/wang-20205399/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/wang-20205399/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Function block-based closed-loop adaptive machining for assembly interfaces of large-scale aircraft components</title>
+      <link>https://example.com/publication/fan-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/fan-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Capital 4.0: a workforce competence typology for Industry 4.0</title>
+      <link>https://example.com/publication/flores-2020687/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/flores-2020687/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Cyber-Physical Systems: A skill-based correlation between humans and machines</title>
+      <link>https://example.com/publication/flores-20201313/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/flores-20201313/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT-enabled smart appliances under industry 4.0: A case study</title>
+      <link>https://example.com/publication/aheleroff-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/aheleroff-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning to Empower a Cyber-Physical Machine Tool</title>
+      <link>https://example.com/publication/letford-2020989/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/letford-2020989/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotic technologies for on-site building construction: A systematic review</title>
+      <link>https://example.com/publication/gharbia-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/gharbia-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic communications between distributed cyber-physical systems towards collaborative automation for smart manufacturing</title>
+      <link>https://example.com/publication/lu-2020348/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2020348/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart manufacturing process and system automation – A critical review of the standards and envisioned scenarios</title>
+      <link>https://example.com/publication/lu-2020312/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2020312/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -237,6 +581,118 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>A Cyber-Physical Machine Tools Platform using OPC UA and MTConnect</title>
+      <link>https://example.com/publication/liu-201961/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-201961/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud-based manufacturing equipment and big data analytics to enable on-demand manufacturing services</title>
+      <link>https://example.com/publication/lu-201992/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-201992/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy-efficient cyber-physical production network: Architecture and technologies</title>
+      <link>https://example.com/publication/lu-201956/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-201956/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ManuService ontology: a product data model for service-oriented business interactions in a cloud manufacturing environment</title>
+      <link>https://example.com/publication/lu-2019317/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2019317/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standards for smart manufacturing: A review</title>
+      <link>https://example.com/publication/lu-201973/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-201973/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital twin reference model for smart manufacturing</title>
+      <link>https://example.com/publication/lu-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A review on digital twin in manufacturing process</title>
+      <link>https://example.com/publication/wardhani-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/wardhani-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Method and Characteristics Study on Actuator of Giant Magnetostrictive Harmonic Motor [超磁致伸缩谐波电机致动器设计方法与特性研究]</title>
+      <link>https://example.com/publication/zhu-2018204/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhu-2018204/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manufacturing service reliability assessment in cloud manufacturing</title>
+      <link>https://example.com/publication/mubarok-2018940/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/mubarok-2018940/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resource virtualization: A core technology for developing cyber-physical production systems</title>
+      <link>https://example.com/publication/lu-2018128/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2018128/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards cyber-physical system intelligent services in cloud manufacturing</title>
+      <link>https://example.com/publication/mubarok-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/mubarok-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A semantic web-based framework for service composition in a cloud manufacturing environment</title>
+      <link>https://example.com/publication/lu-201769/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-201769/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A system framework for OKP product planning in a cloud-based design environment</title>
+      <link>https://example.com/publication/zheng-201773/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zheng-201773/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyber-physical production network for energy-efficient manufacturing: A framework</title>
+      <link>https://example.com/publication/lu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Project</title>
       <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -250,22 +706,67 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Computer-Integrated Manufacturing, Cyber-Physical Systems and Cloud Manufacturing - Concepts and relationships</title>
+      <link>https://example.com/publication/yu-20155/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/yu-20155/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process and production planning in a cloud manufacturing environment</title>
+      <link>https://example.com/publication/lu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting intellectual property in a cloud manufacturing environment: Requirements and strategies</title>
+      <link>https://example.com/publication/lu-2015404/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2015404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud manufacturing for a service-oriented paradigm shift</title>
+      <link>https://example.com/publication/lu-20141146/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-20141146/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of a Hybrid Manufacturing Cloud</title>
+      <link>https://example.com/publication/lu-2014551/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2014551/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontology for manufacturing resources in a cloud environment</title>
+      <link>https://example.com/publication/lu-2014448/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2014448/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool selection: A cloud-based approach</title>
+      <link>https://example.com/publication/singh-2014237/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/singh-2014237/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new paradigm shift for manufacturing businesses</title>
+      <link>https://example.com/publication/lu-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lu-2013/</guid>
+      <description></description>
     </item>
     
     <item>
