@@ -1,166 +1,294 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1 | Academic</title>
-    <link>https://example.com/publication-type/1/</link>
-      <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <title>1 | </title>
+    <link>https://uoa-iai.github.io/publication-type/1/</link>
+      <atom:link href="https://uoa-iai.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>https://example.com/publication-type/1/</link>
+      <link>https://uoa-iai.github.io/publication-type/1/</link>
     </image>
     
     <item>
       <title>MES Dynamic interoperability for SMEs in the Factory of the Future perspective</title>
-      <link>https://example.com/publication/chohan-20221329/</link>
+      <link>https://uoa-iai.github.io/publication/chohan-20221329/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/chohan-20221329/</guid>
+      <guid>https://uoa-iai.github.io/publication/chohan-20221329/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-adaptive/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-adaptive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system*</title>
-      <link>https://example.com/publication/liu-2021771/</link>
+      <link>https://uoa-iai.github.io/publication/liu-2021771/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/liu-2021771/</guid>
+      <guid>https://uoa-iai.github.io/publication/liu-2021771/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isometric-based approach for detecting localized muscular fatigue during complex dynamic manufacturing operations</title>
+      <link>https://uoa-iai.github.io/publication/chand-2021-isometric/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-2021-isometric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Isometric-Based Approach for Detecting Localized Muscular Fatigue during Complex Dynamic Manufacturing Operations</title>
-      <link>https://example.com/publication/chand-20211940/</link>
+      <link>https://uoa-iai.github.io/publication/chand-20211940/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/chand-20211940/</guid>
+      <guid>https://uoa-iai.github.io/publication/chand-20211940/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-agent-based self-organizing manufacturing network towards mass personalization</title>
-      <link>https://example.com/publication/qin-2021/</link>
+      <link>https://uoa-iai.github.io/publication/qin-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/qin-2021/</guid>
+      <guid>https://uoa-iai.github.io/publication/qin-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent-Based Self-Organizing Manufacturing Network Towards Mass Personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-2021-multi/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2021-multi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A reconfigurable jig assistant assembly system based on wearable devices</title>
-      <link>https://example.com/publication/qin-2020/</link>
+      <link>https://uoa-iai.github.io/publication/qin-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/qin-2020/</guid>
+      <guid>https://uoa-iai.github.io/publication/qin-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Reconfigurable Jig Assistant Assembly System Based on Wearable Devices</title>
+      <link>https://uoa-iai.github.io/publication/qin-2020-reconfigurable/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2020-reconfigurable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A reference human-centric architecture model: A skill-based approach for education of future workforce</title>
-      <link>https://example.com/publication/flores-20201094/</link>
+      <link>https://uoa-iai.github.io/publication/flores-20201094/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/flores-20201094/</guid>
+      <guid>https://uoa-iai.github.io/publication/flores-20201094/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decentralized coordination of autonomous AGVs for flexible factory automation in the context of Industry 4.0</title>
-      <link>https://example.com/publication/xia-2020488/</link>
+      <link>https://uoa-iai.github.io/publication/xia-2020-decentralized/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/xia-2020488/</guid>
+      <guid>https://uoa-iai.github.io/publication/xia-2020-decentralized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized coordination of autonomous AGVs for flexible factory automation in the context of Industry 4.0</title>
+      <link>https://uoa-iai.github.io/publication/xia-2020488/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2020488/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital thread enabled manufacturing automation towards mass personalization</title>
-      <link>https://example.com/publication/ramesh-2020/</link>
+      <link>https://uoa-iai.github.io/publication/ramesh-2020-digital/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/ramesh-2020/</guid>
+      <guid>https://uoa-iai.github.io/publication/ramesh-2020-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital thread enabled manufacturing automation towards mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/ramesh-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ramesh-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Human Cyber-Physical Systems: A skill-based correlation between humans and machines</title>
-      <link>https://example.com/publication/flores-20201313/</link>
+      <link>https://uoa-iai.github.io/publication/flores-2020-human/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/flores-20201313/</guid>
+      <guid>https://uoa-iai.github.io/publication/flores-2020-human/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Cyber-Physical Systems: A skill-based correlation between humans and machines</title>
+      <link>https://uoa-iai.github.io/publication/flores-20201313/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/flores-20201313/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning to Empower a Cyber-Physical Machine Tool</title>
-      <link>https://example.com/publication/letford-2020989/</link>
+      <link>https://uoa-iai.github.io/publication/letford-2020-machine/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/letford-2020989/</guid>
+      <guid>https://uoa-iai.github.io/publication/letford-2020-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning to Empower a Cyber-Physical Machine Tool</title>
+      <link>https://uoa-iai.github.io/publication/letford-2020989/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/letford-2020989/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Standards for smart manufacturing: A review</title>
-      <link>https://example.com/publication/lu-201973/</link>
+      <link>https://uoa-iai.github.io/publication/lu-2019-standards/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lu-201973/</guid>
+      <guid>https://uoa-iai.github.io/publication/lu-2019-standards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standards for smart manufacturing: A review</title>
+      <link>https://uoa-iai.github.io/publication/lu-201973/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-201973/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A digital twin reference model for smart manufacturing</title>
-      <link>https://example.com/publication/lu-2018/</link>
+      <link>https://uoa-iai.github.io/publication/lu-2018-digital/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lu-2018/</guid>
+      <guid>https://uoa-iai.github.io/publication/lu-2018-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital twin reference model for smart manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/lu-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A review on digital twin in manufacturing process</title>
-      <link>https://example.com/publication/wardhani-2018/</link>
+      <link>https://uoa-iai.github.io/publication/rivar-2018-review/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/wardhani-2018/</guid>
+      <guid>https://uoa-iai.github.io/publication/rivar-2018-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A review on digital twin in manufacturing process</title>
+      <link>https://uoa-iai.github.io/publication/wardhani-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wardhani-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manufacturing service reliability assessment in cloud manufacturing</title>
-      <link>https://example.com/publication/mubarok-2018940/</link>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018940/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/mubarok-2018940/</guid>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018940/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards cyber-physical system intelligent services in cloud manufacturing</title>
-      <link>https://example.com/publication/mubarok-2018/</link>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/mubarok-2018/</guid>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Cyber-physical System Intelligent Services in Cloud Manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018-towards/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018-towards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cyber-physical production network for energy-efficient manufacturing: A framework</title>
-      <link>https://example.com/publication/lu-2017/</link>
+      <link>https://uoa-iai.github.io/publication/lu-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lu-2017/</guid>
+      <guid>https://uoa-iai.github.io/publication/lu-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Process and production planning in a cloud manufacturing environment</title>
-      <link>https://example.com/publication/lu-2015/</link>
+      <link>https://uoa-iai.github.io/publication/lu-2015-process/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lu-2015/</guid>
+      <guid>https://uoa-iai.github.io/publication/lu-2015-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process and production planning in a cloud manufacturing environment</title>
+      <link>https://uoa-iai.github.io/publication/lu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting intellectual property in a cloud manufacturing environment: Requirements and strategies</title>
+      <link>https://uoa-iai.github.io/publication/lu-2015-protecting/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2015-protecting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud manufacturing for a service-oriented paradigm shift</title>
-      <link>https://example.com/publication/lu-20141146/</link>
+      <link>https://uoa-iai.github.io/publication/lu-2014-cloud/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lu-20141146/</guid>
+      <guid>https://uoa-iai.github.io/publication/lu-2014-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud manufacturing for a service-oriented paradigm shift</title>
+      <link>https://uoa-iai.github.io/publication/lu-20141146/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-20141146/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A new paradigm shift for manufacturing businesses</title>
-      <link>https://example.com/publication/lu-2013/</link>
+      <link>https://uoa-iai.github.io/publication/lu-2013-new/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lu-2013/</guid>
+      <guid>https://uoa-iai.github.io/publication/lu-2013-new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new paradigm shift for manufacturing businesses</title>
+      <link>https://uoa-iai.github.io/publication/lu-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2013/</guid>
       <description></description>
     </item>
     
