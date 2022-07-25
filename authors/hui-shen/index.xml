@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hui Shen | </title>
+    <link>https://uoa-iai.github.io/authors/hui-shen/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/hui-shen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hui Shen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Hui Shen</title>
+      <link>https://uoa-iai.github.io/authors/hui-shen/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022-adaptive/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-adaptive/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-adaptive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

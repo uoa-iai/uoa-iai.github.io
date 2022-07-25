@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shanyu Lu | </title>
+    <link>https://uoa-iai.github.io/authors/shanyu-lu/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/shanyu-lu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shanyu Lu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Shanyu Lu</title>
+      <link>https://uoa-iai.github.io/authors/shanyu-lu/</link>
+    </image>
+    
+    <item>
+      <title>Digital twin modeling method based on biomimicry for machining aerospace components</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-digital/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machining process-oriented monitoring method based on digital twin via augmented reality</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-machining/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-machining/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

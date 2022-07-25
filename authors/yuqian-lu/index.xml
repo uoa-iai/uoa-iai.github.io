@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuqian Lu | </title>
+    <link>https://uoa-iai.github.io/authors/yuqian-lu/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/yuqian-lu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuqian Lu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/authors/yuqian-lu/avatar_hucf47af64bd7abbfa3f1caa63d740dd6b_116300_270x270_fill_lanczos_center_3.png</url>
+      <title>Yuqian Lu</title>
+      <link>https://uoa-iai.github.io/authors/yuqian-lu/</link>
+    </image>
+    
+    <item>
+      <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
+      <link>https://uoa-iai.github.io/publication/liu-20223-dsmda/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-20223-dsmda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A fusion-based spiking neural network approach for predicting collaboration request in human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/zhang-2022-fusion/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhang-2022-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A general fault diagnosis framework for rotating machinery and its flexible application example</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2022-general/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2022-general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022-adaptive/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic method for constructing machining process knowledge base from knowledge graph</title>
+      <link>https://uoa-iai.github.io/publication/guo-2022-automatic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/guo-2022-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation</title>
+      <link>https://uoa-iai.github.io/publication/wang-2022-dynamic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-2022-dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022-establishing/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022-establishing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MES Dynamic interoperability for SMEs in the Factory of the Future perspective</title>
+      <link>https://uoa-iai.github.io/publication/chohan-2022-mes/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chohan-2022-mes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning for Real-time Dynamic Production Scheduling in a Robot Assembly Cell</title>
+      <link>https://uoa-iai.github.io/publication/johnson-2022-multi/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/johnson-2022-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlook on human-centric manufacturing towards Industry 5.0</title>
+      <link>https://uoa-iai.github.io/publication/lu-2022-outlook/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2022-outlook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic artificial intelligence for smart manufacturing automation</title>
+      <link>https://uoa-iai.github.io/publication/lu-2022-semantic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2022-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2022-semantic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2022-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service-oriented industrial internet of things gateway for cloud manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022-service/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital twin-driven human-robot collaborative assembly approach in the wake of COVID-19</title>
+      <link>https://uoa-iai.github.io/publication/lv-2021-digital/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lv-2021-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A hybrid 3D feature recognition method based on rule and graph</title>
+      <link>https://uoa-iai.github.io/publication/guo-2021-hybrid/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/guo-2021-hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A machining accuracy informed adaptive positioning method for finish machining of assembly interfaces of large-scale aircraft components</title>
+      <link>https://uoa-iai.github.io/publication/fan-2021-machining/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/fan-2021-machining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021-novel/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021-novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-adaptive/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An automatic machining process decision-making system based on knowledge graph</title>
+      <link>https://uoa-iai.github.io/publication/guo-2021-automatic/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/guo-2021-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021-end/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital twin as a service (DTaaS) in industry 4.0: an architecture reference model</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2021-digital/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2021-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Twin as a Service (DTaaS) in Industry 4.0: An Architecture Reference Model</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital twin modeling method based on biomimicry for machining aerospace components</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-digital/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Twin-driven online anomaly detection for an automation system based on edge intelligence</title>
+      <link>https://uoa-iai.github.io/publication/huang-2021-digital/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/huang-2021-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humans Are Not Machines-Anthropocentric Human-Machine Symbiosis for Ultra-Flexible Smart Manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/lu-2021-humans/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2021-humans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry 4.0 and Industry 5.0—Inception, conception and perception</title>
+      <link>https://uoa-iai.github.io/publication/xu-2021-industry/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2021-industry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isometric-based approach for detecting localized muscular fatigue during complex dynamic manufacturing operations</title>
+      <link>https://uoa-iai.github.io/publication/chand-2021-isometric/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-2021-isometric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machining process-oriented monitoring method based on digital twin via augmented reality</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-machining/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-machining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent-Based Self-Organizing Manufacturing Network Towards Mass Personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-2021-multi/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2021-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale evolution mechanism and knowledge construction of a digital twin mimic model</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-multi/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-organizing manufacturing network: A paradigm towards smart manufacturing in mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-2021-self/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2021-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Reconfigurable Jig Assistant Assembly System Based on Wearable Devices</title>
+      <link>https://uoa-iai.github.io/publication/qin-2020-reconfigurable/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2020-reconfigurable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Reference Human-centric Architecture Model: A skill-based approach for education of future workforce</title>
+      <link>https://uoa-iai.github.io/publication/flores-2020-reference/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/flores-2020-reference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic extraction of engineering rules from unstructured text: a natural language processing approach</title>
+      <link>https://uoa-iai.github.io/publication/ye-2020-automatic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ye-2020-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized coordination of autonomous AGVs for flexible factory automation in the context of Industry 4.0</title>
+      <link>https://uoa-iai.github.io/publication/xia-2020-decentralized/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2020-decentralized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital thread enabled manufacturing automation towards mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/ramesh-2020-digital/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ramesh-2020-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Twin-driven smart manufacturing: Connotation, reference model, applications and research issues</title>
+      <link>https://uoa-iai.github.io/publication/lu-2020-digital/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2020-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental investigation of the surface roughness of finish-machined high-volume-fraction SiCp/Al composites</title>
+      <link>https://uoa-iai.github.io/publication/wang-2020-experimental/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-2020-experimental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Function block-based closed-loop adaptive machining for assembly interfaces of large-scale aircraft components</title>
+      <link>https://uoa-iai.github.io/publication/fan-2020-function/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/fan-2020-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Cyber-Physical Systems: A skill-based correlation between humans and machines</title>
+      <link>https://uoa-iai.github.io/publication/flores-2020-human/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/flores-2020-human/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT-enabled smart appliances under industry 4.0: A case study</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2020-iot/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2020-iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning to Empower a Cyber-Physical Machine Tool</title>
+      <link>https://uoa-iai.github.io/publication/letford-2020-machine/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/letford-2020-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotic technologies for on-site building construction: A systematic review</title>
+      <link>https://uoa-iai.github.io/publication/gharbia-2020-robotic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/gharbia-2020-robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic communications between distributed cyber-physical systems towards collaborative automation for smart manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/lu-2020-semantic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2020-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart manufacturing based on digital twin technologies</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2020-smart/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2020-smart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart manufacturing process and system automation--a critical review of the standards and envisioned scenarios</title>
+      <link>https://uoa-iai.github.io/publication/lu-2020-smart/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2020-smart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A cyber-physical machine tools platform using OPC UA and MTConnect</title>
+      <link>https://uoa-iai.github.io/publication/liu-2019-cyber/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2019-cyber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud-based manufacturing equipment and big data analytics to enable on-demand manufacturing services</title>
+      <link>https://uoa-iai.github.io/publication/lu-2019-cloud/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2019-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy-efficient cyber-physical production network: Architecture and technologies</title>
+      <link>https://uoa-iai.github.io/publication/lu-2019-energy/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2019-energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ManuService ontology: a product data model for service-oriented business interactions in a cloud manufacturing environment</title>
+      <link>https://uoa-iai.github.io/publication/lu-2019-manuservice/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2019-manuservice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standards for smart manufacturing: A review</title>
+      <link>https://uoa-iai.github.io/publication/lu-2019-standards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2019-standards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital twin reference model for smart manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/lu-2018-digital/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2018-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A review on digital twin in manufacturing process</title>
+      <link>https://uoa-iai.github.io/publication/rivar-2018-review/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/rivar-2018-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manufacturing service reliability assessment in cloud manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resource virtualization: a core technology for developing cyber-physical production systems</title>
+      <link>https://uoa-iai.github.io/publication/lu-2018-resource/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2018-resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Cyber-physical System Intelligent Services in Cloud Manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018-towards/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A semantic web-based framework for service composition in a cloud manufacturing environment</title>
+      <link>https://uoa-iai.github.io/publication/lu-2017-semantic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2017-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A system framework for OKP product planning in a cloud-based design environment</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2017-system/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2017-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyber-physical production network for Energy-Efficient Manufacturing: A framework</title>
+      <link>https://uoa-iai.github.io/publication/lu-2017-cyber/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2017-cyber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a hybrid cloud manufacturing environment for production of personalized products</title>
+      <link>https://uoa-iai.github.io/publication/lu-2016-design/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2016-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer-integrated manufacturing, cyber-physical systems and cloud manufacturing--concepts and relationships</title>
+      <link>https://uoa-iai.github.io/publication/yu-2015-computer/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/yu-2015-computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process and production planning in a cloud manufacturing environment</title>
+      <link>https://uoa-iai.github.io/publication/lu-2015-process/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2015-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting intellectual property in a cloud manufacturing environment: Requirements and strategies</title>
+      <link>https://uoa-iai.github.io/publication/lu-2015-protecting/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2015-protecting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud manufacturing for a service-oriented paradigm shift</title>
+      <link>https://uoa-iai.github.io/publication/lu-2014-cloud/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2014-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of a hybrid manufacturing cloud</title>
+      <link>https://uoa-iai.github.io/publication/lu-2014-development/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2014-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontology for manufacturing resources in a cloud environment.</title>
+      <link>https://uoa-iai.github.io/publication/lu-2014-ontology/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2014-ontology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool selection: a cloud-based approach</title>
+      <link>https://uoa-iai.github.io/publication/singh-2014-tool/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/singh-2014-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new paradigm shift for manufacturing businesses</title>
+      <link>https://uoa-iai.github.io/publication/lu-2013-new/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2013-new/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

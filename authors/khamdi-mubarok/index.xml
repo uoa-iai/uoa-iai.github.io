@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khamdi Mubarok | </title>
+    <link>https://uoa-iai.github.io/authors/khamdi-mubarok/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/khamdi-mubarok/index.xml" rel="self" type="application/rss+xml" />
+    <description>Khamdi Mubarok</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Khamdi Mubarok</title>
+      <link>https://uoa-iai.github.io/authors/khamdi-mubarok/</link>
+    </image>
+    
+    <item>
+      <title>Manufacturing service reliability assessment in cloud manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Cyber-physical System Intelligent Services in Cloud Manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018-towards/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018-towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

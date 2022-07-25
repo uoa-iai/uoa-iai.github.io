@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xinfeng Ye | </title>
+    <link>https://uoa-iai.github.io/authors/xinfeng-ye/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/xinfeng-ye/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinfeng Ye</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Xinfeng Ye</title>
+      <link>https://uoa-iai.github.io/authors/xinfeng-ye/</link>
+    </image>
+    
+    <item>
+      <title>Automatic extraction of engineering rules from unstructured text: a natural language processing approach</title>
+      <link>https://uoa-iai.github.io/publication/ye-2020-automatic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ye-2020-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manufacturing service reliability assessment in cloud manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontology for manufacturing resources in a cloud environment.</title>
+      <link>https://uoa-iai.github.io/publication/lu-2014-ontology/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2014-ontology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool selection: a cloud-based approach</title>
+      <link>https://uoa-iai.github.io/publication/singh-2014-tool/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/singh-2014-tool/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

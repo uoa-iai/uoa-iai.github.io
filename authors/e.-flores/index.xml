@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Flores | </title>
+    <link>https://uoa-iai.github.io/authors/e.-flores/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/e.-flores/index.xml" rel="self" type="application/rss+xml" />
+    <description>E. Flores</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>E. Flores</title>
+      <link>https://uoa-iai.github.io/authors/e.-flores/</link>
+    </image>
+    
+    <item>
+      <title>A reference human-centric architecture model: A skill-based approach for education of future workforce</title>
+      <link>https://uoa-iai.github.io/publication/flores-20201094/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/flores-20201094/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Capital 4.0: a workforce competence typology for Industry 4.0</title>
+      <link>https://uoa-iai.github.io/publication/flores-2020687/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/flores-2020687/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Cyber-Physical Systems: A skill-based correlation between humans and machines</title>
+      <link>https://uoa-iai.github.io/publication/flores-20201313/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/flores-20201313/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

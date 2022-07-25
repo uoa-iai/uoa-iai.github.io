@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bin Zhou | </title>
+    <link>https://uoa-iai.github.io/authors/bin-zhou/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/bin-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bin Zhou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Bin Zhou</title>
+      <link>https://uoa-iai.github.io/authors/bin-zhou/</link>
+    </image>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2022-semantic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2022-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021-novel/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021-novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021-end/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021-end/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

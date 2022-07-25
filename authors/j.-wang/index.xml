@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Wang | </title>
+    <link>https://uoa-iai.github.io/authors/j.-wang/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/j.-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>J. Wang</title>
+      <link>https://uoa-iai.github.io/authors/j.-wang/</link>
+    </image>
+    
+    <item>
+      <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022811/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022811/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental Investigation of the Surface Roughness of Finish-Machined High-Volume-Fraction SiCp/Al Composites</title>
+      <link>https://uoa-iai.github.io/publication/wang-20205399/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-20205399/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

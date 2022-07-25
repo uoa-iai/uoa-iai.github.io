@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jie Li | </title>
+    <link>https://uoa-iai.github.io/authors/jie-li/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/jie-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jie Li</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Jie Li</title>
+      <link>https://uoa-iai.github.io/authors/jie-li/</link>
+    </image>
+    
+    <item>
+      <title>A fusion-based spiking neural network approach for predicting collaboration request in human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/zhang-2022-fusion/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhang-2022-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021-novel/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021-novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-adaptive/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital twin modeling method based on biomimicry for machining aerospace components</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-digital/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machining process-oriented monitoring method based on digital twin via augmented reality</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-machining/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-machining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale evolution mechanism and knowledge construction of a digital twin mimic model</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021-multi/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021-multi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

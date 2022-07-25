@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Z. Qin | </title>
+    <link>https://uoa-iai.github.io/authors/z.-qin/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/z.-qin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Z. Qin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Z. Qin</title>
+      <link>https://uoa-iai.github.io/authors/z.-qin/</link>
+    </image>
+    
+    <item>
+      <title>Outlook on human-centric manufacturing towards Industry 5.0</title>
+      <link>https://uoa-iai.github.io/publication/lu-2022612/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2022612/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-agent-based self-organizing manufacturing network towards mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-organizing manufacturing network: A paradigm towards smart manufacturing in mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-202135/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-202135/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A reconfigurable jig assistant assembly system based on wearable devices</title>
+      <link>https://uoa-iai.github.io/publication/qin-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital thread enabled manufacturing automation towards mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/ramesh-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ramesh-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Liu | </title>
+    <link>https://uoa-iai.github.io/authors/t.-liu/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/t.-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>T. Liu</title>
+      <link>https://uoa-iai.github.io/authors/t.-liu/</link>
+    </image>
+    
+    <item>
+      <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022811/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022811/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
