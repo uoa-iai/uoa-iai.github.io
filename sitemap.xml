@@ -6,11 +6,47 @@
   <url>
     <loc>https://uoa-iai.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://uoa-iai.github.io/authors/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/talk/2022-ieee-case-conference-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/authors/dazzle-johnson/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://uoa-iai.github.io/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/tag/reinforcement-learning/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/scheduling/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/smart-manufacturing/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tags/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/post/mobile-manipulator/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/categories/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/computer-vision/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/authors/admin/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/post/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/category/project-news/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/robot/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/category/award/</loc><lastmod>2022-02-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/digital-twin/</loc><lastmod>2022-02-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/category/publication/</loc><lastmod>2022-02-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/rcim/</loc><lastmod>2022-02-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/post/rcimaward/</loc><lastmod>2022-02-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/publication-type/0/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -59,8 +95,6 @@
     <loc>https://uoa-iai.github.io/authors/chang-liu/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/chao-liu/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/dazzle-johnson/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/publication/wang-2022-dynamic/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -406,26 +440,6 @@
   <url>
     <loc>https://uoa-iai.github.io/authors/yuanbin-wang/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/categories/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/admin/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/post/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/tags/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/%E5%90%B3%E6%81%A9%E9%81%94/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://uoa-iai.github.io/publication/qin-2020/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/publication/qin-2020-reconfigurable/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
@@ -675,6 +689,8 @@
     <loc>https://uoa-iai.github.io/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/project/smart_manufacturing/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/publication-type/7/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
