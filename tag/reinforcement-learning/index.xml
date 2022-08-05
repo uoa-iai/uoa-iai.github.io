@@ -1,301 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | </title>
-    <link>https://uoa-iai.github.io/project/</link>
-      <atom:link href="https://uoa-iai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <title>Reinforcement Learning | </title>
+    <link>https://uoa-iai.github.io/tag/reinforcement-learning/</link>
+      <atom:link href="https://uoa-iai.github.io/tag/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reinforcement Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Projects</title>
-      <link>https://uoa-iai.github.io/project/</link>
+      <title>Reinforcement Learning</title>
+      <link>https://uoa-iai.github.io/tag/reinforcement-learning/</link>
     </image>
     
     <item>
-      <title>Human-centric human-robot collaboration</title>
-      <link>https://uoa-iai.github.io/project/human_centric_manufacturing/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/project/human_centric_manufacturing/</guid>
-      <description>&lt;p&gt;With recent advancements in industrial robotics, the rise of reconfigurable collaborative work cells where humans and robots can work in close proximity has become more apparent. This setting enables the utilization of both humans&amp;rsquo; and robots&amp;rsquo; skills and assets to create flexible manufacturing systems capable of producing high variability products. However, poor integration between humans and robots can lead to lower productivity and higher worker stress unless human wellness is constantly monitored and optimized. This research aims to advance the current theories of Human-Robot Collaboration (HRC) to maximize manufacturing productivity and human wellness by defining, monitoring, and optimizing human fatigue levels during dynamic human-robot task allocation. New methods will be developed to optimize human wellness and manage contingencies by allocating resources based on real-time task progress and human fatigue levels. This research&amp;rsquo;s success will lead to a greater understanding of collaborative work cells in unstructured manufacturing settings.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-
-  
-  
-
-  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    
-
-  &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/j.s.-adrados/&#34;&gt;J.S. Adrados&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahils.-chand/&#34;&gt;SaahilS. Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  (2021).
-  &lt;a href=&#34;https://uoa-iai.github.io/publication/lu-2021734/&#34;&gt;Humans Are Not Machines—Anthropocentric Human–Machine Symbiosis for Ultra-Flexible Smart Manufacturing&lt;/a&gt;.
-  &lt;em&gt;Engineering&lt;/em&gt;.
-  
-  &lt;p&gt;
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
-        data-filename=&#34;/publication/lu-2021734/cite.bib&#34;&gt;
-  Cite
-&lt;/a&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.eng.2020.09.018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  DOI
-&lt;/a&gt;
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85108544518&amp;amp;doi=10.1016%2fj.eng.2020.09.018&amp;amp;partnerID=40&amp;amp;md5=631158d3ed1fd159d1153a804505ef85&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-    URL&lt;/a&gt;
-
-&lt;/p&gt;
-
-  
-  
+      <title>2022 IEEE CASE Conference Talk</title>
+      <link>https://uoa-iai.github.io/talk/2022-ieee-case-conference-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/talk/2022-ieee-case-conference-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
 &lt;/div&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-
-  
-  
-
-  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    
-
-  &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/hao-zheng/&#34;&gt;Hao Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/wanqing-xia/&#34;&gt;Wanqing Xia&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zengkun-liu/&#34;&gt;Zengkun Liu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/x.-xu/&#34;&gt;X. Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/j.-bao/&#34;&gt;J. Bao&lt;/a&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  (2022).
-  &lt;a href=&#34;https://uoa-iai.github.io/publication/lu-2022612/&#34;&gt;Outlook on human-centric manufacturing towards Industry 5.0&lt;/a&gt;.
-  &lt;em&gt;Journal of Manufacturing Systems&lt;/em&gt;.
-  
-  &lt;p&gt;
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
-        data-filename=&#34;/publication/lu-2022612/cite.bib&#34;&gt;
-  Cite
-&lt;/a&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.jmsy.2022.02.001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  DOI
-&lt;/a&gt;
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85124194311&amp;amp;doi=10.1016%2fj.jmsy.2022.02.001&amp;amp;partnerID=40&amp;amp;md5=6a7af53d59e62cce4e6adf5a984de1e8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-    URL&lt;/a&gt;
-
-&lt;/p&gt;
-
-  
-  
-&lt;/div&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
-  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-
-  
-  
-
-  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
-    
-
-  &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/a.j.-mcdaid/&#34;&gt;A.J. McDaid&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
-  &lt;/span&gt;
-  (2021).
-  &lt;a href=&#34;https://uoa-iai.github.io/publication/chand-20211940/&#34;&gt;Isometric-Based Approach for Detecting Localized Muscular Fatigue during Complex Dynamic Manufacturing Operations&lt;/a&gt;.
-  &lt;em&gt;IEEE International Conference on Automation Science and Engineering&lt;/em&gt;.
-  
-  &lt;p&gt;
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
-        data-filename=&#34;/publication/chand-20211940/cite.bib&#34;&gt;
-  Cite
-&lt;/a&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1109/CASE49439.2021.9551478&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  DOI
-&lt;/a&gt;
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85117029351&amp;amp;doi=10.1109%2fCASE49439.2021.9551478&amp;amp;partnerID=40&amp;amp;md5=0e8c20ada431c12ba7b1e8611381acc9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-    URL&lt;/a&gt;
-
-&lt;/p&gt;
-
-  
-  
-&lt;/div&gt;
-
-
-&lt;/p&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
     </item>
     

@@ -53,15 +53,289 @@
     </item>
     
     <item>
-      <title>Human-centric manufacturing</title>
+      <title>Human-centric human-robot collaboration</title>
       <link>https://uoa-iai.github.io/project/human_centric_manufacturing/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/project/human_centric_manufacturing/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;With recent advancements in industrial robotics, the rise of reconfigurable collaborative work cells where humans and robots can work in close proximity has become more apparent. This setting enables the utilization of both humans&amp;rsquo; and robots&amp;rsquo; skills and assets to create flexible manufacturing systems capable of producing high variability products. However, poor integration between humans and robots can lead to lower productivity and higher worker stress unless human wellness is constantly monitored and optimized. This research aims to advance the current theories of Human-Robot Collaboration (HRC) to maximize manufacturing productivity and human wellness by defining, monitoring, and optimizing human fatigue levels during dynamic human-robot task allocation. New methods will be developed to optimize human wellness and manage contingencies by allocating resources based on real-time task progress and human fatigue levels. This research&amp;rsquo;s success will lead to a greater understanding of collaborative work cells in unstructured manufacturing settings.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/j.s.-adrados/&#34;&gt;J.S. Adrados&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahils.-chand/&#34;&gt;SaahilS. Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2021).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/lu-2021734/&#34;&gt;Humans Are Not Machines—Anthropocentric Human–Machine Symbiosis for Ultra-Flexible Smart Manufacturing&lt;/a&gt;.
+  &lt;em&gt;Engineering&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/lu-2021734/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.eng.2020.09.018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85108544518&amp;amp;doi=10.1016%2fj.eng.2020.09.018&amp;amp;partnerID=40&amp;amp;md5=631158d3ed1fd159d1153a804505ef85&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/hao-zheng/&#34;&gt;Hao Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/wanqing-xia/&#34;&gt;Wanqing Xia&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zengkun-liu/&#34;&gt;Zengkun Liu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/x.-xu/&#34;&gt;X. Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/j.-bao/&#34;&gt;J. Bao&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2022).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/lu-2022612/&#34;&gt;Outlook on human-centric manufacturing towards Industry 5.0&lt;/a&gt;.
+  &lt;em&gt;Journal of Manufacturing Systems&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/lu-2022612/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.jmsy.2022.02.001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85124194311&amp;amp;doi=10.1016%2fj.jmsy.2022.02.001&amp;amp;partnerID=40&amp;amp;md5=6a7af53d59e62cce4e6adf5a984de1e8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/a.j.-mcdaid/&#34;&gt;A.J. McDaid&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2021).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/chand-20211940/&#34;&gt;Isometric-Based Approach for Detecting Localized Muscular Fatigue during Complex Dynamic Manufacturing Operations&lt;/a&gt;.
+  &lt;em&gt;IEEE International Conference on Automation Science and Engineering&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/chand-20211940/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1109/CASE49439.2021.9551478&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85117029351&amp;amp;doi=10.1109%2fCASE49439.2021.9551478&amp;amp;partnerID=40&amp;amp;md5=0e8c20ada431c12ba7b1e8611381acc9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+&lt;/p&gt;
 </description>
     </item>
     
@@ -421,6 +695,95 @@
     
   
   &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087333978&amp;amp;doi=10.1016%2fj.jmsy.2020.06.010&amp;amp;partnerID=40&amp;amp;md5=33d461f14adb3f1b770de06dd18960cf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/m.r.-asghar/&#34;&gt;M.R. Asghar&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2020).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/lu-2020348/&#34;&gt;Semantic communications between distributed cyber-physical systems towards collaborative automation for smart manufacturing&lt;/a&gt;.
+  &lt;em&gt;Journal of Manufacturing Systems&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/lu-2020348/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.jmsy.2020.05.001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85084822067&amp;amp;doi=10.1016%2fj.jmsy.2020.05.001&amp;amp;partnerID=40&amp;amp;md5=1dc8dd9e77503a66f137a5c05922771f&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
     URL&lt;/a&gt;
 
 &lt;/p&gt;

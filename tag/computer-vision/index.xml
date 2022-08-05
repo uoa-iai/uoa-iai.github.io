@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer vision | </title>
+    <link>https://uoa-iai.github.io/tag/computer-vision/</link>
+      <atom:link href="https://uoa-iai.github.io/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>computer vision</title>
+      <link>https://uoa-iai.github.io/tag/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>A mobile manipulator to help workers on the factory floor</title>
+      <link>https://uoa-iai.github.io/post/mobile-manipulator/</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/mobile-manipulator/</guid>
+      <description>&lt;p&gt;What if you had a robot assistant that could help you use a screwdriver, pick things off a shelf, and carry things around a factory? It might not be something out of a science-fiction novel too much longer.&lt;/p&gt;
+&lt;p&gt;Dr Yuqian Lu from the Department of Mechanical Engineering is creating a mobile robot that can do just that. The robot has built-in intelligence to navigate around people and obstacles, think and act autonomously. Lu wants to create a robot that can work alongside humans as part of a human-robot team to meet New Zealand’s industry needs better.&lt;/p&gt;
+&lt;p&gt;Traditional automation techniques are efficient for creating standardised products at large volume: cars, phones, and more. But that doesn’t work for lots of New Zealand manufacturers. Many New Zealand manufacturers are smaller than their overseas counterparts and make highly customised products with manual or semi-automated manufacturing processes. “You may be surprised to see the amount of manual and repetitive work in the factories of some of the most innovative high-tech companies”, Dr Lu says.&lt;/p&gt;
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   &lt;figure  &gt;
+     &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+       &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_9cf7d8639364cfc9cc920e144e41e5fa.webp 400w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_cf896695a16978651bd4c1fbfad2a571.webp 760w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_9cf7d8639364cfc9cc920e144e41e5fa.webp&#34;
+                  width=&#34;760&#34;
+                  height=&#34;428&#34;
+                  loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+     &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;It’s generally not technically or commercially viable for these manufacturers to invest in expensive standardised automation technologies. So, Dr Lu, with his colleagues from the Laboratory of Industry 4.0 Smart Manufacturing Lab at the Faculty of Engineering, proposed a solution. What if they built a flexible and intelligent robot that could help with many different jobs and move from project to project?&lt;/p&gt;
+&lt;p&gt;For this reason, an autonomous mobile robot allows manufacturers an unprecedented level of flexibility. It can be integrated with already-existing manufacturing cells to co-manipulate manual work. New Zealand small manufacturers can introduce flexible robots gradually, test them out, and take their own steps towards automating their facilities. Dr Lu is also working on teaching his robots to autonomously learn new tasks in a factory to better support human operators.&lt;/p&gt;
+&lt;p&gt;Dr Lu’s goal is that the mobile robot will soon work as an assistant or as part of a team with human workers. He envisions it helping screw things in and working safely around human operators to free them of tedious and repetitive work, among other tasks. “We want to create a human-robot collaboration,” Dr Lu said.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
