@@ -24,6 +24,16 @@
   <url>
     <loc>https://uoa-iai.github.io/tags/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://uoa-iai.github.io/tag/human-centric-manufacturing/</loc><lastmod>2022-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/project/human_centric_manufacturing/</loc><lastmod>2022-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/tag/human-robot-collaboration/</loc><lastmod>2022-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/project/</loc><lastmod>2022-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/project/smart_manufacturing/</loc><lastmod>2022-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://uoa-iai.github.io/post/mobile-manipulator/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/categories/</loc><lastmod>2022-03-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -48,701 +58,361 @@
   <url>
     <loc>https://uoa-iai.github.io/post/rcimaward/</loc><lastmod>2022-02-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication-type/0/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication-type/1/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication-type/1/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication-type/2/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication-type/2/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2022811/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-20223-dsmda/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/zhang-2022/</loc><lastmod>2022-08-05T22:11:06+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2022811/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/zheng-2022/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication-type/6/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/a.-brintrup/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhang-2022-fusion/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/guo-2022/</loc><lastmod>2022-08-05T22:11:08+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhang-2022/</loc><lastmod>2022-07-24T22:20:10+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/b.-hua/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zheng-2022-general/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/b.-zhou/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/a.-brintrup/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/b.s.-chohan/</loc><lastmod>2022-08-05T22:11:08+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2022-adaptive/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/c.-liu/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/alexandra-brintrup/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/wang-20224117/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/guo-2022-automatic/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/e.e.-kosasih/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/guo-2022/</loc><lastmod>2022-07-24T22:20:11+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2022390/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/b.-hua/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/f.-ameri/</loc><lastmod>2022-08-05T22:11:06+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/b.-zhou/</loc><lastmod>2022-07-24T22:20:15+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/f.-yan/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/b.s.-chohan/</loc><lastmod>2022-07-24T22:20:12+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/g.-chen/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/bao-hua/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/g.-cheng/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/bao-jinsong/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-chaoui/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/bilal-shabbir-chohan/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-wang/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/bin-zhou/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/hao-zheng/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/c.-liu/</loc><lastmod>2022-07-24T22:20:28+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-bao/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/chang-liu/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-li/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/chao-liu/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-tao/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/wang-2022-dynamic/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-wang/</loc><lastmod>2022-08-05T22:11:20+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/wang-2022/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-zheng/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/e.e.-kosasih/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.m.-lastra/</loc><lastmod>2022-08-05T22:11:06+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/edward-elson-kosasih/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-guo/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2022-establishing/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-hu/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2022390/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-wang/</loc><lastmod>2022-08-05T22:11:19+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/f.-ameri/</loc><lastmod>2022-07-24T22:20:11+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/chohan-20221329/</loc><lastmod>2022-08-05T22:11:08+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/f.-yan/</loc><lastmod>2022-07-24T22:20:19+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/johnson-20227684/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/farhad-ameri/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2022612/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/fu-yan/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/p.-zheng/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/gang-chen/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication_types/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/gang-cheng/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/h.-wang/</loc><lastmod>2022-07-24T22:20:28+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/r.-tang/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/h.-zheng/</loc><lastmod>2022-07-24T22:20:12+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/r.-zhang/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/hao-wang/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/s.-ding/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/hao-zheng/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/s.-liu/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/hui-shen/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/saahil-chand/</loc><lastmod>2022-08-05T22:11:12+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/rong-2022-human/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2022/</loc><lastmod>2022-08-05T22:11:06+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/j.-bao/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/zhou-2022/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/j.-li/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2022/</loc><lastmod>2022-08-05T22:11:06+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/j.-tao/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/wang-20225011/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/j.-wang/</loc><lastmod>2022-07-24T22:20:23+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/t.-li/</loc><lastmod>2022-08-05T22:11:08+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/j.m.-lastra/</loc><lastmod>2022-07-24T22:20:11+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/t.-liu/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/jiacheng-wang/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/t.-peng/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/jiaqi-tao/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/t.-yang/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/jie-li/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/wanqing-xia/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/jinsong-bao/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-huang/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/jose-martinez-lastra/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-li/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/l.-guo/</loc><lastmod>2022-07-24T22:20:20+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-shen/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/l.-hu/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-sun/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/l.-wang/</loc><lastmod>2022-07-24T22:20:23+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-xu/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/li-jei/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/y.-li/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/liang-guo/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/y.-sun/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/lihui-wang/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/yuqian-lu/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/lu-yuqian/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/z.-su/</loc><lastmod>2022-08-05T22:11:06+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/luoke-hu/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/zengkun-liu/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/lv-qibin/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/zhaojun-qin/</loc><lastmod>2022-08-05T22:11:22+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/chohan-2022-mes/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lv-2021837/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/chohan-20221329/</loc><lastmod>2022-07-24T22:20:12+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/guo-2021257/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/johnson-2022-multi/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2021182/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2022-outlook/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/fan-2021/</loc><lastmod>2022-08-05T22:11:15+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2022612/</loc><lastmod>2022-07-24T22:20:12+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/zhou-2021/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/p.-zheng/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/a.j.-mcdaid/</loc><lastmod>2022-08-05T22:11:12+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/pai-zheng/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2021771/</loc><lastmod>2022-08-05T22:11:13+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication_types/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/guo-20211348/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/b.-vogel-heuser/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/r.-tang/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/b.-wang/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/r.-zhang/</loc><lastmod>2022-07-24T22:20:17+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/d.-song/</loc><lastmod>2022-08-05T22:11:12+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/renzhong-tang/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/aheleroff-2021/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/rong-zhang/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2021180/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/s.-chand/</loc><lastmod>2022-07-24T22:20:16+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/huang-2021138/</loc><lastmod>2022-08-05T22:11:15+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/s.-liu/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/f.-yang/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/saahil-chand/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/g.-guo/</loc><lastmod>2022-08-05T22:11:10+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2022-semantic/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-huang/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2022/</loc><lastmod>2022-07-24T22:20:11+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-shen/</loc><lastmod>2022-08-05T22:11:13+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhou-2022-semantic/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2021734/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhou-2022/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/xu-2021530/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2022-service/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/chand-20211940/</loc><lastmod>2022-08-05T22:11:12+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2022/</loc><lastmod>2022-07-24T22:20:10+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.s.-adrados/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/shimin-liu/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/k.-wang/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/t.-li/</loc><lastmod>2022-07-24T22:20:11+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-yang/</loc><lastmod>2022-08-05T22:11:15+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/t.-liu/</loc><lastmod>2022-07-24T22:20:15+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-zheng/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/t.-peng/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/m.-liu/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/t.-yang/</loc><lastmod>2022-07-24T22:20:20+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/m.-zhou/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/tao-peng/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-20213491/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/tao-yang/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/qin-2021/</loc><lastmod>2022-08-05T22:11:16+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/tian-li/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-2021/</loc><lastmod>2022-08-05T22:11:12+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/tianyuan-liu/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/q.-lv/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/w.-xia/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/q.-zhang/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/wanqing-xia/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/r.y.-zhong/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/x.-huang/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/wang-2021715/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/x.-li/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/s.-aheleroff/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/x.-shen/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/s.-lu/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/x.-sun/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/saahils.-chand/</loc><lastmod>2022-08-05T22:11:14+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/x.-xu/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/qin-202135/</loc><lastmod>2022-08-05T22:11:13+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/xiaodi-huang/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/w.-fan/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/xingwang-shen/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/w.-ji/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/xinyu-li/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-yao/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/xuemin-sun/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/y.-huang/</loc><lastmod>2022-08-05T22:11:11+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/xun-xu/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/y.-wang/</loc><lastmod>2022-08-05T22:11:15+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/y.-lu/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/qin-2020/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/y.-sun/</loc><lastmod>2022-07-24T22:20:13+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/flores-20201094/</loc><lastmod>2022-08-05T22:11:22+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/yicheng-sun/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/a.-chang-richards/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/yong-li/</loc><lastmod>2022-07-25T20:59:54+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/akhil-ramesh/</loc><lastmod>2022-08-05T22:11:22+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/yuqian-lu/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/ye-2020/</loc><lastmod>2022-08-05T22:11:20+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/z.-liu/</loc><lastmod>2022-07-24T22:20:12+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/b.-joa/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/z.-qin/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/c.a.-cortes/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/z.-su/</loc><lastmod>2022-07-24T22:20:10+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/xia-2020488/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/zengkun-liu/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/ramesh-2020/</loc><lastmod>2022-08-05T22:11:22+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/zhang-rong/</loc><lastmod>2022-07-25T20:59:52+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2020/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/zhaojun-qin/</loc><lastmod>2022-07-25T20:59:53+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/e.-flores/</loc><lastmod>2022-08-05T22:11:22+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/ziwei-su/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/wang-20205399/</loc><lastmod>2022-08-05T22:11:20+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lv-2021-digital/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/f.-letford/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lv-2021837/</loc><lastmod>2022-07-24T22:20:17+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/fan-2020/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/guo-2021-hybrid/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-li/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/guo-2021257/</loc><lastmod>2022-07-24T22:20:20+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-zhang/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021182/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/flores-2020687/</loc><lastmod>2022-08-05T22:11:20+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/fan-2021-machining/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/flores-20201313/</loc><lastmod>2022-08-05T22:11:19+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/fan-2021/</loc><lastmod>2022-07-24T22:20:19+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/aheleroff-2020/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhou-2021-novel/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-goh/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhou-2021/</loc><lastmod>2022-07-24T22:20:15+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-pablo-velasquez/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/a.j.-mcdaid/</loc><lastmod>2022-07-24T22:20:16+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/k.i.-k.-wang/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021-adaptive/</loc><lastmod>2022-07-25T20:59:51+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-pan/</loc><lastmod>2022-08-05T22:11:20+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021771/</loc><lastmod>2022-07-24T22:20:17+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/m.-aristizabal/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/guo-2021-automatic/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/m.-gharbia/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/guo-20211348/</loc><lastmod>2022-07-24T22:20:19+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/m.-rogers/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhou-2021-end/</loc><lastmod>2022-07-25T20:59:51+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/m.r.-asghar/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/andrew-j-mcdaid/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/letford-2020989/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/b.-vogel-heuser/</loc><lastmod>2022-07-24T22:20:15+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/gharbia-2020/</loc><lastmod>2022-08-05T22:11:18+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/b.-wang/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2020348/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/birgit-vogel-heuser/</loc><lastmod>2022-07-25T20:59:51+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2020312/</loc><lastmod>2022-08-05T22:11:19+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/d.-song/</loc><lastmod>2022-07-24T22:20:16+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-liu/</loc><lastmod>2022-08-05T22:11:21+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/dengqiang-song/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-ye/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/aheleroff-2021-digital/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-zhao/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/aheleroff-2021/</loc><lastmod>2022-07-24T22:20:20+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/y.-bian/</loc><lastmod>2022-08-05T22:11:20+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021-digital/</loc><lastmod>2022-07-25T20:59:42+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021180/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/huang-2021-digital/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/huang-2021138/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/f.-yang/</loc><lastmod>2022-07-24T22:20:20+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/fan-yang/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/g.-guo/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/h.-huang/</loc><lastmod>2022-07-24T22:20:27+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/h.-shen/</loc><lastmod>2022-07-24T22:20:17+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/huiyue-huang/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2021-humans/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2021734/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/xu-2021-industry/</loc><lastmod>2022-07-25T20:59:51+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/xu-2021530/</loc><lastmod>2022-07-24T22:20:15+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/chand-2021-isometric/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/chand-20211940/</loc><lastmod>2022-07-24T22:20:16+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/j.s.-adrados/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/juvenal-sastre-adrados/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/k.-wang/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/l.-yang/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/l.-zheng/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/lei-yang/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/lianyu-zheng/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/m.-liu/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/m.-zhou/</loc><lastmod>2022-07-24T22:20:20+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021-machining/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/liu-20213491/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/ming-zhou/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/qin-2021/</loc><lastmod>2022-07-24T22:20:19+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/qin-2021-multi/</loc><lastmod>2022-07-25T20:59:49+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021-multi/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2021/</loc><lastmod>2022-07-24T22:20:16+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/q.-lv/</loc><lastmod>2022-07-24T22:20:17+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/q.-zhang/</loc><lastmod>2022-07-24T22:20:15+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/qibing-lv/</loc><lastmod>2022-07-25T20:59:46+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/qiwan-zhang/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/r.y.-zhong/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/ray-y-zhong/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/wang-2021715/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/s.-aheleroff/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/s.-lu/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/s.s.-chand/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/saahil-shivneel-chand/</loc><lastmod>2022-07-25T20:59:50+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/qin-2021-self/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/qin-202135/</loc><lastmod>2022-07-24T22:20:17+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/shanyu-lu/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/shohin-aheleroff/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/w.-fan/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/w.-ji/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/wei-fan/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/wei-ji/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/x.-yao/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/xinghai-gu/</loc><lastmod>2022-07-25T20:59:51+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/y.-huang/</loc><lastmod>2022-07-24T22:20:14+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/y.-wang/</loc><lastmod>2022-07-24T22:20:18+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/yu-zheng/</loc><lastmod>2022-07-25T20:59:51+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/yuanbin-wang/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/qin-2020/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/qin-2020-reconfigurable/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/flores-20201094/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/flores-2020-reference/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/a.-chang-richards/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/a.-ramesh/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/akhilnandh-ramesh/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/alice-chang-richards/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/ye-2020-automatic/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/ye-2020/</loc><lastmod>2022-07-24T22:20:24+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/b.-joa/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/benjamin-joa/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/c.a.-cortes/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/carlos-aguilera-cortes/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/david-tomzik/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/xia-2020-decentralized/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/xia-2020488/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/ramesh-2020-digital/</loc><lastmod>2022-07-25T20:59:47+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/ramesh-2020/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2020-digital/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2020/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/e.-flores/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/emmanuel-flores/</loc><lastmod>2022-07-25T20:59:55+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/wang-2020-experimental/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/wang-20205399/</loc><lastmod>2022-07-24T22:20:23+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/f.-letford/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/flynn-letford/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/fan-2020-function/</loc><lastmod>2022-07-25T20:59:42+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/fan-2020/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/h.-li/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/h.-zhang/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/heng-li/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/hongbo-zhang/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/flores-2020687/</loc><lastmod>2022-07-24T22:20:24+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/flores-2020-human/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/flores-20201313/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/i-kevin/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/aheleroff-2020-iot/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/aheleroff-2020/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/j.-goh/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/j.-pablo-velasquez/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/jan-polzer/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/jinfeng-wang/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/joshua-goh/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/juan-pablo-velasquez/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/k.i.-k.-wang/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/kai-wang/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/l.-pan/</loc><lastmod>2022-07-24T22:20:23+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/lijuan-pan/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/m.-aristizabal/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/m.-gharbia/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/m.-rogers/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/m.r.-asghar/</loc><lastmod>2022-07-24T22:20:24+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/letford-2020-machine/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/letford-2020989/</loc><lastmod>2022-07-24T22:20:22+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/marwan-gharbia/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/mauricio-aristizabal/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/max-rogers/</loc><lastmod>2022-07-25T20:59:45+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/muhammad-rizwan-asghar/</loc><lastmod>2022-07-25T20:59:42+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/gharbia-2020-robotic/</loc><lastmod>2022-07-25T20:59:44+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/gharbia-2020/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2020-semantic/</loc><lastmod>2022-07-25T20:59:42+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2020348/</loc><lastmod>2022-07-24T22:20:24+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/aheleroff-2020-smart/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2020312/</loc><lastmod>2022-07-24T22:20:23+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2020-smart/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/x.-liu/</loc><lastmod>2022-07-24T22:20:25+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/x.-ye/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/x.-zhao/</loc><lastmod>2022-07-24T22:20:21+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/xinfeng-ye/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/xinyu-liu/</loc><lastmod>2022-07-25T20:59:48+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/xiong-zhao/</loc><lastmod>2022-07-25T20:59:42+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/y.-bian/</loc><lastmod>2022-07-24T22:20:23+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/y.-valencia/</loc><lastmod>2022-07-24T22:20:26+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/yesid-valencia/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/yijin-bian/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/yuan-lin/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/zexuan-zhu/</loc><lastmod>2022-07-25T20:59:43+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/y.-valencia/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-2019-cyber/</loc><lastmod>2022-07-25T20:59:38+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/liu-201961/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/liu-201961/</loc><lastmod>2022-07-24T22:20:28+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-201992/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2019-cloud/</loc><lastmod>2022-07-25T20:59:37+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-201956/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-201992/</loc><lastmod>2022-07-24T22:20:27+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/h.-vengayil/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2019-energy/</loc><lastmod>2022-07-25T20:59:38+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2019317/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-201956/</loc><lastmod>2022-07-24T22:20:28+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-201973/</loc><lastmod>2022-08-05T22:11:23+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/h.-vengayil/</loc><lastmod>2022-07-24T22:20:28+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2018/</loc><lastmod>2022-08-05T22:11:26+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/hongqiang-wang/</loc><lastmod>2022-07-25T20:59:38+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/wardhani-2018/</loc><lastmod>2022-08-05T22:11:26+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/hrishikesh-vengayil/</loc><lastmod>2022-07-25T20:59:38+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/c.-mucha/</loc><lastmod>2022-08-05T22:11:26+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2019-manuservice/</loc><lastmod>2022-07-25T20:59:38+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/zhu-2018204/</loc><lastmod>2022-08-05T22:11:25+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2019317/</loc><lastmod>2022-07-24T22:20:28+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/k.-mubarok/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2019-standards/</loc><lastmod>2022-07-25T20:59:40+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/l.-zhu/</loc><lastmod>2022-08-05T22:11:25+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-201973/</loc><lastmod>2022-07-24T22:20:27+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/mubarok-2018940/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2018-digital/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/r.-wardhani/</loc><lastmod>2022-08-05T22:11:26+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2018/</loc><lastmod>2022-07-24T22:20:30+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2018128/</loc><lastmod>2022-08-05T22:11:25+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/rivar-2018-review/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/t.-kubota/</loc><lastmod>2022-08-05T22:11:26+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/wardhani-2018/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/mubarok-2018/</loc><lastmod>2022-08-05T22:11:26+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/c.-mucha/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/x.-cao/</loc><lastmod>2022-08-05T22:11:25+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/zhu-2018204/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-201769/</loc><lastmod>2022-08-05T22:11:28+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/k.-mubarok/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/zheng-201773/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/khamdi-mubarok/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2017/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/l.-zhu/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/s.q.-xie/</loc><lastmod>2022-08-05T22:11:27+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/mubarok-2018-manufacturing/</loc><lastmod>2022-07-25T20:59:37+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/c.-yu/</loc><lastmod>2022-08-05T22:11:28+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/mubarok-2018940/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/yu-20155/</loc><lastmod>2022-08-05T22:11:28+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/mubarok-khamdi/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2015/</loc><lastmod>2022-08-05T22:11:29+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/r.-wardhani/</loc><lastmod>2022-07-24T22:20:30+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2015404/</loc><lastmod>2022-08-05T22:11:29+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2018-resource/</loc><lastmod>2022-07-25T20:59:37+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/c.-singh/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2018128/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-20141146/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/rivai-wardhani/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2014551/</loc><lastmod>2022-08-05T22:11:29+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/t.-kubota/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/j.-xu/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/mubarok-2018/</loc><lastmod>2022-07-24T22:20:30+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2014448/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/mubarok-2018-towards/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/q.-shao/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/wardhani-rivar/</loc><lastmod>2022-07-25T20:59:39+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/singh-2014237/</loc><lastmod>2022-08-05T22:11:30+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/x.-cao/</loc><lastmod>2022-07-24T22:20:29+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/publication/lu-2013/</loc><lastmod>2022-08-05T22:11:31+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2017-semantic/</loc><lastmod>2022-07-25T20:59:36+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/akhilnandh-ramesh/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/publication/lu-201769/</loc><lastmod>2022-07-24T22:20:32+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/zheng-2017-system/</loc><lastmod>2022-07-25T20:59:36+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/zheng-201773/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2017/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2017-cyber/</loc><lastmod>2022-07-25T20:59:56+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/s.q.-xie/</loc><lastmod>2022-07-24T22:20:31+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/sheng-quan-xie/</loc><lastmod>2022-07-25T20:59:36+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/project/smart_manufacturing/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication-type/7/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2016-design/</loc><lastmod>2022-07-25T20:59:41+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/c.-yu/</loc><lastmod>2022-07-24T22:20:32+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/chunyang-yu/</loc><lastmod>2022-07-25T20:59:36+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/yu-20155/</loc><lastmod>2022-07-24T22:20:32+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/yu-2015-computer/</loc><lastmod>2022-07-25T20:59:36+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2015-process/</loc><lastmod>2022-07-25T20:59:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2015/</loc><lastmod>2022-07-24T22:20:33+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2015-protecting/</loc><lastmod>2022-07-25T20:59:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2015404/</loc><lastmod>2022-07-24T22:20:33+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/c.-singh/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/chirpreet-singh/</loc><lastmod>2022-07-25T20:59:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2014-cloud/</loc><lastmod>2022-07-25T20:59:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-20141146/</loc><lastmod>2022-07-24T22:20:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2014-development/</loc><lastmod>2022-07-25T20:59:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2014551/</loc><lastmod>2022-07-24T22:20:33+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/j.-xu/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/jenny-xu/</loc><lastmod>2022-07-25T20:59:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2014448/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2014-ontology/</loc><lastmod>2022-07-25T20:59:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/q.-shao/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/qun-shao/</loc><lastmod>2022-07-25T20:59:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/singh-2014-tool/</loc><lastmod>2022-07-25T20:59:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/singh-2014237/</loc><lastmod>2022-07-24T22:20:34+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2013-new/</loc><lastmod>2022-07-25T20:59:33+12:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/publication/lu-2013/</loc><lastmod>2022-07-24T22:20:35+12:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://uoa-iai.github.io/authors/joshua-goh/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/regina-lee/</loc><changefreq>weekly</changefreq></url>
   <url>

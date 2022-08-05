@@ -5,7 +5,7 @@
     <link>https://uoa-iai.github.io/project/</link>
       <atom:link href="https://uoa-iai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://uoa-iai.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/project/example/</guid>
+      <title>Human-centric manufacturing</title>
+      <link>https://uoa-iai.github.io/project/human_centric_manufacturing/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/project/human_centric_manufacturing/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -28,13 +28,443 @@
     <item>
       <title>Smart Manufacturing System</title>
       <link>https://uoa-iai.github.io/project/smart_manufacturing/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/project/smart_manufacturing/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The industry is undergoing dramatic changes. Manufacturers aspire to a shift towards mass personalization – a paradigm that produces personalized products at mass efficiency. In mass personalization, traditional manufacturing automation technologies designed for mass customization, such as product family architecture, reconfiguration manufacturing systems and delayed differentiation, will fail if not adapt as batch size becomes one and manufacturing is dynamically driven by unique customer needs. Hence, smart manufacturing system was devised to represent a new generation of manufacturing system that can dynamically configure the manufacturing processes and systems to carry out optimized production of unique products based on near real-time environment sensing, humanoid reasoning and reconfiguration of system models. At the core, smart manufacturing systems need perceptive and decisive capabilities, leading to dynamic self-organizing behaviors. With advanced cognitive capabilities, manufacturing equipment, systems, and factories can self-sense, self-communicate, self-reason, and self-configure to prevent potential critical issues, optimize operations, and enhance the overall integration of machines, humans, and digital supply networks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/dazzle-johnson/&#34;&gt;Dazzle Johnson&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/g.-chen/&#34;&gt;G. Chen&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2022).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/johnson-20227684/&#34;&gt;Multi-Agent Reinforcement Learning for Real-Time Dynamic Production Scheduling in a Robot Assembly Cell&lt;/a&gt;.
+  &lt;em&gt;IEEE Robotics and Automation Letters&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/johnson-20227684/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1109/LRA.2022.3184795&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133566424&amp;amp;doi=10.1109%2fLRA.2022.3184795&amp;amp;partnerID=40&amp;amp;md5=7b86817406656e86eb944712785e0bf8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2021).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/qin-202135/&#34;&gt;Self-organizing manufacturing network: A paradigm towards smart manufacturing in mass personalization&lt;/a&gt;.
+  &lt;em&gt;Journal of Manufacturing Systems&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/qin-202135/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.jmsy.2021.04.016&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85105554982&amp;amp;doi=10.1016%2fj.jmsy.2021.04.016&amp;amp;partnerID=40&amp;amp;md5=02590daee020838e09a1ecc58426ec8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2021).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/qin-2021/&#34;&gt;Multi-agent-based self-organizing manufacturing network towards mass personalization&lt;/a&gt;.
+  &lt;em&gt;Proceedings of the ASME 2021 16th International Manufacturing Science and Engineering Conference, MSEC 2021&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/qin-2021/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1115/MSEC2021-63990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85112587852&amp;amp;doi=10.1115%2fMSEC2021-63990&amp;amp;partnerID=40&amp;amp;md5=8e762044fe1596f3d3dbcb09d62dd3ee&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/x.-xu/&#34;&gt;X. Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2020).
+  &lt;a href=&#34;https://uoa-iai.github.io/publication/lu-2020312/&#34;&gt;Smart manufacturing process and system automation – A critical review of the standards and envisioned scenarios&lt;/a&gt;.
+  &lt;em&gt;Journal of Manufacturing Systems&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/lu-2020312/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.jmsy.2020.06.010&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087333978&amp;amp;doi=10.1016%2fj.jmsy.2020.06.010&amp;amp;partnerID=40&amp;amp;md5=33d461f14adb3f1b770de06dd18960cf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    URL&lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Events&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/dazzle-johnson/&#34;&gt;Dazzle Johnson&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2030).
+  &lt;a href=&#34;https://uoa-iai.github.io/talk/2022-ieee-case-conference-talk/&#34;&gt;2022 IEEE CASE Conference Talk&lt;/a&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://uoa-iai.github.io/slides/example/&#34; target=&#34;_blank&#34;&gt;
+    Slides
+  &lt;/a&gt;
+  
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+&lt;a href=&#34;https://www.callforpapers.co.uk/smart-manufacturing-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Special Issue on New Frontiers in Smart Manufacturing Systems&lt;/strong&gt;&lt;/a&gt; @ International Journal of Computer Integrated Manufacturing (Submission Deadline: &lt;strong&gt;31st December 2022&lt;/strong&gt;)&lt;/p&gt;
 </description>
     </item>
     
