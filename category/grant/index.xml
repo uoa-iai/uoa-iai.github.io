@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grant | </title>
+    <link>https://uoa-iai.github.io/category/grant/</link>
+      <atom:link href="https://uoa-iai.github.io/category/grant/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grant</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Grant</title>
+      <link>https://uoa-iai.github.io/category/grant/</link>
+    </image>
+    
+    <item>
+      <title>2021 Science for Technological Innovation National Science Challenge (SfTI) Grant</title>
+      <link>https://uoa-iai.github.io/post/sfti/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/sfti/</guid>
+      <description>&lt;p&gt;Industrial AI Team @ UOA was awarded the prestigious SfTI seed grant over two years to advance time-sensitive industrial control technologies in 5G environment, in collaboration with Victoria University of Wellington, Spark New Zealand and Nokia.&lt;/p&gt;
+&lt;p&gt;Project Title: Ultra-reliable time-sensitive industrial control in the cloud&lt;/p&gt;
+&lt;p&gt;Public Statement: As the momentum of 5G builds, a range of applications will be developed. These include real-time cloud-controlled industrial systems and self-driving vehicles. The need is for 5G technology to provide robust and time-sensitive data transmission over wide area networks (WANs). This is to ensure the systems and vehicles can interact simultaneously without, for example, arriving out of order or colliding. This project, led by University of Auckland researchers, aims to design a data communication scheduling algorithm and supporting streaming technologies. This will enable time-sensitive transmission of control data for multiple devices over WANs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
