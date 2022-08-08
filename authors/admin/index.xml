@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Industrial AI Group | </title>
+    <title>Industrial AI Group | Industrial AI Group @UOA</title>
     <link>https://uoa-iai.github.io/authors/admin/</link>
       <atom:link href="https://uoa-iai.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Industrial AI Group</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://uoa-iai.github.io/authors/admin/avatar_hue7e7a7f9e1c78b6daed4694d9cfde14f_3304_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://uoa-iai.github.io/authors/admin/avatar_hue7e7a7f9e1c78b6daed4694d9cfde14f_3304_270x270_fill_q80_lanczos_center.jpg</url>
       <title>Industrial AI Group</title>
       <link>https://uoa-iai.github.io/authors/admin/</link>
     </image>
@@ -39,10 +39,10 @@
    &lt;figure  &gt;
      &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
        &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_9cf7d8639364cfc9cc920e144e41e5fa.webp 400w,
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_cf896695a16978651bd4c1fbfad2a571.webp 760w,
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_9cf7d8639364cfc9cc920e144e41e5fa.webp&#34;
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_63b202639f55714a627830342ddabd9f.webp 400w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_a4e6f3d443b786122ea75685724c1d48.webp 760w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
+                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_63b202639f55714a627830342ddabd9f.webp&#34;
                   width=&#34;760&#34;
                   height=&#34;428&#34;
                   loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
