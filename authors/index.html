@@ -258,6 +258,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0B3VS2VLK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Z0B3VS2VLK', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -308,7 +347,7 @@
   
   <meta property="og:site_name" content="Industrial AI Group @UOA" />
   <meta property="og:url" content="https://uoa-iai.github.io/authors/" />
-  <meta property="og:title" content="Industrial AI Group @UOA" />
+  <meta property="og:title" content="Authors | Industrial AI Group @UOA" />
   <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
@@ -329,11 +368,11 @@
 
 
 
-  <title>Industrial AI Group @UOA</title>
+  <title>Authors | Industrial AI Group @UOA</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c6a72605ae78ed9155e0cc8112d190d2" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
 
   
   
@@ -407,10 +446,6 @@
     <div class="container-xl">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Industrial AI Group @UOA</a>
-      </div>
-      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -419,10 +454,6 @@
       </button>
       
 
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Industrial AI Group @UOA</a>
-      </div>
       
 
       
@@ -723,6 +754,43 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
@@ -791,86 +859,32 @@
 
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
 <div class="universal-wrapper pt-3">
-  <h1></h1>
-
-  
-
-  
+  <h1>Authors</h1>
 </div>
 
 
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    
+    
 
-<div class="universal-wrapper">
-  
-
-  <ul>
     
     
-      
-      <li><a href="https://uoa-iai.github.io/authors/dazzle-johnson/">Dazzle Johnson</a></li>
     
-      
-      <li><a href="https://uoa-iai.github.io/authors/admin/">Industrial AI Group</a></li>
+    <div class="article-widget content-widget-hr">
+      <h3>Latest</h3>
+      <ul>
+        
+        <li>
+          <a href="/authors/yuqian-lu/experience/">Experience</a>
+        </li>
+        
+      </ul>
+    </div>
     
-      
-      <li><a href="https://uoa-iai.github.io/authors/a.-brintrup/">A. Brintrup</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/b.-hua/">B. Hua</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/b.-zhou/">B. Zhou</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/b.s.-chohan/">B.S. Chohan</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/c.-liu/">C. Liu</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/e.e.-kosasih/">E.E. Kosasih</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/f.-ameri/">F. Ameri</a></li>
-    
-      
-      <li><a href="https://uoa-iai.github.io/authors/f.-yan/">F. Yan</a></li>
-    
-  </ul>
-
-  
-<nav class="mt-1">
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
-
-
-</div>
+  </div>
+</section>
   </div>
 
   <div class="page-footer">
