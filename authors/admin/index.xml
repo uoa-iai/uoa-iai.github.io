@@ -5,12 +5,21 @@
     <link>https://uoa-iai.github.io/authors/admin/</link>
       <atom:link href="https://uoa-iai.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Industrial AI Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/authors/admin/avatar_hue7e7a7f9e1c78b6daed4694d9cfde14f_3304_270x270_fill_q80_lanczos_center.jpg</url>
       <title>Industrial AI Group</title>
       <link>https://uoa-iai.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Lab visit from Christopher Luxon, Leader of the National Party</title>
+      <link>https://uoa-iai.github.io/post/luxon/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/luxon/</guid>
+      <description>&lt;p&gt;On October 17, 2022, Christopher Luxon, Leader of the New Zealand National Party and Leader of the opposition, visited our team. We showcased our research outcomes and impact we created for New Zealand.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>We are hosting 2023 IEEE CASE Conference in Auckland</title>
@@ -22,15 +31,6 @@
 &lt;p&gt;IEEE CASE 2023 will be held in Auckland, giving attendees a chance to learn about Aotearoa New Zealand&amp;rsquo;s cutting-edge innovations and automation in the fields of manufacturing, agriculture, aquaculture, forestry, infrastructure, and healthcare.&lt;/p&gt;
 &lt;p&gt;As the Organising Committee Chair, Dr. Yuqian Lu is committed to making IEEE CASE 2023 and unforgettable experience.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;For more information, visit the&lt;/em&gt; &lt;a href=&#34;https://case2023.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;CASE 2023 Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lab visit from Christopher Luxon, Leader of the National Party</title>
-      <link>https://uoa-iai.github.io/post/luxon/</link>
-      <pubDate>Sat, 08 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/post/luxon/</guid>
-      <description>&lt;p&gt;On October 17, 2022, Christopher Luxon, Leader of the New Zealand National Party and Leader of the opposition, visited our team. We showcased our research outcomes and impact we created for New Zealand.&lt;/p&gt;
 </description>
     </item>
     
