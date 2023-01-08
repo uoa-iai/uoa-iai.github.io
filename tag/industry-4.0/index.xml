@@ -5,12 +5,23 @@
     <link>https://uoa-iai.github.io/tag/industry-4.0/</link>
       <atom:link href="https://uoa-iai.github.io/tag/industry-4.0/index.xml" rel="self" type="application/rss+xml" />
     <description>Industry 4.0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Industry 4.0</title>
       <link>https://uoa-iai.github.io/tag/industry-4.0/</link>
     </image>
+    
+    <item>
+      <title>Visit from Professor Qiang Huang</title>
+      <link>https://uoa-iai.github.io/post/prof-q-huang/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/prof-q-huang/</guid>
+      <description>&lt;p&gt;On December 2, 2022, Professor Qiang Huang, Epstein Department of Industrial and Systems Engineering, University of Southern California (USC), visited our team.&lt;/p&gt;
+&lt;p&gt;Professor Qiang Huang presented a seminar on his work in &amp;ldquo;Engineering-Informed Machine Learning for Additive Manufacturing Accuracy Control.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bio: Professor Qiang Huang was the holder of Gordon S. Marshall Early Career Chair in Engineering at USC from 2012 to 2016. He is also a Department Editor for IISE Transactions and an Associate Editor for ASME Transactions, Journal of Manufacturing Science and Engineering. He has also received various awards including the IISE Fellow and ASME Awards, NSF CAREER award, and 2021 IEEE CASE Best Conference Paper Award, 2013 IEEE Transactions on Automation Science and Engineering Best Paper Award. He has five patents on Machine Learning for Additive Manufacturing (ML4AM).&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lab visit from Christopher Luxon, Leader of the National Party</title>
