@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human-Robot Collaboration | Industrial AI Group @UOA</title>
+    <link>https://uoa-iai.github.io/category/human-robot-collaboration/</link>
+      <atom:link href="https://uoa-iai.github.io/category/human-robot-collaboration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Human-Robot Collaboration</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Human-Robot Collaboration</title>
+      <link>https://uoa-iai.github.io/category/human-robot-collaboration/</link>
+    </image>
+    
+    <item>
+      <title>HR-SAT: Human-Robot Shared Asssembly Taxonomy</title>
+      <link>https://uoa-iai.github.io/initiative/hrsat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/initiative/hrsat/</guid>
+      <description>&lt;p&gt;Future manufacturing will witness a shift in human-robot relationships towards collaboration, compassion and coevolution. This will require seamless human-robot knowledge transfer. Differences in language and knowledge representation hinder the transfer of knowledge among humans and robots. Thus, a unified knowledge representation system that can be shared by humans and robots is essential. Driven by this need in a product assembly scenario, we propose the Human-Robot Shared Assembly Taxonomy (HR-SAT). With HR-SAT, any comprehensive assembly task can be represented as a knowledge graph that both humans and robots can understand.&lt;/p&gt;
+&lt;p&gt;For more information on this initiative, visit: &lt;a href=&#34;https://iai-hrc.github.io/hr-sat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://iai-hrc.github.io/hr-sat&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

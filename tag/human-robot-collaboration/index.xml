@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>human-robot collaboration | Industrial AI Group @UOA</title>
+    <title>Human-Robot Collaboration | Industrial AI Group @UOA</title>
     <link>https://uoa-iai.github.io/tag/human-robot-collaboration/</link>
       <atom:link href="https://uoa-iai.github.io/tag/human-robot-collaboration/index.xml" rel="self" type="application/rss+xml" />
-    <description>human-robot collaboration</description>
+    <description>Human-Robot Collaboration</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
-      <title>human-robot collaboration</title>
+      <title>Human-Robot Collaboration</title>
       <link>https://uoa-iai.github.io/tag/human-robot-collaboration/</link>
     </image>
     
@@ -297,6 +297,14 @@
 
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>HR-SAT: Human-Robot Shared Asssembly Taxonomy</title>
+      <link>https://uoa-iai.github.io/initiative/hrsat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/initiative/hrsat/</guid>
+      <description></description>
     </item>
     
   </channel>
