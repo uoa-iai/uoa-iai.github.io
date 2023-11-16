@@ -5,12 +5,23 @@
     <link>https://uoa-iai.github.io/category/publication/</link>
       <atom:link href="https://uoa-iai.github.io/category/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Publication</title>
       <link>https://uoa-iai.github.io/category/publication/</link>
     </image>
+    
+    <item>
+      <title>HA-ViD paper accepted at NeurIPS 2023</title>
+      <link>https://uoa-iai.github.io/post/havid-neurips/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/havid-neurips/</guid>
+      <description>&lt;p&gt;We are pleased to announce the acceptance of our paper, &amp;ldquo;HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding&amp;rdquo; at the esteemed NeurIPS conference. This achievement marks a milestone in our journey toward understanding the comprehensive knowledge of assembly applications such as human-robot collaboration, robot skill learning and assembly process monitoring.&lt;/p&gt;
+&lt;p&gt;HA-ViD captures the essence of industrial human assembly scenarios through the designed Generic Assembly Box, 3-stage progressive assembly setup and consistent human-robot shared annotations. The applications of this work enables research towards understanding natural human behaviours, progressive knowledge acquisition and two-hand collaboration patterns during assembly.&lt;/p&gt;
+&lt;p&gt;For more information on HA-ViD, please visit our project &lt;a href=&#34;https://iai-hrc.github.io/ha-vid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>RCIM Best Paper Award</title>

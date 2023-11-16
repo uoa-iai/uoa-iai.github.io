@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Industrial AI Group @UOA</title>
+    <title>Authors | Industrial AI Group @UOA</title>
     <link>https://uoa-iai.github.io/authors/</link>
       <atom:link href="https://uoa-iai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Industrial AI Group @UOA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <description>Authors</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
-      <title>Industrial AI Group @UOA</title>
+      <title>Authors</title>
       <link>https://uoa-iai.github.io/authors/</link>
     </image>
     

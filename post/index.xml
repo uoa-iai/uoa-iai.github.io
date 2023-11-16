@@ -5,12 +5,47 @@
     <link>https://uoa-iai.github.io/post/</link>
       <atom:link href="https://uoa-iai.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://uoa-iai.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Dr. Yuqian Lu was awarded the 2023 UoA Early Career Research Excellence Award.</title>
+      <link>https://uoa-iai.github.io/post/earlycareer-2023/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/earlycareer-2023/</guid>
+      <description>&lt;p&gt;The University acknowledged the value and contribution of researchers and their work at the
+2023 Celebrating Research Excellence, Hīkina kia Tutuki, Rise to Meet the Challenge
+presentation event on 19th October 2023.&lt;/p&gt;
+&lt;p&gt;The annual event recognises the best work from doctoral candidates to the most senior and
+honoured researchers. &lt;a href=&#34;https://www.auckland.ac.nz/en/news/2023/10/19/awards-ceremony-recognises-excellent-research.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The award winners were announced recently&lt;/a&gt;. The presentation
+ceremony was an opportunity for the University’s research community to celebrate
+excellence.&lt;/p&gt;
+&lt;p&gt;The presentation ceremony was hosted by the Deputy Vice Chancellor Research Professor
+Frank Bloomfield at the Sir Owen G Glenn Building, the home of the University’s Business
+School.&lt;/p&gt;
+&lt;p&gt;Professor Bloomfield said: “Tonight is an opportunity for us to celebrate and acknowledge
+the success of our world class researchers. In 2024, the university climbed to a QS ranking
+of 68th in the world - its best results since 2010 and in no small part driven by the calibre of
+our research.”&lt;/p&gt;
+&lt;p&gt;Yuqian Lu was one of the seven researchers recognized under the Early Career Research
+Excellence category.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HA-ViD paper accepted at NeurIPS 2023</title>
+      <link>https://uoa-iai.github.io/post/havid-neurips/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/havid-neurips/</guid>
+      <description>&lt;p&gt;We are pleased to announce the acceptance of our paper, &amp;ldquo;HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding&amp;rdquo; at the esteemed NeurIPS conference. This achievement marks a milestone in our journey toward understanding the comprehensive knowledge of assembly applications such as human-robot collaboration, robot skill learning and assembly process monitoring.&lt;/p&gt;
+&lt;p&gt;HA-ViD captures the essence of industrial human assembly scenarios through the designed Generic Assembly Box, 3-stage progressive assembly setup and consistent human-robot shared annotations. The applications of this work enables research towards understanding natural human behaviours, progressive knowledge acquisition and two-hand collaboration patterns during assembly.&lt;/p&gt;
+&lt;p&gt;For more information on HA-ViD, please visit our project &lt;a href=&#34;https://iai-hrc.github.io/ha-vid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Yuqian Lu on 1News about AI, robots and 5G</title>
