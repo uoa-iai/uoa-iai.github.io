@@ -5,7 +5,7 @@
     <link>https://uoa-iai.github.io/</link>
       <atom:link href="https://uoa-iai.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Industrial AI Group @UOA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Industrial AI Group @UOA</title>
@@ -18,26 +18,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/authors/yuqian-lu/experience/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>https://uoa-iai.github.io/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -126,10 +106,10 @@ Today, the communication networks that connect industrial robots are via wired c
    &lt;figure  &gt;
      &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
        &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_90505cef40a5fac01c08ac2831e5417f.webp 400w,
-                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_7e0d81675103b8057ac26571a9b1ba80.webp 760w,
+                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_9f958d6eb6154fa473a2fb7ffd0b17d9.webp 400w,
+                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_69c629a514eb2057f9aeccf2cd2d1608.webp 760w,
                   /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-                  src=&#34;https://uoa-iai.github.io/post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_90505cef40a5fac01c08ac2831e5417f.webp&#34;
+                  src=&#34;https://uoa-iai.github.io/post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_9f958d6eb6154fa473a2fb7ffd0b17d9.webp&#34;
                   width=&#34;760&#34;
                   height=&#34;377&#34;
                   loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -165,10 +145,10 @@ Today, the communication networks that connect industrial robots are via wired c
    &lt;figure  &gt;
      &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
        &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                  /post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_cd26f455467cdf006958985cec02d373.webp 400w,
-                  /post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_090c50e44805bd75acd1d5f362b20728.webp 760w,
+                  /post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_bc45f1e2c4dc3c89283829602a425068.webp 400w,
+                  /post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_b5510a7b31592241f1be74618a50b6bc.webp 760w,
                   /post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-                  src=&#34;https://uoa-iai.github.io/post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_cd26f455467cdf006958985cec02d373.webp&#34;
+                  src=&#34;https://uoa-iai.github.io/post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_bc45f1e2c4dc3c89283829602a425068.webp&#34;
                   width=&#34;602&#34;
                   height=&#34;338&#34;
                   loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -376,7 +356,7 @@ Today, the communication networks that connect industrial robots are via wired c
     
 
   &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/hao-zheng/&#34;&gt;Hao Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/wanqing-xia/&#34;&gt;Wanqing Xia&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
@@ -1101,10 +1081,10 @@ Today, the communication networks that connect industrial robots are via wired c
    &lt;figure  &gt;
      &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
        &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_8673882b91ed9e666f2e3491151b4d43.webp 400w,
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_632b1671ed6a73f86f15fa3e6e2e65fe.webp 760w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_63b202639f55714a627830342ddabd9f.webp 400w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_a4e6f3d443b786122ea75685724c1d48.webp 760w,
                   /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
-                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_8673882b91ed9e666f2e3491151b4d43.webp&#34;
+                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_63b202639f55714a627830342ddabd9f.webp&#34;
                   width=&#34;760&#34;
                   height=&#34;428&#34;
                   loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1791,10 +1771,10 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
    &lt;figure  &gt;
      &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
        &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                  /project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_5dc99b54751202c5d585cd843a6c09e7.webp 400w,
-                  /project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_942843e0e2608e6c9afff899a672f653.webp 760w,
+                  /project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_4b30e83ef28c15baa54f97a212f51558.webp 400w,
+                  /project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_82e42e418baa3a27701c868bc2a86358.webp 760w,
                   /project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
-                  src=&#34;https://uoa-iai.github.io/project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_5dc99b54751202c5d585cd843a6c09e7.webp&#34;
+                  src=&#34;https://uoa-iai.github.io/project/cloud_manufacturing/4_hu94c84ed012d940bf6f52b260300acbb6_236519_4b30e83ef28c15baa54f97a212f51558.webp&#34;
                   width=&#34;760&#34;
                   height=&#34;464&#34;
                   loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

@@ -6,12 +6,6 @@
   <url>
     <loc>https://uoa-iai.github.io/authors/yuqian-lu/experience/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://uoa-iai.github.io/authors/</loc><lastmod>2024-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/</loc><lastmod>2024-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -26,6 +20,8 @@
   <url>
     <loc>https://uoa-iai.github.io/authors/admin/</loc><lastmod>2024-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://uoa-iai.github.io/</loc><lastmod>2024-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://uoa-iai.github.io/post/</loc><lastmod>2024-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/category/publication/</loc><lastmod>2024-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -39,8 +35,6 @@
     <loc>https://uoa-iai.github.io/category/university-of-auckland/</loc><lastmod>2023-11-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/post/havid-neurips/</loc><lastmod>2023-09-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/hao-zheng/</loc><lastmod>2023-09-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/tag/publication/</loc><lastmod>2023-09-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -103,6 +97,8 @@
     <loc>https://uoa-iai.github.io/talk/2022-ieee-case-conference-talk/</loc><lastmod>2022-08-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/dazzle-johnson/</loc><lastmod>2022-08-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/event/</loc><lastmod>2022-08-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/tag/reinforcement-learning/</loc><lastmod>2022-08-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -171,6 +167,8 @@
     <loc>https://uoa-iai.github.io/authors/h.-chaoui/</loc><lastmod>2022-08-05T22:11:07+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/h.-wang/</loc><lastmod>2022-08-05T22:11:24+12:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://uoa-iai.github.io/authors/hao-zheng/</loc><lastmod>2022-08-05T22:11:09+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/j.-bao/</loc><lastmod>2022-08-05T22:11:17+12:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -510,8 +508,6 @@
   <url>
     <loc>https://uoa-iai.github.io/initiative/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/jinyi-huang/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://uoa-iai.github.io/authors/jonas-wan/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/joshua-goh/</loc><changefreq>weekly</changefreq></url>
@@ -520,16 +516,10 @@
   <url>
     <loc>https://uoa-iai.github.io/authors/luyao-xia/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/mingming-zhang/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://uoa-iai.github.io/authors/munirah-mahadi/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://uoa-iai.github.io/authors/sidhant-raje/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/yangyang-liu/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://uoa-iai.github.io/authors/yi-zhang/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://uoa-iai.github.io/authors/yonghui-tao/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://uoa-iai.github.io/authors/ziwer-su/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://uoa-iai.github.io/authors/ziwei-su/</loc><changefreq>weekly</changefreq></url></urlset>
