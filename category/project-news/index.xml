@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project News | Industrial AI Group @UOA</title>
+    <title>Project News | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/category/project-news/</link>
       <atom:link href="https://uoa-iai.github.io/category/project-news/index.xml" rel="self" type="application/rss+xml" />
     <description>Project News</description>
@@ -39,10 +39,10 @@
    &lt;figure  &gt;
      &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
        &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_63b202639f55714a627830342ddabd9f.webp 400w,
-                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_a4e6f3d443b786122ea75685724c1d48.webp 760w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_8673882b91ed9e666f2e3491151b4d43.webp 400w,
+                  /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_632b1671ed6a73f86f15fa3e6e2e65fe.webp 760w,
                   /post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
-                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_63b202639f55714a627830342ddabd9f.webp&#34;
+                  src=&#34;https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_8673882b91ed9e666f2e3491151b4d43.webp&#34;
                   width=&#34;760&#34;
                   height=&#34;428&#34;
                   loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
