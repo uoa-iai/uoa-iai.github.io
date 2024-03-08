@@ -5,7 +5,7 @@
     <link>https://uoa-iai.github.io/authors/x.-shen/</link>
       <atom:link href="https://uoa-iai.github.io/authors/x.-shen/index.xml" rel="self" type="application/rss+xml" />
     <description>X. Shen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>X. Shen</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>A digital thread-driven distributed collaboration mechanism between digital twin manufacturing units</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023145/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023145/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2022/</guid>
+      <link>https://uoa-iai.github.io/publication/zhou-20234117/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-20234117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     

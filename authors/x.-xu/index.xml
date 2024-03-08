@@ -5,12 +5,44 @@
     <link>https://uoa-iai.github.io/authors/x.-xu/</link>
       <atom:link href="https://uoa-iai.github.io/authors/x.-xu/index.xml" rel="self" type="application/rss+xml" />
     <description>X. Xu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>X. Xu</title>
       <link>https://uoa-iai.github.io/authors/x.-xu/</link>
     </image>
+    
+    <item>
+      <title>Application and Evaluation of Soft-Actor Critic Reinforcement Learning in Constrained Trajectory Planning for 6DOF Robotic Manipulators</title>
+      <link>https://uoa-iai.github.io/publication/xia-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editorial Proceedings of 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE) - Automation for a Resilient Society</title>
+      <link>https://uoa-iai.github.io/publication/xu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Centric UAV-UGV Collaboration</title>
+      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Manufacturing - An Overview of Developments In Critical Areas, Prototypes, and Future Perspectives</title>
+      <link>https://uoa-iai.github.io/publication/jacob-2022643/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/jacob-2022643/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MES Dynamic interoperability for SMEs in the Factory of the Future perspective</title>
@@ -25,14 +57,6 @@
       <link>https://uoa-iai.github.io/publication/lu-2022612/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/lu-2022612/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service-oriented industrial internet of things gateway for cloud manufacturing</title>
-      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
       <description></description>
     </item>
     

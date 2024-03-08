@@ -5,12 +5,28 @@
     <link>https://uoa-iai.github.io/authors/zhaojun-qin/</link>
       <atom:link href="https://uoa-iai.github.io/authors/zhaojun-qin/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhaojun Qin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/authors/zhaojun-qin/avatar_hud480f2548b802b904a1b36cd6929b68d_281508_270x270_fill_lanczos_center_3.png</url>
       <title>Zhaojun Qin</title>
       <link>https://uoa-iai.github.io/authors/zhaojun-qin/</link>
     </image>
+    
+    <item>
+      <title>A Knowledge Graph-based knowledge representation for adaptive manufacturing control under mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-202396/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-202396/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic production scheduling towards self-organizing mass personalization: A multi-agent dueling deep reinforcement learning approach</title>
+      <link>https://uoa-iai.github.io/publication/qin-2023242/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2023242/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Outlook on human-centric manufacturing towards Industry 5.0</title>

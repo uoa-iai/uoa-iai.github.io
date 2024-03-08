@@ -5,12 +5,68 @@
     <link>https://uoa-iai.github.io/publication-type/1/</link>
       <atom:link href="https://uoa-iai.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://uoa-iai.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>An Ontology-Based Product Modelling Method for Smart Remanufacturing</title>
+      <link>https://uoa-iai.github.io/publication/hu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/hu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application and Evaluation of Soft-Actor Critic Reinforcement Learning in Constrained Trajectory Planning for 6DOF Robotic Manipulators</title>
+      <link>https://uoa-iai.github.io/publication/xia-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editorial Proceedings of 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE) - Automation for a Resilient Society</title>
+      <link>https://uoa-iai.github.io/publication/xu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Centric UAV-UGV Collaboration</title>
+      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video-Based Fatigue Estimation for Human-Robot Task Allocation Optimisation</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Manufacturing - An Overview of Developments In Critical Areas, Prototypes, and Future Perspectives</title>
+      <link>https://uoa-iai.github.io/publication/jacob-2022643/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/jacob-2022643/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental energy consumption analysis of neural network model compression methods on microcontrollers with applications in bird call classification</title>
+      <link>https://uoa-iai.github.io/publication/tao-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/tao-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MES Dynamic interoperability for SMEs in the Factory of the Future perspective</title>

@@ -41,8 +41,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -252,37 +252,76 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.c88829cfc09e9713731c7b511b7f0367.css" />
-
-  
-
-
-
-  
-
-
-  
-
+  <link rel="stylesheet" href="/css/wowchemy.95d53890c5839471cef2375b6c449b9f.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TBZZ98XTPQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-TBZZ98XTPQ', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/authors/w.-xia/index.xml" type="application/rss+xml" title="" />
+    <link rel="alternate" href="/authors/w.-xia/index.xml" type="application/rss+xml" title="Industrial AI Group @ UOA" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://uoa-iai.github.io/authors/w.-xia/" />
 
@@ -306,14 +345,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="" />
+  <meta property="og:site_name" content="Industrial AI Group @ UOA" />
   <meta property="og:url" content="https://uoa-iai.github.io/authors/w.-xia/" />
-  <meta property="og:title" content="W. Xia | " />
-  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="W. Xia | Industrial AI Group @ UOA" />
+  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2022-01-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2023-01-01T00:00:00&#43;00:00" />
     
   
 
@@ -329,7 +368,7 @@
 
 
 
-  <title>W. Xia | </title>
+  <title>W. Xia | Industrial AI Group @ UOA</title>
 </head>
 
 
@@ -344,7 +383,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+  <script src="/js/wowchemy-init.min.c80ecf4b695b1c6ccc272ba5badcc52c.js"></script>
 
   
 
@@ -407,10 +446,6 @@
     <div class="container-xl">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"></a>
-      </div>
-      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -419,10 +454,6 @@
       </button>
       
 
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"></a>
-      </div>
       
 
       
@@ -649,6 +680,80 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#initiatives"><span>Initiatives</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#videogallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#talks"><span>Events</span></a>
           </li>
 
@@ -687,6 +792,73 @@
 
           <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/opportunity/"><span>Join Us</span></a>
           </li>
 
           
@@ -809,6 +981,10 @@
       <ul>
         
         <li>
+          <a href="/publication/xia-2023/">Application and Evaluation of Soft-Actor Critic Reinforcement Learning in Constrained Trajectory Planning for 6DOF Robotic Manipulators</a>
+        </li>
+        
+        <li>
           <a href="/publication/lu-2022612/">Outlook on human-centric manufacturing towards Industry 5.0</a>
         </li>
         
@@ -863,7 +1039,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Industrial AI Group. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -905,7 +1081,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
 
     
     
@@ -998,7 +1174,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.e621ca22b71fe422a443af00168d758e.js"></script>
 
     
     
@@ -1032,7 +1208,7 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+      <script src="/js/wowchemy-publication.af9327db0521d4a01354bfc8b77a4324.js" type="module"></script>
 
 
 

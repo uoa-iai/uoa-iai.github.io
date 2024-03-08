@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I. Jacob | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/i.-jacob/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/i.-jacob/index.xml" rel="self" type="application/rss+xml" />
+    <description>I. Jacob</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>I. Jacob</title>
+      <link>https://uoa-iai.github.io/authors/i.-jacob/</link>
+    </image>
+    
+    <item>
+      <title>Cloud Manufacturing - An Overview of Developments In Critical Areas, Prototypes, and Future Perspectives</title>
+      <link>https://uoa-iai.github.io/publication/jacob-2022643/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/jacob-2022643/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

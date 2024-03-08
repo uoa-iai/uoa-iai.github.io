@@ -41,8 +41,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -252,37 +252,76 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.c88829cfc09e9713731c7b511b7f0367.css" />
-
-  
-
-
-
-  
-
-
-  
-
+  <link rel="stylesheet" href="/css/wowchemy.95d53890c5839471cef2375b6c449b9f.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TBZZ98XTPQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-TBZZ98XTPQ', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="" />
+    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Industrial AI Group @ UOA" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://uoa-iai.github.io/tags/" />
 
@@ -306,14 +345,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="" />
+  <meta property="og:site_name" content="Industrial AI Group @ UOA" />
   <meta property="og:url" content="https://uoa-iai.github.io/tags/" />
-  <meta property="og:title" content="Tags | " />
-  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Tags | Industrial AI Group @ UOA" />
+  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-01-31T00:00:00&#43;00:00" />
     
   
 
@@ -329,7 +368,7 @@
 
 
 
-  <title>Tags | </title>
+  <title>Tags | Industrial AI Group @ UOA</title>
 </head>
 
 
@@ -344,7 +383,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+  <script src="/js/wowchemy-init.min.c80ecf4b695b1c6ccc272ba5badcc52c.js"></script>
 
   
 
@@ -407,10 +446,6 @@
     <div class="container-xl">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"></a>
-      </div>
-      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -419,10 +454,6 @@
       </button>
       
 
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"></a>
-      </div>
       
 
       
@@ -649,6 +680,80 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#initiatives"><span>Initiatives</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#videogallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#talks"><span>Events</span></a>
           </li>
 
@@ -687,6 +792,73 @@
 
           <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/opportunity/"><span>Join Us</span></a>
           </li>
 
           
@@ -841,7 +1013,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/automatic-machining-heterogeneous-knowledge-information-modeling-knowledge-expression-manufacturing-resource-quality-of-product-semantic-analysis-traditional-knowledge/" >Automatic machining;  Heterogeneous Knowledge;  Information Modeling;  Knowledge expression;  Manufacturing resource;  Quality of product;  Semantic analysis;  Traditional knowledge</a>
+      <a href="/tag/multiobjective-optimization-multitasking-production-efficiency-recovery-robots-scheduling-algorithms/" >Multiobjective optimization;  Multitasking;  Production efficiency;  Recovery;  Robots;  Scheduling algorithms</a>
     </div>
 
     
@@ -865,7 +1037,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -915,7 +1087,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/automation-bromine-compounds-data-handling-digital-devices-digital-storage-digital-twin-lithium-compounds-real-time-systems/" >Automation;  Bromine compounds;  Data handling;  Digital devices;  Digital storage;  Digital twin;  Lithium compounds;  Real time systems</a>
+      <a href="/tag/muscle/" >Muscle</a>
     </div>
 
     
@@ -939,7 +1111,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -989,7 +1161,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/biomimetics/" >Biomimetics</a>
+      <a href="/tag/optimization/" >Optimization</a>
     </div>
 
     
@@ -1013,7 +1185,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -1063,7 +1235,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/camera-ego-motion-current-research-status-dynamic-environments-dynamic-objects-ego-motion-localisation-systems-mapping-systems-semantic-segmentation-simultaneous-localization-and-mapping-visual-simultaneous-localization-and-mappings/" >Camera ego-motion;  Current research status;  Dynamic environments;  Dynamic objects;  Ego-motion;  Localisation Systems;  Mapping systems;  Semantic segmentation;  Simultaneous localization and mapping;  Visual simultaneous localization and mappings</a>
+      <a href="/tag/robots/" >Robots</a>
     </div>
 
     
@@ -1087,7 +1259,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -1137,7 +1309,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/cameras/" >Cameras</a>
+      <a href="/tag/signal-processing-time-measurement/" >Signal processing;  Time measurement</a>
     </div>
 
     
@@ -1161,7 +1333,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -1211,7 +1383,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/co-existence-european-commission-industrial-revolutions-industry-5.0-is-technologies-research-efforts-sources-of-informations-strategic-initiative-technology-driven-value-driven/" >Co-existence;  European Commission;  Industrial revolutions;  Industry 5.0;  IS technologies;  Research efforts;  Sources of informations;  Strategic initiative;  Technology-driven;  Value driven</a>
+      <a href="/tag/uncertainty-analysis/" >Uncertainty analysis</a>
     </div>
 
     
@@ -1235,7 +1407,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -1285,7 +1457,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/complex-dynamics-dynamic-contraction-fatigue-index-human-centric-human-centric-manufacturing-isometric-contractions-manufacturing-operations-muscle-fatigues-muscular-fatigues-surface-electromyography/" >Complex dynamics;  Dynamic contraction;  Fatigue index;  Human-centric;  Human-centric manufacturing;  Isometric contractions;  Manufacturing operations;  Muscle fatigues;  Muscular fatigues;  Surface electromyography</a>
+      <a href="/tag/unmanned-aerial-vehicles-uav/" >Unmanned aerial vehicles (UAV)</a>
     </div>
 
     
@@ -1309,7 +1481,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2023
   </span>
   
 
@@ -1359,7 +1531,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/complex-mechanical-product-finished-products-heterogeneous-data-machining-technology-monitoring-applications-monitoring-methods-monitoring-technologies-real-time-monitoring/" >Complex mechanical product;  Finished products;  Heterogeneous data;  Machining technology;  Monitoring applications;  Monitoring methods;  Monitoring technologies;  Real time monitoring</a>
+      <a href="/tag/case/" >CASE</a>
     </div>
 
     
@@ -1383,7 +1555,7 @@
     
       
     
-    5 Aug, 2022
+    9 Oct, 2022
   </span>
   
 
@@ -1433,7 +1605,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/computer-aided-design/" >Computer aided design</a>
+      <a href="/tag/grant/" >grant</a>
     </div>
 
     
@@ -1457,7 +1629,7 @@
     
       
     
-    5 Aug, 2022
+    8 Oct, 2022
   </span>
   
 
@@ -1507,7 +1679,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/computer-architecture-cost-effectiveness-decision-making-multi-agent-systems-network-architecture-semantics/" >Computer architecture;  Cost effectiveness;  Decision making;  Multi agent systems;  Network architecture;  Semantics</a>
+      <a href="/tag/mbie/" >MBIE</a>
     </div>
 
     
@@ -1531,7 +1703,7 @@
     
       
     
-    5 Aug, 2022
+    8 Oct, 2022
   </span>
   
 
@@ -1619,7 +1791,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Industrial AI Group. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1661,7 +1833,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
 
     
     
@@ -1754,7 +1926,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.e621ca22b71fe422a443af00168d758e.js"></script>
 
     
     
@@ -1788,7 +1960,7 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+      <script src="/js/wowchemy-publication.af9327db0521d4a01354bfc8b77a4324.js" type="module"></script>
 
 
 

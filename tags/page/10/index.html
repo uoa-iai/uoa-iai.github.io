@@ -41,8 +41,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -252,37 +252,76 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.c88829cfc09e9713731c7b511b7f0367.css" />
-
-  
-
-
-
-  
-
-
-  
-
+  <link rel="stylesheet" href="/css/wowchemy.95d53890c5839471cef2375b6c449b9f.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TBZZ98XTPQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-TBZZ98XTPQ', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="" />
+    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Industrial AI Group @ UOA" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://uoa-iai.github.io/tags/" />
 
@@ -306,14 +345,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="" />
+  <meta property="og:site_name" content="Industrial AI Group @ UOA" />
   <meta property="og:url" content="https://uoa-iai.github.io/tags/" />
-  <meta property="og:title" content="Tags | " />
-  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Tags | Industrial AI Group @ UOA" />
+  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-01-31T00:00:00&#43;00:00" />
     
   
 
@@ -329,7 +368,7 @@
 
 
 
-  <title>Tags | </title>
+  <title>Tags | Industrial AI Group @ UOA</title>
 </head>
 
 
@@ -344,7 +383,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+  <script src="/js/wowchemy-init.min.c80ecf4b695b1c6ccc272ba5badcc52c.js"></script>
 
   
 
@@ -407,10 +446,6 @@
     <div class="container-xl">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"></a>
-      </div>
-      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -419,10 +454,6 @@
       </button>
       
 
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"></a>
-      </div>
       
 
       
@@ -649,6 +680,80 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#initiatives"><span>Initiatives</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#videogallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#talks"><span>Events</span></a>
           </li>
 
@@ -687,6 +792,73 @@
 
           <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/opportunity/"><span>Join Us</span></a>
           </li>
 
           
@@ -841,7 +1013,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/agricultural-robots-aircraft-cutting-tools-efficiency-level-control-molluscs-vertical-stabilizers/" >Agricultural robots;  Aircraft;  Cutting tools;  Efficiency;  Level control;  Molluscs;  Vertical stabilizers</a>
+      <a href="/tag/bird-call-recognition-compression-methods-convolutional-neural-network-deep-learning-energy-consumption-model-compression-pruning-quantisation-resourceconstrained-devices-tinyml/" >Bird call recognition;  Compression methods;  Convolutional neural network;  Deep learning;  Energy-consumption;  Model compression;  Pruning;  Quantisation;  Resourceconstrained devices;  Tinyml</a>
     </div>
 
     
@@ -865,7 +1037,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -915,7 +1087,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/aircraft-components-finishing-efficiencies-high-level-controllers-iec-61499-function-blocks-low-level-controllers-machining-efficiency-manual-intervention-planning-and-execution/" >Aircraft components;  Finishing efficiencies;  High level controllers;  IEC 61499 function blocks;  Low-level controllers;  Machining efficiency;  Manual intervention;  Planning and execution</a>
+      <a href="/tag/birds-convolutional-neural-networks-deep-neural-networks-low-power-electronics-microcontrollers/" >Birds;  Convolutional neural networks;  Deep neural networks;  Low power electronics;  Microcontrollers</a>
     </div>
 
     
@@ -939,7 +1111,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -989,7 +1161,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/application-prospect-assembly-execution-assembly-operations-automation-levels-aviation-industry-parallel-mechanisms-server-applications-wearable-applications/" >Application prospect;  Assembly execution;  Assembly operations;  Automation levels;  Aviation industry;  Parallel mechanisms;  Server applications;  Wearable applications</a>
+      <a href="/tag/cloud-manufacturing-cost-effective-future-perspectives-manufacturing-is-manufacturing-platforms-platform-models-prototype-resource-virtualization-services-composition-tasks-scheduling/" >Cloud Manufacturing;  Cost effective;  Future perspectives;  Manufacturing IS;  Manufacturing platforms;  Platform models;  Prototype;  Resource Virtualization;  Services composition;  Tasks scheduling</a>
     </div>
 
     
@@ -1013,7 +1185,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1063,7 +1235,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/application-scenario-development-methodology-digital-twin-reference-modeling-research-issues-smart-manufacturing-state-of-the-art/" >Application scenario;  Development methodology;  Digital Twin;  Reference modeling;  Research issues;  Smart manufacturing;  State of the art</a>
+      <a href="/tag/cloud-manufacturing-engineering-knowledge-engineering-rules-language-processing-machine-learning-natural-language-processing-natural-languages-semantic-rules-semantic-web-smart-manufacturing/" >Cloud Manufacturing;  Engineering knowledge;  Engineering rules;  Language processing;  Machine-learning;  Natural language processing;  Natural languages;  Semantic rules;  Semantic-Web;  Smart manufacturing</a>
     </div>
 
     
@@ -1087,7 +1259,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1137,7 +1309,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/architecture-modeling-educational-program-industrial-revolutions-model-based-opc-new-approaches-skill-development-training-program-university-graduates/" >Architecture modeling;  Educational program;  Industrial revolutions;  Model-based OPC;  New approaches;  Skill development;  Training program;  University graduates</a>
+      <a href="/tag/collaboration-prediction-collaborative-assembly-collaborative-manufacturing-system-collaborative-robots-collaborative-tasks-critical-factors-human-robots-human-robot-collaboration-neural-networks-spiking-neural-network/" >Collaboration prediction;  Collaborative assembly;  Collaborative manufacturing system;  Collaborative robots;  Collaborative tasks;  Critical factors;  Human robots;  Human-robot collaboration;  Neural-networks;  Spiking neural network</a>
     </div>
 
     
@@ -1161,7 +1333,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1211,7 +1383,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/artificial-intelligence-cyber-physical-system/" >Artificial intelligence;  Cyber Physical System</a>
+      <a href="/tag/computer-aided-manufacturing-cost-effectiveness-industrial-research-security-of-data-virtual-reality-virtualization/" >Computer aided manufacturing;  Cost effectiveness;  Industrial research;  Security of data;  Virtual reality;  Virtualization</a>
     </div>
 
     
@@ -1235,7 +1407,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1285,7 +1457,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/automated-guided-vehicles-decentralized-coordination-dynamic-allocations-dynamic-environments-fleet-architecture-flexible-automation-self-optimization-task-allocation/" >Automated guided vehicles;  Decentralized coordination;  Dynamic allocations;  Dynamic environments;  Fleet architecture;  Flexible automation;  Self-optimization;  Task allocation</a>
+      <a href="/tag/convolution-convolutional-neural-networks/" >Convolution;  Convolutional neural networks</a>
     </div>
 
     
@@ -1309,7 +1481,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1359,7 +1531,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/automatic-extraction-cloud-manufacturing-engineering-knowledge-engineering-rules-machine-translations-natural-language-processing-semantic-rules-unstructured-texts/" >Automatic extraction;  Cloud Manufacturing;  Engineering knowledge;  Engineering rules;  Machine translations;  NAtural language processing;  Semantic rules;  Unstructured texts</a>
+      <a href="/tag/cost-reduction/" >Cost reduction</a>
     </div>
 
     
@@ -1383,7 +1555,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1433,7 +1605,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/automatic-guided-vehicles/" >Automatic guided vehicles</a>
+      <a href="/tag/cybe-physical-production-system-cyber-physicals-dynamic-interoperability-factories-of-the-futures-isa-95-manufacturing-execution-system-production-system-rami4.0-small-and-medium-sized-enterprise-value-chains/" >Cybe-physical production system;  Cyber physicals;  Dynamic interoperability;  Factories of the futures;  ISA-95;  Manufacturing Execution System;  Production system;  RAMI4.0;  Small and medium-sized enterprise;  Value chains</a>
     </div>
 
     
@@ -1457,7 +1629,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1507,7 +1679,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/automation-standards-integrated-manufacturing-manufacturing-automation-manufacturing-operations-manufacturing-process-manufacturing-stages-personalized-products-smart-manufacturing/" >Automation standards;  Integrated manufacturing;  Manufacturing Automation;  Manufacturing operations;  Manufacturing process;  Manufacturing stages;  Personalized products;  Smart manufacturing</a>
+      <a href="/tag/decision-making-engineering-education-flow-control-learning-algorithms-machine-learning-manufacture-natural-language-processing-systems-semantics/" >Decision making;  Engineering education;  Flow control;  Learning algorithms;  Machine learning;  Manufacture;  Natural language processing systems;  Semantics</a>
     </div>
 
     
@@ -1531,7 +1703,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2022
   </span>
   
 
@@ -1619,7 +1791,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Industrial AI Group. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1661,7 +1833,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
 
     
     
@@ -1754,7 +1926,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.e621ca22b71fe422a443af00168d758e.js"></script>
 
     
     
@@ -1788,7 +1960,7 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+      <script src="/js/wowchemy-publication.af9327db0521d4a01354bfc8b77a4324.js" type="module"></script>
 
 
 

@@ -41,8 +41,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -252,37 +252,76 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.c88829cfc09e9713731c7b511b7f0367.css" />
-
-  
-
-
-
-  
-
-
-  
-
+  <link rel="stylesheet" href="/css/wowchemy.95d53890c5839471cef2375b6c449b9f.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TBZZ98XTPQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-TBZZ98XTPQ', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="" />
+    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Industrial AI Group @ UOA" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://uoa-iai.github.io/tags/" />
 
@@ -306,14 +345,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="" />
+  <meta property="og:site_name" content="Industrial AI Group @ UOA" />
   <meta property="og:url" content="https://uoa-iai.github.io/tags/" />
-  <meta property="og:title" content="Tags | " />
-  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Tags | Industrial AI Group @ UOA" />
+  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-01-31T00:00:00&#43;00:00" />
     
   
 
@@ -329,7 +368,7 @@
 
 
 
-  <title>Tags | </title>
+  <title>Tags | Industrial AI Group @ UOA</title>
 </head>
 
 
@@ -344,7 +383,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+  <script src="/js/wowchemy-init.min.c80ecf4b695b1c6ccc272ba5badcc52c.js"></script>
 
   
 
@@ -407,10 +446,6 @@
     <div class="container-xl">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"></a>
-      </div>
-      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -419,10 +454,6 @@
       </button>
       
 
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"></a>
-      </div>
       
 
       
@@ -649,6 +680,80 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#initiatives"><span>Initiatives</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#videogallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#talks"><span>Events</span></a>
           </li>
 
@@ -687,6 +792,73 @@
 
           <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/opportunity/"><span>Join Us</span></a>
           </li>
 
           
@@ -841,7 +1013,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/cloud-manufacturing-crucial-functions-machining-operations-machining-systems-manufacturing-models-manufacturing-resource-manufacturing-tasks-tool-selection/" >Cloud Manufacturing;  Crucial functions;  Machining operations;  Machining systems;  Manufacturing models;  Manufacturing resource;  Manufacturing tasks;  Tool selection</a>
+      <a href="/tag/automatic-guided-vehicles/" >Automatic guided vehicles</a>
     </div>
 
     
@@ -865,7 +1037,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -915,7 +1087,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/cloud-manufacturing-manufacturing-companies-manufacturing-industries-manufacturing-service-product-service-systems-service-oriented-manufacturing-service-provisions-system-framework/" >Cloud Manufacturing;  Manufacturing companies;  Manufacturing industries;  Manufacturing service;  Product-service systems;  Service oriented manufacturing;  Service provisions;  System framework</a>
+      <a href="/tag/automation-standards-integrated-manufacturing-manufacturing-automation-manufacturing-operations-manufacturing-process-manufacturing-stages-personalized-products-smart-manufacturing/" >Automation standards;  Integrated manufacturing;  Manufacturing Automation;  Manufacturing operations;  Manufacturing process;  Manufacturing stages;  Personalized products;  Smart manufacturing</a>
     </div>
 
     
@@ -939,7 +1111,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -989,7 +1161,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/computer-aided-manufacturing-electronic-data-interchange-interoperability-life-cycle-ontology-quality-of-service-service-industry-virtualization/" >Computer aided manufacturing;  Electronic data interchange;  Interoperability;  Life cycle;  Ontology;  Quality of service;  Service industry;  Virtualization</a>
+      <a href="/tag/automation-computer-architecture-cyber-physical-system-embedded-systems-flow-control-industrial-internet-of-things-iiot-machine-tools-manufacture-network-architecture-production-control/" >Automation;  Computer architecture;  Cyber Physical System;  Embedded systems;  Flow control;  Industrial internet of things (IIoT);  Machine tools;  Manufacture;  Network architecture;  Production control</a>
     </div>
 
     
@@ -1013,7 +1185,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -1063,7 +1235,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/computer-aided-manufacturing-ontology/" >Computer aided manufacturing;  Ontology</a>
+      <a href="/tag/automation-construction-industry-digital-twin-electronic-data-interchange-information-management-life-cycle-multi-agent-systems-product-design/" >Automation;  Construction industry;  Digital twin;  Electronic data interchange;  Information management;  Life cycle;  Multi agent systems;  Product design</a>
     </div>
 
     
@@ -1087,7 +1259,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -1137,7 +1309,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/web-services/" >Web services</a>
+      <a href="/tag/big-data-cyber-physical-system-embedded-systems-flow-control-industry-4.0-standards/" >Big data;  Cyber Physical System;  Embedded systems;  Flow control;  Industry 4.0;  Standards</a>
     </div>
 
     
@@ -1161,7 +1333,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -1211,7 +1383,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/cloud-computing-innovation-manufacture-mechanical-engineering/" >Cloud computing;  Innovation;  Manufacture;  Mechanical engineering</a>
+      <a href="/tag/collaborative-manufacturing-communication-technologies-cyber-physical-systems-cps-decentralized-production-implementation-architecture-interoperable-communications-machine-to-machine-m2m-ubiquitous-communication/" >Collaborative manufacturing;  Communication technologies;  Cyber-physical systems (CPS);  Decentralized production;  Implementation architecture;  Interoperable communications;  Machine-to-machine (M2M);  Ubiquitous communication</a>
     </div>
 
     
@@ -1235,7 +1407,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -1285,7 +1457,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/cloud-manufacturing-existing-architectures-implementation-strategies-manufacturing-industries-manufacturing-paradigm-services-sustainable-manufacturing-traditional-manufacturing/" >Cloud Manufacturing;  Existing architectures;  Implementation strategies;  Manufacturing industries;  Manufacturing paradigm;  Services;  Sustainable manufacturing;  Traditional manufacturing</a>
+      <a href="/tag/computational-linguistics-computer-aided-language-translation-computer-aided-manufacturing-manufacture/" >Computational linguistics;  Computer aided language translation;  Computer aided manufacturing;  Manufacture</a>
     </div>
 
     
@@ -1309,7 +1481,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -1359,7 +1531,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/computer-architecture/" >Computer architecture</a>
+      <a href="/tag/construction/" >Construction</a>
     </div>
 
     
@@ -1383,7 +1555,7 @@
     
       
     
-    5 Aug, 2022
+    1 Jan, 2020
   </span>
   
 
@@ -1433,7 +1605,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/cloud-manufacturing-manufacturing-industries-manufacturing-resource-manufacturing-service-reconfigurable-manufacturing-service-description-language-step/step-nc-virtualisation/" >Cloud Manufacturing;  Manufacturing industries;  Manufacturing resource;  Manufacturing service;  Reconfigurable manufacturing;  Service description language;  STEP/STEP-NC;  Virtualisation</a>
+      <a href="/tag/customers-requirements-digital-transformation-improving-efficiency-internet-of-thing-iot-predictive-maintenance-services-reliable-communication-seamless-integration-smart-products/" >Customer&#39;s requirements;  Digital transformation;  Improving efficiency;  Internet of thing (IOT);  Predictive maintenance services;  Reliable communication;  Seamless integration;  Smart products</a>
     </div>
 
     
@@ -1457,7 +1629,7 @@
     
       
     
-    1 Jan, 0001
+    1 Jan, 2020
   </span>
   
 
@@ -1507,7 +1679,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/design/methodology/approach-industrial-revolutions-inter-disciplinary-studies-literature-reviews-private-sectors-research-studies-state-of-the-art-structural-interactions/" >Design/methodology/approach;  Industrial revolutions;  Inter-disciplinary studies;  Literature reviews;  Private sectors;  Research studies;  State of the art;  Structural interactions</a>
+      <a href="/tag/cyber-physical-systems-cpss-cyber-physical-systems-cps-human-capability-human-skills-human-machine-integral-element/" >Cyber physical systems (CPSs);  Cyber-physical systems (CPS);  Human capability;  Human skills;  Human-machine;  Integral element</a>
     </div>
 
     
@@ -1531,7 +1703,7 @@
     
       
     
-    1 Jan, 0001
+    1 Jan, 2020
   </span>
   
 
@@ -1569,6 +1741,8 @@
     
     <li class="page-item"><a class="page-link" href="/tags/page/17/">&laquo;</a></li>
     
+    
+    <li class="page-item"><a class="page-link" href="/tags/page/19/">&raquo;</a></li>
     
   </ul>
 </nav>
@@ -1617,7 +1791,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Industrial AI Group. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1659,7 +1833,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
 
     
     
@@ -1752,7 +1926,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.e621ca22b71fe422a443af00168d758e.js"></script>
 
     
     
@@ -1786,7 +1960,7 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+      <script src="/js/wowchemy-publication.af9327db0521d4a01354bfc8b77a4324.js" type="module"></script>
 
 
 

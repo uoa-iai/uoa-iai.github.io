@@ -5,12 +5,36 @@
     <link>https://uoa-iai.github.io/authors/j.-bao/</link>
       <atom:link href="https://uoa-iai.github.io/authors/j.-bao/index.xml" rel="self" type="application/rss+xml" />
     <description>J. Bao</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>J. Bao</title>
       <link>https://uoa-iai.github.io/authors/j.-bao/</link>
     </image>
+    
+    <item>
+      <title>A digital thread-driven distributed collaboration mechanism between digital twin manufacturing units</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023145/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023145/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prognostics and health management via long short-term digital twins</title>
+      <link>https://uoa-iai.github.io/publication/sun-2023560/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/sun-2023560/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://uoa-iai.github.io/publication/zhou-20234117/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-20234117/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
@@ -25,6 +49,14 @@
       <link>https://uoa-iai.github.io/publication/zhang-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/zhang-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
       <description></description>
     </item>
     
@@ -53,14 +85,6 @@
     </item>
     
     <item>
-      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A digital twin-driven human-robot collaborative assembly approach in the wake of COVID-19</title>
       <link>https://uoa-iai.github.io/publication/lv-2021837/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
@@ -69,26 +93,18 @@
     </item>
     
     <item>
-      <title>A Knowledge-Driven Digital Twin Modeling Method for Machining Products Based on Biomimicry [知识驱动的加工产品数字孪生拟态建模方法]</title>
-      <link>https://uoa-iai.github.io/publication/liu-2021182/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2021182/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>An adaptive evolutionary framework for the decision-making models of digital twin machining system*</title>
       <link>https://uoa-iai.github.io/publication/liu-2021771/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/liu-2021771/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     
