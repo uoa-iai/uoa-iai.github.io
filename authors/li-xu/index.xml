@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Li Xu | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/li-xu/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/li-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Li Xu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Li Xu</title>
+      <link>https://uoa-iai.github.io/authors/li-xu/</link>
+    </image>
+    
+  </channel>
+</rss>
