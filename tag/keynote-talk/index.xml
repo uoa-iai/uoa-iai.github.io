@@ -58,38 +58,5 @@ The conference featured a variety of sessions, including keynote speeches, invit
 </description>
     </item>
     
-    <item>
-      <title> Dr. Yuqian Lu Delivers Keynote on Industrial AI at Major Chinese Manufacturing Conference</title>
-      <link>https://uoa-iai.github.io/post/sfti-interview/</link>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/post/sfti-interview/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Below is a repost of Dr. Yuqian Lu&amp;rsquo;s interview with National Science Challenge, SfTI. Original post at &lt;a href=&#34;https://www.sftichallenge.govt.nz/blending-cutting-edge-science-and-commercial-potential/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.sftichallenge.govt.nz/blending-cutting-edge-science-and-commercial-potential/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;SfTI-sponsored researcher collaborates with telecoms giants&lt;/p&gt;
-&lt;p&gt;For many scientists, success is measured in the number of high-impact papers they publish. For others, it is about training the next generation of innovators. For some, the focus is on commercialisation – translating their research into real-world products. Dr Yuqian Lu from the University of Auckland (UoA) is a scientist achieving all three, with the support of SfTI.&lt;/p&gt;
-&lt;p&gt;Currently a Senior Lecturer in the Faculty of Engineering, Yuqian also leads the university’s Industrial AI Group.  There, he and his team work on everything from human-robot collaboration to next-generation communication for manufacturing systems. “We really believe artificial intelligence and robotics can have a huge impact on industry,” he says. “Our work is about transforming the workplace into a more efficient, enjoyable, and sustainable environment.”&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“We really believe artificial intelligence and robotics can have a huge impact on industry,” he says. “Our work is about transforming the workplace into a more efficient, enjoyable, and sustainable environment.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This ambitious vision has been developing ever since Yuqian moved to New Zealand to do his PhD in mechatronics at UoA. While working on his thesis, Yuqian found himself considering his next steps. “The obvious choice was to go into a postdoc. But my research area was very industry-facing, and I wanted to make a long-term impact in those areas. I felt nervous that I had no real understanding of how industry works, or how they identify what’s important to them. So, I chose to start my career in industry.” He would end up spending three-and-a-half years away from the lab, working on manufacturing process automation and intelligent system R&amp;amp;D for NZ-based companies. In his most senior role, Yuqian acted as product owner for a series of new commercial software products at FRAMECAD Ltd. “It was like a start-up experience within a big company,” he explains. “I did everything from leading the R&amp;amp;D, to developing the market strategy and pricing models.”&lt;/p&gt;
-&lt;p&gt;That experience would stay with Yuqian, and since returning to academia in 2019, it has shaped the way he approaches research. “I always ask myself and my students, what’s the biggest impact we can have? Regardless of whether they’re doing a masters or a PhD, I want them to work on something that will ultimately be transformative to that specific industry. We consider the whole commercial pathway.” His entrepreneurial approach to science has attracted attention from funding bodies and commercial companies alike.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“I always ask myself and my students, what’s the biggest impact we can have? Regardless of whether they’re doing a masters or a PhD, I want them to work on something that will ultimately be transformative to that specific industry. We consider the whole commercial pathway.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In 2021, Yuqian received a seed grant from SfTI. Titled ‘Ultra-reliable time-sensitive industrial control in the cloud’, his project aims to combine three cutting-edge technologies – automation, artificial intelligence, and 5G communication – to improve robotic control in industrial settings. He’s collaborating with telecoms experts at Spark and Nokia, and computer scientists at Victoria University of Wellington, to make this a reality.&lt;/p&gt;
-&lt;p&gt;Today, industrial robots communicate via wired connections between a local controller and the robot body. This reduces the time it takes to transmit and receive data, ensuring that a robot arm does exactly what its instructed to, at precisely the right moment. However, if this communication could instead happen in the cloud wirelessly, it could offer incredible opportunities, as Yuqian explains. “Imagine if one day, we could have the world’s top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely” Our current 4G network doesn’t allow for sufficiently fast and reliable data exchange, so Yuqian is looking ahead to 5G. “The critical piece of the SfTI research is to develop smart algorithms that can compensate for issues that may occur even during 5G data transmission? So that, from an application perspective, a robot can move smoothly, in a time-sensitive way.”&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Imagine if one day, we could have the world’s top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Joseph Wong, Innovation Lead of Spark New Zealand says, “We are proud to work with Yuqian on this particular project. Spark’s goal is to help New Zealanders win big in a digital world, and Yuqian’s project certainly fits very well into that. The research is very valuable – it basically opens up cloud-based robotics control to industry, and makes it more scalable. And hopefully with that, it’ll become more cost-effective.”&lt;/p&gt;
-&lt;p&gt;Yuqian described the support he’s received from SfTI throughout this project as “…really excellent. They want to encourage development of next generation technology, without losing the sight of how beneficial that tech can be to society. The funding means I can work on a project I love, and I get access to some great workshops and networking opportunities.”&lt;/p&gt;
-&lt;p&gt;SfTI also supported Yuqian’s recent successful application for the prestigious KiwiNet Emerging Innovator Program. Our commercialisation manager, Enrico Tronchin says, “SfTI is really focussed on ensuring the maximum impact from our researchers’ work is achieved in our final year. One way to do this is via partnerships with organisations like KiwiNet, which allow us to find pathways to impact for SfTI researchers that will outlive the Challenge.”&lt;/p&gt;
-&lt;p&gt;For Yuqian, being selected as an Emerging Innovator is an important step on his journey, “This will allow me to take my SfTI research outcome to the next level. I’m really excited about this opportunity and am very grateful.”&lt;/p&gt;
-&lt;h3 id=&#34;further-information&#34;&gt;Further information&lt;/h3&gt;
-&lt;p&gt;Read a story on Yuqian’s work published by his commercial partner,  Spark. Plus watch a 1News report on his collaboration with Spark.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
