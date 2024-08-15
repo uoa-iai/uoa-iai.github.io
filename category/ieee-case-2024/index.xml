@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CASE | Industrial AI Group @ UOA</title>
-    <link>https://uoa-iai.github.io/tag/case/</link>
-      <atom:link href="https://uoa-iai.github.io/tag/case/index.xml" rel="self" type="application/rss+xml" />
-    <description>CASE</description>
+    <title>IEEE CASE 2024 | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/category/ieee-case-2024/</link>
+      <atom:link href="https://uoa-iai.github.io/category/ieee-case-2024/index.xml" rel="self" type="application/rss+xml" />
+    <description>IEEE CASE 2024</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
-      <title>CASE</title>
-      <link>https://uoa-iai.github.io/tag/case/</link>
+      <title>IEEE CASE 2024</title>
+      <link>https://uoa-iai.github.io/category/ieee-case-2024/</link>
     </image>
     
     <item>
@@ -26,19 +26,6 @@
 &lt;/ul&gt;
 &lt;p&gt;Dr. Yuqian Lu will also be demonstrating the Assembly Assistive System during the Workshops held on 1st September.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;For more information, visit the&lt;/em&gt; &lt;a href=&#34;https://2024.ieeecase.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;CASE 2024 Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>We are hosting 2023 IEEE CASE Conference in Auckland</title>
-      <link>https://uoa-iai.github.io/post/ieee-case/</link>
-      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/post/ieee-case/</guid>
-      <description>&lt;h2 id=&#34;_automation-for-a-resilient-society_&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Automation for a Resilient Society&amp;rdquo;&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;We are excited that the 19th International Conference on Automation Science and Engineering (CASE) will be hosted in Auckland, New Zealand on &lt;strong&gt;26th August - 29th August, 2023&lt;/strong&gt;. The upcoming conference theme is &amp;ldquo;Automation for a Resilient Society&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;IEEE CASE 2023 will be held in Auckland, giving attendees a chance to learn about Aotearoa New Zealand&amp;rsquo;s cutting-edge innovations and automation in the fields of manufacturing, agriculture, aquaculture, forestry, infrastructure, and healthcare.&lt;/p&gt;
-&lt;p&gt;As the Organising Committee Chair, Dr. Yuqian Lu is committed to making IEEE CASE 2023 and unforgettable experience.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For more information, visit the&lt;/em&gt; &lt;a href=&#34;https://case2023.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;CASE 2023 Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
