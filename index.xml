@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Industrial AI Group @UOA</title>
+    <title>Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/</link>
       <atom:link href="https://uoa-iai.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Industrial AI Group @UOA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <description>Industrial AI Group @ UOA</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
-      <title>Industrial AI Group @UOA</title>
+      <title>Industrial AI Group @ UOA</title>
       <link>https://uoa-iai.github.io/</link>
     </image>
     
@@ -21,22 +21,124 @@
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://uoa-iai.github.io/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/talk/example-talk/</guid>
+      <title> Blending cutting-edge science and commercial potential</title>
+      <link>https://uoa-iai.github.io/post/sfti-interview/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/sfti-interview/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+    Below is a repost of Dr. Yuqian Lu&amp;rsquo;s interview with National Science Challenge, SfTI. Original post at &lt;a href=&#34;https://www.sftichallenge.govt.nz/blending-cutting-edge-science-and-commercial-potential/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.sftichallenge.govt.nz/blending-cutting-edge-science-and-commercial-potential/&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+&lt;h2 id=&#34;sfti-sponsored-researcher-collaborates-with-telecoms-giants&#34;&gt;SfTI-sponsored researcher collaborates with telecoms giants&lt;/h2&gt;
+&lt;p&gt;For many scientists, success is measured in the number of high-impact papers they publish. For others, it is about training the next generation of innovators. For some, the focus is on commercialisation – translating their research into real-world products. Dr Yuqian Lu from the University of Auckland (UoA) is a scientist achieving all three, with the support of SfTI.&lt;/p&gt;
+&lt;p&gt;Currently a Senior Lecturer in the Faculty of Engineering, Yuqian also leads the university’s Industrial AI Group.  There, he and his team work on everything from human-robot collaboration to next-generation communication for manufacturing systems. “We really believe artificial intelligence and robotics can have a huge impact on industry,” he says. “Our work is about transforming the workplace into a more efficient, enjoyable, and sustainable environment.”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“We really believe artificial intelligence and robotics can have a huge impact on industry,” he says. “Our work is about transforming the workplace into a more efficient, enjoyable, and sustainable environment.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This ambitious vision has been developing ever since Yuqian moved to New Zealand to do his PhD in mechatronics at UoA. While working on his thesis, Yuqian found himself considering his next steps. “The obvious choice was to go into a postdoc. But my research area was very industry-facing, and I wanted to make a long-term impact in those areas. I felt nervous that I had no real understanding of how industry works, or how they identify what’s important to them. So, I chose to start my career in industry.” He would end up spending three-and-a-half years away from the lab, working on manufacturing process automation and intelligent system R&amp;amp;D for NZ-based companies. In his most senior role, Yuqian acted as product owner for a series of new commercial software products at FRAMECAD Ltd. “It was like a start-up experience within a big company,” he explains. “I did everything from leading the R&amp;amp;D, to developing the market strategy and pricing models.”&lt;/p&gt;
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   &lt;figure  &gt;
+     &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+       &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                  /post/sfti-interview/image_hu41bf1922b6caa13d4f7634571dcc3c9b_6672409_3a8a832b0c63da55332d6606bbf44db4.webp 400w,
+                  /post/sfti-interview/image_hu41bf1922b6caa13d4f7634571dcc3c9b_6672409_7ce13d8777352e877f61ae194c8530e3.webp 760w,
+                  /post/sfti-interview/image_hu41bf1922b6caa13d4f7634571dcc3c9b_6672409_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
+                  src=&#34;https://uoa-iai.github.io/post/sfti-interview/image_hu41bf1922b6caa13d4f7634571dcc3c9b_6672409_3a8a832b0c63da55332d6606bbf44db4.webp&#34;
+                  width=&#34;760&#34;
+                  height=&#34;427&#34;
+                  loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+     &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;That experience would stay with Yuqian, and since returning to academia in 2019, it has shaped the way he approaches research. “I always ask myself and my students, what’s the biggest impact we can have? Regardless of whether they’re doing a masters or a PhD, I want them to work on something that will ultimately be transformative to that specific industry. We consider the whole commercial pathway.” His entrepreneurial approach to science has attracted attention from funding bodies and commercial companies alike.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I always ask myself and my students, what’s the biggest impact we can have? Regardless of whether they’re doing a masters or a PhD, I want them to work on something that will ultimately be transformative to that specific industry. We consider the whole commercial pathway.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In 2021, Yuqian received a seed grant from SfTI. Titled ‘Ultra-reliable time-sensitive industrial control in the cloud’, his project aims to combine three cutting-edge technologies – automation, artificial intelligence, and 5G communication – to improve robotic control in industrial settings. He’s collaborating with telecoms experts at Spark and Nokia, and computer scientists at Victoria University of Wellington, to make this a reality.&lt;/p&gt;
+&lt;p&gt;Today, industrial robots communicate via wired connections between a local controller and the robot body. This reduces the time it takes to transmit and receive data, ensuring that a robot arm does exactly what its instructed to, at precisely the right moment. However, if this communication could instead happen in the cloud wirelessly, it could offer incredible opportunities, as Yuqian explains. “Imagine if one day, we could have the world’s top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely” Our current 4G network doesn’t allow for sufficiently fast and reliable data exchange, so Yuqian is looking ahead to 5G. “The critical piece of the SfTI research is to develop smart algorithms that can compensate for issues that may occur even during 5G data transmission? So that, from an application perspective, a robot can move smoothly, in a time-sensitive way.”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Imagine if one day, we could have the world’s top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Joseph Wong, Innovation Lead of Spark New Zealand says, “We are proud to work with Yuqian on this particular project. Spark’s goal is to help New Zealanders win big in a digital world, and Yuqian’s project certainly fits very well into that. The research is very valuable – it basically opens up cloud-based robotics control to industry, and makes it more scalable. And hopefully with that, it’ll become more cost-effective.”&lt;/p&gt;
+&lt;p&gt;Yuqian described the support he’s received from SfTI throughout this project as “…really excellent. They want to encourage development of next generation technology, without losing the sight of how beneficial that tech can be to society. The funding means I can work on a project I love, and I get access to some great workshops and networking opportunities.”&lt;/p&gt;
+&lt;p&gt;SfTI also supported Yuqian’s recent successful application for the prestigious KiwiNet Emerging Innovator Program. Our commercialisation manager, Enrico Tronchin says, “SfTI is really focussed on ensuring the maximum impact from our researchers’ work is achieved in our final year. One way to do this is via partnerships with organisations like KiwiNet, which allow us to find pathways to impact for SfTI researchers that will outlive the Challenge.”&lt;/p&gt;
+&lt;p&gt;For Yuqian, being selected as an Emerging Innovator is an important step on his journey, “This will allow me to take my SfTI research outcome to the next level. I’m really excited about this opportunity and am very grateful.”&lt;/p&gt;
+&lt;h3 id=&#34;further-information&#34;&gt;Further information&lt;/h3&gt;
+&lt;p&gt;Read a story on Yuqian’s work published by his &lt;a href=&#34;https://www.spark.co.nz/online/large-business-govt/why-choose-spark/customer-stories/university-of-auckland&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;commerical partner&lt;/a&gt;,  Spark. Plus watch a &lt;a href=&#34;https://uoa-iai.github.io/post/onenews-2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1News report&lt;/a&gt; on his collaboration with Spark.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> Dr. Yuqian Lu Delivers Keynote on Industrial AI at Major Chinese Manufacturing Conference</title>
+      <link>https://uoa-iai.github.io/post/keynote-ms2024/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/keynote-ms2024/</guid>
+      <description>&lt;p&gt;Dr. Yuqian Lu recently made a significant contribution to a prestigious Chinese academic conference on intelligent manufacturing. The event, titled &amp;ldquo;2024 China Mechanical Engineering Society Industrial Big Data and Intelligent Systems Branch Academic Annual Conference and the 7th Academic Conference on Big Data-Driven Intelligent Manufacturing,&amp;rdquo; was held on July 6, 2024, in Dalian, China.&lt;/p&gt;
+&lt;p&gt;Dr. Lu was one of eight distinguished experts invited to deliver a keynote speech at the conference. His presentation, &amp;ldquo;Illuminating the Machine Mind: A Quantum Leap in Intelligent Manufacturing,&amp;rdquo; was well-received by the audience of scholars and industry elites from across China.&lt;/p&gt;
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   &lt;figure  &gt;
+     &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+       &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                  /post/keynote-ms2024/1_hu5438825b9b6d1014226d20d231e650c2_237698_eb03158612cc092b010bae93456188c1.webp 400w,
+                  /post/keynote-ms2024/1_hu5438825b9b6d1014226d20d231e650c2_237698_45b815013bda6ae4f58513026f8c18cb.webp 760w,
+                  /post/keynote-ms2024/1_hu5438825b9b6d1014226d20d231e650c2_237698_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
+                  src=&#34;https://uoa-iai.github.io/post/keynote-ms2024/1_hu5438825b9b6d1014226d20d231e650c2_237698_eb03158612cc092b010bae93456188c1.webp&#34;
+                  width=&#34;760&#34;
+                  height=&#34;507&#34;
+                  loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+     &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;The conference, which focused on &amp;ldquo;high-performance intelligent manufacturing driven by industrial big data,&amp;rdquo; brought together leading minds in the field to discuss the latest research findings and application prospects of industrial big data and intelligent systems in smart manufacturing.&lt;/p&gt;
+&lt;p&gt;Dr. Lu&amp;rsquo;s participation underscores the University of Auckland&amp;rsquo;s position at the forefront of international research in intelligent manufacturing. His insights into the &amp;lsquo;machine mind&amp;rsquo; and its implications for manufacturing processes highlight the potential for quantum advancements in the field.
+The conference featured a variety of sessions, including keynote speeches, invited talks, and forum discussions. It provided a platform for academics and industry professionals to exchange ideas and explore collaborative opportunities in areas such as industrial big data, intelligent systems, and advanced manufacturing technologies.&lt;/p&gt;
+&lt;p&gt;Dr. Lu&amp;rsquo;s contribution to this high-level academic event not only enhances his personal standing in the field but also strengthens the University of Auckland&amp;rsquo;s reputation as a hub for cutting-edge research in intelligent manufacturing and data-driven technologies.&lt;/p&gt;
+&lt;p&gt;As global interest in smart manufacturing continues to grow, Dr. Lu&amp;rsquo;s participation in this conference demonstrates New Zealand&amp;rsquo;s active role in shaping the future of this critical industry sector.&lt;/p&gt;
+&lt;h3 id=&#34;talk-abstract&#34;&gt;Talk Abstract&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Next-generation Artificial Intelligence (AI) technologies are revolutionising human-machine collaboration. This quantum shift in AI capabilities has opened a portal to a world where super-intelligent machines seamlessly integrate with human expertise in the most complex manufacturing environments. Yet, the journey to true machine intelligence in manufacturing is not a mere extension of the AI revolution led by computer scientists. It demands a nuanced, multidisciplinary approach that harmonises technological innovation with industrial intricacies. This talk will explore the driving forces, enabling technologies, and transformative impact of next-generation machine intelligence in manufacturing. We will dive deep into the pioneering work of the Industrial AI Research Group@UoA, unveiling our latest advancements in knowledge understanding, open-source dataset development, machine intelligence algorithm design, and real-world applications.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Groundbreaking Research in Manufacturing Quality Control from Karen Wang</title>
+      <link>https://uoa-iai.github.io/post/rootcase-jms/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/rootcase-jms/</guid>
+      <description>&lt;p&gt;In a significant advancement for the manufacturing industry, Karen Wang, a master&amp;rsquo;s student at the University of Auckland, has developed an innovative approach to root cause analysis of product defects. This breakthrough came as part of her one-year master&amp;rsquo;s study, conducted in collaboration with AspectPT Ltd.&lt;/p&gt;
+&lt;p&gt;Wang&amp;rsquo;s research introduces the product-wise Ensemble Bayesian Network (EBN), a robust and intelligent method for identifying the root causes of manufacturing defects. This novel approach combines Bayesian Networks with ensemble learning techniques, offering a more reliable and interpretable solution to a long-standing challenge in quality control.&lt;/p&gt;
+&lt;p&gt;The study, co-authored with Chao Liu from Aston University and Yuqian Lu from the University of Auckland, demonstrates significant improvements in acquiring causal knowledge, identifying root causes with probabilities, and predicting quality risks in production. Tested with real-world data from the plastics industry, the EBN method shows promise for enhancing manufacturing quality and productivity across various sectors.&lt;/p&gt;
+&lt;p&gt;This collaboration between academia and industry showcases the potential for student-led research to drive meaningful innovations in the manufacturing landscape. AspectPT Ltd&amp;rsquo;s involvement underscores the immediate practical applications of Wang&amp;rsquo;s work, bridging the gap between theoretical research and industry needs.&lt;/p&gt;
+&lt;p&gt;As manufacturers worldwide seek to optimize their processes and reduce defects, Wang&amp;rsquo;s contribution represents a timely and valuable tool in the pursuit of excellence in product quality.&lt;/p&gt;
+&lt;p&gt;For more information on the work, please visit our &lt;a href=&#34;https://doi.org/10.1016/j.jmsy.2024.06.001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;open access full paper&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -47,6 +149,54 @@
       <guid>https://uoa-iai.github.io/post/ipjr-2023/</guid>
       <description>&lt;p&gt;Huge congratulations to Dr. Bin Zhou and Prof. Jinsong Bao to this excellent joint work on developing innovative machine learning algorithms to extract knowledge from industrial time series data. This paper has been recognized as a Top Trending Article for 2023 at International Journal of Production Research. We are proud of this achievement from our student group (Dr. Bin Zhou was a PhD student at the time of publication) and long-term collaboration with Prof. Bao.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A method for constructing a machining knowledge graph using an improved transformer</title>
+      <link>https://uoa-iai.github.io/publication/guo-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/guo-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multi-objective joint optimisation method for simultaneous part family formation and configuration design in delayed reconfigurable manufacturing system (D-RMS)</title>
+      <link>https://uoa-iai.github.io/publication/huang-202492/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/huang-202492/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A systematic framework for tackling anomalous pre-welding workpiece postures with regular butt joints based on prototype features</title>
+      <link>https://uoa-iai.github.io/publication/liu-2024323/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2024323/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic decision-making for knowledge-enabled distributed resource configuration in cloud manufacturing considering stochastic order arrival</title>
+      <link>https://uoa-iai.github.io/publication/zhang-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhang-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Robot Shared Assembly Taxonomy: A step toward seamless human-robot knowledge transfer</title>
+      <link>https://uoa-iai.github.io/publication/lee-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lee-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic knowledge-driven A-GASeq: A dynamic graph learning approach for assembly sequence optimization</title>
+      <link>https://uoa-iai.github.io/publication/xia-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2024/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -209,6 +359,126 @@ Today, the communication networks that connect industrial robots are via wired c
     </item>
     
     <item>
+      <title>A digital thread-driven distributed collaboration mechanism between digital twin manufacturing units</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023145/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023145/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Knowledge Graph-based knowledge representation for adaptive manufacturing control under mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-202396/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-202396/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Ontology-Based Product Modelling Method for Smart Remanufacturing</title>
+      <link>https://uoa-iai.github.io/publication/hu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/hu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application and Evaluation of Soft-Actor Critic Reinforcement Learning in Constrained Trajectory Planning for 6DOF Robotic Manipulators</title>
+      <link>https://uoa-iai.github.io/publication/xia-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital twin and parameter correlation-enabled variant design of production lines</title>
+      <link>https://uoa-iai.github.io/publication/yan-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/yan-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual task scheduling strategy for personalized multi-objective optimization of cycle time and fatigue in human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/chand-202388/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-202388/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic muscle fatigue assessment using s-EMG technology towards human-centric human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/chand-2023508/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-2023508/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic production scheduling towards self-organizing mass personalization: A multi-agent dueling deep reinforcement learning approach</title>
+      <link>https://uoa-iai.github.io/publication/qin-2023242/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2023242/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editorial Proceedings of 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE) - Automation for a Resilient Society</title>
+      <link>https://uoa-iai.github.io/publication/xu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Centric UAV-UGV Collaboration</title>
+      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-shot, integrated positioning for welding initial points via co-mapping of cross and parallel stripes</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prognostics and health management via long short-term digital twins</title>
+      <link>https://uoa-iai.github.io/publication/sun-2023560/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/sun-2023560/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://uoa-iai.github.io/publication/zhou-20234117/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-20234117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vibration-based and computer vision-aided nondestructive health condition evaluation of rail track structures</title>
+      <link>https://uoa-iai.github.io/publication/wang-20231/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-20231/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video-Based Fatigue Estimation for Human-Robot Task Allocation Optimisation</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lab visit from Christopher Luxon, Leader of the National Party</title>
       <link>https://uoa-iai.github.io/post/luxon/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
@@ -287,7 +557,7 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/j.s.-adrados/&#34;&gt;J.S. Adrados&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/saahils.-chand/&#34;&gt;SaahilS. Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/s.saahil-chand/&#34;&gt;S.Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2021).
@@ -376,11 +646,11 @@ Today, the communication networks that connect industrial robots are via wired c
     
 
   &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/hao-zheng/&#34;&gt;Hao Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/h.-zheng/&#34;&gt;H. Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/wanqing-xia/&#34;&gt;Wanqing Xia&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zengkun-liu/&#34;&gt;Zengkun Liu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/w.-xia/&#34;&gt;W. Xia&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/z.-liu/&#34;&gt;Z. Liu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/x.-xu/&#34;&gt;X. Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/l.-wang/&#34;&gt;L. Wang&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
@@ -1150,10 +1420,34 @@ Today, the communication networks that connect industrial robots are via wired c
     </item>
     
     <item>
+      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An automatic method for constructing machining process knowledge base from knowledge graph</title>
       <link>https://uoa-iai.github.io/publication/guo-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/guo-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated conversion of engineering rules: Towards flexible manufacturing collaboration</title>
+      <link>https://uoa-iai.github.io/publication/ye-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ye-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Manufacturing - An Overview of Developments In Critical Areas, Prototypes, and Future Perspectives</title>
+      <link>https://uoa-iai.github.io/publication/jacob-2022643/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/jacob-2022643/</guid>
       <description></description>
     </item>
     
@@ -1166,10 +1460,26 @@ Today, the communication networks that connect industrial robots are via wired c
     </item>
     
     <item>
+      <title>Dynamic reconfiguration optimization of intelligent manufacturing system with human-robot collaboration based on digital twin</title>
+      <link>https://uoa-iai.github.io/publication/zhu-2022330/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhu-2022330/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
       <link>https://uoa-iai.github.io/publication/liu-2022390/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/liu-2022390/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental energy consumption analysis of neural network model compression methods on microcontrollers with applications in bird call classification</title>
+      <link>https://uoa-iai.github.io/publication/tao-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/tao-2022/</guid>
       <description></description>
     </item>
     
@@ -1202,22 +1512,6 @@ Today, the communication networks that connect industrial robots are via wired c
       <link>https://uoa-iai.github.io/publication/lu-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/lu-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service-oriented industrial internet of things gateway for cloud manufacturing</title>
-      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
       <description></description>
     </item>
     
@@ -1257,26 +1551,10 @@ Today, the communication networks that connect industrial robots are via wired c
     </item>
     
     <item>
-      <title>A Knowledge-Driven Digital Twin Modeling Method for Machining Products Based on Biomimicry [知识驱动的加工产品数字孪生拟态建模方法]</title>
-      <link>https://uoa-iai.github.io/publication/liu-2021182/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2021182/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A machining accuracy informed adaptive positioning method for finish machining of assembly interfaces of large-scale aircraft components</title>
       <link>https://uoa-iai.github.io/publication/fan-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/fan-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     
@@ -1293,6 +1571,14 @@ Today, the communication networks that connect industrial robots are via wired c
       <link>https://uoa-iai.github.io/publication/guo-20211348/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/guo-20211348/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     
@@ -1365,14 +1651,6 @@ Today, the communication networks that connect industrial robots are via wired c
       <link>https://uoa-iai.github.io/publication/liu-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/liu-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review of Visual SLAM in Dynamic Environment [动态环境下的视觉SLAM 研究评述]</title>
-      <link>https://uoa-iai.github.io/publication/wang-2021715/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/wang-2021715/</guid>
       <description></description>
     </item>
     
@@ -1707,14 +1985,6 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
       <link>https://uoa-iai.github.io/publication/wardhani-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/wardhani-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design Method and Characteristics Study on Actuator of Giant Magnetostrictive Harmonic Motor [超磁致伸缩谐波电机致动器设计方法与特性研究]</title>
-      <link>https://uoa-iai.github.io/publication/zhu-2018204/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhu-2018204/</guid>
       <description></description>
     </item>
     

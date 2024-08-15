@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>F. Yan | Industrial AI Group @UOA</title>
+    <title>F. Yan | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/authors/f.-yan/</link>
       <atom:link href="https://uoa-iai.github.io/authors/f.-yan/index.xml" rel="self" type="application/rss+xml" />
     <description>F. Yan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>F. Yan</title>
       <link>https://uoa-iai.github.io/authors/f.-yan/</link>
     </image>
+    
+    <item>
+      <title>A method for constructing a machining knowledge graph using an improved transformer</title>
+      <link>https://uoa-iai.github.io/publication/guo-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/guo-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An automatic method for constructing machining process knowledge base from knowledge graph</title>

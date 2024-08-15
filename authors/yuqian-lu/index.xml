@@ -1,16 +1,184 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yuqian Lu | Industrial AI Group @UOA</title>
+    <title>Yuqian Lu | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/authors/yuqian-lu/</link>
       <atom:link href="https://uoa-iai.github.io/authors/yuqian-lu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuqian Lu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://uoa-iai.github.io/authors/yuqian-lu/avatar_hucf47af64bd7abbfa3f1caa63d740dd6b_116300_270x270_fill_lanczos_center_3.png</url>
+      <url>https://uoa-iai.github.io/authors/yuqian-lu/avatar_hu170cc4c5c40a51f3a1a602a28767458c_2889568_270x270_fill_q80_lanczos_center.jpg</url>
       <title>Yuqian Lu</title>
       <link>https://uoa-iai.github.io/authors/yuqian-lu/</link>
     </image>
+    
+    <item>
+      <title>A method for constructing a machining knowledge graph using an improved transformer</title>
+      <link>https://uoa-iai.github.io/publication/guo-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/guo-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multi-objective joint optimisation method for simultaneous part family formation and configuration design in delayed reconfigurable manufacturing system (D-RMS)</title>
+      <link>https://uoa-iai.github.io/publication/huang-202492/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/huang-202492/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A systematic framework for tackling anomalous pre-welding workpiece postures with regular butt joints based on prototype features</title>
+      <link>https://uoa-iai.github.io/publication/liu-2024323/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2024323/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic decision-making for knowledge-enabled distributed resource configuration in cloud manufacturing considering stochastic order arrival</title>
+      <link>https://uoa-iai.github.io/publication/zhang-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhang-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Robot Shared Assembly Taxonomy: A step toward seamless human-robot knowledge transfer</title>
+      <link>https://uoa-iai.github.io/publication/lee-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lee-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic knowledge-driven A-GASeq: A dynamic graph learning approach for assembly sequence optimization</title>
+      <link>https://uoa-iai.github.io/publication/xia-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A digital thread-driven distributed collaboration mechanism between digital twin manufacturing units</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023145/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023145/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Knowledge Graph-based knowledge representation for adaptive manufacturing control under mass personalization</title>
+      <link>https://uoa-iai.github.io/publication/qin-202396/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-202396/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Ontology-Based Product Modelling Method for Smart Remanufacturing</title>
+      <link>https://uoa-iai.github.io/publication/hu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/hu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application and Evaluation of Soft-Actor Critic Reinforcement Learning in Constrained Trajectory Planning for 6DOF Robotic Manipulators</title>
+      <link>https://uoa-iai.github.io/publication/xia-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital twin and parameter correlation-enabled variant design of production lines</title>
+      <link>https://uoa-iai.github.io/publication/yan-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/yan-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual task scheduling strategy for personalized multi-objective optimization of cycle time and fatigue in human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/chand-202388/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-202388/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic muscle fatigue assessment using s-EMG technology towards human-centric human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/chand-2023508/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-2023508/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic production scheduling towards self-organizing mass personalization: A multi-agent dueling deep reinforcement learning approach</title>
+      <link>https://uoa-iai.github.io/publication/qin-2023242/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2023242/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editorial Proceedings of 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE) - Automation for a Resilient Society</title>
+      <link>https://uoa-iai.github.io/publication/xu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Centric UAV-UGV Collaboration</title>
+      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-shot, integrated positioning for welding initial points via co-mapping of cross and parallel stripes</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prognostics and health management via long short-term digital twins</title>
+      <link>https://uoa-iai.github.io/publication/sun-2023560/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/sun-2023560/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
+      <link>https://uoa-iai.github.io/publication/zhou-20234117/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-20234117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vibration-based and computer vision-aided nondestructive health condition evaluation of rail track structures</title>
+      <link>https://uoa-iai.github.io/publication/wang-20231/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-20231/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video-Based Fatigue Estimation for Human-Robot Task Allocation Optimisation</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
@@ -37,10 +205,34 @@
     </item>
     
     <item>
+      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An automatic method for constructing machining process knowledge base from knowledge graph</title>
       <link>https://uoa-iai.github.io/publication/guo-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/guo-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated conversion of engineering rules: Towards flexible manufacturing collaboration</title>
+      <link>https://uoa-iai.github.io/publication/ye-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/ye-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Manufacturing - An Overview of Developments In Critical Areas, Prototypes, and Future Perspectives</title>
+      <link>https://uoa-iai.github.io/publication/jacob-2022643/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/jacob-2022643/</guid>
       <description></description>
     </item>
     
@@ -53,10 +245,26 @@
     </item>
     
     <item>
+      <title>Dynamic reconfiguration optimization of intelligent manufacturing system with human-robot collaboration based on digital twin</title>
+      <link>https://uoa-iai.github.io/publication/zhu-2022330/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhu-2022330/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
       <link>https://uoa-iai.github.io/publication/liu-2022390/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/liu-2022390/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental energy consumption analysis of neural network model compression methods on microcontrollers with applications in bird call classification</title>
+      <link>https://uoa-iai.github.io/publication/tao-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/tao-2022/</guid>
       <description></description>
     </item>
     
@@ -93,22 +301,6 @@
     </item>
     
     <item>
-      <title>Semantic-aware event link reasoning over industrial knowledge graph embedding time series data</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service-oriented industrial internet of things gateway for cloud manufacturing</title>
-      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Special issue on computational intelligence-based modeling, control and estimation in modern mechatronic systems</title>
       <link>https://uoa-iai.github.io/publication/wang-20225011/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
@@ -133,26 +325,10 @@
     </item>
     
     <item>
-      <title>A Knowledge-Driven Digital Twin Modeling Method for Machining Products Based on Biomimicry [知识驱动的加工产品数字孪生拟态建模方法]</title>
-      <link>https://uoa-iai.github.io/publication/liu-2021182/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2021182/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A machining accuracy informed adaptive positioning method for finish machining of assembly interfaces of large-scale aircraft components</title>
       <link>https://uoa-iai.github.io/publication/fan-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/fan-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     
@@ -169,6 +345,14 @@
       <link>https://uoa-iai.github.io/publication/guo-20211348/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/guo-20211348/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     
@@ -241,14 +425,6 @@
       <link>https://uoa-iai.github.io/publication/liu-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/liu-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review of Visual SLAM in Dynamic Environment [动态环境下的视觉SLAM 研究评述]</title>
-      <link>https://uoa-iai.github.io/publication/wang-2021715/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/wang-2021715/</guid>
       <description></description>
     </item>
     
@@ -433,14 +609,6 @@
       <link>https://uoa-iai.github.io/publication/wardhani-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/wardhani-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design Method and Characteristics Study on Actuator of Giant Magnetostrictive Harmonic Motor [超磁致伸缩谐波电机致动器设计方法与特性研究]</title>
-      <link>https://uoa-iai.github.io/publication/zhu-2018204/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhu-2018204/</guid>
       <description></description>
     </item>
     

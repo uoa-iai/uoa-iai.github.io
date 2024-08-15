@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. Jiang | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/m.-jiang/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/m.-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Jiang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>M. Jiang</title>
+      <link>https://uoa-iai.github.io/authors/m.-jiang/</link>
+    </image>
+    
+    <item>
+      <title>A systematic framework for tackling anomalous pre-welding workpiece postures with regular butt joints based on prototype features</title>
+      <link>https://uoa-iai.github.io/publication/liu-2024323/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2024323/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

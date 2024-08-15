@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T. Peng | Industrial AI Group @UOA</title>
+    <title>T. Peng | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/authors/t.-peng/</link>
       <atom:link href="https://uoa-iai.github.io/authors/t.-peng/index.xml" rel="self" type="application/rss+xml" />
     <description>T. Peng</description>
@@ -17,6 +17,14 @@
       <link>https://uoa-iai.github.io/publication/wang-20224117/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/wang-20224117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An end-to-end tabular information-oriented causality event evolutionary knowledge graph for manufacturing documents</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>J. Li | Industrial AI Group @UOA</title>
+    <title>J. Li | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/authors/j.-li/</link>
       <atom:link href="https://uoa-iai.github.io/authors/j.-li/index.xml" rel="self" type="application/rss+xml" />
     <description>J. Li</description>
@@ -17,14 +17,6 @@
       <link>https://uoa-iai.github.io/publication/zhang-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/zhang-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops</title>
-      <link>https://uoa-iai.github.io/publication/zhou-2021/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zhou-2021/</guid>
       <description></description>
     </item>
     

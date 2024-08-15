@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>S. Liu | Industrial AI Group @UOA</title>
+    <title>S. Liu | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/authors/s.-liu/</link>
       <atom:link href="https://uoa-iai.github.io/authors/s.-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>S. Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>S. Liu</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
-      <link>https://uoa-iai.github.io/publication/liu-2022390/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2022390/</guid>
+      <title>A digital thread-driven distributed collaboration mechanism between digital twin manufacturing units</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023145/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023145/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A Knowledge-Driven Digital Twin Modeling Method for Machining Products Based on Biomimicry [知识驱动的加工产品数字孪生拟态建模方法]</title>
-      <link>https://uoa-iai.github.io/publication/liu-2021182/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2021182/</guid>
+      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022390/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022390/</guid>
       <description></description>
     </item>
     
