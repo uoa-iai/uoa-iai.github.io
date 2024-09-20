@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication | Industrial AI Group @ UOA</title>
+    <title>publication | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/tag/publication/</link>
       <atom:link href="https://uoa-iai.github.io/tag/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publication</description>
+    <description>publication</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
-      <title>Publication</title>
+      <title>publication</title>
       <link>https://uoa-iai.github.io/tag/publication/</link>
     </image>
     
@@ -23,6 +23,15 @@
 &lt;p&gt;This collaboration between academia and industry showcases the potential for student-led research to drive meaningful innovations in the manufacturing landscape. AspectPT Ltd&amp;rsquo;s involvement underscores the immediate practical applications of Wang&amp;rsquo;s work, bridging the gap between theoretical research and industry needs.&lt;/p&gt;
 &lt;p&gt;As manufacturers worldwide seek to optimize their processes and reduce defects, Wang&amp;rsquo;s contribution represents a timely and valuable tool in the pursuit of excellence in product quality.&lt;/p&gt;
 &lt;p&gt;For more information on the work, please visit our &lt;a href=&#34;https://doi.org/10.1016/j.jmsy.2024.06.001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;open access full paper&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IJPR Top Trending Article on Industrial Knowledge Graph.</title>
+      <link>https://uoa-iai.github.io/post/ipjr-2023/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/ipjr-2023/</guid>
+      <description>&lt;p&gt;Huge congratulations to Dr. Bin Zhou and Prof. Jinsong Bao to this excellent joint work on developing innovative machine learning algorithms to extract knowledge from industrial time series data. This paper has been recognized as a Top Trending Article for 2023 at International Journal of Production Research. We are proud of this achievement from our student group (Dr. Bin Zhou was a PhD student at the time of publication) and long-term collaboration with Prof. Bao.&lt;/p&gt;
 </description>
     </item>
     

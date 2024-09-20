@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/tag/project/</link>
+      <atom:link href="https://uoa-iai.github.io/tag/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>project</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>project</title>
+      <link>https://uoa-iai.github.io/tag/project/</link>
+    </image>
+    
+    <item>
+      <title>EU Horizon 2020 MAIA Project Mid-term meeting</title>
+      <link>https://uoa-iai.github.io/post/maia-2023/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/maia-2023/</guid>
+      <description>&lt;p&gt;On 6 th June 2023, Dr. Yuqian Lu gave a research update at the mid-term meeting of MAIA project, representing researchers from The University of Auckland. He presented the UoA vision of human-centric manufacturing and progress on understanding and optimising human well-being in manufacturing and human-robot collaboration. He also briefed the collaboration outcomes between University of Padova and Industrial AI Team during the past 3 months.&lt;/p&gt;
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   &lt;figure  &gt;
+     &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+       &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_90505cef40a5fac01c08ac2831e5417f.webp 400w,
+                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_7e0d81675103b8057ac26571a9b1ba80.webp 760w,
+                  /post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+                  src=&#34;https://uoa-iai.github.io/post/maia-2023/featured_hubd6a63d505bc7e953eb4ed7ebdd05005_1926459_90505cef40a5fac01c08ac2831e5417f.webp&#34;
+                  width=&#34;760&#34;
+                  height=&#34;377&#34;
+                  loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+     &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;About MAIA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MAIA is a ‘Research and Innovation Staff Exchange’ funded by the Horizon 2020 research and innovation program. It develops an international academy, comprising of 14 academic partners: 7 European universities and 7 Third Countries universities. The academy focuses on active ageing industrial workforce problems and needs. The University of Auckland team develops digital technologies to measure, monitor and optimise human fatigue during human-robot collaborative assembly. These insights will actively change how collaborative workstations are designed and jobs of frontline workers are arranged.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
