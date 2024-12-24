@@ -5,12 +5,25 @@
     <link>https://uoa-iai.github.io/tag/human-robot-collaboration/</link>
       <atom:link href="https://uoa-iai.github.io/tag/human-robot-collaboration/index.xml" rel="self" type="application/rss+xml" />
     <description>Human-Robot Collaboration</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Human-Robot Collaboration</title>
       <link>https://uoa-iai.github.io/tag/human-robot-collaboration/</link>
     </image>
+    
+    <item>
+      <title>Best Paper Award at the 51st International Conference on Computers and Industrial Engineering (CIE51), 2024</title>
+      <link>https://uoa-iai.github.io/post/cie-best-paper/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/cie-best-paper/</guid>
+      <description>&lt;p&gt;We are delighted to share that Ilango Kandasamy and Yuqian Lu just won a Best Paper Award at the recently concluded 51st International Conference on Computers and Industrial Engineering (CIE51), 9-11 December 2024, at UNSW Sydney, Australia, for his paper &amp;lsquo;Instructing Collaborative Robots using Large Language Models for Human-Robot Collaboration&amp;rsquo;. Ilango Kandasamy has recently completed his Master of Robotics &amp;amp; Automation Engineering programme.&lt;/p&gt;
+&lt;p&gt;Below is the abstract of the paper:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The future of smart manufacturing hinges on robots enhancing performance and productivity, but the complex communication interface between humans and robots remains a challenge. Using natural language instructions to guide robots during collaboration will significantly improve human-robot interaction. Despite the efforts to improve the robot’s ability to interpret natural language instructions, progress has been limited due to the weak generalisation and adaptability of traditional robot programming methods. Pre-trained Large Language Models (LLMs) trained on huge volumes of text data excel in Natural Language processing tasks such as semantic parsing and automatic text generation. In this study, we explored using LLMs to comprehend the basic industrial assembly instructions in natural language and convert them into low-level tasks for robots to execute additional training. We used the assembly instructions from the HA-ViD dataset to evaluate the performance of GPT-3.5 model in semantic parsing of these instructions. The GPT-3.5 demonstrated excellent generalisation in converting previously unseen industrial assembly instructions by learning from prompts. Additionally, we explored the possibility of using Vision Language Models (VLM) for object detection tasks in a novel scenario by prompting them with text input to specify target objects to be detected in the image. Finally, we proposed an end-to-end system architecture to illustrate the integration of voice and LLMs, demonstrating the performance of GPT-3.5 in converting natural language instruction into low-level robot actions for industrial assembly tasks.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>We are hiring - full PhD scholarships and post-doc position on human-robot collaboration (MBIE Endeavour Fund)</title>
