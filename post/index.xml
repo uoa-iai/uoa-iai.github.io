@@ -5,12 +5,59 @@
     <link>https://uoa-iai.github.io/post/</link>
       <atom:link href="https://uoa-iai.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://uoa-iai.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Call for Paper - Embodied Intelligence Empowering Smart Manufacturing</title>
+      <link>https://uoa-iai.github.io/post/embodied-intelligence/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/embodied-intelligence/</guid>
+      <description>&lt;p&gt;Embodied Intelligence Empowering Smart Manufacturing
+&lt;strong&gt;Submission deadline: 31 August 2025&lt;/strong&gt;
+Embodied Intelligence (EI) is a key enabler of flexible and efficient manufacturing in smart manufacturing. EI enhances the perception, memory, cognition, reasoning, decision-making, planning, control, and iterative evolution capabilities within smart manufacturing systems. However, existing AI methods designed for specific tasks may lack adaptability and learning evolution capabilities needed to address personalization. The limited knowledge sharing and collaboration among independent AI models result hinders collective intelligence. AI methods that rely on fixed models and predefined rules are not easily adaptable to unpredictable scenarios in flexible, dynamic, and unstructured manufacturing environments. In addition, human-machine collaboration in smart manufacturing remains inefficient, and manufacturing equipment demands more intelligent collaborative control methods. The standalone equipment and information exchange in current smart manufacturing systems do not fully support the implementation of embodied intelligence technologies. To elevate the intelligence of smart manufacturing, this special issue aims at exploring technological advancements and applications of embodied intelligence-driven smart manufacturing. It will address key technical challenges in areas such as multimodal fusion, machine learning algorithms, human-computer interaction, and collaboration. These advancements are crucial to the progress of smart manufacturing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Special Issue Topics&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The topics covered in this special issue include, but are not limited to, the following research areas and technologies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Human-machine interaction and collaboration based on embodied intelligence&lt;/li&gt;
+&lt;li&gt;Embodied intelligence-based scheduling and dispatching&lt;/li&gt;
+&lt;li&gt;Intelligent operation and maintenance methods for equipment based on multimodal data&lt;/li&gt;
+&lt;li&gt;Digital twin modeling methods for embodied intelligent robots&lt;/li&gt;
+&lt;li&gt;Multimodal industrial data collection and fusion&lt;/li&gt;
+&lt;li&gt;Large-scale multimodal data communication networks in smart manufacturing&lt;/li&gt;
+&lt;li&gt;Multi-agent collaboration and collective intelligence in smart manufacturing&lt;/li&gt;
+&lt;li&gt;Pretraining methods for large-scale multimodal models in smart manufacturing&lt;/li&gt;
+&lt;li&gt;Industrial knowledge integration for embodied intelligence&lt;/li&gt;
+&lt;li&gt;Control system design for manufacturing equipment driven by embodied intelligence&lt;/li&gt;
+&lt;li&gt;Embodied intelligence in self-evolution of manufacturing equipment control systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Guest editors&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jiafu Wan, PhD
+South China University of Technology, Guangzhou, China
+Email: &lt;a href=&#34;mailto:mejwan@scut.edu.cn&#34;&gt;mejwan@scut.edu.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Yuqian Lu, PhD
+The University of Auckland, Aucland, New Zealand
+Email: &lt;a href=&#34;mailto:yuqian.lu@auckland.ac.nz&#34;&gt;yuqian.lu@auckland.ac.nz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Kusiak, PhD
+The University of Iowa, Iowa City, Iowa, USA
+Email: &lt;a href=&#34;mailto:andrew-kusiak@uiowa.edu&#34;&gt;andrew-kusiak@uiowa.edu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Meikang Qiu, PhD
+Augusta University, Augusta, Georgia, USA
+Email: &lt;a href=&#34;mailto:qiumeikang@ieee.org&#34;&gt;qiumeikang@ieee.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Manuscript submission information:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The journal submission system (Editorial Manager®) will be open for submissions to our Special Issue from March 01, 2025. When submitting your manuscript please select the article type VSI: EI - Smart Manufacturing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important dates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Submission Portal Open: March 01, 2025&lt;/li&gt;
+&lt;li&gt;Final Manuscript Submission Deadline: August 31, 2025&lt;/li&gt;
+&lt;li&gt;Editorial Acceptance Deadline: November 30, 2025&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Best Paper Award at the 51st International Conference on Computers and Industrial Engineering (CIE51), 2024</title>
