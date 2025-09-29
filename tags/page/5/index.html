@@ -252,37 +252,76 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.c88829cfc09e9713731c7b511b7f0367.css" />
-
-  
-
-
-
-  
-
-
-  
-
+  <link rel="stylesheet" href="/css/wowchemy.7a3e98956280c01a8ca4dcc686c8e7c6.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TBZZ98XTPQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-TBZZ98XTPQ', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="" />
+    <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Industrial AI Group @ UOA" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hubb891712c49b4784dd7e680d44157331_31819_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://uoa-iai.github.io/tags/" />
 
@@ -306,14 +345,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="" />
+  <meta property="og:site_name" content="Industrial AI Group @ UOA" />
   <meta property="og:url" content="https://uoa-iai.github.io/tags/" />
-  <meta property="og:title" content="Tags | " />
-  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Tags | Industrial AI Group @ UOA" />
+  <meta property="og:description" content="Industrial AI Research Group @UoA team website, directed by Yuqian Lu." /><meta property="og:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2025-09-26T00:00:00&#43;00:00" />
     
   
 
@@ -329,7 +368,7 @@
 
 
 
-  <title>Tags | </title>
+  <title>Tags | Industrial AI Group @ UOA</title>
 </head>
 
 
@@ -344,7 +383,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+  <script src="/js/wowchemy-init.min.c80ecf4b695b1c6ccc272ba5badcc52c.js"></script>
 
   
 
@@ -407,10 +446,6 @@
     <div class="container-xl">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"></a>
-      </div>
-      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -419,10 +454,6 @@
       </button>
       
 
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"></a>
-      </div>
       
 
       
@@ -612,7 +643,44 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+            <a class="nav-link " href="/#initiatives"><span>Initiatives</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#videogallery"><span>Gallery</span></a>
           </li>
 
           
@@ -687,6 +755,73 @@
 
           <li class="nav-item">
             <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#course"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/opportunity/"><span>Join Us</span></a>
           </li>
 
           
@@ -841,7 +976,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/current-core-promoters-decision-making-modeling-evolutionary-framework-high-fidelity-machining-field-machining-process-machining-systems-real-time-virtual-entities/" >&#39;current;  Core promoters;  Decision-making modeling;  Evolutionary framework;  High-fidelity;  Machining field;  Machining Process;  Machining systems;  Real- time;  Virtual entities</a>
+      <a href="/tag/cloud-manufacturing/" >cloud manufacturing</a>
     </div>
 
     
@@ -865,7 +1000,7 @@
     
       
     
-    5 Aug, 2022
+    1 Aug, 2016
   </span>
   
 
@@ -915,7 +1050,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/3d-modeling-computer-aided-process-planning-industrial-research-product-design/" >3D modeling;  Computer aided process planning;  Industrial research;  Product design</a>
+      <a href="/tag/knowledge-graph/" >knowledge graph</a>
     </div>
 
     
@@ -939,599 +1074,7 @@
     
       
     
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/absorption-chillers-anomaly-detection-frameworks-anomaly-predictions-large-amounts-of-data-online-anomaly-detection-performance-anomaly-proactive-maintenance-real-time-health-monitoring/" >Absorption chillers;  Anomaly detection frameworks;  Anomaly predictions;  Large amounts of data;  Online anomaly detection;  Performance anomaly;  Proactive maintenance;  Real-time health monitoring</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/action-sequences-collaborative-assembly-data-management-system-dynamic-environments-optimization-modeling-performance-model-policy-gradient-production-demand/" >Action sequences;  Collaborative assembly;  Data management system;  Dynamic environments;  Optimization modeling;  Performance Model;  Policy gradient;  Production demand</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/adaptive-control-systems-cost-effectiveness-production-control/" >Adaptive control systems;  Cost effectiveness;  Production control</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/adaptive-manufacturing-flexible-manufacturing-functional-requirement-individualized-products-manufacturing-automation-manufacturing-networks-manufacturing-operations-system-modeling-and-control/" >Adaptive manufacturing;  Flexible manufacturing;  Functional requirement;  Individualized products;  Manufacturing Automation;  Manufacturing networks;  Manufacturing operations;  System modeling and control</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/adaptive-positioning-aircraft-components-iec-61499-function-blocks-large-components-machining-accuracy-measurement-points-passenger-aircrafts-positioning-accuracy/" >Adaptive positioning;  Aircraft components;  IEC 61499 function blocks;  Large components;  Machining Accuracy;  Measurement points;  Passenger aircrafts;  Positioning accuracy</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/adjacency-matrices-automatic-feature-recognition-comparative-tests-computeraided-process-planningcapp-feature-recognition-machining-feature-manufacturing-features-weighted-attributes/" >Adjacency matrices;  Automatic feature recognition;  Comparative tests;  Computeraided process planning(CAPP);  Feature recognition;  Machining feature;  Manufacturing features;  Weighted attributes</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/aerospace-applications-biomimetics-digital-twin-geometry-machining-machining-centers/" >Aerospace applications;  Biomimetics;  Digital twin;  Geometry;  Machining;  Machining centers</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/aerospace-components-machining-parameters-machining-strategy-monitor-and-control-monitoring-and-controlling-multi-dimensional-performance-based-real-time-observation/" >Aerospace components;  Machining parameters;  Machining strategy;  Monitor and control;  Monitoring and controlling;  Multi dimensional;  Performance based;  Real time observation</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    5 Aug, 2022
+    1 Aug, 2016
   </span>
   
 
@@ -1569,8 +1112,6 @@
     
     <li class="page-item"><a class="page-link" href="/tags/page/4/">&laquo;</a></li>
     
-    
-    <li class="page-item"><a class="page-link" href="/tags/page/6/">&raquo;</a></li>
     
   </ul>
 </nav>
@@ -1619,7 +1160,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Industrial AI Group. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1661,7 +1202,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
 
     
     
@@ -1754,7 +1295,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.43c8f7a4851160885a7d8069dfa86538.js"></script>
 
     
     

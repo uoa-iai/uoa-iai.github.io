@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assembly Line Reconfiguration | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/tag/assembly-line-reconfiguration/</link>
+      <atom:link href="https://uoa-iai.github.io/tag/assembly-line-reconfiguration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Assembly Line Reconfiguration</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Assembly Line Reconfiguration</title>
+      <link>https://uoa-iai.github.io/tag/assembly-line-reconfiguration/</link>
+    </image>
+    
+    <item>
+      <title>Seminar- Dr. Seyyed Ehsan Hashemi-Petroodi</title>
+      <link>https://uoa-iai.github.io/post/seminar-seyyed/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/seminar-seyyed/</guid>
+      <description>&lt;p&gt;We were honored to host Dr. Seyyed Ehsan Hashemi-Petroodi for a guest lecture at our department. Dr. Hashemi-Petroodi is an Assistant Professor in the Department of Operations Management and Information Systems. He received his Ph.D. in Industrial Engineering and Operations Research from IMT Atlantique, France, and has led key tasks in major European projects such as ASSISTANT. His research focuses on combinatorial and robust optimization, reconfigurable assembly line design, workforce and process planning, and decision support systems.&lt;/p&gt;
+&lt;div style=&#34;display:flex; justify-content:center; gap:10px;&#34;&gt;
+  &lt;img src=&#34;1.jpeg&#34; alt=&#34;KEDGE Slide 1&#34; style=&#34;width:45%;&#34;&gt;
+  &lt;img src=&#34;2.jpeg&#34; alt=&#34;KEDGE Slide 2&#34; style=&#34;width:45%;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;During the talk, Dr. Hashemi-Petroodi introduced KEDGE Business School and its research activities, including the EU Horizon MODALSHIFT project on multimodal transport systems and dynamic decision-making. He then presented his recent work on robust design and reconfiguration planning of mixed-model assembly lines under product evolution and demand uncertainty.&lt;/p&gt;
+&lt;div style=&#34;display:flex; justify-content:center; gap:10px;&#34;&gt;
+  &lt;img src=&#34;3.jpeg&#34; alt=&#34;KEDGE Slide 1&#34; style=&#34;width:45%;&#34;&gt;
+  &lt;img src=&#34;4.jpeg&#34; alt=&#34;KEDGE Slide 2&#34; style=&#34;width:45%;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;The first study explored how to robustly react to product family evolution in production design and reconfiguration. A novel robust Mixed-Integer Linear Programming (MILP) model combined with an adversarial approach was shown to significantly reduce long-term costs compared with classical periodic approaches. The second study addressed the robust re-balancing of assembly lines facing random product sequences, modeling worker movements and dynamic task re-allocation as a Markov Decision Process integrated with MILP. Computational experiments demonstrated the efficiency of the proposed models and the superiority of dynamic over fixed task assignments.&lt;/p&gt;
+&lt;div style=&#34;display:flex; justify-content:center; gap:10px;&#34;&gt;
+  &lt;img src=&#34;5.jpeg&#34; alt=&#34;KEDGE Slide 1&#34; style=&#34;width:45%;&#34;&gt;
+  &lt;img src=&#34;6.jpeg&#34; alt=&#34;KEDGE Slide 2&#34; style=&#34;width:45%;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;The session concluded with an active discussion among Dr. Hashemi-Petroodi, Dr. Yuqian Lu, and students on the challenges of uncertainty in assembly systems and the potential of reinforcement learning for future human-robot collaborative environments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
