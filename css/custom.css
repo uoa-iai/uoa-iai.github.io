@@ -1,0 +1,16 @@
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.02);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  padding: 6px 10px;
+}

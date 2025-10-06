@@ -103,12 +103,10 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
 &lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
+&lt;div class=&#34;carousel-item &#34;&gt;
+  &lt;img src=&#34;&#34; class=&#34;d-block w-100&#34; alt=&#34;&#34;&gt;
   
-      
-      data-background-image=&#34;/media/boards.jpg&#34;
-  &gt;
+&lt;/div&gt;
 
 &lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
 &lt;p&gt;Customize the slide style and background&lt;/p&gt;
