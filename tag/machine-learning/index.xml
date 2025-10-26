@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/tag/machine-learning/</link>
+      <atom:link href="https://uoa-iai.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>machine learning</title>
+      <link>https://uoa-iai.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Fully Funded PhD Scholarship — Robot Skill Learning</title>
+      <link>https://uoa-iai.github.io/post/robot-phd/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/post/robot-phd/</guid>
+      <description>&lt;p&gt;We are inviting applications for a &lt;strong&gt;fully funded PhD scholarship&lt;/strong&gt; on the topic &lt;strong&gt;“Robot Skill Learning.”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This project aims to pioneer the next generation of &lt;strong&gt;intelligent robotic systems&lt;/strong&gt; that can learn, adapt, and collaborate with other machines and humans in modern factories.&lt;br&gt;
+The research will focus on developing &lt;strong&gt;generalised intelligence&lt;/strong&gt; and &lt;strong&gt;learning techniques&lt;/strong&gt; that enable robots to acquire, store and reuse skills in dynamic industrial settings.&lt;/p&gt;
+&lt;p&gt;The successful candidate will join a multidisciplinary research team under the supervision of &lt;strong&gt;Dr. Yuqian Lu&lt;/strong&gt; and &lt;strong&gt;Professor Bruce MacDonald&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;candidate-requirements&#34;&gt;&lt;strong&gt;Candidate Requirements&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We are seeking candidates who:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hold (or are completing) a Master’s or First-Class Honours degree in Robotics, Mechatronics, Mechanical Engineering, Computer Science, or a related discipline&lt;/li&gt;
+&lt;li&gt;Have strong programming and analytical skills (e.g., Python, ROS, control systems, or machine learning frameworks)&lt;/li&gt;
+&lt;li&gt;Are highly motivated to pursue research in intelligent robotic systems&lt;/li&gt;
+&lt;li&gt;Possess a can-do attitude and passion for producing excellent research outputs&lt;/li&gt;
+&lt;li&gt;Demonstrate excellent interpersonal skills to work with other research organisations and industry partners&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scholarship-details&#34;&gt;&lt;strong&gt;Scholarship Details&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Funding:&lt;/strong&gt; Covers tuition fees + annual stipend (as per University of Auckland PhD scholarship rate) for 36 months&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start Date:&lt;/strong&gt; As soon as possible, no later than &lt;strong&gt;March 2026&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;If you are passionate about shaping the future of intelligent, collaborative automation, we encourage you to apply.&lt;/p&gt;
+&lt;p&gt;Please send your &lt;strong&gt;CV&lt;/strong&gt;, &lt;strong&gt;academic transcript&lt;/strong&gt;, and a &lt;strong&gt;short statement of research interest&lt;/strong&gt; to&lt;br&gt;
+📧 &lt;strong&gt;Dr. Yuqian Lu&lt;/strong&gt; (&lt;a href=&#34;mailto:yuqian.lu@auckland.ac.nz&#34;&gt;yuqian.lu@auckland.ac.nz&lt;/a&gt;)&lt;br&gt;
+as soon as possible, but &lt;strong&gt;no later than 15 November 2025&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For further information about the project or research environment, please contact Dr. Yuqian Lu directly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
