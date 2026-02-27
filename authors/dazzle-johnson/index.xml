@@ -5,12 +5,39 @@
     <link>https://uoa-iai.github.io/authors/dazzle-johnson/</link>
       <atom:link href="https://uoa-iai.github.io/authors/dazzle-johnson/index.xml" rel="self" type="application/rss+xml" />
     <description>Dazzle Johnson</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://uoa-iai.github.io/authors/dazzle-johnson/avatar_hu89bd7875b838abe846e23702437f363a_77805_270x270_fill_lanczos_center_3.png</url>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Dazzle Johnson</title>
       <link>https://uoa-iai.github.io/authors/dazzle-johnson/</link>
     </image>
+    
+    <item>
+      <title>Multi-Agent Scheduler for the Continuous Dynamic Flexible Job Shop Scheduling Problem</title>
+      <link>https://uoa-iai.github.io/publication/johnson-20242924/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/johnson-20242924/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Split-hand Assembly Action Recognition Enhanced With Knowledge-driven Sequence Reasoning</title>
+      <link>https://uoa-iai.github.io/publication/lee-202427/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lee-202427/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic production scheduling towards self-organizing mass personalization: A multi-agent dueling deep reinforcement learning approach</title>
+      <link>https://uoa-iai.github.io/publication/qin-2023242/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-2023242/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2022 IEEE CASE Conference Talk</title>
@@ -22,6 +49,15 @@
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
   &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning for Real-Time Dynamic Production Scheduling in a Robot Assembly Cell</title>
+      <link>https://uoa-iai.github.io/publication/johnson-20227684/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/johnson-20227684/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     

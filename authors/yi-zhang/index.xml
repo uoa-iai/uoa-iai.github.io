@@ -5,12 +5,21 @@
     <link>https://uoa-iai.github.io/authors/yi-zhang/</link>
       <atom:link href="https://uoa-iai.github.io/authors/yi-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yi Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Yi Zhang</title>
       <link>https://uoa-iai.github.io/authors/yi-zhang/</link>
     </image>
+    
+    <item>
+      <title>Dynamic decision-making for knowledge-enabled distributed resource configuration in cloud manufacturing considering stochastic order arrival</title>
+      <link>https://uoa-iai.github.io/publication/zhang-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhang-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

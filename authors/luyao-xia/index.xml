@@ -5,12 +5,21 @@
     <link>https://uoa-iai.github.io/authors/luyao-xia/</link>
       <atom:link href="https://uoa-iai.github.io/authors/luyao-xia/index.xml" rel="self" type="application/rss+xml" />
     <description>Luyao Xia</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Luyao Xia</title>
       <link>https://uoa-iai.github.io/authors/luyao-xia/</link>
     </image>
+    
+    <item>
+      <title>Augmented reality and indoor positioning based mobile production monitoring system to support workers with human-in-the-loop</title>
+      <link>https://uoa-iai.github.io/publication/xia-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

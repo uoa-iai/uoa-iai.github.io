@@ -5,12 +5,93 @@
     <link>https://uoa-iai.github.io/publication-type/1/</link>
       <atom:link href="https://uoa-iai.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://uoa-iai.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Cognitive Architecture for Adaptive Skill Learning towards Fluent Human-Robot Collaborative Assembly</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2025213/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2025213/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safe and Intuitive Human-Robot Collaborative Assembly with Potential Field-Based Dynamic Obstacle Avoidance and Gestured-Based Communication Interface</title>
+      <link>https://uoa-iai.github.io/publication/patel-2025226/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/patel-2025226/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A CONCEPTUAL DATA CONNECTIVITY MODEL FOR CONSTRUCTION 4.0</title>
+      <link>https://uoa-iai.github.io/publication/dhotre-20241184/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/dhotre-20241184/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Context-aware cognitive assistive assembly system based on online human action recognition</title>
+      <link>https://uoa-iai.github.io/publication/liang-2024381/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liang-2024381/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DuCAS: A knowledge-enhanced dual-hand compositional action segmentation method for human-robot collaborative assembly</title>
+      <link>https://uoa-iai.github.io/publication/zheng-20247175/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-20247175/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DuHa: a dual-hand action segmentation method for human-robot collaborative assembly</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2024522/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2024522/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>INSTRUCTING COLLABORATIVE ROBOTS USING LARGE LANGUAGE MODELS FOR HUMAN-ROBOT COLLABORATION</title>
+      <link>https://uoa-iai.github.io/publication/kandasamy-2024995/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/kandasamy-2024995/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Scheduler for the Continuous Dynamic Flexible Job Shop Scheduling Problem</title>
+      <link>https://uoa-iai.github.io/publication/johnson-20242924/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/johnson-20242924/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Split-hand Assembly Action Recognition Enhanced With Knowledge-driven Sequence Reasoning</title>
+      <link>https://uoa-iai.github.io/publication/lee-202427/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lee-202427/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>An Ontology-Based Product Modelling Method for Smart Remanufacturing</title>
@@ -31,6 +112,15 @@
     </item>
     
     <item>
+      <title>Automatic Extraction and Representation of Procedural Knowledge from Manuals</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023170/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023170/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Editorial Proceedings of 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE) - Automation for a Resilient Society</title>
       <link>https://uoa-iai.github.io/publication/xu-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
@@ -40,19 +130,19 @@
     </item>
     
     <item>
-      <title>Human-Centric UAV-UGV Collaboration</title>
-      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
+      <title>HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
+      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Video-Based Fatigue Estimation for Human-Robot Task Allocation Optimisation</title>
-      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
+      <title>Human-Centric UAV-UGV Collaboration</title>
+      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
+      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>

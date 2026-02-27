@@ -5,12 +5,21 @@
     <link>https://uoa-iai.github.io/authors/rui-zhou/</link>
       <atom:link href="https://uoa-iai.github.io/authors/rui-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Rui Zhou</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://uoa-iai.github.io/authors/rui-zhou/avatar_hu93edf6badcf51fec87abc2d87e48a81e_14805_270x270_fill_q80_lanczos_center.jpg</url>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Rui Zhou</title>
       <link>https://uoa-iai.github.io/authors/rui-zhou/</link>
     </image>
+    
+    <item>
+      <title>Cognitive Architecture for Adaptive Skill Learning towards Fluent Human-Robot Collaborative Assembly</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2025213/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2025213/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

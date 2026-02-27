@@ -5,12 +5,21 @@
     <link>https://uoa-iai.github.io/authors/karen-wang/</link>
       <atom:link href="https://uoa-iai.github.io/authors/karen-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Karen Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Karen Wang</title>
       <link>https://uoa-iai.github.io/authors/karen-wang/</link>
     </image>
+    
+    <item>
+      <title>Ensemble Bayesian Network for root cause analysis of product defects via learning from historical production data</title>
+      <link>https://uoa-iai.github.io/publication/wang-2024102/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-2024102/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

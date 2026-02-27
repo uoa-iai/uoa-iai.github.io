@@ -5,12 +5,129 @@
     <link>https://uoa-iai.github.io/publication/</link>
       <atom:link href="https://uoa-iai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://uoa-iai.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Guest Editorial: 19th IEEE International Conference on Automation Science and Engineering</title>
+      <link>https://uoa-iai.github.io/publication/vogel-heuser-20262199/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/vogel-heuser-20262199/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ATD-GCN: A human activity recognition approach for human-robot collaboration based on adaptive skeleton tree-decomposition</title>
+      <link>https://uoa-iai.github.io/publication/yang-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/yang-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automation in manufacturing and assembly of industrialised construction</title>
+      <link>https://uoa-iai.github.io/publication/xu-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cognitive Architecture for Adaptive Skill Learning towards Fluent Human-Robot Collaborative Assembly</title>
+      <link>https://uoa-iai.github.io/publication/zhou-2025213/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-2025213/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital twin and parameter correlation-enabled variant design of production lines</title>
+      <link>https://uoa-iai.github.io/publication/yan-2025136/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/yan-2025136/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital twin technology in modern machining: A comprehensive review of research on machining errors</title>
+      <link>https://uoa-iai.github.io/publication/fu-2025134/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/fu-2025134/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Twin-driven multi-scale characterization of machining quality: current status, challenges, and future perspectives</title>
+      <link>https://uoa-iai.github.io/publication/fu-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/fu-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Industrial Intelligence: Methods and Applications</title>
+      <link>https://uoa-iai.github.io/publication/liu-20251/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-20251/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Knowledge graph-enhanced multi-agent reinforcement learning for adaptive scheduling in smart manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/qin-20255943/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/qin-20255943/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rapid digital twin modeling method and system for equipment</title>
+      <link>https://uoa-iai.github.io/publication/chen-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chen-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real-time response to machine failures in self-organizing production execution using multi-agent reinforcement learning with effective samples</title>
+      <link>https://uoa-iai.github.io/publication/gui-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/gui-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safe and Intuitive Human-Robot Collaborative Assembly with Potential Field-Based Dynamic Obstacle Avoidance and Gestured-Based Communication Interface</title>
+      <link>https://uoa-iai.github.io/publication/patel-2025226/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/patel-2025226/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A CONCEPTUAL DATA CONNECTIVITY MODEL FOR CONSTRUCTION 4.0</title>
+      <link>https://uoa-iai.github.io/publication/dhotre-20241184/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/dhotre-20241184/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A method for constructing a machining knowledge graph using an improved transformer</title>
@@ -40,10 +157,118 @@
     </item>
     
     <item>
+      <title>A task-centric knowledge graph construction method based on multi-modal representation learning for industrial maintenance automation</title>
+      <link>https://uoa-iai.github.io/publication/liu-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A vision-enabled fatigue-sensitive human digital twin towards human-centric human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/chand-2024432/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-2024432/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An ontology and rule-based method for human–robot collaborative disassembly planning in smart remanufacturing</title>
+      <link>https://uoa-iai.github.io/publication/hu-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/hu-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Augmented reality and indoor positioning based mobile production monitoring system to support workers with human-in-the-loop</title>
+      <link>https://uoa-iai.github.io/publication/xia-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Context-aware cognitive assistive assembly system based on online human action recognition</title>
+      <link>https://uoa-iai.github.io/publication/liang-2024381/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liang-2024381/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep reinforcement learning based proactive dynamic obstacle avoidance for safe human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/xia-20241246/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xia-20241246/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning-Based Dynamic Reconfiguration Planning for Digital Twin-Driven Smart Manufacturing Systems With Reconfigurable Machine Tools</title>
+      <link>https://uoa-iai.github.io/publication/huang-202413135/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/huang-202413135/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DuCAS: A knowledge-enhanced dual-hand compositional action segmentation method for human-robot collaborative assembly</title>
+      <link>https://uoa-iai.github.io/publication/zheng-20247175/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-20247175/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DuHa: a dual-hand action segmentation method for human-robot collaborative assembly</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2024522/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zheng-2024522/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Dynamic decision-making for knowledge-enabled distributed resource configuration in cloud manufacturing considering stochastic order arrival</title>
       <link>https://uoa-iai.github.io/publication/zhang-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/zhang-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Empowering digital twins with large language models for global temporal feature learning</title>
+      <link>https://uoa-iai.github.io/publication/sun-202483/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/sun-202483/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ensemble Bayesian Network for root cause analysis of product defects via learning from historical production data</title>
+      <link>https://uoa-iai.github.io/publication/wang-2024102/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-2024102/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ergonomic design of Human-Robot collaborative workstation in the Era of Industry 5.0</title>
+      <link>https://uoa-iai.github.io/publication/keshvarparast-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/keshvarparast-2024/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -58,10 +283,55 @@
     </item>
     
     <item>
-      <title>Semantic knowledge-driven A-GASeq: A dynamic graph learning approach for assembly sequence optimization</title>
-      <link>https://uoa-iai.github.io/publication/xia-2024/</link>
+      <title>Industrial metaverse towards Industry 5.0: Connotation, architecture, enablers, and challenges</title>
+      <link>https://uoa-iai.github.io/publication/guo-202425/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/xia-2024/</guid>
+      <guid>https://uoa-iai.github.io/publication/guo-202425/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>INSTRUCTING COLLABORATIVE ROBOTS USING LARGE LANGUAGE MODELS FOR HUMAN-ROBOT COLLABORATION</title>
+      <link>https://uoa-iai.github.io/publication/kandasamy-2024995/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/kandasamy-2024995/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Scheduler for the Continuous Dynamic Flexible Job Shop Scheduling Problem</title>
+      <link>https://uoa-iai.github.io/publication/johnson-20242924/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/johnson-20242924/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart manufacturing enabled by intelligent technologies</title>
+      <link>https://uoa-iai.github.io/publication/lu-20241/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-20241/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Split-hand Assembly Action Recognition Enhanced With Knowledge-driven Sequence Reasoning</title>
+      <link>https://uoa-iai.github.io/publication/lee-202427/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lee-202427/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A blockchain-based interactive approach between digital twin-based manufacturing systems</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -98,6 +368,24 @@
       <link>https://uoa-iai.github.io/publication/xia-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/xia-2023/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Extraction and Representation of Procedural Knowledge from Manuals</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023170/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023170/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Causal knowledge modeling for root cause analysis of equipment spot-inspection failure; [面向设备点检故障根因分析的因果知识建模方法]</title>
+      <link>https://uoa-iai.github.io/publication/zhou-20232708/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhou-20232708/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -148,19 +436,19 @@
     </item>
     
     <item>
-      <title>Human-Centric UAV-UGV Collaboration</title>
-      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
+      <title>HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding</title>
+      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
+      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>One-shot, integrated positioning for welding initial points via co-mapping of cross and parallel stripes</title>
-      <link>https://uoa-iai.github.io/publication/liu-2023/</link>
+      <title>Human-Centric UAV-UGV Collaboration</title>
+      <link>https://uoa-iai.github.io/publication/krupas-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2023/</guid>
+      <guid>https://uoa-iai.github.io/publication/krupas-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -193,15 +481,6 @@
     </item>
     
     <item>
-      <title>Video-Based Fatigue Estimation for Human-Robot Task Allocation Optimisation</title>
-      <link>https://uoa-iai.github.io/publication/zheng-2023/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/zheng-2023/</guid>
-      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>3DSMDA-Net: An improved 3DCNN with separable structure and multi-dimensional attention for welding status recognition</title>
       <link>https://uoa-iai.github.io/publication/liu-2022811/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
@@ -229,15 +508,6 @@
     </item>
     
     <item>
-      <title>Adaptive reconstruction of digital twins for machining systems: A transfer learning approach</title>
-      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
-      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>An automatic method for constructing machining process knowledge base from knowledge graph</title>
       <link>https://uoa-iai.github.io/publication/guo-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
@@ -260,6 +530,15 @@
       <link>https://uoa-iai.github.io/publication/jacob-2022643/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/jacob-2022643/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital-twin Collaborative Technology for Human-robot-environment Integration; [面向人-机-环境共融的数字孪生协同技术]</title>
+      <link>https://uoa-iai.github.io/publication/bao-2022103/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/bao-2022103/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -337,6 +616,15 @@
     </item>
     
     <item>
+      <title>Service-oriented industrial internet of things gateway for cloud manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Special issue on computational intelligence-based modeling, control and estimation in modern mechatronic systems</title>
       <link>https://uoa-iai.github.io/publication/wang-20225011/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
@@ -359,6 +647,15 @@
       <link>https://uoa-iai.github.io/publication/guo-2021257/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/guo-2021257/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Knowledge-Driven Digital Twin Modeling Method for Machining Products Based on Biomimicry; [知识驱动的加工产品数字孪生拟态建模方法]</title>
+      <link>https://uoa-iai.github.io/publication/liu-2021182/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2021182/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -476,6 +773,15 @@
       <link>https://uoa-iai.github.io/publication/liu-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/liu-2021/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Review of Visual SLAM in Dynamic Environment; [动态环境下的视觉SLAM 研究评述]</title>
+      <link>https://uoa-iai.github.io/publication/wang-2021715/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-2021715/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -683,6 +989,15 @@
       <link>https://uoa-iai.github.io/publication/wardhani-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://uoa-iai.github.io/publication/wardhani-2018/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design Method and Characteristics Study on Actuator of Giant Magnetostrictive Harmonic Motor; [超磁致伸缩谐波电机致动器设计方法与特性研究]</title>
+      <link>https://uoa-iai.github.io/publication/zhu-2018204/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhu-2018204/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>

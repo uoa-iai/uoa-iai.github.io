@@ -5,12 +5,21 @@
     <link>https://uoa-iai.github.io/authors/li-xu/</link>
       <atom:link href="https://uoa-iai.github.io/authors/li-xu/index.xml" rel="self" type="application/rss+xml" />
     <description>Li Xu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://uoa-iai.github.io/authors/li-xu/avatar_hu4604af17d67c9e4e7b859f2922827e52_6045811_270x270_fill_q80_lanczos_center.jpg</url>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
       <title>Li Xu</title>
       <link>https://uoa-iai.github.io/authors/li-xu/</link>
     </image>
+    
+    <item>
+      <title>Automation in manufacturing and assembly of industrialised construction</title>
+      <link>https://uoa-iai.github.io/publication/xu-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
