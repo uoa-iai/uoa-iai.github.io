@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+.navbar,
+.article-style,
+.section-subheading,
+.portrait-title h3,
+.btn {
+  font-family: "hypatia-sans-pro", "Poppins", "Avenir Next", "Segoe UI", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-heading h1,
+.hero-title,
+.portrait-title h2 {
+  font-family: "Poppins", "hypatia-sans-pro", "Avenir Next", "Segoe UI", sans-serif !important;
+  letter-spacing: 0.01em;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "JetBrains Mono", Menlo, Consolas, monospace !important;
+}
+
 .carousel-item img {
   height: 450px;
   object-fit: cover;
