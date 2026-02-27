@@ -55,9 +55,9 @@
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/dazzle-johnson/&#34;&gt;Dazzle Johnson&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/gang-chen/&#34;&gt;Gang Chen&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/gang-chen/&#34;&gt;Gang Chen&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2022).
@@ -145,8 +145,8 @@
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2021).
@@ -234,8 +234,8 @@
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2021).
@@ -323,7 +323,7 @@
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/lihui-wang/&#34;&gt;Lihui Wang&lt;/a&gt;&lt;/span&gt;
@@ -413,7 +413,7 @@
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/muhammad-rizwan-asghar/&#34;&gt;Muhammad Rizwan Asghar&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
@@ -503,7 +503,7 @@
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/dazzle-johnson/&#34;&gt;Dazzle Johnson&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2022).

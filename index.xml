@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Experience</title>
+      <link>https://uoa-iai.github.io/authors/yuqian-lu/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/authors/yuqian-lu/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Guest Editorial: 19th IEEE International Conference on Automation Science and Engineering</title>
       <link>https://uoa-iai.github.io/publication/vogel-heuser-20262199/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
@@ -1186,7 +1194,7 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/juvenal-sastre-adrados/&#34;&gt;Juvenal Sastre Adrados&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-shivneel-chand/&#34;&gt;Saahil Shivneel Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
@@ -1277,14 +1285,14 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/hao-zheng/&#34;&gt;Hao Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/hao-zheng/&#34;&gt;Hao Zheng&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/saahil-chand/&#34;&gt;Saahil Chand&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/wanqing-xia/&#34;&gt;Wanqing Xia&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/zengkun-liu/&#34;&gt;Zengkun Liu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/lihui-wang/&#34;&gt;Lihui Wang&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/lihui-wang/&#34;&gt;Lihui Wang&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/jinsong-bao/&#34;&gt;Jinsong Bao&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
@@ -1474,9 +1482,9 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/dazzle-johnson/&#34;&gt;Dazzle Johnson&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/gang-chen/&#34;&gt;Gang Chen&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/gang-chen/&#34;&gt;Gang Chen&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2022).
@@ -1564,8 +1572,8 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2021).
@@ -1653,8 +1661,8 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
-      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
+      &lt;a href=&#34;https://uoa-iai.github.io/authors/zhaojun-qin/&#34;&gt;Zhaojun Qin&lt;/a&gt;&lt;/span&gt;, &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2021).
@@ -1742,7 +1750,7 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/lihui-wang/&#34;&gt;Lihui Wang&lt;/a&gt;&lt;/span&gt;
@@ -1832,7 +1840,7 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/muhammad-rizwan-asghar/&#34;&gt;Muhammad Rizwan Asghar&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
@@ -1922,7 +1930,7 @@ Today, the communication networks that connect industrial robots are via wired c
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/dazzle-johnson/&#34;&gt;Dazzle Johnson&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2022).
@@ -2819,7 +2827,7 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/jenny-xu/&#34;&gt;Jenny Xu&lt;/a&gt;&lt;/span&gt;
@@ -2909,7 +2917,7 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
@@ -2998,7 +3006,7 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
@@ -3087,7 +3095,7 @@ f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\le
   &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
     
 
-  &lt;span &gt;
+  &lt;span class=&#34;author-highlighted&#34;&gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/yuqian-lu/&#34;&gt;Yuqian Lu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/hongqiang-wang/&#34;&gt;Hongqiang Wang&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;
       &lt;a href=&#34;https://uoa-iai.github.io/authors/xun-xu/&#34;&gt;Xun Xu&lt;/a&gt;&lt;/span&gt;
