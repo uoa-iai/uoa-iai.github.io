@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>robotics | Industrial AI Group @ UOA</title>
+    <title>Robotics | Industrial AI Group @ UOA</title>
     <link>https://uoa-iai.github.io/tag/robotics/</link>
       <atom:link href="https://uoa-iai.github.io/tag/robotics/index.xml" rel="self" type="application/rss+xml" />
-    <description>robotics</description>
+    <description>Robotics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
-      <title>robotics</title>
+      <title>Robotics</title>
       <link>https://uoa-iai.github.io/tag/robotics/</link>
     </image>
     
@@ -112,6 +112,14 @@ The research will focus on developing &lt;strong&gt;generalised intelligence&lt;
 as soon as possible, but &lt;strong&gt;no later than 15 November 2025&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;For further information about the project or research environment, please contact Dr. Yuqian Lu directly.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>IEEE Robotics and Automation Society Automation Research Spotlights</title>
+      <link>https://uoa-iai.github.io/initiative/ieee-automation-research-spotlights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/initiative/ieee-automation-research-spotlights/</guid>
+      <description></description>
     </item>
     
   </channel>
