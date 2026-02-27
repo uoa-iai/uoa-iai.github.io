@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alice Chang-Richards | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/alice-chang-richards/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/alice-chang-richards/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alice Chang-Richards</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Alice Chang-Richards</title>
+      <link>https://uoa-iai.github.io/authors/alice-chang-richards/</link>
+    </image>
+    
+    <item>
+      <title>Automation in manufacturing and assembly of industrialised construction</title>
+      <link>https://uoa-iai.github.io/publication/xu-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/xu-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robotic technologies for on-site building construction: A systematic review</title>
+      <link>https://uoa-iai.github.io/publication/gharbia-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/gharbia-2020/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

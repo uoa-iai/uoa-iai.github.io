@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew J. McDaid | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/andrew-j.-mcdaid/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/andrew-j.-mcdaid/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrew J. McDaid</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Andrew J. McDaid</title>
+      <link>https://uoa-iai.github.io/authors/andrew-j.-mcdaid/</link>
+    </image>
+    
+    <item>
+      <title>Isometric-Based Approach for Detecting Localized Muscular Fatigue during Complex Dynamic Manufacturing Operations</title>
+      <link>https://uoa-iai.github.io/publication/chand-20211940/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/chand-20211940/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

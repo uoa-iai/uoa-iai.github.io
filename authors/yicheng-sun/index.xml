@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yicheng Sun | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/yicheng-sun/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/yicheng-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yicheng Sun</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Yicheng Sun</title>
+      <link>https://uoa-iai.github.io/authors/yicheng-sun/</link>
+    </image>
+    
+    <item>
+      <title>Empowering digital twins with large language models for global temporal feature learning</title>
+      <link>https://uoa-iai.github.io/publication/sun-202483/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/sun-202483/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prognostics and health management via long short-term digital twins</title>
+      <link>https://uoa-iai.github.io/publication/sun-2023560/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/sun-2023560/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Establishing a reliable mechanism model of the digital twin machining system: An adaptive evaluation network approach</title>
+      <link>https://uoa-iai.github.io/publication/liu-2022390/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2022390/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

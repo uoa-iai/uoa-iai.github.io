@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ray Y. Zhong | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/ray-y.-zhong/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/ray-y.-zhong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ray Y. Zhong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Ray Y. Zhong</title>
+      <link>https://uoa-iai.github.io/authors/ray-y.-zhong/</link>
+    </image>
+    
+    <item>
+      <title>Guest Editorial: 19th IEEE International Conference on Automation Science and Engineering</title>
+      <link>https://uoa-iai.github.io/publication/vogel-heuser-20262199/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/vogel-heuser-20262199/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Twin as a Service (DTaaS) in Industry 4.0: An Architecture Reference Model</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2021/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robotic technologies for on-site building construction: A systematic review</title>
+      <link>https://uoa-iai.github.io/publication/gharbia-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/gharbia-2020/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manufacturing service reliability assessment in cloud manufacturing</title>
+      <link>https://uoa-iai.github.io/publication/mubarok-2018940/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/mubarok-2018940/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

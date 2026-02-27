@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zengkun Liu | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/zengkun-liu/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/zengkun-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zengkun Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Zengkun Liu</title>
+      <link>https://uoa-iai.github.io/authors/zengkun-liu/</link>
+    </image>
+    
+    <item>
+      <title>A task-centric knowledge graph construction method based on multi-modal representation learning for industrial maintenance automation</title>
+      <link>https://uoa-iai.github.io/publication/liu-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Extraction and Representation of Procedural Knowledge from Manuals</title>
+      <link>https://uoa-iai.github.io/publication/liu-2023170/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/liu-2023170/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Outlook on human-centric manufacturing towards Industry 5.0</title>
+      <link>https://uoa-iai.github.io/publication/lu-2022612/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lu-2022612/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

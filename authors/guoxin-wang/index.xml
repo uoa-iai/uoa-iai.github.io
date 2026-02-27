@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guoxin Wang | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/guoxin-wang/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/guoxin-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guoxin Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Guoxin Wang</title>
+      <link>https://uoa-iai.github.io/authors/guoxin-wang/</link>
+    </image>
+    
+    <item>
+      <title>A multi-objective joint optimisation method for simultaneous part family formation and configuration design in delayed reconfigurable manufacturing system (D-RMS)</title>
+      <link>https://uoa-iai.github.io/publication/huang-202492/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/huang-202492/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning-Based Dynamic Reconfiguration Planning for Digital Twin-Driven Smart Manufacturing Systems With Reconfigurable Machine Tools</title>
+      <link>https://uoa-iai.github.io/publication/huang-202413135/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/huang-202413135/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic reconfiguration optimization of intelligent manufacturing system with human-robot collaboration based on digital twin</title>
+      <link>https://uoa-iai.github.io/publication/zhu-2022330/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhu-2022330/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

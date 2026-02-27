@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shohin Aheleroff | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/shohin-aheleroff/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/shohin-aheleroff/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shohin Aheleroff</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Shohin Aheleroff</title>
+      <link>https://uoa-iai.github.io/authors/shohin-aheleroff/</link>
+    </image>
+    
+    <item>
+      <title>Digital Twin as a Service (DTaaS) in Industry 4.0: An Architecture Reference Model</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2021/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IoT-enabled smart appliances under industry 4.0: A case study</title>
+      <link>https://uoa-iai.github.io/publication/aheleroff-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/aheleroff-2020/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

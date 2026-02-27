@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hicham Chaoui | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/hicham-chaoui/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/hicham-chaoui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hicham Chaoui</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Hicham Chaoui</title>
+      <link>https://uoa-iai.github.io/authors/hicham-chaoui/</link>
+    </image>
+    
+    <item>
+      <title>Special issue on computational intelligence-based modeling, control and estimation in modern mechatronic systems</title>
+      <link>https://uoa-iai.github.io/publication/wang-20225011/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/wang-20225011/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

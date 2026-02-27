@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ming Zhang | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/ming-zhang/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/ming-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ming Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Ming Zhang</title>
+      <link>https://uoa-iai.github.io/authors/ming-zhang/</link>
+    </image>
+    
+    <item>
+      <title>An ontology and rule-based method for human–robot collaborative disassembly planning in smart remanufacturing</title>
+      <link>https://uoa-iai.github.io/publication/hu-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/hu-2024/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Ontology-Based Product Modelling Method for Smart Remanufacturing</title>
+      <link>https://uoa-iai.github.io/publication/hu-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/hu-2023/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

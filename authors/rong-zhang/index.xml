@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rong Zhang | Industrial AI Group @ UOA</title>
+    <link>https://uoa-iai.github.io/authors/rong-zhang/</link>
+      <atom:link href="https://uoa-iai.github.io/authors/rong-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rong Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://uoa-iai.github.io/media/icon_hubb891712c49b4784dd7e680d44157331_31819_512x512_fill_lanczos_center_3.png</url>
+      <title>Rong Zhang</title>
+      <link>https://uoa-iai.github.io/authors/rong-zhang/</link>
+    </image>
+    
+    <item>
+      <title>A fusion-based spiking neural network approach for predicting collaboration request in human-robot collaboration</title>
+      <link>https://uoa-iai.github.io/publication/zhang-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/zhang-2022/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital-twin Collaborative Technology for Human-robot-environment Integration; [面向人-机-环境共融的数字孪生协同技术]</title>
+      <link>https://uoa-iai.github.io/publication/bao-2022103/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/bao-2022103/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A digital twin-driven human-robot collaborative assembly approach in the wake of COVID-19</title>
+      <link>https://uoa-iai.github.io/publication/lv-2021837/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://uoa-iai.github.io/publication/lv-2021837/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
