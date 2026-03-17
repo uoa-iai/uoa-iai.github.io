@@ -1137,7 +1137,6 @@ Coverage: Tuition fees plus annual stipend (36 months). Start date by September 
 **How to Apply**
 
 Submit your CV, academic transcript, and a brief research interest statement to Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz by **April 1, 2026**.`,
-    image: 'https://uoa-iai.github.io/post/hiring_20251012/featured.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n0',
     featured: true,
@@ -1170,7 +1169,6 @@ The scholarship covers tuition fees plus an annual stipend for 36 months, follow
 **Application Deadline**
 
 Interested candidates should submit their CV, academic transcript, and a brief research interest statement to Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz by **November 15, 2025**.`,
-    image: 'https://uoa-iai.github.io/post/robot-phd/featured.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n1',
     featured: false,
@@ -1202,14 +1200,7 @@ The second investigation addressed assembly line rebalancing when facing unpredi
 **Discussion**
 
 The session concluded with collaborative discussion exploring uncertainty challenges in assembly systems and potential applications of reinforcement learning for human-robot collaboration.
-
-![Seminar slide 1](https://uoa-iai.github.io/post/seminar-seyyed/1.jpeg)
-![Seminar slide 2](https://uoa-iai.github.io/post/seminar-seyyed/2.jpeg)
-![Seminar slide 3](https://uoa-iai.github.io/post/seminar-seyyed/3.jpeg)
-![Seminar slide 4](https://uoa-iai.github.io/post/seminar-seyyed/4.jpeg)
-![Seminar slide 5](https://uoa-iai.github.io/post/seminar-seyyed/5.jpeg)
-![Seminar slide 6](https://uoa-iai.github.io/post/seminar-seyyed/6.jpeg)`,
-    image: 'https://uoa-iai.github.io/post/seminar-seyyed/featured.jpeg',
+`,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n2',
     featured: false,
@@ -1248,7 +1239,7 @@ The special issue welcomes submissions on:
 The special issue is led by researchers from South China University of Technology, University of Auckland, University of Iowa, and Augusta University.
 
 Interested researchers should select the article type "VSI: EI - Smart Manufacturing" when submitting through Editorial Manager.`,
-    image: 'https://uoa-iai.github.io/post/embodied-intelligence/featured.jpg',
+    image: 'images/news/embodied-intelligence.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n3',
     featured: false,
@@ -1280,13 +1271,8 @@ Participants engaged in dialogue on strategic directions for technological advan
 The workshop represents an important step in developing a shared vision for human-robot collaboration that balances innovation with responsible implementation across New Zealand's technological landscape.
 
 The event emphasized cross-sector engagement and the integration of multiple viewpoints — including indigenous knowledge systems — in shaping the future of robotics technology development.
-
-![Workshop discussion](https://uoa-iai.github.io/post/mbie-hrc-workshop/6_hud55c09bc534bc6c85aa923d96e341b58_1636054_8aaf208a0f0f0058dee2ecefc7233735.webp)
-![Workshop participants](https://uoa-iai.github.io/post/mbie-hrc-workshop/5_huebbfad1edfa8e198fe68a27ac6a615ca_4574734_c46b10da5a5ed1408dea560e912444f9.webp)
-![Workshop activity](https://uoa-iai.github.io/post/mbie-hrc-workshop/2_hub177f3ad2366e5874790414f4c6ff930_2554113_37bd50d8d5f1eb4421b09fec43404f47.webp)
-![Workshop group](https://uoa-iai.github.io/post/mbie-hrc-workshop/3_hub177f3ad2366e5874790414f4c6ff930_2757208_de8c6f634c81c7f85c9f35fe1c4e0130.webp)
-![Workshop session](https://uoa-iai.github.io/post/mbie-hrc-workshop/4_hubf4943ae400af009feda9813a9a2ed78_2038344_f7a970a4f78858dcf54a6602fb0fe956.webp)`,
-    image: 'https://uoa-iai.github.io/post/mbie-hrc-workshop/featured.png',
+`,
+    image: 'images/news/mbie-hrc-workshop.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n4',
     featured: false,
@@ -1306,7 +1292,7 @@ The research addresses human-robot interaction challenges in smart manufacturing
 Their work evaluated GPT-3.5's performance in semantic parsing using the HA-ViD dataset, demonstrating strong generalisation for previously unseen industrial assembly instructions through prompt-based learning.
 
 The study additionally investigated Vision Language Models for object detection and proposed an end-to-end system architecture illustrating the integration of voice and LLMs, demonstrating GPT-3.5's performance in converting natural language instructions into low-level robot actions for industrial assembly tasks.`,
-    image: 'https://uoa-iai.github.io/post/cie-best-paper/featured.webp',
+    image: 'images/news/cie-best-paper.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n5',
     featured: false,
@@ -1329,7 +1315,7 @@ The interdisciplinary team includes experts in human sensing, robot control, hum
 - One postdoctoral research fellow position
 
 The application deadline is November 1st, 2024. Interested candidates should review the detailed job descriptions and contact Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz for further information.`,
-    image: 'https://uoa-iai.github.io/post/mbie_position/featured.png',
+    image: 'images/news/mbie_position.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n6',
     featured: false,
@@ -1343,7 +1329,7 @@ The application deadline is November 1st, 2024. Interested candidates should rev
     fullContent: `Huge congratulations to Saahil Chand on being placed on the Dean of Graduate Studies List (Dean's List) in recognition of excellence achieved with his PhD thesis. This award is made to only a few recipients each year from the large number of doctoral students completing their theses.
 
 "Since this is a premier research degree, the University sets high standards for doctoral examinations and your examiners were international authorities in your field of expertise. I am therefore very pleased to report that they were all especially complimentary regarding the high quality of the content and presentation of your thesis. Congratulations on achieving the award of a place on the Dean's List." — Professor Caroline Daley, Dean of Graduate Studies.`,
-    image: 'https://uoa-iai.github.io/post/dean-list/featured.png',
+    image: 'images/news/dean-list.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n7',
     featured: false,
@@ -1361,7 +1347,7 @@ The application deadline is November 1st, 2024. Interested candidates should rev
 - **Huachang (Benedict) Liang** — "Context-Aware Cognitive Assembly Assistive System Based on Online Human Action Recognition"
 
 Dr. Yuqian Lu also demonstrated the Assembly Assistive System during workshops on September 1st.`,
-    image: 'https://uoa-iai.github.io/post/case-2024/featured.png',
+    image: 'images/news/case-2024.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n8',
     featured: false,
@@ -1387,7 +1373,6 @@ In 2021, Dr Lu received a seed grant from SfTI titled **'Ultra-reliable time-sen
 "Imagine if one day, we could have the world's top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely." — Dr Yuqian Lu
 
 Joseph Wong, Innovation Lead of Spark New Zealand, noted: "Spark's goal is to help New Zealanders win big in a digital world, and Yuqian's project certainly fits very well into that. The research is very valuable — it basically opens up cloud-based robotics control to industry, and makes it more scalable."`,
-    image: 'https://uoa-iai.github.io/post/sfti-interview/image_hu41bf1922b6caa13d4f7634571dcc3c9b_6672409_3a8a832b0c63da55332d6606bbf44db4.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n9',
     featured: false,
@@ -1409,7 +1394,7 @@ The study, co-authored with Chao Liu from Aston University and Yuqian Lu from th
 - Predicting quality risks in production
 
 Tested with real-world data from the plastics industry, the EBN method shows promise for enhancing manufacturing quality and productivity across various sectors. AspectPT Ltd's involvement bridges the gap between theoretical research and industry needs.`,
-    image: 'https://uoa-iai.github.io/post/rootcase-jms/featured.png',
+    image: 'images/news/rootcase-jms.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n10',
     featured: false,
@@ -1425,7 +1410,7 @@ Tested with real-world data from the plastics industry, the EBN method shows pro
 Their paper received recognition as a **Top Trending Article for 2023** at the International Journal of Production Research (IJPR).
 
 The achievement highlights the contributions of Dr. Zhou during his PhD studies and reflects a strong ongoing partnership with Prof. Bao at the intersection of industrial knowledge graphs and machine learning for production systems.`,
-    image: 'https://uoa-iai.github.io/post/ipjr-2023/featured.jpg',
+    image: 'images/news/ipjr-2023.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n11',
     featured: false,
@@ -1441,7 +1426,7 @@ The achievement highlights the contributions of Dr. Zhou during his PhD studies 
 Deputy Vice Chancellor Research Professor Frank Bloomfield hosted the event at the Sir Owen G Glenn Building and noted the university's achievement of reaching **68th in the QS world rankings for 2024**.
 
 Dr. Yuqian Lu received recognition as one of seven researchers awarded the **Early Career Research Excellence** category. The presentation ceremony provided an opportunity for the university's research community to celebrate research excellence and acknowledge the calibre of researchers contributing to the institution's impact.`,
-    image: 'https://uoa-iai.github.io/post/earlycareer-2023/featured.jpg',
+    image: 'images/news/earlycareer-2023.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n12',
     featured: false,
@@ -1465,7 +1450,7 @@ HA-ViD captures the essence of industrial human assembly scenarios through:
 The dataset enables research towards understanding natural human behaviours, progressive knowledge acquisition, and two-hand collaboration patterns during assembly.
 
 For more information, please visit the HA-ViD project website.`,
-    image: 'https://uoa-iai.github.io/post/havid-neurips/featured.png',
+    image: 'images/news/havid-neurips.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n13',
     featured: false,
@@ -1485,7 +1470,7 @@ Today, industrial robots communicate via wired connections between a local contr
 "Imagine if one day, we could have the world's top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely." — Dr Yuqian Lu
 
 "The critical piece of the SfTI research is to develop smart algorithms that can compensate for issues that may occur even during 5G data transmission — so that, from an application perspective, a robot can move smoothly, in a time-sensitive way."`,
-    image: 'https://uoa-iai.github.io/post/onenews-2023/featured.jpg',
+    image: 'images/news/onenews-2023.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n14',
     featured: false,
@@ -1505,7 +1490,7 @@ He discussed the institution's vision of human-centric manufacturing and progres
 MAIA is a Research and Innovation Staff Exchange initiative funded by the **Horizon 2020** research and innovation programme. It comprises an international academy of 14 academic partners: 7 European universities and 7 Third Countries universities. The focus addresses active ageing industrial workforce problems and needs.
 
 The University of Auckland team develops digital technologies to measure, monitor and optimise human fatigue during human-robot collaborative assembly — with the goal of changing how collaborative workstations are designed and how frontline worker jobs are arranged.`,
-    image: 'https://uoa-iai.github.io/post/maia-2023/featured.png',
+    image: 'images/news/maia-2023.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n15',
     featured: false,
@@ -1521,9 +1506,7 @@ The University of Auckland team develops digital technologies to measure, monito
 Wesley will present his invention, **"Omnitronics"** — a concept and platform that brings together technologies evolving around electronics, mechatronics, robotics, drones, and more. Through a cybernetic automated system, this ecosystem enables seamless integration of various AI technologies: robotics, drones, self-driving cars, and nanobots can all communicate and work effectively with one another.
 
 We are pleased to witness the evolution of Wesley's concept under the guidance of Dr. Yuqian Lu, and to observe how Wesley's ideas stimulate thought. We extend our best wishes for his success.
-
-![Omnitronics concept](https://uoa-iai.github.io/post/weslie-teh/omnitronics_hud70a30006a65468db1039d304db7b09c_144695_cd26f455467cdf006958985cec02d373.webp)`,
-    image: 'https://uoa-iai.github.io/post/weslie-teh/featured.jpg',
+`,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n16',
     featured: false,
@@ -1537,7 +1520,6 @@ We are pleased to witness the evolution of Wesley's concept under the guidance o
     fullContent: `Dr. Yuqian Lu was nominated as a **Corresponding Expert of Engineering**, Elsevier, by The Chinese Academy of Engineering in December 2022.
 
 Engineering is the official journal of the Chinese Academy of Engineering and Higher Education Press. It is a highly ranked journal with an **Impact Factor of 12.8** and Article Influence of 2.37.`,
-    image: 'https://uoa-iai.github.io/post/elsevier-engineering/featured.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n17',
     featured: false,
@@ -1551,7 +1533,6 @@ Engineering is the official journal of the Chinese Academy of Engineering and Hi
     fullContent: `Professor Olga Battaïa, Associate Dean for Research at the Operations Management and Information Systems Department, KEDGE Business School, France, visited our team on November 28, 2022.
 
 In-depth discussion was held between the two parties under the **MSCA-RISE-2019** Marie Sklodowska-Curie Research and Innovation Staff Exchange: "Models and Methods for an Active Ageing Workforce: An International Academy" (MAIA project).`,
-    image: 'https://uoa-iai.github.io/post/prof-o-battaia/featured.jpeg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n18',
     featured: false,
@@ -1572,7 +1553,6 @@ Professor Huang previously held the Gordon S. Marshall Early Career Chair in Eng
 - Associate Editor for ASME Transactions, Journal of Manufacturing Science and Engineering
 
 His recognitions include IISE Fellow, NSF CAREER Award, the 2021 IEEE CASE Best Conference Paper Award, and the 2013 IEEE Transactions on Automation Science and Engineering Best Paper Award. He holds five patents related to Machine Learning for Additive Manufacturing.`,
-    image: 'https://uoa-iai.github.io/post/prof-q-huang/featured.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n19',
     featured: false,
@@ -1586,7 +1566,6 @@ His recognitions include IISE Fellow, NSF CAREER Award, the 2021 IEEE CASE Best 
     fullContent: `On October 17, 2022, **Christopher Luxon**, Leader of the New Zealand National Party and Leader of the Opposition, visited our team.
 
 We showcased our research outcomes and the impact we have created for New Zealand — demonstrating our work on human-robot collaboration, intelligent manufacturing, and AI-powered automation technologies.`,
-    image: 'https://uoa-iai.github.io/post/luxon/featured.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n20',
     featured: false,
@@ -1608,7 +1587,7 @@ The conference theme is **"Automation for a Resilient Society"**. IEEE CASE 2023
 - Healthcare
 
 As the Organising Committee Chair, Dr. Yuqian Lu is committed to making IEEE CASE 2023 an unforgettable experience.`,
-    image: 'https://uoa-iai.github.io/post/ieee-case/featured.jpg',
+    image: 'images/news/ieee-case.webp',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n21',
     featured: false,
@@ -1631,7 +1610,6 @@ The $10.3 million grant will support the four-year Construction 4.0 research pro
 - Improvements in productivity and output quality
 
 The Industrial AI Research Team will play a key role in delivering construction automation and digitalisation solutions.`,
-    image: 'https://uoa-iai.github.io/post/mbie-fund/featured.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n22',
     featured: false,
@@ -1653,9 +1631,7 @@ Traditional automation techniques are efficient for creating standardised produc
 An autonomous mobile robot allows manufacturers an unprecedented level of flexibility. It can be integrated with already-existing manufacturing cells to co-manipulate manual work. New Zealand small manufacturers can introduce flexible robots gradually, test them out, and take their own steps towards automating their facilities.
 
 "We want to create a human-robot collaboration." — Dr Yuqian Lu
-
-![Mobile Manipulator](https://uoa-iai.github.io/post/mobile-manipulator/mobile_manipulator_hu8571d454dca6e406c99cc541fc63b1db_118177_8673882b91ed9e666f2e3491151b4d43.webp)`,
-    image: 'https://uoa-iai.github.io/post/mobile-manipulator/featured.jpg',
+`,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n23',
     featured: false,
@@ -1671,7 +1647,6 @@ An autonomous mobile robot allows manufacturers an unprecedented level of flexib
 **"Digital Twin-driven smart manufacturing: Connotation, reference model, applications and research issues"**
 
 The Best Paper Award is given each year to the RCIM paper published in the past seven years with the highest number of citations measured in Scopus over the past five years. This is a significant achievement recognising the impact of the group's work on Digital Twin and Smart Manufacturing.`,
-    image: 'https://uoa-iai.github.io/post/rcimaward/featured.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n24',
     featured: false,
@@ -1692,7 +1667,6 @@ Ultra-reliable time-sensitive industrial control in the cloud
 As the momentum of 5G builds, a range of applications will be developed — including real-time cloud-controlled industrial systems and self-driving vehicles. The need is for 5G technology to provide robust and time-sensitive data transmission over wide area networks (WANs).
 
 This project, led by University of Auckland researchers, aims to design a data communication scheduling algorithm and supporting streaming technologies. This will enable time-sensitive transmission of control data for multiple devices over WANs, ensuring that cloud-controlled robots can operate safely and precisely.`,
-    image: 'https://uoa-iai.github.io/post/sfti/featured.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n25',
     featured: false,
