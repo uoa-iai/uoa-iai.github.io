@@ -193,7 +193,7 @@
 
     // ── Render ───────────────────────────────────────────────
     function render() {
-      let list = getPublications();
+      let list = getPublications().filter(p => p.year >= 2019);
 
       // Filter
       if (activeCat !== 'all')  list = list.filter(p => p.tag === activeCat);
@@ -213,7 +213,7 @@
       );
 
       // Count
-      const total = getPublications().length;
+      const total = getPublications().filter(p => p.year >= 2019).length;
       document.getElementById('pubCount').textContent =
         list.length === total
           ? `${total} publications`
@@ -294,7 +294,7 @@
     });
 
     // ── Init ─────────────────────────────────────────────────
-    buildYearFilters(getPublications());
+    buildYearFilters(getPublications().filter(p => p.year >= 2019));
     render();
   </script>
 </body>
