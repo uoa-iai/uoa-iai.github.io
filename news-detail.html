@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme');if(t)document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — IAI Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="news-detail.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="data.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo_light.svg" alt="IAI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#initiatives">Initiatives</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#facility">Facility</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+      <a href="index.html#initiatives">Initiatives</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#facility">Facility</a>
+      <a href="publications.html">Publications</a>
+      <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ARTICLE -->
+  <main class="detail-main">
+
+    <!-- Not found state (hidden by default) -->
+    <div class="not-found" id="notFound" style="display:none">
+      <div class="container">
+        <h2>News item not found.</h2>
+        <a href="index.html#news" class="btn-ghost">← Back to News</a>
+      </div>
+    </div>
+
+    <!-- Article content -->
+    <article id="articleWrap" style="display:none">
+      <div class="container detail-container">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <a href="index.html#news">News</a>
+          <span>›</span>
+          <span id="breadcrumbTitle"></span>
+        </nav>
+
+        <!-- Featured image -->
+        <div id="detailHeroWrap" style="display:none">
+          <img id="detailHero" src="" alt="" class="detail-hero-img" />
+        </div>
+
+        <!-- Header -->
+        <header class="detail-header">
+          <div class="detail-meta">
+            <span class="news-badge" id="detailBadge"></span>
+            <span class="detail-date" id="detailDate"></span>
+          </div>
+          <h1 id="detailTitle"></h1>
+        </header>
+
+        <!-- Body -->
+        <div class="detail-body" id="detailBody"></div>
+
+        <!-- Footer actions -->
+        <div class="detail-footer">
+          <a href="index.html#news" class="btn-ghost">← Back to News</a>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- Related news -->
+    <section class="related-section" id="relatedSection" style="display:none">
+      <div class="container">
+        <h3 class="related-title">More News</h3>
+        <div class="related-grid" id="relatedGrid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="IAI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="index.html#research">Factory Automation</a>
+          <a href="index.html#research">Human-Robot Collab</a>
+          <a href="index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="index.html#team">Team</a>
+          <a href="index.html#publications">Publications</a>
+          <a href="index.html#news">News</a>
+          <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IAI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script>
+    // ── Navbar scroll ───────────────────────────────────────
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // ── Mobile menu ─────────────────────────────────────────
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+
+    // ── Markdown-lite renderer ──────────────────────────────
+    // Supports: **bold**, headings (## / ###), bullet lists (- item), blank lines → paragraphs
+    function renderMarkdown(text) {
+      const lines = text.split('\n');
+      const html = [];
+      let inList = false;
+
+      for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+
+        // Headings
+        if (line.startsWith('### ')) {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push(`<h3>${escape(line.slice(4))}</h3>`);
+          continue;
+        }
+        if (line.startsWith('## ')) {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push(`<h2>${escape(line.slice(3))}</h2>`);
+          continue;
+        }
+
+        // Image line
+        if (isImageLine(line)) {
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push(renderImageLine(line));
+          continue;
+        }
+
+        // Bullet list
+        if (line.startsWith('- ')) {
+          if (!inList) { html.push('<ul>'); inList = true; }
+          html.push(`<li>${inline(line.slice(2))}</li>`);
+          continue;
+        }
+
+        // Close list if open
+        if (inList) { html.push('</ul>'); inList = false; }
+
+        // Empty line
+        if (line.trim() === '') {
+          html.push('<br>');
+          continue;
+        }
+
+        // Regular paragraph line
+        html.push(`<p>${inline(line)}</p>`);
+      }
+
+      if (inList) html.push('</ul>');
+      return html.join('\n');
+    }
+
+    function escape(str) {
+      return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function inline(str) {
+      str = escape(str).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      return str;
+    }
+
+    function isImageLine(line) {
+      return /^!\[([^\]]*)\]\(([^)]+)\)$/.test(line.trim());
+    }
+
+    function renderImageLine(line) {
+      const m = line.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+      return m ? `<img src="${m[2]}" alt="${m[1]}" class="detail-body-img" loading="lazy" />` : '';
+    }
+
+    // ── Load article ────────────────────────────────────────
+    const params = new URLSearchParams(window.location.search);
+    const id     = params.get('id');
+    const list   = getNews();
+    const item   = list.find(n => n.id === id);
+
+    if (!item) {
+      document.getElementById('notFound').style.display = '';
+    } else {
+      document.title = `${item.title} — IAI Group`;
+
+      document.getElementById('detailBadge').textContent     = item.badge;
+      document.getElementById('detailDate').textContent      = item.date;
+      document.getElementById('detailTitle').textContent     = item.title;
+      document.getElementById('breadcrumbTitle').textContent = item.title;
+
+      if (item.image) {
+        const heroImg  = document.getElementById('detailHero');
+        heroImg.src    = item.image;
+        heroImg.alt    = item.title;
+        document.getElementById('detailHeroWrap').style.display = '';
+      }
+
+      const content = item.fullContent || item.body;
+      document.getElementById('detailBody').innerHTML = renderMarkdown(content);
+
+      document.getElementById('articleWrap').style.display = '';
+
+      // Related news (up to 3 others)
+      const others = list.filter(n => n.id !== id).slice(0, 3);
+      if (others.length > 0) {
+        document.getElementById('relatedSection').style.display = '';
+        document.getElementById('relatedGrid').innerHTML = others.map(n => `
+          <a class="related-card" href="news-detail.html?id=${n.id}">
+            <span class="news-badge">${n.badge}</span>
+            <span class="related-date">${n.date}</span>
+            <h4>${n.title}</h4>
+            <p>${n.body}</p>
+          </a>
+        `).join('');
+      }
+    }
+  </script>
+</body>
+</html>

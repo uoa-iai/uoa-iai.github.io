@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme');if(t)document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — IAI Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="publications.css" />
+  <script src="data.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo_light.svg" alt="IAI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#initiatives">Initiatives</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#facility">Facility</a></li>
+        <li><a href="publications.html" style="color:var(--text)">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+      <a href="index.html#initiatives">Initiatives</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#facility">Facility</a>
+      <a href="publications.html">Publications</a>
+      <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="pubs-main">
+    <div class="container pubs-container">
+
+      <!-- Page header -->
+      <div class="pubs-page-header">
+        <nav class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span>Publications</span>
+        </nav>
+        <h1>Publications</h1>
+        <p class="pubs-subtitle">Research outputs from the IAI Group</p>
+        <p class="pubs-count" id="pubCount"></p>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="pubs-toolbar">
+        <!-- Search -->
+        <div class="pubs-search-wrap">
+          <svg class="search-icon" viewBox="0 0 20 20" fill="none">
+            <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M13 13 L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <input type="search" id="pubSearch" placeholder="Search title or author…" autocomplete="off" />
+          <button class="search-clear" id="searchClear" aria-label="Clear">✕</button>
+        </div>
+
+        <!-- Sort -->
+        <select id="pubSort" class="pubs-sort">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+        </select>
+      </div>
+
+      <!-- Category filters -->
+      <div class="pubs-filters-row">
+        <div class="pubs-filter-group">
+          <span class="filter-label">Category</span>
+          <div class="filter-pills" id="catFilters">
+            <button class="pub-filter active" data-cat="all">All</button>
+            <button class="pub-filter" data-cat="automation">Factory Automation</button>
+            <button class="pub-filter" data-cat="hrc">Human-Robot</button>
+            <button class="pub-filter" data-cat="embodied">Embodied AI</button>
+          </div>
+        </div>
+        <div class="pubs-filter-group">
+          <span class="filter-label">Year</span>
+          <div class="filter-pills" id="yearFilters">
+            <button class="year-filter active" data-year="all">All</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Publication list -->
+      <div class="pub-list" id="pubList"></div>
+
+      <!-- Empty state -->
+      <div class="pubs-empty" id="pubsEmpty" style="display:none">
+        <p>No publications match your filters.</p>
+        <button class="btn-ghost" id="resetFilters">Clear filters</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="IAI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="index.html#research">Factory Automation</a>
+          <a href="index.html#research">Human-Robot Collab</a>
+          <a href="index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="index.html#team">Team</a>
+          <a href="publications.html">Publications</a>
+          <a href="index.html#news">News</a>
+          <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IAI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script>
+    // ── Navbar scroll ────────────────────────────────────────
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+
+    // ── State ────────────────────────────────────────────────
+    const TAG_LABELS = {
+      automation: 'Factory Automation',
+      hrc:        'Human-Robot',
+      embodied:   'Embodied AI',
+    };
+
+    let activeCat  = 'all';
+    let activeYear = 'all';
+    let searchQ    = '';
+    let sortDir    = 'newest';
+
+    // ── Build year filter pills from data ────────────────────
+    function buildYearFilters(list) {
+      const years = [...new Set(list.map(p => p.year))].sort((a, b) => b - a);
+      const wrap = document.getElementById('yearFilters');
+      years.forEach(y => {
+        const btn = document.createElement('button');
+        btn.className = 'year-filter';
+        btn.dataset.year = y;
+        btn.textContent = y;
+        wrap.appendChild(btn);
+      });
+    }
+
+    // ── Render ───────────────────────────────────────────────
+    function render() {
+      let list = getPublications();
+
+      // Filter
+      if (activeCat !== 'all')  list = list.filter(p => p.tag === activeCat);
+      if (activeYear !== 'all') list = list.filter(p => p.year === activeYear);
+      if (searchQ) {
+        const q = searchQ.toLowerCase();
+        list = list.filter(p =>
+          p.title.toLowerCase().includes(q) ||
+          p.authors.toLowerCase().includes(q) ||
+          p.venue.toLowerCase().includes(q)
+        );
+      }
+
+      // Sort
+      list = [...list].sort((a, b) =>
+        sortDir === 'newest' ? b.year - a.year : a.year - b.year
+      );
+
+      // Count
+      const total = getPublications().length;
+      document.getElementById('pubCount').textContent =
+        list.length === total
+          ? `${total} publications`
+          : `${list.length} of ${total} publications`;
+
+      // Empty state
+      document.getElementById('pubsEmpty').style.display = list.length ? 'none' : '';
+
+      // Render items
+      const container = document.getElementById('pubList');
+      container.innerHTML = list.map(p => `
+        <div class="pub-item" data-tag="${p.tag}" data-year="${p.year}">
+          <div class="pub-year">${p.year}</div>
+          <div class="pub-content">
+            <span class="pub-tag ${p.tag}">${TAG_LABELS[p.tag] || p.tag}</span>
+            <h4>${p.title}</h4>
+            <p class="pub-authors">${p.authors}</p>
+            <p class="pub-venue">${p.venue}</p>
+            <div class="pub-links">
+              ${p.links.map(l => `<a href="${l.url}">${l.label}</a>`).join('')}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // ── Wire up category filters ─────────────────────────────
+    document.getElementById('catFilters').addEventListener('click', e => {
+      const btn = e.target.closest('[data-cat]');
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      document.querySelectorAll('[data-cat]').forEach(b => b.classList.toggle('active', b === btn));
+      render();
+    });
+
+    // ── Wire up year filters ─────────────────────────────────
+    document.getElementById('yearFilters').addEventListener('click', e => {
+      const btn = e.target.closest('[data-year]');
+      if (!btn) return;
+      activeYear = btn.dataset.year;
+      document.querySelectorAll('[data-year]').forEach(b => b.classList.toggle('active', b === btn));
+      render();
+    });
+
+    // ── Search ───────────────────────────────────────────────
+    const searchInput = document.getElementById('pubSearch');
+    const searchClear = document.getElementById('searchClear');
+    searchInput.addEventListener('input', () => {
+      searchQ = searchInput.value.trim();
+      searchClear.style.display = searchQ ? '' : 'none';
+      render();
+    });
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      searchQ = '';
+      searchClear.style.display = 'none';
+      render();
+    });
+
+    // ── Sort ─────────────────────────────────────────────────
+    document.getElementById('pubSort').addEventListener('change', e => {
+      sortDir = e.target.value;
+      render();
+    });
+
+    // ── Reset all filters ────────────────────────────────────
+    document.getElementById('resetFilters').addEventListener('click', () => {
+      activeCat = 'all';
+      activeYear = 'all';
+      searchQ = '';
+      sortDir = 'newest';
+      searchInput.value = '';
+      searchClear.style.display = 'none';
+      document.getElementById('pubSort').value = 'newest';
+      document.querySelectorAll('[data-cat]').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
+      document.querySelectorAll('[data-year]').forEach(b => b.classList.toggle('active', b.dataset.year === 'all'));
+      render();
+    });
+
+    // ── Init ─────────────────────────────────────────────────
+    buildYearFilters(getPublications());
+    render();
+  </script>
+</body>
+</html>

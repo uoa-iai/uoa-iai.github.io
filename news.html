@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme');if(t)document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — IAI Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="news-list.css" />
+  <script src="data.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo_light.svg" alt="IAI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="news.html" style="color:var(--text)">News</a></li>
+        <li><a href="index.html#initiatives">Initiatives</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#facility">Facility</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+      <a href="index.html#initiatives">Initiatives</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#facility">Facility</a>
+      <a href="publications.html">Publications</a>
+      <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="news-list-main">
+    <div class="container news-list-container">
+
+      <!-- Page header -->
+      <div class="news-list-page-header">
+        <nav class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span>News</span>
+        </nav>
+        <h1>News &amp; Events</h1>
+        <p class="news-list-subtitle">Latest updates from the IAI Group</p>
+        <p class="news-list-count" id="newsCount"></p>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="nl-toolbar">
+        <div class="nl-search-wrap">
+          <svg class="nl-search-icon" viewBox="0 0 20 20" fill="none">
+            <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M13 13 L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <input type="search" id="newsSearch" placeholder="Search title or content…" autocomplete="off" />
+          <button class="nl-search-clear" id="searchClear" aria-label="Clear">✕</button>
+        </div>
+        <select id="newsSort">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+        </select>
+      </div>
+
+      <!-- Filters -->
+      <div class="nl-filters-row">
+        <div class="nl-filter-group">
+          <span class="nl-filter-label">Category</span>
+          <div class="nl-filter-pills" id="badgeFilters">
+            <button class="nl-filter-pill active" data-badge="all">All</button>
+          </div>
+        </div>
+        <div class="nl-filter-group">
+          <span class="nl-filter-label">Year</span>
+          <div class="nl-filter-pills" id="yearFilters">
+            <button class="nl-filter-pill active" data-year="all">All</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured card (injected by JS) -->
+      <div id="newsFeatured"></div>
+
+      <!-- News grid -->
+      <div class="news-list-grid" id="newsListGrid"></div>
+
+      <!-- Empty state -->
+      <div class="nl-empty" id="newsEmpty" style="display:none">
+        <p>No news items match your filters.</p>
+        <button class="btn-ghost" id="resetFilters">Clear filters</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="IAI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="index.html#research">Factory Automation</a>
+          <a href="index.html#research">Human-Robot Collab</a>
+          <a href="index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="index.html#team">Team</a>
+          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
+          <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IAI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script>
+    // ── Navbar scroll ────────────────────────────────────────
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+
+    // ── State ────────────────────────────────────────────────
+    let activeBadge = 'all';
+    let activeYear  = 'all';
+    let searchQ     = '';
+    let sortDir     = 'newest';
+
+    // ── Helpers ──────────────────────────────────────────────
+    const NO_IMG_SVG = `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/>
+      <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/>
+      <path d="M3 15l5-5 4 4 3-3 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>`;
+
+    function badgeHtml(badge) {
+      return `<span class="news-badge" data-type="${badge}">${badge}</span>`;
+    }
+
+    // ── Build badge filters ──────────────────────────────────
+    function buildBadgeFilters(list) {
+      const badges = [...new Set(list.map(n => n.badge))].sort();
+      const wrap = document.getElementById('badgeFilters');
+      badges.forEach(b => {
+        const btn = document.createElement('button');
+        btn.className = 'nl-filter-pill';
+        btn.dataset.badge = b;
+        btn.textContent = b;
+        wrap.appendChild(btn);
+      });
+    }
+
+    // ── Build year filters ───────────────────────────────────
+    function buildYearFilters(list) {
+      const years = [...new Set(list.map(n => n.date.match(/\d{4}/)?.[0]).filter(Boolean))].sort((a, b) => b - a);
+      const wrap = document.getElementById('yearFilters');
+      years.forEach(y => {
+        const btn = document.createElement('button');
+        btn.className = 'nl-filter-pill';
+        btn.dataset.year = y;
+        btn.textContent = y;
+        wrap.appendChild(btn);
+      });
+    }
+
+    // ── Render ───────────────────────────────────────────────
+    function render() {
+      let list = getNews();
+
+      if (activeBadge !== 'all') list = list.filter(n => n.badge === activeBadge);
+      if (activeYear  !== 'all') list = list.filter(n => n.date.includes(activeYear));
+      if (searchQ) {
+        const q = searchQ.toLowerCase();
+        list = list.filter(n =>
+          n.title.toLowerCase().includes(q) ||
+          n.body.toLowerCase().includes(q) ||
+          n.badge.toLowerCase().includes(q)
+        );
+      }
+
+      list = [...list].sort((a, b) =>
+        sortDir === 'newest'
+          ? new Date(b.date) - new Date(a.date)
+          : new Date(a.date) - new Date(b.date)
+      );
+
+      // Count
+      const total = getNews().length;
+      document.getElementById('newsCount').textContent =
+        list.length === total
+          ? `${total} news items`
+          : `${list.length} of ${total} news items`;
+
+      // Empty state
+      const isEmpty = list.length === 0;
+      document.getElementById('newsEmpty').style.display = isEmpty ? '' : 'none';
+      document.getElementById('newsFeatured').style.display = isEmpty ? 'none' : '';
+
+      if (isEmpty) {
+        document.getElementById('newsListGrid').innerHTML = '';
+        document.getElementById('newsFeatured').innerHTML = '';
+        return;
+      }
+
+      // Featured card (first item)
+      const [featured, ...rest] = list;
+      document.getElementById('newsFeatured').innerHTML = `
+        <a class="nl-card-featured" href="news-detail.html?id=${featured.id}">
+          <div class="nl-featured-img-wrap${featured.image ? '' : ' nl-featured-no-img'}">
+            ${featured.image
+              ? `<img src="${featured.image}" alt="${featured.title}" loading="lazy" />`
+              : NO_IMG_SVG}
+            <span class="nl-featured-tag">${featured.badge}</span>
+          </div>
+          <div class="nl-featured-body">
+            <div class="nl-card-meta">
+              <span class="news-date">${featured.date}</span>
+              ${badgeHtml(featured.badge)}
+            </div>
+            <h3>${featured.title}</h3>
+            <p>${featured.body}</p>
+            <span class="nl-featured-read-more">${featured.linkText} <span>→</span></span>
+          </div>
+        </a>
+      `;
+
+      // Remaining cards
+      document.getElementById('newsListGrid').innerHTML = rest.map(n => `
+        <a class="nl-card" href="news-detail.html?id=${n.id}">
+          <div class="nl-card-img-wrap${n.image ? '' : ' nl-card-no-img'}">
+            ${n.image
+              ? `<img src="${n.image}" alt="${n.title}" loading="lazy" />`
+              : NO_IMG_SVG}
+          </div>
+          <div class="nl-card-body">
+            <div class="nl-card-meta">
+              <span class="news-date">${n.date}</span>
+              ${badgeHtml(n.badge)}
+            </div>
+            <h4>${n.title}</h4>
+            <p>${n.body}</p>
+            <span class="nl-read-more">${n.linkText} <span>→</span></span>
+          </div>
+        </a>
+      `).join('');
+    }
+
+    // ── Wire badge filters ───────────────────────────────────
+    document.getElementById('badgeFilters').addEventListener('click', e => {
+      const btn = e.target.closest('[data-badge]');
+      if (!btn) return;
+      activeBadge = btn.dataset.badge;
+      document.querySelectorAll('[data-badge]').forEach(b => b.classList.toggle('active', b === btn));
+      render();
+    });
+
+    // ── Wire year filters ────────────────────────────────────
+    document.getElementById('yearFilters').addEventListener('click', e => {
+      const btn = e.target.closest('[data-year]');
+      if (!btn) return;
+      activeYear = btn.dataset.year;
+      document.querySelectorAll('[data-year]').forEach(b => b.classList.toggle('active', b === btn));
+      render();
+    });
+
+    // ── Search ───────────────────────────────────────────────
+    const searchInput = document.getElementById('newsSearch');
+    const searchClear = document.getElementById('searchClear');
+    searchInput.addEventListener('input', () => {
+      searchQ = searchInput.value.trim();
+      searchClear.style.display = searchQ ? '' : 'none';
+      render();
+    });
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      searchQ = '';
+      searchClear.style.display = 'none';
+      render();
+    });
+
+    // ── Sort ─────────────────────────────────────────────────
+    document.getElementById('newsSort').addEventListener('change', e => {
+      sortDir = e.target.value;
+      render();
+    });
+
+    // ── Reset ────────────────────────────────────────────────
+    document.getElementById('resetFilters').addEventListener('click', () => {
+      activeBadge = 'all';
+      activeYear  = 'all';
+      searchQ     = '';
+      sortDir     = 'newest';
+      searchInput.value = '';
+      searchClear.style.display = 'none';
+      document.getElementById('newsSort').value = 'newest';
+      document.querySelectorAll('[data-badge]').forEach(b => b.classList.toggle('active', b.dataset.badge === 'all'));
+      document.querySelectorAll('[data-year]').forEach(b => b.classList.toggle('active', b.dataset.year === 'all'));
+      render();
+    });
+
+    // ── Init ─────────────────────────────────────────────────
+    const allNews = getNews();
+    buildBadgeFilters(allNews);
+    buildYearFilters(allNews);
+    render();
+  </script>
+</body>
+</html>

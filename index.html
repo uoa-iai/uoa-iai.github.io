@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme');if(t)document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IAI Group — Industrial Artificial Intelligence Research</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="data.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="logo_light.svg" alt="IAI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#initiatives">Initiatives</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#facility">Facility</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#gallery">Gallery</a>
+      <a href="#research">Research</a>
+      <a href="#news">News</a>
+      <a href="#initiatives">Initiatives</a>
+      <a href="#team">Team</a>
+      <a href="#facility">Facility</a>
+      <a href="#publications">Publications</a>
+
+      <a href="opportunity.html">Join Us</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <canvas id="gridCanvas"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Industrial Artificial Intelligence Group</div>
+      <h1 class="hero-title">
+        Intelligence for<br />
+        <span class="gradient-text">Industry of the Future</span>
+      </h1>
+      <p class="hero-sub">
+        We advance AI-driven automation, human-robot teaming, and embodied intelligence
+        to reshape how factories think, adapt, and collaborate.
+      </p>
+      <div class="hero-actions">
+        <a href="#research" class="btn-primary">Explore Research</a>
+        <a href="#publications" class="btn-ghost">View Publications</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="orbit-ring ring-3"></div>
+      <div class="orbit-center">
+        <svg viewBox="0 0 100 100" class="center-icon">
+          <circle cx="50" cy="50" r="20" fill="none" stroke="var(--accent)" stroke-width="2"/>
+          <circle cx="50" cy="50" r="6" fill="var(--accent)"/>
+          <line x1="50" y1="30" x2="50" y2="10" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3,2"/>
+          <line x1="50" y1="70" x2="50" y2="90" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3,2"/>
+          <line x1="30" y1="50" x2="10" y2="50" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3,2"/>
+          <line x1="70" y1="50" x2="90" y2="50" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3,2"/>
+          <circle cx="50" cy="10" r="4" fill="var(--accent2)"/>
+          <circle cx="50" cy="90" r="4" fill="var(--accent2)"/>
+          <circle cx="10" cy="50" r="4" fill="var(--accent2)"/>
+          <circle cx="90" cy="50" r="4" fill="var(--accent2)"/>
+        </svg>
+      </div>
+      <div class="orbit-dot dot-a"></div>
+      <div class="orbit-dot dot-b"></div>
+      <div class="orbit-dot dot-c"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT STRIP -->
+  <section id="about" class="about-strip">
+    <div class="container">
+      <p class="about-text">
+        The <strong>IAI Group</strong> is a research group dedicated to bridging the gap between
+        cutting-edge artificial intelligence and real-world industrial applications.
+        Founded at the intersection of robotics, machine learning, and manufacturing systems,
+        we develop intelligent solutions that are deployable, safe, and human-centric.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESEARCH GALLERY -->
+  <section id="gallery" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Media</span>
+        <h2>Research Gallery</h2>
+        <p>Selected demos and talks from our group</p>
+      </div>
+      <div class="video-showcase">
+
+        <!-- Featured player -->
+        <div class="video-featured">
+          <div class="video-featured-embed">
+            <div class="video-thumb">
+              <iframe id="featuredFrame"
+                src="https://www.youtube-nocookie.com/embed/MTKrBF3L0i8"
+                title="Featured video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="video-featured-info">
+            <span class="video-tag" id="featuredTag">HRC</span>
+            <h3 id="featuredTitle">Human-Robot Collaboration at University of Auckland</h3>
+            <p id="featuredDesc">An overview of our human-robot collaboration research at the University of Auckland — demonstrating safe and intuitive teaming between human workers and collaborative robots.</p>
+          </div>
+        </div>
+
+        <!-- Thumbnail strip -->
+        <div class="video-strip-outer">
+          <button class="strip-arrow" id="stripPrev" aria-label="Previous videos">&#8249;</button>
+          <div class="video-strip" id="videoStrip">
+
+            <div class="strip-item active"
+                 data-src="https://www.youtube-nocookie.com/embed/MTKrBF3L0i8"
+                 data-tag="HRC"
+                 data-title="Human-Robot Collaboration at University of Auckland"
+                 data-desc="An overview of our human-robot collaboration research at the University of Auckland — demonstrating safe and intuitive teaming between human workers and collaborative robots.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/MTKrBF3L0i8/mqdefault.jpg" alt="Human-Robot Collaboration" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">Human-Robot Collaboration</span>
+            </div>
+
+            <div class="strip-item"
+                 data-src="https://www.youtube-nocookie.com/embed/I0qH37f-GJg"
+                 data-tag="HRC"
+                 data-title="AI-Powered Assembly Copilot"
+                 data-desc="Demonstration of an AI copilot system that assists human workers in assembly tasks — providing real-time guidance, error detection, and adaptive task support on the factory floor.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/I0qH37f-GJg/mqdefault.jpg" alt="AI-Powered Assembly Copilot" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">AI-Powered Assembly Copilot</span>
+            </div>
+
+            <div class="strip-item"
+                 data-src="https://www.youtube-nocookie.com/embed/wlyqeGPSJgo"
+                 data-tag="HRC"
+                 data-title="Collaborative Assembly with Dynamic Obstacle Avoidance"
+                 data-desc="A robot performing collaborative assembly while dynamically avoiding human movements — showcasing our safety-aware motion planning framework for shared workspaces.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/wlyqeGPSJgo/mqdefault.jpg" alt="Collaborative Assembly with Dynamic Obstacle Avoidance" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">Collaborative Assembly</span>
+            </div>
+
+            <div class="strip-item"
+                 data-src="https://www.youtube-nocookie.com/embed/7EJFTCWitFA"
+                 data-tag="Automation"
+                 data-title="Automated Assembly Line with Dual KUKA Robots"
+                 data-desc="A fully automated manufacturing assembly line operated by dual KUKA industrial robots — demonstrating coordinated multi-robot task execution for high-throughput production.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/7EJFTCWitFA/mqdefault.jpg" alt="Automated Assembly Line with Dual KUKA Robots" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">Dual KUKA Assembly Line</span>
+            </div>
+
+            <div class="strip-item"
+                 data-src="https://www.youtube-nocookie.com/embed/cGMuDxOqgq0"
+                 data-tag="Automation"
+                 data-title="Factory Mobile Robot"
+                 data-desc="A mobile robot navigating an industrial factory environment — part of our research into autonomous material transport and flexible manufacturing logistics.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/cGMuDxOqgq0/mqdefault.jpg" alt="Factory Mobile Robot" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">Factory Mobile Robot</span>
+            </div>
+
+            <div class="strip-item"
+                 data-src="https://www.youtube-nocookie.com/embed/2-91hYhO4B0"
+                 data-tag="Automation"
+                 data-title="Multi-Robot Control with Cloud-Local Architecture"
+                 data-desc="Coordinated control of multiple robots using a hybrid cloud-local architecture — enabling scalable, low-latency automation across distributed factory environments.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/2-91hYhO4B0/mqdefault.jpg" alt="Multi-Robot Control with Cloud-Local Architecture" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">Multi-Robot Cloud Control</span>
+            </div>
+
+            <div class="strip-item"
+                 data-src="https://www.youtube-nocookie.com/embed/GgVvbyDCkY0"
+                 data-tag="Media"
+                 data-title="Dr. Yuqian Lu on 1News — AI, Robots &amp; 5G"
+                 data-desc="Dr. Yuqian Lu featured on New Zealand's 1News discussing the convergence of artificial intelligence, robotics, and 5G connectivity and their impact on the future of industry.">
+              <div class="strip-thumb">
+                <img src="https://img.youtube.com/vi/GgVvbyDCkY0/mqdefault.jpg" alt="Dr. Yuqian Lu on 1News" loading="lazy" />
+                <div class="strip-play-icon"></div>
+              </div>
+              <span class="strip-label">1News: AI, Robots &amp; 5G</span>
+            </div>
+
+          </div>
+          <button class="strip-arrow" id="stripNext" aria-label="Next videos">&#8250;</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH AREAS -->
+  <section id="research" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Focus Areas</span>
+        <h2>Research Directions</h2>
+        <p>Three interconnected pillars defining our scientific agenda</p>
+      </div>
+      <div class="research-grid">
+
+        <!-- Area 1 -->
+        <div class="research-card" data-index="01">
+          <div class="card-icon">
+            <svg viewBox="0 0 64 64" fill="none">
+              <rect x="8" y="20" width="16" height="28" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="24" y="12" width="16" height="36" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="40" y="24" width="16" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 20 L32 20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2,2"/>
+              <path d="M32 12 L48 24" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2,2"/>
+              <circle cx="16" cy="20" r="2.5" fill="currentColor"/>
+              <circle cx="32" cy="12" r="2.5" fill="currentColor"/>
+              <circle cx="48" cy="24" r="2.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="card-number">01</div>
+          <h3>Collaborative Factory Automation</h3>
+          <p>
+            Developing intelligent, adaptive production systems where machines, processes,
+            and data streams cooperate autonomously. Our work spans multi-agent scheduling,
+            digital twin integration, and AI-driven quality control for smart manufacturing.
+          </p>
+          <ul class="card-topics">
+            <li>Multi-agent production scheduling</li>
+            <li>Digital twin & simulation</li>
+            <li>AI-driven quality inspection</li>
+            <li>Adaptive process control</li>
+          </ul>
+          <a href="#publications" class="card-link">Related Publications →</a>
+        </div>
+
+        <!-- Area 2 -->
+        <div class="research-card featured" data-index="02">
+          <div class="card-icon">
+            <svg viewBox="0 0 64 64" fill="none">
+              <circle cx="22" cy="18" r="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M10 44 C10 36 34 36 34 44" stroke="currentColor" stroke-width="2"/>
+              <rect x="36" y="16" width="18" height="22" rx="3" stroke="currentColor" stroke-width="2"/>
+              <circle cx="42" cy="24" r="2" fill="currentColor"/>
+              <circle cx="48" cy="24" r="2" fill="currentColor"/>
+              <path d="M39 30 h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M36 38 L28 44" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2,2"/>
+              <circle cx="28" cy="44" r="3" fill="currentColor" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="card-number">02</div>
+          <div class="featured-badge">Core Focus</div>
+          <h3>Human-Robot Collaboration</h3>
+          <p>
+            Enabling safe, intuitive, and efficient cooperation between humans and robots
+            on the factory floor. We research shared autonomy, intention prediction,
+            ergonomic task allocation, and trust calibration in HRC systems.
+          </p>
+          <ul class="card-topics">
+            <li>Shared autonomy & task allocation</li>
+            <li>Intention recognition & prediction</li>
+            <li>Safety-aware motion planning</li>
+            <li>Trust & acceptance modeling</li>
+          </ul>
+          <a href="#publications" class="card-link">Related Publications →</a>
+        </div>
+
+        <!-- Area 3 -->
+        <div class="research-card" data-index="03">
+          <div class="card-icon">
+            <svg viewBox="0 0 64 64" fill="none">
+              <ellipse cx="32" cy="24" rx="14" ry="10" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 24 L14 40 L32 46 L50 40 L46 24" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 34 L32 46" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="32" cy="24" r="4" fill="currentColor" opacity="0.4"/>
+              <path d="M26 20 Q32 14 38 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="14" cy="40" r="2.5" fill="currentColor"/>
+              <circle cx="50" cy="40" r="2.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="card-number">03</div>
+          <h3>Embodied Intelligence</h3>
+          <p>
+            Building robots that learn through physical interaction with the world.
+            Our research integrates foundation models, sensorimotor learning, and
+            dexterous manipulation to create adaptable industrial agents.
+          </p>
+          <ul class="card-topics">
+            <li>Dexterous manipulation learning</li>
+            <li>Foundation models for robotics</li>
+            <li>Sim-to-real transfer</li>
+            <li>Multimodal perception & action</li>
+          </ul>
+          <a href="#publications" class="card-link">Related Publications →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news" class="section section-tinted">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Updates</span>
+        <h2>News &amp; Events</h2>
+        <p>Latest from the lab</p>
+      </div>
+      <div class="news-grid" id="newsGrid"></div>
+      <div class="section-footer">
+        <a href="news.html" class="btn-ghost">View All News →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- INITIATIVES -->
+  <section id="initiatives" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Projects</span>
+        <h2>Initiatives</h2>
+        <p>Open datasets, tools, and community programmes from our group</p>
+      </div>
+      <div class="initiatives-grid">
+
+        <a class="initiative-card" href="https://iai-hrc.github.io/ha-vid" target="_blank" rel="noopener">
+          <div class="initiative-img-wrap">
+            <img src="https://uoa-iai.github.io/initiative/havid/featured_hu54ca09d1581882074f9ff161a336eba7_3022033_540x0_resize_q80_h2_lanczos_3.webp"
+                 alt="HA-ViD" loading="lazy" />
+          </div>
+          <div class="initiative-body">
+            <div class="initiative-tags">
+              <span>Assembly</span><span>Video Dataset</span><span>Knowledge</span>
+            </div>
+            <h3>HA-ViD</h3>
+            <p class="initiative-sub">Human Assembly Video Dataset</p>
+            <p>Towards comprehensive assembly knowledge understanding — a large-scale dataset capturing human assembly actions for training and evaluating intelligent manufacturing systems.</p>
+            <span class="initiative-link">Visit project →</span>
+          </div>
+        </a>
+
+        <a class="initiative-card" href="https://iai-hrc.github.io/hr-sat" target="_blank" rel="noopener">
+          <div class="initiative-img-wrap">
+            <img src="https://uoa-iai.github.io/initiative/hrsat/featured_hu117db95af1925c0d3fbbb8957b16418a_762706_540x0_resize_q80_h2_lanczos_3.webp"
+                 alt="HR-SAT" loading="lazy" />
+          </div>
+          <div class="initiative-body">
+            <div class="initiative-tags">
+              <span>HRC</span><span>Taxonomy</span><span>Knowledge Transfer</span>
+            </div>
+            <h3>HR-SAT</h3>
+            <p class="initiative-sub">Human-Robot Shared Assembly Taxonomy</p>
+            <p>Towards seamless human-robot collaboration — a shared taxonomy enabling robots and humans to communicate assembly knowledge using a common structured vocabulary.</p>
+            <span class="initiative-link">Visit project →</span>
+          </div>
+        </a>
+
+        <a class="initiative-card" href="https://www.automationspotlights.org/" target="_blank" rel="noopener">
+          <div class="initiative-img-wrap">
+            <img src="https://uoa-iai.github.io/initiative/ieee-automation-research-spotlights/featured_hu99964a59437a038becb5e13c916c19b2_1959226_540x0_resize_q80_h2_lanczos_3.webp"
+                 alt="IEEE Automation Research Spotlights" loading="lazy" />
+          </div>
+          <div class="initiative-body">
+            <div class="initiative-tags">
+              <span>IEEE RAS</span><span>Webinar</span><span>Community</span>
+            </div>
+            <h3>Automation Research Spotlights</h3>
+            <p class="initiative-sub">IEEE Robotics and Automation Society</p>
+            <p>A webinar series featuring expert talks on emerging topics in robotics, automation, and intelligent manufacturing — open to the global research community.</p>
+            <span class="initiative-link">Visit website →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">People</span>
+        <h2>Our Team</h2>
+        <p>A multidisciplinary group of researchers and engineers</p>
+      </div>
+
+      <div class="team-pi">
+        <div class="pi-avatar">
+          <img src="https://uoa-iai.github.io/authors/yuqian-lu/avatar_hu170cc4c5c40a51f3a1a602a28767458c_2889568_270x270_fill_q80_lanczos_center.jpg"
+               alt="Yuqian Lu" class="pi-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder" style="display:none">YL</div>
+        </div>
+        <div class="pi-info">
+          <span class="pi-label">Principal Investigator</span>
+          <h3>Dr. Yuqian Lu</h3>
+          <p class="pi-title">Senior Lecturer — University of Auckland</p>
+          <p class="pi-bio">
+            Dr. Yuqian Lu earned his PhD in Mechatronics Engineering from the University of Auckland in 2017,
+            rejoined as Lecturer in 2019, and was promoted to Senior Lecturer in 2022. His research centres on
+            cognitive sensing, reasoning, control, and human interaction technologies for intelligent manufacturing
+            and construction systems. As PI, he has secured over NZ$2.1M in competitive funding (MBIE, NSC,
+            Callaghan Innovation) and contributed as co-PI to projects totalling more than NZ$20M. He has authored
+            over 120 papers, serves as Associate Editor for IEEE T-SMCS, IEEE T-ASE, and other leading journals,
+            and is recognised in Stanford University's World's Top 2% Scientists (2021–2024). He received the
+            University of Auckland Early Career Research Excellence Award in 2023 and multiple Best Paper Awards
+            from the Journal of Manufacturing Systems, Robotics and Computer-Integrated Manufacturing, and CIE.
+          </p>
+          <div class="pi-links">
+            <a href="https://scholar.google.co.nz/citations?user=E4VnO8UAAAAJ&hl=en" class="social-link" target="_blank" rel="noopener">Scholar</a>
+            <a href="https://www.linkedin.com/in/yuqian-lu/" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:yuqian.lu@auckland.ac.nz" class="social-link">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-tier-label">PhD Students</div>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/regina-lee/avatar_hu795a059e4bda5d6b681279484478a296_42890_270x270_fill_lanczos_center_3.png" alt="Regina Lee" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">RL</div>
+          <div class="member-info">
+            <h4>Regina Lee</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/li-xu/avatar_hu4604af17d67c9e4e7b859f2922827e52_6045811_270x270_fill_q80_lanczos_center.jpg" alt="Li Xu" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">LX</div>
+          <div class="member-info">
+            <h4>Li Xu</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/travis-augenstein/avatar_hudef1793a05217b08f24e2089a4e402a4_249550_270x270_fill_lanczos_center_3.png" alt="Travis Augenstein" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">TA</div>
+          <div class="member-info">
+            <h4>Travis Augenstein</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/cooper-li/avatar_hu4682e6299080c6a47f5c284c485abf75_38983_270x270_fill_q80_lanczos_center.jpg" alt="Cooper Li" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">CL</div>
+          <div class="member-info">
+            <h4>Cooper Li</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/zeqiang-zhu/avatar_hubfcef88a451b8a1791c19d62b0179726_3099772_270x270_fill_q80_lanczos_center.jpg" alt="Zeqiang Zhu" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">ZZ</div>
+          <div class="member-info">
+            <h4>Zeqiang Zhu</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/dipesh-patel/avatar_hufcff9e1af462b1baf90e7319320dd0ee_1976788_270x270_fill_q80_lanczos_center.jpg" alt="Dipesh Patel" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">DP</div>
+          <div class="member-info">
+            <h4>Dipesh Patel</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/rui-zhou/avatar_hu93edf6badcf51fec87abc2d87e48a81e_14805_270x270_fill_q80_lanczos_center.jpg" alt="Rui Zhou" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">RZ</div>
+          <div class="member-info">
+            <h4>Rui Zhou</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="avatar-placeholder sm">HZ</div>
+          <div class="member-info">
+            <h4>Huaiwen Zhang</h4>
+            <span class="member-role">PhD Student</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-tier-label">Master's Students</div>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/rain-mu/avatar_hu5a4d334fddd7ef94b913ced2d9b38f94_2700040_270x270_fill_q80_lanczos_center.jpg" alt="Rain Mu" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">RM</div>
+          <div class="member-info">
+            <h4>Rain Mu</h4>
+            <span class="member-role">Master's Student</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-tier-label">Visiting Researchers</div>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://uoa-iai.github.io/authors/shengwei-fu/avatar_huadee23ea33ba162ecc85a66a9795_65147_270x270_fill_q80_lanczos_center.jpg" alt="Shengwei Fu" class="member-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-placeholder sm" style="display:none">SF</div>
+          <div class="member-info">
+            <h4>Shengwei Fu</h4>
+            <span class="member-role">Visiting PhD Student</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="avatar-placeholder sm">WJ</div>
+          <div class="member-info">
+            <h4>Weimin Jing</h4>
+            <span class="member-role">Visiting PhD Student</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAB FACILITY GALLERY -->
+  <section id="facility" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Infrastructure</span>
+        <h2>Lab Facility</h2>
+        <p>State-of-the-art equipment supporting cutting-edge research</p>
+      </div>
+      <div class="facility-gallery">
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/UR5e.jpg" alt="UR5e Collaborative Robot"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="28" width="12" height="20" rx="2" stroke="currentColor" stroke-width="2"/><path d="M20 44 L32 44 L32 20 L44 20 L44 36" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="44" cy="38" r="4" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>UR5e Collaborative Robot</h4>
+            <p>6-DOF Universal Robots UR5e cobot with 5 kg payload and ±0.03 mm repeatability. Used for HRC task allocation, skill learning, and assembly demonstrations.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/franka.png" alt="Franka Emika Panda"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="28" width="12" height="20" rx="2" stroke="currentColor" stroke-width="2"/><path d="M20 44 L32 44 L32 20 L44 20 L44 36" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="44" cy="38" r="4" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>Franka Emika Panda</h4>
+            <p>7-DOF torque-controlled manipulator with integrated force-torque sensing at each joint. Primary platform for dexterous manipulation and sim-to-real transfer research.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/GPU stations.jpg" alt="GPU Computing Cluster"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="12" width="48" height="12" rx="2" stroke="currentColor" stroke-width="2"/><rect x="8" y="28" width="48" height="12" rx="2" stroke="currentColor" stroke-width="2"/><rect x="8" y="44" width="48" height="8" rx="2" stroke="currentColor" stroke-width="2"/><circle cx="52" cy="18" r="2.5" fill="currentColor"/><circle cx="52" cy="34" r="2.5" fill="currentColor"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>GPU Computing Cluster</h4>
+            <p>On-premises server cluster with multiple NVIDIA A100 GPUs for training large vision-language models, foundation models for robotics, and large-scale simulation workloads.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/assembly station.png" alt="Instrumented Assembly Workbench"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="36" width="48" height="6" rx="1" stroke="currentColor" stroke-width="2"/><rect x="16" y="42" width="4" height="16" rx="1" stroke="currentColor" stroke-width="2"/><rect x="44" y="42" width="4" height="16" rx="1" stroke="currentColor" stroke-width="2"/><rect x="20" y="20" width="24" height="16" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>Instrumented Assembly Workbench</h4>
+            <p>Custom assembly station with embedded force/torque sensors, multi-angle cameras, and tool tracking for capturing rich multi-modal data during human assembly tasks.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/human-robot collaboration plaform.png" alt="Human-Robot Collaboration Platform"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/><path d="M10 38 C10 28 30 28 30 38" stroke="currentColor" stroke-width="2"/><rect x="34" y="18" width="18" height="20" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="40" cy="26" r="2" fill="currentColor"/><circle cx="46" cy="26" r="2" fill="currentColor"/><path d="M37 32 h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M30 34 L34 34" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2,2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>Human-Robot Collaboration Platform</h4>
+            <p>Dedicated shared workspace for studying safe and intuitive human-robot teaming. Equipped with proximity sensors, vision systems, and force-sensitive interfaces to support intention recognition, ergonomic task allocation, and trust calibration experiments.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/production line.jpg" alt="Production Line"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="4" y="36" width="56" height="6" rx="1" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="46" r="4" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="46" r="4" stroke="currentColor" stroke-width="2"/><rect x="10" y="20" width="14" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="28" y="24" width="10" height="12" rx="2" stroke="currentColor" stroke-width="2"/><rect x="42" y="18" width="12" height="18" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>Production Line</h4>
+            <p>A reconfigurable production line testbed for validating intelligent manufacturing algorithms in realistic settings. Supports multi-robot coordination, AI-driven quality inspection, adaptive process control, and digital twin integration research.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/mobile manipulator.jpg" alt="Mobile Manipulator"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="12" y="38" width="40" height="14" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="54" r="4" stroke="currentColor" stroke-width="2"/><circle cx="44" cy="54" r="4" stroke="currentColor" stroke-width="2"/><path d="M32 38 L32 22 L44 22 L44 34" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="44" cy="36" r="3" stroke="currentColor" stroke-width="2"/><path d="M20 38 L20 30" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2,2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>Mobile Manipulator</h4>
+            <p>UR5 robotic arm mounted on a MiR100 autonomous mobile robot platform. Combines the reach and dexterity of a 6-DOF manipulator with fleet-level mobility, enabling research into flexible intralogistics, autonomous pick-and-place, and mobile manipulation in dynamic factory environments.</p>
+          </div>
+        </div>
+
+        <div class="facility-card">
+          <div class="facility-img-wrap">
+            <img src="images/lab/mes.png" alt="Commercial Manufacturing Execution System"
+              loading="lazy" onerror="this.closest('.facility-img-wrap').classList.add('img-error')" />
+            <div class="facility-img-placeholder">
+              <svg viewBox="0 0 64 64" fill="none"><rect x="6" y="8" width="52" height="32" rx="3" stroke="currentColor" stroke-width="2"/><rect x="12" y="14" width="16" height="10" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="12" y="28" width="8" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="24" y="28" width="8" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="36" y="14" width="16" height="20" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M24 40 L24 48 M40 40 L40 48" stroke="currentColor" stroke-width="2"/><rect x="18" y="48" width="28" height="6" rx="1" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </div>
+          <div class="facility-body">
+            <h4>Commercial Manufacturing Execution System</h4>
+            <p>An industry-grade MES platform providing real-time visibility and control across production workflows. Used to research intelligent scheduling, process traceability, quality management, and seamless integration between shop-floor operations and enterprise-level data systems.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section section-tinted">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Selected Works</span>
+        <h2>Publications</h2>
+        <p>Recent contributions to top-tier venues</p>
+      </div>
+
+      <div class="pub-area-tabs">
+        <button class="pub-area-tab active" data-area="automation">Factory Automation</button>
+        <button class="pub-area-tab" data-area="hrc">Human-Robot Collaboration</button>
+        <button class="pub-area-tab" data-area="embodied">Embodied Intelligence</button>
+      </div>
+
+      <div class="pub-list" id="pubList"></div>
+
+      <div class="pub-more">
+        <a href="publications.html" class="btn-ghost">View All Publications →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Get in Touch</span>
+        <h2>Contact</h2>
+        <p>Interested in collaboration, joining the lab, or learning more?</p>
+      </div>
+      <div class="contact-cards">
+
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" width="28" height="28">
+              <path d="M20 4C14.477 4 10 8.477 10 14c0 8.25 10 22 10 22s10-13.75 10-22c0-5.523-4.477-10-10-10z" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="14" r="3.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h4>Location</h4>
+          <p>Faculty of Engineering and Design<br />The University of Auckland<br />Auckland, New Zealand</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" width="28" height="28">
+              <rect x="4" y="10" width="32" height="22" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="M4 14l16 10 16-10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h4>Email</h4>
+          <p><a href="mailto:yuqian.lu@auckland.ac.nz">yuqian.lu@auckland.ac.nz</a></p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 40 40" fill="none" width="28" height="28">
+              <circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 34c0-7.732 6.268-14 14-14s14 6.268 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h4>Open Positions</h4>
+          <p>Full scholarships available for talented PhD students. <a href="opportunity.html">View openings →</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="IAI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="#research">Factory Automation</a>
+          <a href="#research">Human-Robot Collab</a>
+          <a href="#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="#team">Team</a>
+          <a href="#publications">Publications</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IAI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="main.js?v=2"></script>
+  <script src="theme.js"></script>
+</body>
+</html>

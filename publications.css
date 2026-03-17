@@ -1,0 +1,186 @@
+/* ============================================================
+   IAI Group — Publications Page
+   ============================================================ */
+
+.pubs-main {
+  padding-top: var(--nav-h);
+  min-height: 100vh;
+}
+
+.pubs-container {
+  max-width: 860px;
+  padding-top: 56px;
+  padding-bottom: 100px;
+}
+
+/* ── Page header ─────────────────────────────────────────── */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .8rem;
+  color: var(--text-dim);
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb a:hover { color: var(--accent); opacity: 1; }
+.breadcrumb span { color: var(--text-dim); }
+
+.pubs-page-header {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+.pubs-page-header h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+.pubs-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.pubs-count {
+  font-size: .82rem;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+/* ── Toolbar ─────────────────────────────────────────────── */
+.pubs-toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.pubs-search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+}
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+#pubSearch {
+  width: 100%;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: .875rem;
+  padding: 10px 36px 10px 36px;
+  outline: none;
+  transition: border-color .2s;
+}
+#pubSearch:focus { border-color: var(--accent); }
+#pubSearch::placeholder { color: var(--text-dim); }
+
+.search-clear {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: .75rem;
+  cursor: pointer;
+  display: none;
+  padding: 4px;
+  line-height: 1;
+}
+.search-clear:hover { color: var(--text-muted); }
+
+.pubs-sort {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: .85rem;
+  padding: 10px 14px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color .2s;
+  white-space: nowrap;
+}
+.pubs-sort:focus { border-color: var(--accent); }
+
+/* ── Filter rows ─────────────────────────────────────────── */
+.pubs-filters-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.pubs-filter-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+  min-width: 56px;
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* Category filter pills (reuse .pub-filter from style.css) */
+.year-filter {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: .8rem;
+  font-weight: 500;
+  padding: 5px 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .2s;
+  font-family: 'Inter', sans-serif;
+}
+.year-filter:hover,
+.year-filter.active {
+  background: var(--surface2);
+  color: var(--text);
+  border-color: var(--border-hover);
+}
+
+/* ── Empty state ─────────────────────────────────────────── */
+.pubs-empty {
+  padding: 80px 0;
+  text-align: center;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.pubs-empty p {
+  font-size: 1rem;
+}
