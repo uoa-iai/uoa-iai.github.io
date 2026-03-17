@@ -4,7 +4,11 @@
 
 (function () {
   var STORAGE_KEY = 'iai_theme';
-  var DEFAULT     = 'dark';
+
+  function timeDefault() {
+    var h = new Date().getHours(); // browser local time
+    return (h >= 6 && h < 20) ? 'light' : 'dark';
+  }
 
   function apply(theme) {
     document.documentElement.setAttribute('data-theme', theme);
@@ -24,7 +28,7 @@
   }
 
   // Apply immediately on script load (before DOMContentLoaded)
-  var saved = localStorage.getItem(STORAGE_KEY) || DEFAULT;
+  var saved = localStorage.getItem(STORAGE_KEY) || timeDefault();
   apply(saved);
 
   document.addEventListener('DOMContentLoaded', function () {
