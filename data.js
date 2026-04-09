@@ -1101,6 +1101,23 @@ const DEFAULT_PUBLICATIONS = [
 
 const DEFAULT_NEWS = [
   {
+    id: 'n-cordis',
+    date: 'Apr 2026',
+    badge: 'Media',
+    title: 'EU Horizon Feature — Robots, Smart Tech, and Ageing Workforces',
+    body: 'Our team is grateful to contribute to global efforts rethinking work for an ageing Europe, as featured in a recent EU Horizon CORDIS article on the MAIA project.',
+    fullContent: `A recent article published by the EU's CORDIS research platform highlights the growing challenge of supporting an ageing workforce in Europe — and how robotics, smart technology, and human-centred design are rising to meet it.
+
+The article, titled *"Robots, smart tech and experience: rethinking work for an ageing Europe"*, covers the MAIA (Models and Methods for an Active Ageing Workforce) project — an EU-funded network of 14 universities across Europe, North America, Japan, and the Asia-Pacific region. The project reframes workforce ageing as a design challenge, exploring solutions such as collaborative robots for heavy lifting, exoskeletons to reduce physical strain, and virtual reality for safe skills training. The MAIA initiative has already informed the ISO 25550:2022 standard on age-inclusive workforces and has been trialled at real manufacturing sites including DAB Pumps in northern Italy.
+
+We are grateful to be part of this global conversation. Our team's work on intelligent human-robot collaboration, assembly knowledge transfer, and worker-centred automation systems aligns closely with the values and goals described in this initiative — ensuring that technology serves and empowers experienced workers rather than replacing them.
+
+[Read the full CORDIS article →](https://cordis.europa.eu/article/id/464215-robots-smart-tech-and-experience-rethinking-work-for-an-ageing-europe)`,
+    image: 'images/news/464215.jpg',
+    linkText: 'Read more',
+    linkUrl: 'news-detail.html?id=n-cordis',
+  },
+  {
     id: 'n0',
     date: 'Mar 2026',
     badge: 'Scholarship',

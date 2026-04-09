@@ -113,8 +113,8 @@ function renderNews() {
   const container = document.getElementById('newsGrid');
   if (!container) return;
 
-  container.innerHTML = list.map(n => `
-    <div class="news-card ${n.featured ? 'featured-news' : ''}">
+  container.innerHTML = list.map((n, i) => `
+    <div class="news-card ${i === 0 ? 'featured-news' : ''}">
       ${n.image ? `<img src="${n.image}" alt="${n.title}" class="news-card-img" loading="lazy" />` : ''}
       <div class="news-card-body">
         <div class="news-card-meta">
