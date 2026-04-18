@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme')||((new Date().getHours()>=6&&new Date().getHours()<20)?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+    // Clear any stale impact auth so gate always shows on fresh load
+    if (!sessionStorage.getItem('iai_impact_auth')) {
+      document.documentElement.classList.add('pw-locked');
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Impact — IAI Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="impact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- PASSWORD GATE -->
+  <div id="passwordGate" class="pw-gate">
+    <div class="pw-card">
+      <img src="logo_light.svg" alt="IAI Group" class="pw-logo pw-logo-dark" />
+      <img src="logo_dark.svg"  alt="IAI Group" class="pw-logo pw-logo-light" style="display:none" />
+      <h2 class="pw-title">Research Impact</h2>
+      <p class="pw-subtitle">This page is restricted. Enter the access password to continue.</p>
+      <form id="pwForm" class="pw-form" autocomplete="off">
+        <div class="pw-input-wrap">
+          <input type="password" id="pwInput" class="pw-input" placeholder="Password" autofocus />
+          <button type="submit" class="pw-btn">Enter</button>
+        </div>
+        <p class="pw-error" id="pwError" style="display:none">Incorrect password. Please try again.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- SIDE DOT NAVIGATION -->
+  <nav class="slide-dots" id="slideDots" aria-label="Slide navigation">
+    <button class="slide-dot active" data-index="0" aria-label="Slide 1: Introduction"></button>
+    <button class="slide-dot" data-index="1" aria-label="Slide 2: Impact Numbers"></button>
+    <button class="slide-dot" data-index="2" aria-label="Slide 3: HA-ViD Dataset"></button>
+    <button class="slide-dot" data-index="3" aria-label="Slide 4: Funded Projects"></button>
+    <button class="slide-dot" data-index="4" aria-label="Slide 5: Flagship Projects"></button>
+    <button class="slide-dot" data-index="5" aria-label="Slide 6: Impact Stories"></button>
+    <button class="slide-dot" data-index="6" aria-label="Slide 7: Industry Story"></button>
+    <button class="slide-dot" data-index="7" aria-label="Slide 8: Recognition"></button>
+    <button class="slide-dot" data-index="8" aria-label="Slide 9: Community"></button>
+    <button class="slide-dot" data-index="9" aria-label="Slide 10: Explore"></button>
+  </nav>
+
+  <!-- SNAP CONTAINER -->
+  <main id="snapContainer" class="snap-container">
+
+    <!-- ═══ SLIDE 1: HERO ════════════════════════════════════ -->
+    <section id="slide-hero" class="snap-slide slide-hero slide-bg-base">
+      <canvas id="impactGridCanvas" aria-hidden="true"></canvas>
+      <div class="slide-counter">01 / 10</div>
+
+      <div class="container">
+        <div class="impact-hero-content">
+          <span class="section-tag">Research Impact</span>
+          <h1>Where Science Meets<br /><span class="gradient-text">Real-World Change</span></h1>
+          <p>From NeurIPS datasets to factory floors, our research creates lasting impact across academia, industry, and the global robotics community.</p>
+          <div class="hero-actions">
+            <button class="btn-primary js-goto-slide" data-slide="1">Explore Our Impact ↓</button>
+            <a href="index.html" class="btn-ghost">Back to Home</a>
+          </div>
+        </div>
+
+        <div class="impact-hero-visual" aria-hidden="true">
+          <div class="orbit-ring ring-1"></div>
+          <div class="orbit-ring ring-2"></div>
+          <div class="orbit-ring ring-3"></div>
+          <div class="orbit-center">
+            <svg class="center-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="50" r="38" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+              <text x="50" y="46" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="700" fill="var(--text)">IAI</text>
+              <text x="50" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="var(--text-muted)" letter-spacing="1.5">IMPACT</text>
+            </svg>
+          </div>
+          <div class="orbit-dot dot-a"></div>
+          <div class="orbit-dot dot-b"></div>
+          <div class="orbit-dot dot-c"></div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 2: IMPACT NUMBERS ══════════════════════════ -->
+    <section id="slide-numbers" class="snap-slide slide-bg-surface">
+      <div class="slide-counter">02 / 10</div>
+      <div class="container" style="width:100%">
+        <div class="slide-section-header">
+          <span class="section-tag">Impact at a Glance</span>
+          <h2>Measurable Research Excellence</h2>
+          <p>A decade of focused research translated into numbers that matter</p>
+        </div>
+        <div class="impact-stats-grid">
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="120" data-suffix="+">120+</div>
+            <div class="impact-stat-label">Peer-reviewed publications</div>
+            <div class="impact-stat-bar blue"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="2.1" data-suffix="M+" data-float="true">2.1M+</div>
+            <div class="impact-stat-label">NZD in PI competitive funding</div>
+            <div class="impact-stat-bar green"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="20" data-suffix="M+">20M+</div>
+            <div class="impact-stat-label">NZD total project portfolio</div>
+            <div class="impact-stat-bar purple"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="1.5" data-suffix="M+" data-float="true">1.5M+</div>
+            <div class="impact-stat-label">HA-ViD action frames released</div>
+            <div class="impact-stat-bar green"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="4" data-suffix="×">4×</div>
+            <div class="impact-stat-label">Stanford Top 2% Scientists ranking</div>
+            <div class="impact-stat-bar blue"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="5" data-suffix="+">5+</div>
+            <div class="impact-stat-label">Best paper &amp; excellence awards</div>
+            <div class="impact-stat-bar purple"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="10" data-suffix="+">10+</div>
+            <div class="impact-stat-label">Physical robot platforms in lab</div>
+            <div class="impact-stat-bar green"></div>
+          </div>
+
+          <div class="impact-stat-card">
+            <div class="impact-stat-num" data-target="4" data-suffix="">4</div>
+            <div class="impact-stat-label">IEEE / Elsevier editorial roles</div>
+            <div class="impact-stat-bar blue"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 3: HA-ViD DATASET ══════════════════════════ -->
+    <section id="slide-dataset" class="snap-slide slide-bg-tinted">
+      <div class="slide-counter">03 / 10</div>
+      <div class="container">
+        <div class="slide-split r55-45">
+
+          <div>
+            <span class="section-tag" style="color:var(--accent3);background:rgba(16,185,129,.1)">Open Science</span>
+            <h2 class="impact-slide-heading">HA-ViD: The World's Largest Human Assembly Dataset</h2>
+            <p class="impact-slide-text">Released at NeurIPS 2023, the Human Assembly Video Dataset (HA-ViD) makes high-quality industrial assembly action recognition data freely available to researchers worldwide. Built from real factory environments, it accelerates advances in AI-powered quality inspection, ergonomics analysis, and human-robot collaboration systems.</p>
+            <div class="impact-chip-row">
+              <span class="impact-chip green">NeurIPS 2023</span>
+              <span class="impact-chip blue">Open Access</span>
+              <span class="impact-chip purple">Factory AI</span>
+            </div>
+            <a href="publications.html" class="btn-ghost" style="font-size:.85rem;padding:10px 20px">Browse Related Publications →</a>
+          </div>
+
+          <div class="dataset-panel">
+            <div class="dataset-panel-header">
+              <span class="dataset-panel-title">HA-ViD Dataset</span>
+              <span class="impact-chip green" style="font-size:.62rem">NeurIPS 2023</span>
+            </div>
+            <div class="dataset-bars">
+              <div class="dataset-bar-row">
+                <div class="dataset-bar-label">
+                  <span>Factory Automation</span><span>88%</span>
+                </div>
+                <div class="dataset-bar-track">
+                  <div class="dataset-bar-fill bar-fill-green"></div>
+                </div>
+              </div>
+              <div class="dataset-bar-row">
+                <div class="dataset-bar-label">
+                  <span>Human-Robot Collab</span><span>72%</span>
+                </div>
+                <div class="dataset-bar-track">
+                  <div class="dataset-bar-fill bar-fill-blue"></div>
+                </div>
+              </div>
+              <div class="dataset-bar-row">
+                <div class="dataset-bar-label">
+                  <span>Embodied AI</span><span>56%</span>
+                </div>
+                <div class="dataset-bar-track">
+                  <div class="dataset-bar-fill bar-fill-purple"></div>
+                </div>
+              </div>
+            </div>
+            <div class="dataset-stats-row">
+              <div class="dataset-mini-stat">
+                <strong>1.5M+</strong>
+                <span>Action frames</span>
+              </div>
+              <div class="dataset-mini-stat">
+                <strong>583</strong>
+                <span>Sequences</span>
+              </div>
+              <div class="dataset-mini-stat">
+                <strong>24</strong>
+                <span>Categories</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 4: FUNDED PROJECTS ═════════════════════════ -->
+    <section id="slide-projects" class="snap-slide slide-bg-dark">
+      <div class="slide-counter">04 / 10</div>
+      <div class="container" style="width:100%">
+        <div class="slide-section-header">
+          <span class="section-tag">Funded Research</span>
+          <h2>Translating Research into Practice</h2>
+          <p>Competitively funded projects addressing real manufacturing and automation challenges</p>
+        </div>
+        <div class="research-grid">
+
+          <div class="research-card featured">
+            <span class="card-number">01</span>
+            <div class="card-icon" style="background:rgba(99,179,237,.1);color:var(--accent)">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="16" cy="16" r="5"/><line x1="16" y1="3" x2="16" y2="7"/><line x1="16" y1="25" x2="16" y2="29"/><line x1="3" y1="16" x2="7" y2="16"/><line x1="25" y1="16" x2="29" y2="16"/><line x1="7.5" y1="7.5" x2="10.3" y2="10.3"/><line x1="21.7" y1="21.7" x2="24.5" y2="24.5"/><line x1="7.5" y1="24.5" x2="10.3" y2="21.7"/><line x1="21.7" y1="10.3" x2="24.5" y2="7.5"/></svg>
+            </div>
+            <div class="featured-badge">MBIE Funded · NZ$1.2M</div>
+            <h3>Smart Human-Robot Collaboration</h3>
+            <p>Developing adaptive shared-autonomy systems for industrial assembly, enabling safe and efficient collaboration between workers and robots.</p>
+            <ul class="card-topics">
+              <li>Shared autonomy &amp; task allocation</li>
+              <li>Safety-aware motion planning</li>
+              <li>Trust &amp; acceptance modeling</li>
+              <li>UR5e &amp; Franka robot testbed</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <span class="card-number">02</span>
+            <div class="card-icon" style="background:rgba(16,185,129,.1);color:var(--accent3)">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="4" y="8" width="24" height="16" rx="2"/><line x1="8" y1="13" x2="14" y2="13"/><line x1="8" y1="16" x2="18" y2="16"/><line x1="8" y1="19" x2="13" y2="19"/><circle cx="22" cy="16" r="3"/></svg>
+            </div>
+            <h3>Factory Automation &amp; Digital Twins</h3>
+            <p>Creating AI-powered digital twin platforms for real-time monitoring, predictive quality inspection, and adaptive process control in smart factories.</p>
+            <ul class="card-topics">
+              <li>Digital twin &amp; simulation</li>
+              <li>AI-driven quality inspection</li>
+              <li>Multi-agent production scheduling</li>
+              <li>NSC / Callaghan Innovation funded</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <span class="card-number">03</span>
+            <div class="card-icon" style="background:rgba(124,58,237,.1);color:var(--accent2)">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M16 4a12 12 0 1 1 0 24A12 12 0 0 1 16 4z"/><polyline points="16 10 16 16 20 20"/></svg>
+            </div>
+            <h3>Embodied Intelligence &amp; Foundation Models</h3>
+            <p>Advancing robot skill learning using large foundation models, sim-to-real transfer, and multimodal perception for next-generation autonomous systems.</p>
+            <ul class="card-topics">
+              <li>Robot skill learning</li>
+              <li>Foundation models for robotics</li>
+              <li>Sim-to-real transfer</li>
+              <li>Multimodal perception &amp; action</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 5: FLAGSHIP PROJECTS ══════════════════════ -->
+    <section id="slide-flagship" class="snap-slide slide-bg-surface">
+      <div class="slide-counter">05 / 10</div>
+      <div class="container" style="width:100%">
+        <div class="slide-section-header">
+          <span class="section-tag">Flagship Projects</span>
+          <h2>Major Research Programmes</h2>
+          <p>Competitively funded projects translating fundamental research into industrial and societal impact</p>
+        </div>
+        <div class="flagship-grid">
+
+          <div class="flagship-card">
+            <div class="flagship-card-accent blue"></div>
+            <div class="flagship-card-body">
+              <div class="flagship-card-top">
+                <h3>Ultra-Flexible Human-Robot Collaborative Assembly</h3>
+                <span class="flagship-funder blue">MBIE Endeavour</span>
+              </div>
+              <p class="flagship-card-desc">Developing adaptive HRC systems for dynamic, high-mix-low-volume production environments — integrating real-time human state sensing, multimodal communication, and Tikanga Māori data sovereignty principles.</p>
+              <div class="flagship-card-meta">
+                <div class="flagship-meta-item"><strong>Budget</strong><span>NZ$1M</span></div>
+                <div class="flagship-meta-item"><strong>Duration</strong><span>2024 – 2027</span></div>
+                <div class="flagship-meta-item"><strong>Positions</strong><span>2 PhD + 1 Postdoc</span></div>
+              </div>
+              <div class="flagship-card-tags">
+                <span class="impact-chip blue" style="font-size:.62rem">HRC</span>
+                <span class="impact-chip purple" style="font-size:.62rem">Adaptive AI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flagship-card">
+            <div class="flagship-card-accent green"></div>
+            <div class="flagship-card-body">
+              <div class="flagship-card-top">
+                <h3>Construction 4.0 — Smart Build Aotearoa</h3>
+                <span class="flagship-funder blue">MBIE Endeavour</span>
+              </div>
+              <p class="flagship-card-desc">Transforming New Zealand's construction sector through automation and digitalisation — delivering intelligent scheduling, robot-assisted fabrication, and digital twin monitoring for better productivity and affordability.</p>
+              <div class="flagship-card-meta">
+                <div class="flagship-meta-item"><strong>Budget</strong><span>NZ$10.3M</span></div>
+                <div class="flagship-meta-item"><strong>Duration</strong><span>2022 – 2026</span></div>
+                <div class="flagship-meta-item"><strong>Lead</strong><span>HERA</span></div>
+              </div>
+              <div class="flagship-card-tags">
+                <span class="impact-chip green" style="font-size:.62rem">Automation</span>
+                <span class="impact-chip blue" style="font-size:.62rem">Digital Twin</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flagship-card">
+            <div class="flagship-card-accent purple"></div>
+            <div class="flagship-card-body">
+              <div class="flagship-card-top">
+                <h3>MAIA — Human-Centric Ageing Workforce</h3>
+                <span class="flagship-funder purple">EU Horizon 2020</span>
+              </div>
+              <p class="flagship-card-desc">A 14-partner European research consortium measuring, monitoring, and optimising human fatigue during HRC assembly — redesigning collaborative workstations to support an ageing industrial workforce.</p>
+              <div class="flagship-card-meta">
+                <div class="flagship-meta-item"><strong>Partners</strong><span>14 institutions</span></div>
+                <div class="flagship-meta-item"><strong>Scope</strong><span>EU + Global</span></div>
+                <div class="flagship-meta-item"><strong>Focus</strong><span>Worker well-being</span></div>
+              </div>
+              <div class="flagship-card-tags">
+                <span class="impact-chip blue" style="font-size:.62rem">HRC</span>
+                <span class="impact-chip purple" style="font-size:.62rem">Human Factors</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flagship-card">
+            <div class="flagship-card-accent teal"></div>
+            <div class="flagship-card-body">
+              <div class="flagship-card-top">
+                <h3>Ultra-Reliable 5G Cloud Robotics Control</h3>
+                <span class="flagship-funder green">SfTI Seed</span>
+              </div>
+              <p class="flagship-card-desc">Developing 5G scheduling algorithms that enable time-sensitive, ultra-reliable transmission of robot control data — bringing cloud-controlled industrial robotics into real-world factory environments.</p>
+              <div class="flagship-card-meta">
+                <div class="flagship-meta-item"><strong>Duration</strong><span>2021 – 2023</span></div>
+                <div class="flagship-meta-item"><strong>Partners</strong><span>VUW · Spark · Nokia</span></div>
+              </div>
+              <div class="flagship-card-tags">
+                <span class="impact-chip green" style="font-size:.62rem">Automation</span>
+                <span class="impact-chip blue" style="font-size:.62rem">5G / Cloud</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flagship-card flagship-card-wide">
+            <div class="flagship-card-accent green"></div>
+            <div class="flagship-card-body">
+              <div class="flagship-card-top">
+                <h3>Predictive Production Scheduling &amp; Inventory Control</h3>
+                <span class="flagship-funder green">Callaghan Innovation + UoA</span>
+              </div>
+              <p class="flagship-card-desc">Developing AI-driven predictive scheduling and inventory control for real-world manufacturing environments. Multi-agent reinforcement learning solves dynamic flexible job shop problems in real time, while digital thread technologies enable mass personalisation — validated in production cells with industry partners Oasis Engineering and AspectPT.</p>
+              <div class="flagship-card-meta">
+                <div class="flagship-meta-item"><strong>Budget</strong><span>NZ$0.5M</span></div>
+                <div class="flagship-meta-item"><strong>Duration</strong><span>2020 – present</span></div>
+                <div class="flagship-meta-item"><strong>Partners</strong><span>Oasis Engineering · AspectPT</span></div>
+              </div>
+              <div class="flagship-card-tags">
+                <span class="impact-chip green" style="font-size:.62rem">Automation</span>
+                <span class="impact-chip blue" style="font-size:.62rem">Reinforcement Learning</span>
+                <span class="impact-chip purple" style="font-size:.62rem">Digital Thread</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 6: EXEMPLAR IMPACT STORIES ════════════════ -->
+    <section id="slide-stories" class="snap-slide slide-bg-base">
+      <div class="slide-counter">06 / 10</div>
+      <div class="container" style="width:100%">
+        <div class="slide-section-header">
+          <span class="section-tag">Exemplar Projects</span>
+          <h2>Research in Action</h2>
+          <p>Live demonstrations from the lab — robots, AI systems, and human-machine collaboration</p>
+        </div>
+        <div class="story-cards-grid">
+
+          <a href="https://www.youtube.com/watch?v=MTKrBF3L0i8" target="_blank" rel="noopener" class="story-card">
+            <div class="story-thumb">
+              <img src="https://img.youtube.com/vi/MTKrBF3L0i8/mqdefault.jpg" alt="Human-Robot Collaboration at University of Auckland" loading="lazy" />
+              <div class="story-play"><div class="story-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+            <div class="story-body">
+              <span class="story-tag hrc">Human-Robot Collab</span>
+              <span class="story-title">Human-Robot Collaboration at University of Auckland</span>
+              <span class="story-desc">Safe and intuitive teaming between human workers and collaborative robots in industrial assembly environments.</span>
+            </div>
+          </a>
+
+          <a href="https://www.youtube.com/watch?v=I0qH37f-GJg" target="_blank" rel="noopener" class="story-card">
+            <div class="story-thumb">
+              <img src="https://img.youtube.com/vi/I0qH37f-GJg/mqdefault.jpg" alt="AI-Powered Assembly Copilot" loading="lazy" />
+              <div class="story-play"><div class="story-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+            <div class="story-body">
+              <span class="story-tag hrc">Human-Robot Collab</span>
+              <span class="story-title">AI-Powered Assembly Copilot</span>
+              <span class="story-desc">Real-time AI guidance, error detection, and adaptive task support for human workers on the factory floor.</span>
+            </div>
+          </a>
+
+          <a href="https://www.youtube.com/watch?v=wlyqeGPSJgo" target="_blank" rel="noopener" class="story-card">
+            <div class="story-thumb">
+              <img src="https://img.youtube.com/vi/wlyqeGPSJgo/mqdefault.jpg" alt="Collaborative Assembly with Dynamic Obstacle Avoidance" loading="lazy" />
+              <div class="story-play"><div class="story-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+            <div class="story-body">
+              <span class="story-tag hrc">Human-Robot Collab</span>
+              <span class="story-title">Collaborative Assembly with Dynamic Obstacle Avoidance</span>
+              <span class="story-desc">Safety-aware motion planning that dynamically avoids human movements in shared workspaces.</span>
+            </div>
+          </a>
+
+          <a href="https://www.youtube.com/watch?v=7EJFTCWitFA" target="_blank" rel="noopener" class="story-card">
+            <div class="story-thumb">
+              <img src="https://img.youtube.com/vi/7EJFTCWitFA/mqdefault.jpg" alt="Automated Assembly Line with Dual KUKA Robots" loading="lazy" />
+              <div class="story-play"><div class="story-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+            <div class="story-body">
+              <span class="story-tag automation">Factory Automation</span>
+              <span class="story-title">Automated Assembly Line with Dual KUKA Robots</span>
+              <span class="story-desc">Coordinated multi-robot task execution for high-throughput production on a fully automated assembly line.</span>
+            </div>
+          </a>
+
+          <a href="https://www.youtube.com/watch?v=cGMuDxOqgq0" target="_blank" rel="noopener" class="story-card">
+            <div class="story-thumb">
+              <img src="https://img.youtube.com/vi/cGMuDxOqgq0/mqdefault.jpg" alt="Factory Mobile Robot" loading="lazy" />
+              <div class="story-play"><div class="story-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+            <div class="story-body">
+              <span class="story-tag automation">Factory Automation</span>
+              <span class="story-title">Factory Mobile Robot</span>
+              <span class="story-desc">Autonomous material transport and flexible manufacturing logistics in an industrial factory environment.</span>
+            </div>
+          </a>
+
+          <a href="https://www.youtube.com/watch?v=2-91hYhO4B0" target="_blank" rel="noopener" class="story-card">
+            <div class="story-thumb">
+              <img src="https://img.youtube.com/vi/2-91hYhO4B0/mqdefault.jpg" alt="Multi-Robot Control with Cloud-Local Architecture" loading="lazy" />
+              <div class="story-play"><div class="story-play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>
+            </div>
+            <div class="story-body">
+              <span class="story-tag automation">Factory Automation</span>
+              <span class="story-title">Multi-Robot Control with Cloud-Local Architecture</span>
+              <span class="story-desc">Scalable, low-latency automation using a hybrid cloud-local architecture across distributed factory environments.</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 7: INDUSTRY IMPACT STORY ══════════════════════ -->
+    <section id="slide-industry" class="snap-slide slide-bg-dark">
+      <div class="slide-counter">07 / 10</div>
+      <div class="container">
+        <div class="slide-split r55-45">
+
+          <!-- Left: story -->
+          <div>
+            <span class="section-tag" style="color:var(--accent3);background:rgba(16,185,129,.1)">Industry Impact</span>
+            <h2 class="impact-slide-heading">BOA Hydraulics: Turning Research into a Global Product</h2>
+            <p class="impact-slide-text">BOA Hydraulics — a three-generation New Zealand family business — partnered with the IAI Group and Callaghan Innovation to transform how they build technology. With Dr. Lu's guidance, BOA moved software and AI development in-house, built an R&D team drawing on UoA postgraduate talent, and grew production of their signature <em>BOApod</em> mobile hydraulic repair units from 1.5 to 5 units per week — now serving markets across New Zealand, Australia, Papua New Guinea, and the Pacific Islands.</p>
+            <div class="impact-chip-row">
+              <span class="impact-chip green">AI &amp; IoT Integration</span>
+              <span class="impact-chip blue">In-House R&amp;D</span>
+              <span class="impact-chip purple">Knowledge Transfer</span>
+            </div>
+            <blockquote class="impact-blockquote">
+              <p>"The advice and guidance from both Callaghan and the University put us on the right track, helping facilitate strategic sessions and giving us confidence to invest in innovation developments."</p>
+              <cite>— Jorge Boakes, Marketing Director, BOA Hydraulics</cite>
+            </blockquote>
+            <a href="https://www.uniservices.co.nz/news/boa-hydraulics-grows-with-research-innovation"
+               target="_blank" rel="noopener" class="story-link-out">
+              Read the full story
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Right: video + case study metrics + quote -->
+          <div>
+            <div class="dataset-panel" style="padding:0;overflow:hidden">
+              <div class="video-thumb" style="border-radius:var(--radius-lg) var(--radius-lg) 0 0">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/38y8ir4nPzQ"
+                  title="BOA Hydraulics — Research Innovation in Action"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen loading="lazy"></iframe>
+              </div>
+              <div style="padding:20px 24px">
+              <div class="case-study-metrics">
+                <div class="case-metric">
+                  <strong>3×</strong>
+                  <span>Production growth<br/>(1.5 → 5 pods/week)</span>
+                </div>
+                <div class="case-metric">
+                  <strong>60+</strong>
+                  <span>Years of family<br/>business heritage</span>
+                </div>
+                <div class="case-metric">
+                  <strong>3/8</strong>
+                  <span>R&amp;D team members<br/>are UoA postgrads</span>
+                </div>
+                <div class="case-metric">
+                  <strong>4</strong>
+                  <span>Markets: NZ, AU,<br/>PNG &amp; Pacific</span>
+                </div>
+              </div>
+              <blockquote class="impact-blockquote" style="margin-top:0">
+                <p>"We see companies like BOA have great potential in capturing market value via product and service innovation, via advanced machine learning and IoT technologies."</p>
+                <cite>— Dr. Yuqian Lu, University of Auckland</cite>
+              </blockquote>
+              <div class="case-study-partners">
+                <span class="case-partner-label">Partners</span>
+                <span class="case-partner-chip">University of Auckland</span>
+                <span class="case-partner-chip">Callaghan Innovation</span>
+                <span class="case-partner-chip">UniServices</span>
+              </div>
+              </div><!-- end padding wrapper -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 8: RECOGNITION ══════════════════════════════ -->
+    <section id="slide-recognition" class="snap-slide slide-bg-surface">
+      <div class="slide-counter">08 / 10</div>
+      <div class="container">
+        <div class="slide-split r60-40">
+
+          <div>
+            <div class="slide-section-header" style="text-align:left">
+              <span class="section-tag">Recognition</span>
+              <h2 class="impact-slide-heading">Awards &amp; Academic Excellence</h2>
+            </div>
+            <div class="impact-timeline">
+
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year">2021 – 2024</span>
+                  <h4>Stanford / Elsevier Top 2% Scientists</h4>
+                  <p>Recognised in the world's top scientist ranking for four consecutive years across engineering and technology.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker green"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year green">2023</span>
+                  <h4>University of Auckland Early Career Research Excellence</h4>
+                  <p>University-wide award recognising outstanding contributions to research and innovation.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker green"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year green">2023</span>
+                  <h4>Journal of Manufacturing Systems Best Paper</h4>
+                  <p>Best paper award from a premier journal in manufacturing research.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker purple"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year purple">2022</span>
+                  <h4>Robotics &amp; CIM Best Paper Award</h4>
+                  <p>Recognised by Robotics and Computer-Integrated Manufacturing for high-impact research contributions.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year">2021</span>
+                  <h4>CIE Best Paper Award</h4>
+                  <p>Award at the International Conference on Computers and Industrial Engineering.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker purple"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year purple">2019 – present</span>
+                  <h4>IEEE / Elsevier Associate Editor</h4>
+                  <p>Editorial roles at IEEE T-SMCS, IEEE T-ASE, Journal of Manufacturing Systems, and RCIM.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Radar chart -->
+          <div class="radar-panel" aria-hidden="true">
+            <svg viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Grid rings (diamond shaped, 4-axis) -->
+              <polygon points="110,20 200,110 110,200 20,110" stroke="var(--border)" stroke-width="1" fill="none"/>
+              <polygon points="110,47 173,110 110,173 47,110"  stroke="var(--border)" stroke-width="1" fill="none"/>
+              <polygon points="110,74 146,110 110,146 74,110"  stroke="var(--border)" stroke-width="1" fill="none"/>
+              <!-- Axes -->
+              <line x1="110" y1="20"  x2="110" y2="200" stroke="var(--border)" stroke-width="1"/>
+              <line x1="20"  y1="110" x2="200" y2="110" stroke="var(--border)" stroke-width="1"/>
+              <!-- Data polygon
+                   Publications (top) 92%:  110, 110 - 90*0.92 = 110-82.8 = 27.2 → (110, 27)
+                   Funding (right) 80%:     110 + 90*0.80 = 182 → (182, 110)
+                   Recognition (bottom) 88%: 110 + 90*0.88 = 189.2 → (110, 189)
+                   Community (left) 76%:    110 - 90*0.76 = 41.6 → (42, 110)
+              -->
+              <polygon
+                points="110,27 182,110 110,189 42,110"
+                fill="rgba(99,179,237,0.15)"
+                stroke="var(--accent)"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              />
+              <!-- Data points -->
+              <circle cx="110" cy="27"  r="4" fill="var(--accent)"/>
+              <circle cx="182" cy="110" r="4" fill="var(--accent3)"/>
+              <circle cx="110" cy="189" r="4" fill="var(--accent2)"/>
+              <circle cx="42"  cy="110" r="4" fill="var(--accent)"/>
+              <!-- Axis labels -->
+              <text x="110" y="14"  text-anchor="middle" font-size="9.5" fill="var(--text-muted)" font-family="Inter, sans-serif">Publications</text>
+              <text x="210" y="113" text-anchor="start"  font-size="9.5" fill="var(--text-muted)" font-family="Inter, sans-serif">Funding</text>
+              <text x="110" y="214" text-anchor="middle" font-size="9.5" fill="var(--text-muted)" font-family="Inter, sans-serif">Recognition</text>
+              <text x="10"  y="113" text-anchor="start"  font-size="9.5" fill="var(--text-muted)" font-family="Inter, sans-serif">Community</text>
+            </svg>
+            <div class="radar-legend">
+              <div class="radar-legend-item">
+                <div class="radar-legend-dot" style="background:var(--accent)"></div>
+                <span>Publications 92%</span>
+              </div>
+              <div class="radar-legend-item">
+                <div class="radar-legend-dot" style="background:var(--accent3)"></div>
+                <span>Funding 80%</span>
+              </div>
+              <div class="radar-legend-item">
+                <div class="radar-legend-dot" style="background:var(--accent2)"></div>
+                <span>Recognition 88%</span>
+              </div>
+              <div class="radar-legend-item">
+                <div class="radar-legend-dot" style="background:var(--accent)"></div>
+                <span>Community 76%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 9: COMMUNITY ════════════════════════════════ -->
+    <section id="slide-community" class="snap-slide slide-bg-tinted">
+      <div class="slide-counter">09 / 10</div>
+      <div class="container" style="width:100%">
+        <div class="slide-section-header">
+          <span class="section-tag">Community</span>
+          <h2>Leading the Global Research Community</h2>
+          <p>Building open platforms, shared resources, and international networks</p>
+        </div>
+        <div class="impact-initiative-cards">
+
+          <div class="impact-initiative-card">
+            <div class="impact-initiative-icon blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h4>IEEE Automation Research Spotlights</h4>
+            <p>A flagship IEEE webinar series connecting researchers worldwide, spotlighting breakthrough work in factory automation and robotics.</p>
+          </div>
+
+          <div class="impact-initiative-card">
+            <div class="impact-initiative-icon green">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h4>HR-SAT Open Taxonomy</h4>
+            <p>A published, openly available framework providing standardised terminology for human-robot shared autonomy tasks, adopted by researchers internationally.</p>
+          </div>
+
+          <div class="impact-initiative-card">
+            <div class="impact-initiative-icon purple">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Editorial Leadership</h4>
+            <p>Associate Editor roles at IEEE T-SMCS, IEEE T-ASE, Journal of Manufacturing Systems, and Robotics &amp; Computer-Integrated Manufacturing.</p>
+          </div>
+
+        </div>
+        <div class="impact-reach-strip">
+          <span>Active collaborations in</span>
+          <div class="reach-chips">
+            <span class="reach-chip">New Zealand</span>
+            <span class="reach-chip">China</span>
+            <span class="reach-chip">USA</span>
+            <span class="reach-chip">Europe</span>
+            <span class="reach-chip">Australia</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SLIDE 10: CTA ══════════════════════════════════════ -->
+    <section id="slide-cta" class="snap-slide slide-bg-dark">
+      <div class="slide-counter">10 / 10</div>
+      <div class="container">
+        <div class="slide-cta-inner">
+          <div class="cta-watermark" aria-hidden="true">"AI that works in the real world"</div>
+          <span class="section-tag" style="position:relative;z-index:1">Get Started</span>
+          <h2>Dive Deeper into IAI Research</h2>
+          <p class="cta-sub">Explore our publications, join the team, or get in touch to collaborate</p>
+          <div class="contact-cards" style="position:relative;z-index:1">
+
+            <a href="publications.html" class="contact-card" style="color:inherit;text-decoration:none">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <h4>Publications</h4>
+              <p>Browse 120+ peer-reviewed papers spanning automation, HRC, and embodied AI.</p>
+            </a>
+
+            <a href="opportunity.html" class="contact-card" style="color:inherit;text-decoration:none">
+              <div class="contact-card-icon" style="background:rgba(16,185,129,.1)">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h4>Join the Lab</h4>
+              <p>Open positions for PhD students, research assistants, and visiting researchers.</p>
+            </a>
+
+            <a href="index.html#contact" class="contact-card" style="color:inherit;text-decoration:none">
+              <div class="contact-card-icon" style="background:rgba(124,58,237,.1)">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <h4>Contact Us</h4>
+              <p>Reach out for collaboration, industry partnerships, or media enquiries.</p>
+            </a>
+
+          </div>
+          <p class="slide-cta-copyright">© 2026 IAI Group, University of Auckland. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- end snap-container -->
+
+  <script src="theme.js"></script>
+  <script src="impact.js"></script>
+
+</body>
+</html>
