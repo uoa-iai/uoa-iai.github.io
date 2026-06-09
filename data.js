@@ -1101,6 +1101,47 @@ const DEFAULT_PUBLICATIONS = [
 
 const DEFAULT_NEWS = [
   {
+    id: 'n-macd-tase',
+    date: 'Jun 2026',
+    badge: 'Publication',
+    title: 'Dazzle Johnson\'s Continuous Dynamic Flexible Job Shop Scheduling Research Published in IEEE Transactions on Automation Science and Engineering',
+    body: 'Dazzle Johnson\'s PhD research on multi-agent continuous decision-making for dynamic flexible job shop scheduling has been accepted for publication in IEEE Transactions on Automation Science and Engineering.',
+    fullContent: `We are delighted to announce that **Dazzle Johnson**'s PhD research has been accepted for publication in *IEEE Transactions on Automation Science and Engineering*. The paper, co-authored with **Gang Chen** (Victoria University of Wellington) and **Yuqian Lu**, introduces the **MACD** (Multi-Agent Continuous Decision-Making) system for solving the Continuous Dynamic Flexible Job Shop Scheduling Problem (C-DFJSP).
+
+![MACD C-DFJSP System Overview](assets/images/news/macd-cdfjsp-overview.png)
+
+**About the Research**
+
+Modern manufacturing — driven by mass personalisation — demands scheduling systems that adapt in real time to continuous job arrivals, diverse products, and evolving factory configurations. Traditional methods struggle with this level of dynamism. MACD addresses these challenges head-on with a novel multi-agent architecture.
+
+**Key Contributions**
+
+- **Generalisable scheduling framework**: A single MACD model trained on a small static environment can be directly deployed in large-scale dynamic factories with no retraining required.
+- **Operation-centric graph representation**: Only operation nodes are embedded; machine-level constraints are incorporated via attention-based aggregation, significantly improving scalability.
+- **Rule-guided negotiation**: A lightweight hybrid strategy combining Shortest Processing Time (SPT) and Least Loaded Machine (LLM) heuristics resolves rare conflicts among machine agents without centralised control.
+- **Factory-invariant features**: Graph Neural Networks (GNNs) extract features that generalise across factories with varying machine counts, flexibility levels, and product libraries.
+
+![MACD Training and Execution Framework](assets/images/news/macd-training-execution.png)
+
+**Results**
+
+Extensive experiments on the Brandimarte and Hurink benchmark datasets — scaling to 30 products, 15 machines, and over 1,000 job orders per simulation — demonstrate MACD's superior performance over heuristic methods and the prior state-of-the-art. Each scheduling decision averages just 54 ms on standard hardware, confirming real-time suitability for industrial deployment.
+
+**Relevance to New Zealand Manufacturing**
+
+This research holds particular significance for New Zealand's manufacturing sector, where small and medium enterprises (SMEs) form the backbone of the economy. Unlike large-scale factories with predictable, structured workflows, NZ SMEs frequently operate in highly dynamic, unstructured production environments — handling diverse custom orders, shifting priorities, and limited machine resources simultaneously. Traditional scheduling tools, designed for stable and repetitive production, fall short in these conditions. MACD's ability to learn a single scheduling policy that generalises across different factory sizes and product mixes — without retraining — makes it especially well-suited for the varied and fast-changing demands faced by NZ manufacturers. By reducing tardiness and preventing job backlogs in real time, this technology has the potential to meaningfully improve productivity, on-time delivery, and operational resilience for local industry.
+
+Congratulations to Dazzle on this excellent achievement, which marks the culmination of her PhD at the University of Auckland.`,
+    resourceLinks: [
+      { label: 'Download Full Paper (PDF)', url: 'assets/docs/TASE-MACD.pdf', icon: 'pdf' },
+      { label: 'Code on GitHub', url: 'https://github.com/uoa-iai/MACD_CDFJSP', icon: 'github' },
+    ],
+    image: 'assets/images/news/macd-training-execution.png',
+    linkText: 'Read more',
+    linkUrl: 'news-detail.html?id=n-macd-tase',
+    featured: true,
+  },
+  {
     id: 'n-cordis',
     date: 'Apr 2026',
     badge: 'Media',
@@ -1113,7 +1154,7 @@ The article, titled *"Robots, smart tech and experience: rethinking work for an 
 We are grateful to be part of this global conversation. Our team's work on intelligent human-robot collaboration, assembly knowledge transfer, and worker-centred automation systems aligns closely with the values and goals described in this initiative — ensuring that technology serves and empowers experienced workers rather than replacing them.
 
 [Read the full CORDIS article →](https://cordis.europa.eu/article/id/464215-robots-smart-tech-and-experience-rethinking-work-for-an-ageing-europe)`,
-    image: 'images/news/464215.jpg',
+    image: 'assets/images/news/464215.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n-cordis',
   },
@@ -1218,12 +1259,12 @@ The second investigation addressed assembly line rebalancing when facing unpredi
 
 The session concluded with collaborative discussion exploring uncertainty challenges in assembly systems and potential applications of reinforcement learning for human-robot collaboration.
 
-![Seminar slide 1](images/news/seminar-seyyed/1.jpeg)
-![Seminar slide 2](images/news/seminar-seyyed/2.jpeg)
-![Seminar slide 3](images/news/seminar-seyyed/3.jpeg)
-![Seminar slide 4](images/news/seminar-seyyed/4.jpeg)
-![Seminar slide 5](images/news/seminar-seyyed/5.jpeg)
-![Seminar slide 6](images/news/seminar-seyyed/6.jpeg)
+![Seminar slide 1](assets/images/news/seminar-seyyed/1.jpeg)
+![Seminar slide 2](assets/images/news/seminar-seyyed/2.jpeg)
+![Seminar slide 3](assets/images/news/seminar-seyyed/3.jpeg)
+![Seminar slide 4](assets/images/news/seminar-seyyed/4.jpeg)
+![Seminar slide 5](assets/images/news/seminar-seyyed/5.jpeg)
+![Seminar slide 6](assets/images/news/seminar-seyyed/6.jpeg)
 `,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n2',
@@ -1263,7 +1304,7 @@ The special issue welcomes submissions on:
 The special issue is led by researchers from South China University of Technology, University of Auckland, University of Iowa, and Augusta University.
 
 Interested researchers should select the article type "VSI: EI - Smart Manufacturing" when submitting through Editorial Manager.`,
-    image: 'images/news/embodied-intelligence.jpg',
+    image: 'assets/images/news/embodied-intelligence.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n3',
     featured: false,
@@ -1296,13 +1337,13 @@ The workshop represents an important step in developing a shared vision for huma
 
 The event emphasized cross-sector engagement and the integration of multiple viewpoints — including indigenous knowledge systems — in shaping the future of robotics technology development.
 
-![Workshop activity](images/news/mbie-hrc-workshop/2.png)
-![Workshop group](images/news/mbie-hrc-workshop/3.png)
-![Workshop session](images/news/mbie-hrc-workshop/4.png)
-![Workshop participants](images/news/mbie-hrc-workshop/5.png)
-![Workshop discussion](images/news/mbie-hrc-workshop/6.jpg)
+![Workshop activity](assets/images/news/mbie-hrc-workshop/2.png)
+![Workshop group](assets/images/news/mbie-hrc-workshop/3.png)
+![Workshop session](assets/images/news/mbie-hrc-workshop/4.png)
+![Workshop participants](assets/images/news/mbie-hrc-workshop/5.png)
+![Workshop discussion](assets/images/news/mbie-hrc-workshop/6.jpg)
 `,
-    image: 'images/news/mbie-hrc-workshop.png',
+    image: 'assets/images/news/mbie-hrc-workshop.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n4',
     featured: false,
@@ -1322,7 +1363,7 @@ The research addresses human-robot interaction challenges in smart manufacturing
 Their work evaluated GPT-3.5's performance in semantic parsing using the HA-ViD dataset, demonstrating strong generalisation for previously unseen industrial assembly instructions through prompt-based learning.
 
 The study additionally investigated Vision Language Models for object detection and proposed an end-to-end system architecture illustrating the integration of voice and LLMs, demonstrating GPT-3.5's performance in converting natural language instructions into low-level robot actions for industrial assembly tasks.`,
-    image: 'images/news/cie-best-paper.png',
+    image: 'assets/images/news/cie-best-paper.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n5',
     featured: false,
@@ -1345,7 +1386,7 @@ The interdisciplinary team includes experts in human sensing, robot control, hum
 - One postdoctoral research fellow position
 
 The application deadline is November 1st, 2024. Interested candidates should review the detailed job descriptions and contact Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz for further information.`,
-    image: 'images/news/mbie_position.png',
+    image: 'assets/images/news/mbie_position.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n6',
     featured: false,
@@ -1359,7 +1400,7 @@ The application deadline is November 1st, 2024. Interested candidates should rev
     fullContent: `Huge congratulations to Saahil Chand on being placed on the Dean of Graduate Studies List (Dean's List) in recognition of excellence achieved with his PhD thesis. This award is made to only a few recipients each year from the large number of doctoral students completing their theses.
 
 "Since this is a premier research degree, the University sets high standards for doctoral examinations and your examiners were international authorities in your field of expertise. I am therefore very pleased to report that they were all especially complimentary regarding the high quality of the content and presentation of your thesis. Congratulations on achieving the award of a place on the Dean's List." — Professor Caroline Daley, Dean of Graduate Studies.`,
-    image: 'images/news/dean-list.png',
+    image: 'assets/images/news/dean-list.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n7',
     featured: false,
@@ -1377,7 +1418,7 @@ The application deadline is November 1st, 2024. Interested candidates should rev
 - **Huachang (Benedict) Liang** — "Context-Aware Cognitive Assembly Assistive System Based on Online Human Action Recognition"
 
 Dr. Yuqian Lu also demonstrated the Assembly Assistive System during workshops on September 1st.`,
-    image: 'images/news/case-2024.png',
+    image: 'assets/images/news/case-2024.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n8',
     featured: false,
@@ -1424,7 +1465,7 @@ The study, co-authored with Chao Liu from Aston University and Yuqian Lu from th
 - Predicting quality risks in production
 
 Tested with real-world data from the plastics industry, the EBN method shows promise for enhancing manufacturing quality and productivity across various sectors. AspectPT Ltd's involvement bridges the gap between theoretical research and industry needs.`,
-    image: 'images/news/rootcase-jms.png',
+    image: 'assets/images/news/rootcase-jms.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n10',
     featured: false,
@@ -1440,7 +1481,7 @@ Tested with real-world data from the plastics industry, the EBN method shows pro
 Their paper received recognition as a **Top Trending Article for 2023** at the International Journal of Production Research (IJPR).
 
 The achievement highlights the contributions of Dr. Zhou during his PhD studies and reflects a strong ongoing partnership with Prof. Bao at the intersection of industrial knowledge graphs and machine learning for production systems.`,
-    image: 'images/news/ipjr-2023.jpg',
+    image: 'assets/images/news/ipjr-2023.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n11',
     featured: false,
@@ -1456,7 +1497,7 @@ The achievement highlights the contributions of Dr. Zhou during his PhD studies 
 Deputy Vice Chancellor Research Professor Frank Bloomfield hosted the event at the Sir Owen G Glenn Building and noted the university's achievement of reaching **68th in the QS world rankings for 2024**.
 
 Dr. Yuqian Lu received recognition as one of seven researchers awarded the **Early Career Research Excellence** category. The presentation ceremony provided an opportunity for the university's research community to celebrate research excellence and acknowledge the calibre of researchers contributing to the institution's impact.`,
-    image: 'images/news/earlycareer-2023.jpg',
+    image: 'assets/images/news/earlycareer-2023.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n12',
     featured: false,
@@ -1480,7 +1521,7 @@ HA-ViD captures the essence of industrial human assembly scenarios through:
 The dataset enables research towards understanding natural human behaviours, progressive knowledge acquisition, and two-hand collaboration patterns during assembly.
 
 For more information, please visit the HA-ViD project website.`,
-    image: 'images/news/havid-neurips.png',
+    image: 'assets/images/news/havid-neurips.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n13',
     featured: false,
@@ -1500,7 +1541,7 @@ Today, industrial robots communicate via wired connections between a local contr
 "Imagine if one day, we could have the world's top surgeon based in the US remotely operating on a patient in Auckland Hospital via robots. Or a fleet of industrial robots are centrally managed remotely." — Dr Yuqian Lu
 
 "The critical piece of the SfTI research is to develop smart algorithms that can compensate for issues that may occur even during 5G data transmission — so that, from an application perspective, a robot can move smoothly, in a time-sensitive way."`,
-    image: 'images/news/onenews-2023.jpg',
+    image: 'assets/images/news/onenews-2023.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n14',
     featured: false,
@@ -1520,7 +1561,7 @@ He discussed the institution's vision of human-centric manufacturing and progres
 MAIA is a Research and Innovation Staff Exchange initiative funded by the **Horizon 2020** research and innovation programme. It comprises an international academy of 14 academic partners: 7 European universities and 7 Third Countries universities. The focus addresses active ageing industrial workforce problems and needs.
 
 The University of Auckland team develops digital technologies to measure, monitor and optimise human fatigue during human-robot collaborative assembly — with the goal of changing how collaborative workstations are designed and how frontline worker jobs are arranged.`,
-    image: 'images/news/maia-2023.png',
+    image: 'assets/images/news/maia-2023.png',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n15',
     featured: false,
@@ -1537,7 +1578,7 @@ Wesley will present his invention, **"Omnitronics"** — a concept and platform 
 
 We are pleased to witness the evolution of Wesley's concept under the guidance of Dr. Yuqian Lu, and to observe how Wesley's ideas stimulate thought. We extend our best wishes for his success.
 
-![Omnitronics concept](images/news/weslie-teh-omnitronics.png)
+![Omnitronics concept](assets/images/news/weslie-teh-omnitronics.png)
 `,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n16',
@@ -1619,7 +1660,7 @@ The conference theme is **"Automation for a Resilient Society"**. IEEE CASE 2023
 - Healthcare
 
 As the Organising Committee Chair, Dr. Yuqian Lu is committed to making IEEE CASE 2023 an unforgettable experience.`,
-    image: 'images/news/ieee-case.jpg',
+    image: 'assets/images/news/ieee-case.jpg',
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n21',
     featured: false,
@@ -1664,7 +1705,7 @@ An autonomous mobile robot allows manufacturers an unprecedented level of flexib
 
 "We want to create a human-robot collaboration." — Dr Yuqian Lu
 
-![Mobile Manipulator](images/news/mobile-manipulator-inline.jpg)
+![Mobile Manipulator](assets/images/news/mobile-manipulator-inline.jpg)
 `,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n23',

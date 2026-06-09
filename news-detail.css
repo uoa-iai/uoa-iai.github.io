@@ -88,6 +88,45 @@
   color: var(--text);
 }
 
+/* ── Resource links (PDF, GitHub, etc.) ─────────────────── */
+.detail-resource-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.resource-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: var(--radius);
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity .15s, background .15s, border-color .15s, transform .15s;
+  white-space: nowrap;
+}
+.resource-link:hover { opacity: 1; transform: translateY(-1px); }
+
+.resource-link--pdf {
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+}
+.resource-link--pdf:hover { opacity: .88; }
+
+.resource-link--github {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.resource-link--github:hover {
+  border-color: var(--border-hover);
+  background: var(--bg2);
+}
+
 /* ── Body prose ──────────────────────────────────────────── */
 .detail-body {
   color: var(--text-muted);
