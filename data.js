@@ -1,5 +1,14 @@
 const DEFAULT_PUBLICATIONS = [
   {
+    id: 'bJohnson2026macd',
+    year: '2026',
+    tag: 'automation',
+    title: 'Multi-Agent Continuous Decision-Making for the Continuous Dynamic Flexible Job Shop Scheduling Problem',
+    authors: 'Johnson, D.; Chen, G.; Lu, Y.',
+    venue: 'IEEE Transactions on Automation Science and Engineering (2026)',
+    links: [],
+  },
+  {
     id: 'bliu2025industrial',
     year: '2025',
     tag: 'automation',
