@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme')||((new Date().getHours()>=6&&new Date().getHours()<20)?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workshop on Robust Machine Intelligence for Factory Automation — IAI Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Page layout ─────────────────────────────────────────── */
+    .ws-main {
+      padding-top: var(--nav-h);
+      min-height: 100vh;
+    }
+    .ws-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 24px 100px;
+    }
+
+    /* ── Page header ─────────────────────────────────────────── */
+    .ws-page-header {
+      padding: 56px 0 44px;
+      margin-bottom: 56px;
+      border-bottom: 1px solid var(--border);
+    }
+    .ws-page-header::before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      margin-bottom: 24px;
+    }
+    .ws-page-header h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .ws-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      margin-top: 16px;
+    }
+    .ws-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: .875rem;
+      color: var(--text-muted);
+    }
+    .ws-meta-item svg { flex-shrink: 0; opacity: .7; }
+
+    /* ── Breadcrumb ──────────────────────────────────────────── */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .8rem;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .breadcrumb a { color: var(--text-muted); }
+    .breadcrumb a:hover { color: var(--accent); opacity: 1; }
+
+    /* ── Sections ────────────────────────────────────────────── */
+    .ws-section {
+      margin-bottom: 64px;
+    }
+    .ws-section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .ws-body-text {
+      font-size: .95rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .ws-body-text:last-child { margin-bottom: 0; }
+    .ws-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0;
+    }
+    .ws-bullets li {
+      font-size: .95rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+    .ws-bullets li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 16px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* ── Format cards ────────────────────────────────────────── */
+    .ws-format-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 680px) {
+      .ws-format-grid { grid-template-columns: 1fr; }
+    }
+    .ws-format-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .ws-format-card h4 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .ws-format-card p {
+      font-size: .875rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    /* ── Schedule table ──────────────────────────────────────── */
+    .ws-table-wrap {
+      overflow-x: auto;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+    .ws-table {
+      width: 100%;
+      min-width: 580px;
+      border-collapse: collapse;
+      font-size: .875rem;
+    }
+    .ws-table th {
+      background: var(--surface2);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: .75rem;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .ws-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-muted);
+      vertical-align: top;
+    }
+    .ws-table tr:last-child td { border-bottom: none; }
+    .ws-table tr:hover td { background: var(--surface); }
+    .ws-table .part-header td {
+      background: var(--surface2);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: .8rem;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+    }
+    .ws-table .part-header:hover td { background: var(--surface2); }
+    .ws-table .td-time {
+      white-space: nowrap;
+      color: var(--text-dim);
+      font-size: .8rem;
+    }
+    .ws-table .td-session {
+      color: var(--text);
+      font-weight: 500;
+    }
+    .ws-table .td-speaker strong {
+      color: var(--text);
+      display: block;
+    }
+    .ws-table .td-speaker em {
+      font-style: normal;
+      font-size: .8rem;
+      color: var(--text-dim);
+    }
+    .ws-table .td-dash { color: var(--text-dim); }
+
+    /* ── Organizers ──────────────────────────────────────────── */
+    .ws-organizers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .ws-organizer-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 20px;
+      text-align: center;
+      width: 210px;
+      flex-shrink: 0;
+      transition: border-color .2s;
+    }
+    .ws-organizer-card:hover { border-color: var(--border-hover); }
+    .ws-organizer-card img {
+      width: 96px;
+      height: 96px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 14px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 2px solid var(--border);
+    }
+    .ws-organizer-card .org-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .ws-organizer-card .org-position {
+      font-size: .8rem;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+    .ws-organizer-card .org-uni {
+      font-size: .8rem;
+      color: var(--text-dim);
+      margin-bottom: 10px;
+    }
+    .ws-organizer-card a {
+      font-size: .78rem;
+      color: var(--accent);
+    }
+
+    /* ── Contact strip ───────────────────────────────────────── */
+    .ws-contact-strip {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .ws-contact-strip p {
+      font-size: .9rem;
+      color: var(--text-muted);
+    }
+    .ws-contact-strip p strong { color: var(--text); }
+    .ws-contact-strip a {
+      font-size: .9rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo_light.svg" alt="IAI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#initiatives">Initiatives</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#facility">Facility</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+      <a href="index.html#initiatives">Initiatives</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#facility">Facility</a>
+      <a href="publications.html">Publications</a>
+      <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="ws-main">
+    <div class="ws-container">
+
+      <!-- Page header -->
+      <div class="ws-page-header">
+        <nav class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span>Workshops</span>
+          <span>›</span>
+          <span>Robust Machine Intelligence for Factory Automation</span>
+        </nav>
+        <h1>1st Workshop on Robust Machine Intelligence for Factory Automation</h1>
+        <div class="ws-meta">
+          <span class="ws-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            21st August 2025
+          </span>
+          <span class="ws-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            Roman Room, Biltmore Hotel, Los Angeles, US
+          </span>
+          <span class="ws-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Co-located with IEEE CASE 2025
+          </span>
+        </div>
+      </div>
+
+      <!-- Overview -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Workshop Overview</h2>
+        <p class="ws-body-text">The workshop on Robust Machine Intelligence for Factory Automation brings together researchers and practitioners from machine learning and automation domains to address a critical challenge: developing trustworthy machine learning technologies for mission-critical factory operations. As manufacturing environments become increasingly complex and dynamic, there is an urgent need to bridge the gap between cutting-edge AI advancements and practical industrial applications.</p>
+        <p class="ws-body-text">Our primary objective is to catalyze a collaborative dialogue that sparks innovative approaches to machine intelligence in factory automation. By creating a platform for cross-disciplinary knowledge exchange, we aim to:</p>
+        <ul class="ws-bullets">
+          <li>Highlight research challenges in designing AI systems for industrial settings</li>
+          <li>Explore emerging methodologies for robust and adaptive intelligent systems</li>
+          <li>Develop a shared vision for future research and development</li>
+        </ul>
+        <p class="ws-body-text">Through a diverse range of interactive sessions—including expert talks, lightning presentations, and facilitated discussions—we will collectively chart a roadmap for transforming factory operations. The workshop seeks to reimagine production systems as more intelligent, responsive, and human-centric, capable of meeting the complex technological and societal demands of the future.</p>
+        <p class="ws-body-text">Ultimately, we aspire to accelerate the development of machine learning technologies that can navigate the unprecedented challenges of modern factory environments, paving the way for more sustainable, resilient, and innovative manufacturing ecosystems.</p>
+      </section>
+
+      <!-- Why Needed -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Why This Workshop Is Needed</h2>
+        <p class="ws-body-text">Machine learning is significantly transforming not only how we live but also how we create. Factories, traditionally perceived as dangerous, dirty, and dull environments, are now facing unprecedented opportunities. Physical sensors, machines, factory automation systems, and production networks all stand to benefit from the unique capabilities of advanced machine learning techniques. This integration will enable future factories to develop autonomous sensing, reasoning, memory, and collaboration capabilities—allowing them to produce in more sustainable, resilient, and human-friendly ways.</p>
+        <p class="ws-body-text">This vision will fundamentally impact future jobs and tasks in manufacturing environments and reshape the form and human interaction mechanisms of factory machines and systems. However, the exact manifestation of these changes remains uncertain and requires imagination to fully envision.</p>
+      </section>
+
+      <!-- Format -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Format</h2>
+        <div class="ws-format-grid">
+          <div class="ws-format-card">
+            <h4>Expert Talks</h4>
+            <p>Leading experts providing an overview of the latest research trends in the area.</p>
+          </div>
+          <div class="ws-format-card">
+            <h4>Rapid Fire Talks</h4>
+            <p>Short and fun sharing of exciting research projects to build connections.</p>
+          </div>
+          <div class="ws-format-card">
+            <h4>Facilitated Discussion</h4>
+            <p>Brainstorm shared agenda for collaborative efforts and future workshop planning.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Schedule</h2>
+        <div class="ws-table-wrap">
+          <table class="ws-table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker</th>
+                <th>Talk Title</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="part-header">
+                <td colspan="4">Part 1</td>
+              </tr>
+              <tr>
+                <td class="td-time">8:00 – 8:06 am</td>
+                <td class="td-session">Workshop Introduction</td>
+                <td>Organizers</td>
+                <td>Welcome and Overview</td>
+              </tr>
+              <tr>
+                <td class="td-time">8:06 – 8:33 am</td>
+                <td class="td-session">Expert Talk 1</td>
+                <td class="td-speaker"><strong>Jong-Seok Lee</strong><em>Korea Advanced Institute of Science &amp; Technology</em></td>
+                <td>Learning Monotonic Neural Networks for Data-Driven Control in Steel Manufacturing</td>
+              </tr>
+              <tr>
+                <td class="td-time">8:33 – 9:00 am</td>
+                <td class="td-session">Expert Talk 2</td>
+                <td class="td-speaker"><strong>Yu-Ming Hsieh</strong><em>National Cheng Kung University</em></td>
+                <td>AI-empowered Evolution for Intelligent Manufacturing</td>
+              </tr>
+              <tr>
+                <td class="td-time">9:00 – 9:27 am</td>
+                <td class="td-session">Expert Talk 3</td>
+                <td class="td-speaker"><strong>Sara Wang</strong><em>University of Nottingham</em></td>
+                <td>Intelligent Reconfigurable Manufacturing in Aerospace: System Design and Product–Process–System Integration</td>
+              </tr>
+              <tr>
+                <td class="td-time">9:30 – 10:30 am</td>
+                <td class="td-session">CASE 2025 Farewell Brunch</td>
+                <td class="td-dash">—</td>
+                <td class="td-dash">—</td>
+              </tr>
+              <tr class="part-header">
+                <td colspan="4">Part 2</td>
+              </tr>
+              <tr>
+                <td class="td-time">10:30 – 11:00 am</td>
+                <td class="td-session">Expert Talk 4</td>
+                <td class="td-speaker"><strong>Birgit Vogel-Heuser</strong><em>Technical University of Munich</em></td>
+                <td>Success factors for machine intelligence in factory automation</td>
+              </tr>
+              <tr>
+                <td class="td-time">11:00 – 11:30 am</td>
+                <td class="td-session">Expert Talk 5</td>
+                <td class="td-speaker"><strong>Weiming Shen</strong><em>Huazhong University of Science and Technology</em></td>
+                <td>Evolution of Agent Concept for Collaborative Intelligent Manufacturing</td>
+              </tr>
+              <tr>
+                <td class="td-time">11:30 am – 12:00 pm</td>
+                <td class="td-session">Open Discussions and Wrap-up</td>
+                <td class="td-dash">—</td>
+                <td class="td-dash">—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Organizers -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Organizers</h2>
+        <div class="ws-organizers-grid">
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/yuqian-lu.jpg" alt="Yuqian Lu" />
+            <p class="org-name">Yuqian Lu</p>
+            <p class="org-position">Senior Lecturer</p>
+            <p class="org-uni">The University of Auckland</p>
+            <a href="mailto:yuqian.lu@auckland.ac.nz">yuqian.lu@auckland.ac.nz</a>
+          </div>
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/hyun-jung-kim.jpg" alt="Hyun-Jung Kim" />
+            <p class="org-name">Hyun-Jung Kim</p>
+            <p class="org-position">Associate Professor</p>
+            <p class="org-uni">KAIST</p>
+            <a href="mailto:hyunjungkim@kaist.ac.kr">hyunjungkim@kaist.ac.kr</a>
+          </div>
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/bing-yan.jpg" alt="Bing Yan" />
+            <p class="org-name">Bing Yan</p>
+            <p class="org-position">Assistant Professor</p>
+            <p class="org-uni">Rochester Institute of Technology</p>
+            <a href="mailto:bxyeee@rit.edu">bxyeee@rit.edu</a>
+          </div>
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/ilya-kovalenko.jpg" alt="Ilya Kovalenko" />
+            <p class="org-name">Ilya Kovalenko</p>
+            <p class="org-position">Assistant Professor</p>
+            <p class="org-uni">Pennsylvania State University</p>
+            <a href="mailto:iqk5135@psu.edu">iqk5135@psu.edu</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <div class="ws-contact-strip">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent);flex-shrink:0"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 7 10-7"/></svg>
+        <p><strong>Contact:</strong> <a href="mailto:yuqian.lu@auckland.ac.nz">yuqian.lu@auckland.ac.nz</a></p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="IAI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="index.html#research">Factory Automation</a>
+          <a href="index.html#research">Human-Robot Collab</a>
+          <a href="index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="index.html#team">Team</a>
+          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
+          <a href="opportunity.html">Join Us</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IAI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

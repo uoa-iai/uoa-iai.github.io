@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme')||((new Date().getHours()>=6&&new Date().getHours()<20)?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2nd Workshop on Robust Machine Intelligence for Factory Automation — IAI Group</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Page layout ─────────────────────────────────────────── */
+    .ws-main {
+      padding-top: var(--nav-h);
+      min-height: 100vh;
+    }
+    .ws-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 24px 100px;
+    }
+
+    /* ── Page header ─────────────────────────────────────────── */
+    .ws-page-header {
+      padding: 56px 0 44px;
+      margin-bottom: 56px;
+      border-bottom: 1px solid var(--border);
+    }
+    .ws-page-header::before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      margin-bottom: 24px;
+    }
+    .ws-page-header h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .ws-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      margin-top: 16px;
+    }
+    .ws-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: .875rem;
+      color: var(--text-muted);
+    }
+    .ws-meta-item svg { flex-shrink: 0; opacity: .7; }
+
+    /* ── Breadcrumb ──────────────────────────────────────────── */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .8rem;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .breadcrumb a { color: var(--text-muted); }
+    .breadcrumb a:hover { color: var(--accent); opacity: 1; }
+
+    /* ── "Coming soon" badge ─────────────────────────────────── */
+    .ws-status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(16,185,129,.1);
+      border: 1px solid rgba(16,185,129,.3);
+      color: var(--accent3);
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    .ws-status-badge::before {
+      content: '';
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent3);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .3; }
+    }
+
+    /* ── Sections ────────────────────────────────────────────── */
+    .ws-section {
+      margin-bottom: 64px;
+    }
+    .ws-section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .ws-body-text {
+      font-size: .95rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .ws-body-text:last-child { margin-bottom: 0; }
+
+    /* ── Bullet lists ────────────────────────────────────────── */
+    .ws-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0;
+    }
+    .ws-bullets li {
+      font-size: .95rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+    .ws-bullets li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 16px;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* ── Numbered goals ──────────────────────────────────────── */
+    .ws-goals {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      counter-reset: goals;
+    }
+    .ws-goals li {
+      counter-increment: goals;
+      font-size: .95rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      padding: 14px 16px 14px 52px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 10px;
+      position: relative;
+      background: var(--surface);
+    }
+    .ws-goals li::before {
+      content: counter(goals);
+      position: absolute;
+      left: 16px;
+      top: 14px;
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      background: rgba(99,179,237,.12);
+      border: 1px solid rgba(99,179,237,.25);
+      color: var(--accent);
+      font-size: .75rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      text-align: center;
+      padding-top: 1px;
+    }
+    .ws-goals li strong { color: var(--text); }
+
+    /* ── Format cards ────────────────────────────────────────── */
+    .ws-format-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 600px) {
+      .ws-format-grid { grid-template-columns: 1fr; }
+    }
+    .ws-format-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .ws-format-card h4 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .ws-format-card p {
+      font-size: .875rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    /* ── Programme TBA banner ────────────────────────────────── */
+    .ws-tba-banner {
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 36px 28px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+    .ws-tba-banner svg {
+      display: block;
+      margin: 0 auto 14px;
+      opacity: .35;
+    }
+    .ws-tba-banner p {
+      font-size: .9rem;
+      line-height: 1.7;
+    }
+    .ws-tba-banner .tba-heading {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    /* ── Predecessor link ────────────────────────────────────── */
+    .ws-predecessor {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .ws-predecessor p {
+      font-size: .875rem;
+      color: var(--text-muted);
+      flex: 1;
+      min-width: 200px;
+    }
+    .ws-predecessor p strong { color: var(--text); }
+    .ws-predecessor a.ws-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .85rem;
+      font-weight: 500;
+      color: var(--accent);
+      border: 1px solid rgba(99,179,237,.3);
+      border-radius: 6px;
+      padding: 7px 14px;
+      white-space: nowrap;
+      transition: background .2s, border-color .2s;
+    }
+    .ws-predecessor a.ws-link-btn:hover {
+      background: rgba(99,179,237,.08);
+      border-color: var(--accent);
+      opacity: 1;
+    }
+
+    /* ── Organizers ──────────────────────────────────────────── */
+    .ws-organizers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .ws-organizer-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 20px;
+      text-align: center;
+      width: 210px;
+      flex-shrink: 0;
+      transition: border-color .2s;
+    }
+    .ws-organizer-card:hover { border-color: var(--border-hover); }
+    .ws-organizer-card img {
+      width: 96px; height: 96px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto 14px;
+      display: block;
+      border: 2px solid var(--border);
+    }
+    .ws-organizer-card .org-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .ws-organizer-card .org-position {
+      font-size: .8rem;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+    .ws-organizer-card .org-uni {
+      font-size: .8rem;
+      color: var(--text-dim);
+      margin-bottom: 10px;
+    }
+    .ws-organizer-card a {
+      font-size: .78rem;
+      color: var(--accent);
+    }
+
+    /* ── Contact strip ───────────────────────────────────────── */
+    .ws-contact-strip {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .ws-contact-strip p { font-size: .9rem; color: var(--text-muted); }
+    .ws-contact-strip p strong { color: var(--text); }
+    .ws-contact-strip a { font-size: .9rem; font-weight: 500; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo_light.svg" alt="IAI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#initiatives">Initiatives</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#facility">Facility</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+      <a href="index.html#initiatives">Initiatives</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#facility">Facility</a>
+      <a href="publications.html">Publications</a>
+      <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="ws-main">
+    <div class="ws-container">
+
+      <!-- Page header -->
+      <div class="ws-page-header">
+        <nav class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span>Workshops</span>
+          <span>›</span>
+          <span>Robust Machine Intelligence for Factory Automation</span>
+        </nav>
+        <div class="ws-status-badge">Programme coming soon</div>
+        <h1>2nd Workshop on Robust Machine Intelligence for Factory Automation</h1>
+        <div class="ws-meta">
+          <span class="ws-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            17th August 2026
+          </span>
+          <span class="ws-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Co-located with IEEE CASE 2026 (Day 1)
+          </span>
+        </div>
+      </div>
+
+      <!-- Predecessor link -->
+      <div class="ws-section">
+        <div class="ws-predecessor">
+          <p><strong>Continuing the series:</strong> This is the second edition of the workshop, following the success of the inaugural workshop at IEEE CASE 2025, which was the most popular workshop by attendees.</p>
+          <a href="workshop-factory-automation.html" class="ws-link-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View 2025 Workshop
+          </a>
+        </div>
+      </div>
+
+      <!-- Goals -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Workshop Goals</h2>
+        <p class="ws-body-text">AI-driven systems are increasingly being integrated into manufacturing processes, enhancing efficiency, precision, and adaptability. However, the complexity and variability of factory environments pose significant challenges to the robustness and reliability of these intelligent systems. By focusing on robust machine intelligence, this workshop aims to bridge the gap between cutting-edge AI advancements and practical, real-world applications in factory automation.</p>
+        <ol class="ws-goals">
+          <li><strong>Enhance Understanding of Robust Machine Intelligence:</strong> Provide participants with a comprehensive understanding of robust machine intelligence and its critical role in factory automation.</li>
+          <li><strong>Explore Advanced Techniques:</strong> Discuss advanced techniques and methodologies for developing robust machine intelligence systems that can handle the complexities and uncertainties of factory environments.</li>
+          <li><strong>Promote Practical Applications:</strong> Showcase real-world applications and case studies, demonstrating the successful implementation of robust machine intelligence in factory automation.</li>
+          <li><strong>Foster Collaboration:</strong> Encourage collaboration and knowledge exchange among researchers, practitioners, and industry leaders to drive innovation and address challenges in factory automation.</li>
+          <li><strong>Identify Future Directions:</strong> Identify key research gaps and future directions for robust machine intelligence in factory automation, aiming to inspire new research and development initiatives.</li>
+        </ol>
+      </section>
+
+      <!-- Why this workshop -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Why This Workshop</h2>
+        <p class="ws-body-text">Machine learning is significantly transforming not only how we live but also how we create. Factories, traditionally perceived as dangerous, dirty, and dull environments, are now facing unprecedented opportunities. Physical sensors, machines, factory automation systems, and production networks all stand to benefit from the unique capabilities of advanced machine learning techniques. This integration will enable future factories to develop autonomous sensing, reasoning, memory, and collaboration capabilities—allowing them to produce in more sustainable, resilient, and human-friendly ways.</p>
+        <p class="ws-body-text">This vision will fundamentally impact future jobs and tasks in manufacturing environments and reshape the form and human interaction mechanisms of factory machines and systems. However, the exact manifestation of these changes remains uncertain and requires imagination to fully envision.</p>
+        <p class="ws-body-text">From the AI side, despite isolated breakthroughs in areas like generative AI and computer vision, we haven't yet witnessed strong breakthroughs in physical AI or embodied intelligence. AI and machine learning algorithms operating in mission-critical factory environments—such as precision machines, industrial robots, and factory control systems—face significantly unique performance expectations. Currently, we are not discussing the adoption of existing AI advancements in factory automation; rather, we are at the preliminary stage of properly defining how physical AI should behave and to what expectations.</p>
+        <p class="ws-body-text">Considering this critical juncture, we are organizing this workshop to share the latest developments in machine learning for factory automation through keynotes and lightning talks, showcase innovative ideas, and, most importantly, discuss future research agendas via facilitated roundtable discussions. This workshop is jointly organized by IEEE RAS Automation Cluster, IEEE TC on Digital Manufacturing and Human-centered Automation, and IEEE RAS TC on Machine Learning for Automation.</p>
+      </section>
+
+      <!-- Format -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Format</h2>
+        <p class="ws-body-text" style="margin-bottom:20px;">A one-day workshop on the first day of IEEE CASE 2026 (17th August). The workshop includes the following activities:</p>
+        <div class="ws-format-grid">
+          <div class="ws-format-card">
+            <h4>Invited Talks</h4>
+            <p>Leading experts providing an overview of the latest research trends in robust machine intelligence for factory automation.</p>
+          </div>
+          <div class="ws-format-card">
+            <h4>Lightning Talks</h4>
+            <p>Short and fun sharing of technological advancements from early-to-mid career researchers.</p>
+          </div>
+          <div class="ws-format-card">
+            <h4>Tech Tasters Session</h4>
+            <p>Interactive conversation session with technology showcase from submissions, via poster, physical prototype display, and digital system demonstration.</p>
+          </div>
+          <div class="ws-format-card">
+            <h4>Facilitated Discussion</h4>
+            <p>Identify key challenges and opportunities in developing robust machine intelligence technologies towards factories of the future, and outline potential collaborative initiatives.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Programme -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Programme</h2>
+        <div class="ws-tba-banner">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="12" y1="15" x2="12" y2="15" stroke-width="2"/></svg>
+          <p class="tba-heading">Speakers and schedule to be announced</p>
+          <p>We are currently confirming invited speakers. The full programme, including speaker details and talk titles, will be published here once finalised. Check back closer to the event date.</p>
+        </div>
+      </section>
+
+      <!-- Organizers -->
+      <section class="ws-section">
+        <h2 class="ws-section-title">Organizers</h2>
+        <div class="ws-organizers-grid">
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/yuqian-lu.jpg" alt="Yuqian Lu" />
+            <p class="org-name">Yuqian Lu</p>
+            <p class="org-position">Senior Lecturer</p>
+            <p class="org-uni">The University of Auckland</p>
+            <a href="mailto:yuqian.lu@auckland.ac.nz">yuqian.lu@auckland.ac.nz</a>
+          </div>
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/hyun-jung-kim.jpg" alt="Hyun-Jung Kim" />
+            <p class="org-name">Hyun-Jung Kim</p>
+            <p class="org-position">Associate Professor</p>
+            <p class="org-uni">KAIST</p>
+            <a href="mailto:hyunjungkim@kaist.ac.kr">hyunjungkim@kaist.ac.kr</a>
+          </div>
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/bing-yan.jpg" alt="Bing Yan" />
+            <p class="org-name">Bing Yan</p>
+            <p class="org-position">Assistant Professor</p>
+            <p class="org-uni">Rochester Institute of Technology</p>
+            <a href="mailto:bxyeee@rit.edu">bxyeee@rit.edu</a>
+          </div>
+          <div class="ws-organizer-card">
+            <img src="https://uoa-iai.github.io/ws-factory-automation/assets/organizers/ilya-kovalenko.jpg" alt="Ilya Kovalenko" />
+            <p class="org-name">Ilya Kovalenko</p>
+            <p class="org-position">Assistant Professor</p>
+            <p class="org-uni">Pennsylvania State University</p>
+            <a href="mailto:iqk5135@psu.edu">iqk5135@psu.edu</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <div class="ws-contact-strip">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent);flex-shrink:0"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 7 10-7"/></svg>
+        <p><strong>Contact:</strong> <a href="mailto:yuqian.lu@auckland.ac.nz">yuqian.lu@auckland.ac.nz</a></p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="IAI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="IAI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="index.html#research">Factory Automation</a>
+          <a href="index.html#research">Human-Robot Collab</a>
+          <a href="index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="index.html#team">Team</a>
+          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
+          <a href="opportunity.html">Join Us</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IAI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

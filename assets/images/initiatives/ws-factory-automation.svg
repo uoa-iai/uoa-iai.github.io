@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#13131f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#63b3ed"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#63b3ed" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="rgba(99,179,237,0.06)" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/>
+    <line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- Glow circle top-right -->
+  <circle cx="680" cy="100" r="160" fill="rgba(99,179,237,0.05)"/>
+  <circle cx="680" cy="100" r="100" fill="rgba(99,179,237,0.04)"/>
+
+  <!-- Accent bar -->
+  <rect x="60" y="148" width="56" height="3" rx="2" fill="url(#accent)"/>
+
+  <!-- Workshop series label -->
+  <text x="60" y="128" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="rgba(99,179,237,0.8)" text-transform="uppercase">IEEE CASE 2026 · WORKSHOP</text>
+
+  <!-- Main title -->
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#e8e8f0">Robust Machine Intelligence</text>
+  <text x="60" y="237" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#e8e8f0">for Factory Automation</text>
+
+  <!-- Edition badge -->
+  <rect x="60" y="267" width="112" height="28" rx="14" fill="rgba(99,179,237,0.12)" stroke="rgba(99,179,237,0.3)" stroke-width="1"/>
+  <text x="116" y="286" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#63b3ed" text-anchor="middle">2nd Edition</text>
+
+  <!-- Date chip -->
+  <rect x="185" y="267" width="138" height="28" rx="14" fill="rgba(124,58,237,0.12)" stroke="rgba(124,58,237,0.3)" stroke-width="1"/>
+  <text x="254" y="286" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#a78bfa" text-anchor="middle">17 August 2026</text>
+
+  <!-- Decorative gear outline right side -->
+  <g transform="translate(620, 310)" fill="none" stroke="rgba(99,179,237,0.12)" stroke-width="1.5">
+    <circle cx="0" cy="0" r="60"/>
+    <circle cx="0" cy="0" r="35"/>
+    <line x1="-70" y1="0" x2="70" y2="0"/>
+    <line x1="0" y1="-70" x2="0" y2="70"/>
+    <line x1="-49.5" y1="-49.5" x2="49.5" y2="49.5"/>
+    <line x1="49.5" y1="-49.5" x2="-49.5" y2="49.5"/>
+  </g>
+
+  <!-- Small gear outline bottom-left -->
+  <g transform="translate(720, 400)" fill="none" stroke="rgba(99,179,237,0.08)" stroke-width="1">
+    <circle cx="0" cy="0" r="30"/>
+    <circle cx="0" cy="0" r="18"/>
+    <line x1="-35" y1="0" x2="35" y2="0"/>
+    <line x1="0" y1="-35" x2="0" y2="35"/>
+  </g>
+
+  <!-- Bottom label -->
+  <text x="60" y="418" font-family="Inter, Arial, sans-serif" font-size="11" fill="rgba(136,136,170,0.6)" letter-spacing="0.3">Industrial Artificial Intelligence Group · The University of Auckland</text>
+</svg>
