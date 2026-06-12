@@ -280,8 +280,8 @@
 
       document.getElementById('articleWrap').style.display = '';
 
-      const shareUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href);
-      document.getElementById('linkedinShare').href = shareUrl;
+      const staticPageUrl = 'https://uoa-iai.github.io/news/' + item.id + '.html';
+      document.getElementById('linkedinShare').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(staticPageUrl);
 
       // Related news (up to 3 others)
       const others = list.filter(n => n.id !== id).slice(0, 3);
