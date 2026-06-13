@@ -1,5 +1,5 @@
 /* ============================================================
-   IAI Group — Theme toggle (dark / light)
+   Industrial AI Group — Theme toggle (dark / light)
    ============================================================ */
 
 (function () {

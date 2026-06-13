@@ -45,9 +45,9 @@ for (const item of news) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${title} — IAI Group</title>
+  <title>${title} — Industrial AI Group</title>
   <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="IAI Group" />
+  <meta property="og:site_name" content="Industrial AI Group" />
   <meta property="og:title" content="${title}" />
   <meta property="og:description" content="${description}" />
   <meta property="og:url" content="${canonicalUrl}" />

@@ -1624,7 +1624,7 @@ In-depth discussion was held between the two parties under the **MSCA-RISE-2019*
     date: 'Jan 2023',
     badge: 'Seminar',
     title: 'Visit from Professor Qiang Huang',
-    body: 'Professor Qiang Huang from USC\'s Epstein Department of Industrial and Systems Engineering visited the IAI Group on December 2, 2022 and delivered a seminar on engineering-informed machine learning for additive manufacturing accuracy control.',
+    body: 'Professor Qiang Huang from USC\'s Epstein Department of Industrial and Systems Engineering visited the Industrial AI Group on December 2, 2022 and delivered a seminar on engineering-informed machine learning for additive manufacturing accuracy control.',
     fullContent: `On December 2, 2022, Professor Qiang Huang from the Epstein Department of Industrial and Systems Engineering at the University of Southern California (USC) visited the Industrial AI Group.
 
 ## Seminar: Engineering-Informed Machine Learning for Additive Manufacturing Accuracy Control

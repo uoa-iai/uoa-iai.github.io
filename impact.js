@@ -1,5 +1,5 @@
 /* ============================================================
-   IAI Group — Impact Page JavaScript
+   Industrial AI Group — Impact Page JavaScript
    ============================================================ */
 
 (function () {
