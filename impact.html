@@ -4,16 +4,19 @@
   <meta charset="UTF-8" />
   <script>
     (function(){var t=localStorage.getItem('iai_theme')||((new Date().getHours()>=6&&new Date().getHours()<20)?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
-    // Clear any stale impact auth so gate always shows on fresh load
     if (!sessionStorage.getItem('iai_impact_auth')) {
       document.documentElement.classList.add('pw-locked');
     }
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Research Impact — Industrial AI Group</title>
+  <meta name="description" content="Research impact and outcomes from Industrial AI Group's work in intelligent manufacturing, robotics, and automation technology." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://uoa-iai.github.io/impact.html" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="impact.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
