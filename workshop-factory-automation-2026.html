@@ -211,30 +211,92 @@
       line-height: 1.7;
     }
 
-    /* ── Programme TBA banner ────────────────────────────────── */
-    .ws-tba-banner {
-      background: var(--surface);
-      border: 1px dashed var(--border);
-      border-radius: var(--radius);
-      padding: 36px 28px;
-      text-align: center;
+    /* ── Programme sessions ──────────────────────────────────── */
+    .ws-programme {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .ws-session {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 0 20px;
+      position: relative;
+    }
+    .ws-session:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      left: 109px;
+      top: 48px;
+      bottom: -1px;
+      width: 1px;
+      background: var(--border);
+    }
+    .ws-session-time {
+      padding: 20px 0;
+      font-size: .8rem;
+      font-weight: 600;
       color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      text-align: right;
+      padding-right: 20px;
+      padding-top: 22px;
+      line-height: 1.4;
     }
-    .ws-tba-banner svg {
-      display: block;
-      margin: 0 auto 14px;
-      opacity: .35;
+    .ws-session-body {
+      padding: 16px 0 24px 20px;
+      border-left: 1px solid var(--border);
+      position: relative;
     }
-    .ws-tba-banner p {
-      font-size: .9rem;
-      line-height: 1.7;
+    .ws-session-body::before {
+      content: '';
+      position: absolute;
+      left: -5px;
+      top: 22px;
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
     }
-    .ws-tba-banner .tba-heading {
+    .ws-session-label {
       font-family: 'Space Grotesk', sans-serif;
       font-size: 1rem;
       font-weight: 600;
       color: var(--text);
       margin-bottom: 6px;
+    }
+    .ws-session-label .ws-session-tag {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: .7rem;
+      font-weight: 600;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .ws-session-tag.primary {
+      background: rgba(99,179,237,.12);
+      color: var(--accent);
+      border: 1px solid rgba(99,179,237,.25);
+    }
+    .ws-session-tag.community {
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .ws-session-desc {
+      font-size: .875rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+    @media (max-width: 520px) {
+      .ws-session { grid-template-columns: 80px 1fr; }
+      .ws-session:not(:last-child)::after { left: 79px; }
+      .ws-session-time { font-size: .7rem; }
     }
 
     /* ── Predecessor link ────────────────────────────────────── */
@@ -396,7 +458,7 @@
           <span>›</span>
           <span>Robust Machine Intelligence for Factory Automation</span>
         </nav>
-        <div class="ws-status-badge">Programme coming soon</div>
+        <div class="ws-status-badge">Programme announced</div>
         <h1>2nd Workshop on Robust Machine Intelligence for Factory Automation</h1>
         <div class="ws-meta">
           <span class="ws-meta-item">
@@ -439,7 +501,7 @@
         <h2 class="ws-section-title">Why This Workshop</h2>
         <p class="ws-body-text">Machine learning is significantly transforming not only how we live but also how we create. Factories, traditionally perceived as dangerous, dirty, and dull environments, are now facing unprecedented opportunities. Physical sensors, machines, factory automation systems, and production networks all stand to benefit from the unique capabilities of advanced machine learning techniques. This integration will enable future factories to develop autonomous sensing, reasoning, memory, and collaboration capabilities—allowing them to produce in more sustainable, resilient, and human-friendly ways.</p>
         <p class="ws-body-text">This vision will fundamentally impact future jobs and tasks in manufacturing environments and reshape the form and human interaction mechanisms of factory machines and systems. However, the exact manifestation of these changes remains uncertain and requires imagination to fully envision.</p>
-        <p class="ws-body-text">From the AI side, despite isolated breakthroughs in areas like generative AI and computer vision, we haven't yet witnessed strong breakthroughs in physical AI or embodied intelligence. AI and machine learning algorithms operating in mission-critical factory environments—such as precision machines, industrial robots, and factory control systems—face significantly unique performance expectations. Currently, we are not discussing the adoption of existing AI advancements in factory automation; rather, we are at the preliminary stage of properly defining how physical AI should behave and to what expectations.</p>
+        <p class="ws-body-text">From the AI side, despite isolated breakthroughs in areas like generative AI and computer vision, we haven't yet witnessed strong breakthroughs in physical AI or embodied intelligence. AI and machine learning algorithms operating in mission-critical factory environments—such as precision machines, industrial robots, and factory control systems—face uniquely demanding performance expectations. Currently, we are not discussing the adoption of existing AI advancements in factory automation; rather, we are at the preliminary stage of properly defining how physical AI should behave and to what expectations.</p>
         <p class="ws-body-text">Considering this critical juncture, we are organizing this workshop to share the latest developments in machine learning for factory automation through keynotes and lightning talks, showcase innovative ideas, and, most importantly, discuss future research agendas via facilitated roundtable discussions. This workshop is jointly organized by IEEE RAS Automation Cluster, IEEE TC on Digital Manufacturing and Human-centered Automation, and IEEE RAS TC on Machine Learning for Automation.</p>
       </section>
 
@@ -454,7 +516,7 @@
           </div>
           <div class="ws-format-card">
             <h4>Lightning Talks</h4>
-            <p>Short and fun sharing of technological advancements from early-to-mid career researchers.</p>
+            <p>Short and fun sharing of technological advancements from the community.</p>
           </div>
           <div class="ws-format-card">
             <h4>Tech Tasters Session</h4>
@@ -470,10 +532,53 @@
       <!-- Programme -->
       <section class="ws-section">
         <h2 class="ws-section-title">Programme</h2>
-        <div class="ws-tba-banner">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="12" y1="15" x2="12" y2="15" stroke-width="2"/></svg>
-          <p class="tba-heading">Speakers and schedule to be announced</p>
-          <p>We are currently confirming invited speakers. The full programme, including speaker details and talk titles, will be published here once finalised. Check back closer to the event date.</p>
+        <p class="ws-body-text" style="margin-bottom:28px;">A one-day programme structured around four sequential sessions. The full speaker line-up and schedule will be published here once confirmed.</p>
+        <div class="ws-programme">
+
+          <div class="ws-session">
+            <div class="ws-session-time">Morning</div>
+            <div class="ws-session-body">
+              <p class="ws-session-label">
+                Invited Expert Talks
+                <span class="ws-session-tag primary">Primary session</span>
+              </p>
+              <p class="ws-session-desc">Five invited speakers, each presenting a 25-minute talk followed by 5 minutes of Q&amp;A, addressing key questions in robust machine intelligence for factory automation.</p>
+            </div>
+          </div>
+
+          <div class="ws-session">
+            <div class="ws-session-time">Midday</div>
+            <div class="ws-session-body">
+              <p class="ws-session-label">
+                Lightning Talks &amp; Tech Tasters
+                <span class="ws-session-tag community">Community</span>
+              </p>
+              <p class="ws-session-desc">Community showcase: short talks and interactive demonstrations highlighting current practice in robust machine intelligence for factory automation.</p>
+            </div>
+          </div>
+
+          <div class="ws-session">
+            <div class="ws-session-time">Afternoon</div>
+            <div class="ws-session-body">
+              <p class="ws-session-label">
+                Open Facilitated Discussion
+                <span class="ws-session-tag community">Community</span>
+              </p>
+              <p class="ws-session-desc">All attendees engage with guiding questions in a structured open discussion. A rapporteur captures key themes, tensions, and consensus points.</p>
+            </div>
+          </div>
+
+          <div class="ws-session">
+            <div class="ws-session-time">Close of day</div>
+            <div class="ws-session-body">
+              <p class="ws-session-label">
+                Invited Speaker Roundtable
+                <span class="ws-session-tag primary">Closed</span>
+              </p>
+              <p class="ws-session-desc">A closed session for invited speakers only.</p>
+            </div>
+          </div>
+
         </div>
       </section>
 
