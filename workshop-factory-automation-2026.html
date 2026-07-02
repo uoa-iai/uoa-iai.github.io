@@ -383,6 +383,54 @@
       color: var(--accent);
     }
 
+    /* ── Schedule table ─────────────────────────────────────── */
+    .ws-schedule {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .ws-sched-row {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+    .ws-sched-row:last-child { border-bottom: none; }
+    .ws-sched-time {
+      font-size: .8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 13px 16px;
+      border-right: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      background: var(--surface);
+    }
+    .ws-sched-event {
+      font-size: .875rem;
+      color: var(--text);
+      padding: 13px 18px;
+      line-height: 1.5;
+    }
+    .ws-sched-row.ws-sched-break .ws-sched-event {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .ws-sched-row.ws-sched-break .ws-sched-time {
+      color: var(--text-dim);
+    }
+    .ws-sched-row.ws-sched-highlight .ws-sched-time {
+      background: rgba(99,179,237,.06);
+    }
+    .ws-sched-row.ws-sched-highlight .ws-sched-event {
+      color: var(--text);
+      font-weight: 500;
+    }
+    @media (max-width: 480px) {
+      .ws-sched-row { grid-template-columns: 120px 1fr; }
+      .ws-sched-time { font-size: .75rem; padding: 11px 10px; }
+      .ws-sched-event { font-size: .825rem; padding: 11px 12px; }
+    }
+
     /* ── Contact strip ───────────────────────────────────────── */
     .ws-contact-strip {
       background: var(--surface);
@@ -532,51 +580,44 @@
       <!-- Programme -->
       <section class="ws-section">
         <h2 class="ws-section-title">Programme</h2>
-        <p class="ws-body-text" style="margin-bottom:28px;">A one-day programme structured around four sequential sessions. The full speaker line-up and schedule will be published here once confirmed.</p>
-        <div class="ws-programme">
+        <p class="ws-body-text" style="margin-bottom:24px;">Speaker details and talk titles will be published here once confirmed.</p>
+        <div class="ws-schedule">
 
-          <div class="ws-session">
-            <div class="ws-session-time">Morning</div>
-            <div class="ws-session-body">
-              <p class="ws-session-label">
-                Invited Expert Talks
-                <span class="ws-session-tag primary">Primary session</span>
-              </p>
-              <p class="ws-session-desc">Five invited speakers, each presenting a 25-minute talk followed by 5 minutes of Q&amp;A, addressing key questions in robust machine intelligence for factory automation.</p>
-            </div>
+          <div class="ws-sched-row ws-sched-highlight">
+            <span class="ws-sched-time">9:00–9:05 am</span>
+            <span class="ws-sched-event">Opening</span>
           </div>
-
-          <div class="ws-session">
-            <div class="ws-session-time">Midday</div>
-            <div class="ws-session-body">
-              <p class="ws-session-label">
-                Lightning Talks &amp; Tech Tasters
-                <span class="ws-session-tag community">Community</span>
-              </p>
-              <p class="ws-session-desc">Community showcase: short talks and interactive demonstrations highlighting current practice in robust machine intelligence for factory automation.</p>
-            </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-time">9:05–9:30 am</span>
+            <span class="ws-sched-event">Invited Talk 1</span>
           </div>
-
-          <div class="ws-session">
-            <div class="ws-session-time">Afternoon</div>
-            <div class="ws-session-body">
-              <p class="ws-session-label">
-                Open Facilitated Discussion
-                <span class="ws-session-tag community">Community</span>
-              </p>
-              <p class="ws-session-desc">All attendees engage with guiding questions in a structured open discussion. A rapporteur captures key themes, tensions, and consensus points.</p>
-            </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-time">9:30–10:00 am</span>
+            <span class="ws-sched-event">Invited Talk 2</span>
           </div>
-
-          <div class="ws-session">
-            <div class="ws-session-time">Close of day</div>
-            <div class="ws-session-body">
-              <p class="ws-session-label">
-                Invited Speaker Roundtable
-                <span class="ws-session-tag primary">Closed</span>
-              </p>
-              <p class="ws-session-desc">A closed session for invited speakers only.</p>
-            </div>
+          <div class="ws-sched-row ws-sched-break">
+            <span class="ws-sched-time">10:00–10:40 am</span>
+            <span class="ws-sched-event">Tea Break</span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-time">10:40–11:10 am</span>
+            <span class="ws-sched-event">Invited Talk 3</span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-time">11:10–11:40 am</span>
+            <span class="ws-sched-event">Invited Talk 4</span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-time">11:40 am–12:00 pm</span>
+            <span class="ws-sched-event">Invited Talk 5</span>
+          </div>
+          <div class="ws-sched-row ws-sched-break">
+            <span class="ws-sched-time">12:10–2:00 pm</span>
+            <span class="ws-sched-event">Lunch Break</span>
+          </div>
+          <div class="ws-sched-row ws-sched-highlight">
+            <span class="ws-sched-time">2:00–3:00 pm</span>
+            <span class="ws-sched-event">Closed Door Discussion</span>
           </div>
 
         </div>
