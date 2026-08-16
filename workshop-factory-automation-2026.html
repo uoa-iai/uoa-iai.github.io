@@ -404,29 +404,36 @@
     }
     .ws-sched-row {
       display: grid;
-      grid-template-columns: 160px 1fr;
+      grid-template-columns: 120px 105px minmax(150px, .8fr) minmax(230px, 1.25fr) minmax(280px, 1.6fr);
       border-bottom: 1px solid var(--border);
     }
     .ws-sched-row:last-child { border-bottom: none; }
+    .ws-sched-cell {
+      padding: 13px 14px;
+      border-right: 1px solid var(--border);
+      font-size: .825rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+    .ws-sched-cell:last-child { border-right: none; }
+    .ws-sched-head .ws-sched-cell {
+      background: var(--surface);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      color: var(--text);
+    }
     .ws-sched-time {
       font-size: .8rem;
       font-weight: 600;
       color: var(--text-muted);
-      padding: 13px 16px;
-      border-right: 1px solid var(--border);
       font-variant-numeric: tabular-nums;
       white-space: nowrap;
       background: var(--surface);
     }
-    .ws-sched-event {
-      font-size: .875rem;
-      color: var(--text);
-      padding: 13px 18px;
-      line-height: 1.5;
-    }
-    .ws-sched-row.ws-sched-break .ws-sched-event {
+    .ws-sched-row.ws-sched-break .ws-sched-merged {
       color: var(--text-muted);
       font-style: italic;
+      text-align: center;
     }
     .ws-sched-row.ws-sched-break .ws-sched-time {
       color: var(--text-dim);
@@ -434,14 +441,14 @@
     .ws-sched-row.ws-sched-highlight .ws-sched-time {
       background: rgba(99,179,237,.06);
     }
-    .ws-sched-row.ws-sched-highlight .ws-sched-event {
+    .ws-sched-row.ws-sched-highlight .ws-sched-item {
       color: var(--text);
       font-weight: 500;
     }
-    @media (max-width: 480px) {
-      .ws-sched-row { grid-template-columns: 120px 1fr; }
-      .ws-sched-time { font-size: .75rem; padding: 11px 10px; }
-      .ws-sched-event { font-size: .825rem; padding: 11px 12px; }
+    .ws-sched-merged { grid-column: 2 / -1; }
+    @media (max-width: 900px) {
+      .ws-schedule { overflow-x: auto; }
+      .ws-sched-row { min-width: 1000px; }
     }
 
     /* ── Contact strip ───────────────────────────────────────── */
@@ -569,47 +576,74 @@
         <p class="ws-body-text">Considering this critical juncture, we are organizing this workshop to share the latest developments in machine learning for factory automation through keynotes and lightning talks, showcase innovative ideas, and, most importantly, discuss future research agendas via facilitated roundtable discussions. This workshop is jointly organized by IEEE RAS Automation Cluster, IEEE TC on Digital Manufacturing and Human-centered Automation, and IEEE RAS TC on Machine Learning for Automation.</p>
       </section>
 
+      
       <!-- Programme -->
       <section class="ws-section">
         <h2 class="ws-section-title">Programme</h2>
-        <p class="ws-body-text" style="margin-bottom:24px;">Speaker details and talk titles will be published here once confirmed.</p>
         <div class="ws-schedule">
-
-          <div class="ws-sched-row ws-sched-highlight">
-            <span class="ws-sched-time">9:00–9:05 am</span>
-            <span class="ws-sched-event">Setting the Scene</span>
-          </div>
-          <div class="ws-sched-row">
-            <span class="ws-sched-time">9:05–9:30 am</span>
-            <span class="ws-sched-event">Invited Talk 1</span>
-          </div>
-          <div class="ws-sched-row">
-            <span class="ws-sched-time">9:30–10:00 am</span>
-            <span class="ws-sched-event">Invited Talk 2</span>
-          </div>
-          <div class="ws-sched-row ws-sched-break">
-            <span class="ws-sched-time">10:00–10:40 am</span>
-            <span class="ws-sched-event">Tea Break</span>
-          </div>
-          <div class="ws-sched-row">
-            <span class="ws-sched-time">10:40–11:10 am</span>
-            <span class="ws-sched-event">Invited Talk 3</span>
-          </div>
-          <div class="ws-sched-row">
-            <span class="ws-sched-time">11:10–11:40 am</span>
-            <span class="ws-sched-event">Invited Talk 4</span>
-          </div>
-          <div class="ws-sched-row">
-            <span class="ws-sched-time">11:40 am–12:00 pm</span>
-            <span class="ws-sched-event">Invited Talk 5</span>
-          </div>
-          <div class="ws-sched-row ws-sched-break">
-            <span class="ws-sched-time">12:10–2:00 pm</span>
-            <span class="ws-sched-event">Lunch Break</span>
+          <div class="ws-sched-row ws-sched-head">
+            <span class="ws-sched-cell">Time</span>
+            <span class="ws-sched-cell">Item</span>
+            <span class="ws-sched-cell">Speaker(s)</span>
+            <span class="ws-sched-cell">Title</span>
+            <span class="ws-sched-cell">Description</span>
           </div>
           <div class="ws-sched-row ws-sched-highlight">
-            <span class="ws-sched-time">2:00–3:00 pm</span>
-            <span class="ws-sched-event">Closed Door Round Table Discussion</span>
+            <span class="ws-sched-cell ws-sched-time">9:00–9:05</span>
+            <span class="ws-sched-cell ws-sched-item">Setting the Scene</span>
+            <span class="ws-sched-cell">Organisers</span>
+            <span class="ws-sched-cell"></span>
+            <span class="ws-sched-cell"></span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-cell ws-sched-time">9:05–9:30</span>
+            <span class="ws-sched-cell ws-sched-item">Talk 1</span>
+            <span class="ws-sched-cell">Fan-Tien Cheng / Yu-Ming Hsieh</span>
+            <span class="ws-sched-cell">Robust AI-Driven Factory Automation</span>
+            <span class="ws-sched-cell">Advancing from Industry 4.1 through 4.2 to 4.3 via AVM &amp; Lifecycle Governance for Trustworthy AI</span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-cell ws-sched-time">9:30–10:00</span>
+            <span class="ws-sched-cell ws-sched-item">Talk 2</span>
+            <span class="ws-sched-cell">Bengt Lennartson</span>
+            <span class="ws-sched-cell">Robust black-box and physics-based reinforcement learning and smart planning</span>
+            <span class="ws-sched-cell"></span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-cell ws-sched-time">10:00–10:30</span>
+            <span class="ws-sched-cell ws-sched-item">Talk 3</span>
+            <span class="ws-sched-cell">Weiming Shen</span>
+            <span class="ws-sched-cell">Collaborative</span>
+            <span class="ws-sched-cell"></span>
+          </div>
+          <div class="ws-sched-row ws-sched-break">
+            <span class="ws-sched-cell ws-sched-time">10:30–10:45</span>
+            <span class="ws-sched-cell ws-sched-merged">Tea Break</span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-cell ws-sched-time">11:00–11:30</span>
+            <span class="ws-sched-cell ws-sched-item">Talk 4</span>
+            <span class="ws-sched-cell">Birgit Vogel-Heuser</span>
+            <span class="ws-sched-cell">Digital Twin-based adaptive factory automation</span>
+            <span class="ws-sched-cell">ML is mandatory to enable a Digital Twin to learn while the factory operates. The talk shows selected prerequisites and successful applications to check ML results on the one hand or explain reduced plausibility.</span>
+          </div>
+          <div class="ws-sched-row">
+            <span class="ws-sched-cell ws-sched-time">11:30–12:00</span>
+            <span class="ws-sched-cell ws-sched-item">Talk 5</span>
+            <span class="ws-sched-cell">Qiang Huang</span>
+            <span class="ws-sched-cell">Domain-informed Small-Sample Machine Learning for Smart 3D Printing.</span>
+            <span class="ws-sched-cell">This talk discusses how discovering and integrating engineering principles in data analytics can overcome data scarcity challenge in smart manufacturing.</span>
+          </div>
+          <div class="ws-sched-row ws-sched-break">
+            <span class="ws-sched-cell ws-sched-time">12:15–14:00</span>
+            <span class="ws-sched-cell ws-sched-merged">Lunch Break</span>
+          </div>
+          <div class="ws-sched-row ws-sched-highlight">
+            <span class="ws-sched-cell ws-sched-time">14:00–15:00</span>
+            <span class="ws-sched-cell ws-sched-item">Closed Door Discussion</span>
+            <span class="ws-sched-cell"></span>
+            <span class="ws-sched-cell"></span>
+            <span class="ws-sched-cell"></span>
           </div>
 
         </div>
