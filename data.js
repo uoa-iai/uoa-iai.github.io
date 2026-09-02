@@ -1110,6 +1110,23 @@ const DEFAULT_PUBLICATIONS = [
 
 const DEFAULT_NEWS = [
   {
+    id: 'n-icra2027-ae',
+    date: 'Sep 2026',
+    badge: 'Award',
+    title: 'Dr. Yuqian Lu Nominated as Associate Editor for ICRA 2027',
+    body: 'Dr. Yuqian Lu has been nominated as an Associate Editor for the 2027 IEEE International Conference on Robotics and Automation (ICRA), the flagship conference of the IEEE Robotics and Automation Society.',
+    fullContent: `We are pleased to share that **Dr. Yuqian Lu** has been nominated as an **Associate Editor** for the 2027 IEEE International Conference on Robotics and Automation (ICRA), the flagship annual conference of the IEEE Robotics and Automation Society.
+
+As an Associate Editor, Dr. Lu will handle and organise the review process for submissions to ICRA 2027, contributing to the quality and rigour of one of the largest and most influential gatherings in the robotics and automation research community.
+
+This role reflects Dr. Lu's continued contributions to the field of industrial artificial intelligence, robotics, and human-robot collaboration, and adds to the group's ongoing engagement with the international robotics research community.
+
+Congratulations to Dr. Lu on this recognition.`,
+    linkText: 'Read more',
+    linkUrl: 'news-detail.html?id=n-icra2027-ae',
+    featured: true,
+  },
+  {
     id: 'n-macd-tase',
     date: 'Jun 2026',
     badge: 'Publication',
