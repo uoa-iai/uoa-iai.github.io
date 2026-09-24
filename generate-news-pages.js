@@ -31,7 +31,8 @@ function esc(str) {
 
 for (const item of news) {
   const detailUrl = `/news-detail.html?id=${item.id}`;
-  const canonicalUrl = `${BASE_URL}/news/${item.id}.html`;
+  const detailCanonicalUrl = `${BASE_URL}${detailUrl}`;
+  const ogUrl = `${BASE_URL}/news/${item.id}.html`;
   const imageUrl = item.image ? `${BASE_URL}/${item.image}` : null;
   const description = esc((item.body || '').slice(0, 200));
   const title = esc(item.title);
@@ -40,22 +41,28 @@ for (const item of news) {
     ? `  <meta property="og:image" content="${imageUrl}" />\n  <meta name="twitter:image" content="${imageUrl}" />`
     : '';
 
+  // This page exists only so link-preview crawlers (LinkedIn, Facebook, Twitter) that
+  // don't follow the JS/meta-refresh redirect still get real OG tags. It immediately
+  // redirects real visitors and search engines to news-detail.html, which is the
+  // actual indexable URL — so canonical points there, not at this page, to avoid
+  // declaring itself canonical while redirecting away from itself.
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${title} — Industrial AI Group</title>
+  <meta name="description" content="${description}" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Industrial AI Group" />
   <meta property="og:title" content="${title}" />
   <meta property="og:description" content="${description}" />
-  <meta property="og:url" content="${canonicalUrl}" />
+  <meta property="og:url" content="${ogUrl}" />
 ${ogImage}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${title}" />
   <meta name="twitter:description" content="${description}" />
-  <link rel="canonical" href="${canonicalUrl}" />
+  <link rel="canonical" href="${detailCanonicalUrl}" />
   <meta http-equiv="refresh" content="0;url=${detailUrl}" />
   <script>window.location.replace('${detailUrl}');</script>
 </head>

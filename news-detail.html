@@ -251,6 +251,23 @@
     } else {
       document.title = `${item.title} — Industrial AI Group`;
 
+      const canonicalUrl = `https://uoa-iai.github.io/news-detail.html?id=${item.id}`;
+      let canonicalLink = document.querySelector('link[rel="canonical"]');
+      if (!canonicalLink) {
+        canonicalLink = document.createElement('link');
+        canonicalLink.rel = 'canonical';
+        document.head.appendChild(canonicalLink);
+      }
+      canonicalLink.href = canonicalUrl;
+
+      let descMeta = document.querySelector('meta[name="description"]');
+      if (!descMeta) {
+        descMeta = document.createElement('meta');
+        descMeta.name = 'description';
+        document.head.appendChild(descMeta);
+      }
+      descMeta.content = (item.body || '').slice(0, 200);
+
       document.getElementById('detailBadge').textContent     = item.badge;
       document.getElementById('detailDate').textContent      = item.date;
       document.getElementById('detailTitle').textContent     = item.title;
