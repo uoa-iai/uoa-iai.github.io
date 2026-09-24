@@ -347,10 +347,16 @@
 .wp-practice strong { color: var(--text); font-weight: 600; }
 
 /* ── Team ─────────────────────────────────────────────────── */
-.wp-team { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.wp-team { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
 .wp-person {
+  display: flex; gap: 18px; align-items: center;
   background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 20px 22px;
+  border-radius: var(--radius); padding: 16px;
+}
+.wp-person-photo {
+  flex: 0 0 96px; width: 96px; height: 112px;
+  object-fit: cover; object-position: center top;
+  border-radius: 10px; background: var(--bg3);
 }
 .wp-person h4 { font-size: 1rem; font-weight: 600; }
 .wp-person .role { font-size: .72rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--wp-a); margin: 4px 0 8px; }
@@ -384,6 +390,7 @@
   .wp-section { padding: 64px 0; }
   .wp-hero { padding: 48px 0 56px; }
   .wp-takeaways { grid-template-columns: 1fr; }
+  .wp-team { grid-template-columns: 1fr; }
   .wp-bar-row, .wp-bar-row.wide { grid-template-columns: 90px 1fr 44px; gap: 8px; }
   .wp-chart { padding: 20px; }
   .wp-practice li { grid-template-columns: 40px 1fr; gap: 12px; padding: 18px; }
