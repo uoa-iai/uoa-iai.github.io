@@ -251,7 +251,9 @@
     } else {
       document.title = `${item.title} — Industrial AI Group`;
 
-      const canonicalUrl = `https://uoa-iai.github.io/news-detail.html?id=${item.id}`;
+      // The static news/{id}.html page has the same content pre-rendered without
+      // requiring JS, so it — not this SPA URL — is the canonical indexable page.
+      const canonicalUrl = `https://uoa-iai.github.io/news/${item.id}.html`;
       let canonicalLink = document.querySelector('link[rel="canonical"]');
       if (!canonicalLink) {
         canonicalLink = document.createElement('link');
@@ -305,7 +307,7 @@
       if (others.length > 0) {
         document.getElementById('relatedSection').style.display = '';
         document.getElementById('relatedGrid').innerHTML = others.map(n => `
-          <a class="related-card" href="news-detail.html?id=${n.id}">
+          <a class="related-card" href="news/${n.id}.html">
             <span class="news-badge">${n.badge}</span>
             <span class="related-date">${n.date}</span>
             <h4>${n.title}</h4>

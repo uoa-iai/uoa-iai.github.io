@@ -123,7 +123,7 @@ function renderNews() {
         </div>
         <h4>${n.title}</h4>
         <p>${n.body}</p>
-        <a href="news-detail.html?id=${n.id}">${n.linkText} →</a>
+        <a href="news/${n.id}.html">${n.linkText} →</a>
       </div>
     </div>
   `).join('');

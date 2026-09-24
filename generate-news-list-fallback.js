@@ -40,7 +40,7 @@ const list = [...news].sort((a, b) => new Date(b.date) - new Date(a.date));
 const [featured, ...rest] = list;
 
 const featuredHtml = `
-        <a class="nl-card-featured" href="news-detail.html?id=${featured.id}">
+        <a class="nl-card-featured" href="news/${featured.id}.html">
           <div class="nl-featured-img-wrap${featured.image ? '' : ' nl-featured-no-img'}">
             ${featured.image
               ? `<img src="${featured.image}" alt="${esc(featured.title)}" loading="lazy" />`
@@ -60,7 +60,7 @@ const featuredHtml = `
       `;
 
 const gridHtml = rest.map(n => `
-        <a class="nl-card" href="news-detail.html?id=${n.id}">
+        <a class="nl-card" href="news/${n.id}.html">
           <div class="nl-card-img-wrap${n.image ? '' : ' nl-card-no-img'}">
             ${n.image
               ? `<img src="${n.image}" alt="${esc(n.title)}" loading="lazy" />`

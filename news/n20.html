@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme')||((new Date().getHours()>=6&&new Date().getHours()<20)?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lab Visit from Christopher Luxon, Leader of the National Party — Industrial AI Group</title>
   <meta name="description" content="On October 17, 2022, Christopher Luxon, Leader of the New Zealand National Party, visited the IAI team to view research outcomes and their impact for New Zealand." />
@@ -14,11 +17,172 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Lab Visit from Christopher Luxon, Leader of the National Party" />
   <meta name="twitter:description" content="On October 17, 2022, Christopher Luxon, Leader of the New Zealand National Party, visited the IAI team to view research outcomes and their impact for New Zealand." />
-  <link rel="canonical" href="https://uoa-iai.github.io/news-detail.html?id=n20" />
-  <meta http-equiv="refresh" content="0;url=/news-detail.html?id=n20" />
-  <script>window.location.replace('/news-detail.html?id=n20');</script>
+  <link rel="canonical" href="https://uoa-iai.github.io/news/n20.html" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../news-detail.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <p>Redirecting to <a href="/news-detail.html?id=n20">Lab Visit from Christopher Luxon, Leader of the National Party</a>&hellip;</p>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <img src="../logo_light.svg" alt="Industrial AI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="../logo_dark.svg" alt="Industrial AI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="../index.html#gallery">Gallery</a></li>
+        <li><a href="../index.html#research">Research</a></li>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../index.html#initiatives">Initiatives</a></li>
+        <li><a href="../index.html#team">Team</a></li>
+        <li><a href="../index.html#facility">Facility</a></li>
+        <li><a href="../publications.html">Publications</a></li>
+        <li><a href="../opportunity.html">Join Us</a></li>
+        <li><a href="../index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../index.html#gallery">Gallery</a>
+      <a href="../index.html#research">Research</a>
+      <a href="../news.html">News</a>
+      <a href="../index.html#initiatives">Initiatives</a>
+      <a href="../index.html#team">Team</a>
+      <a href="../index.html#facility">Facility</a>
+      <a href="../publications.html">Publications</a>
+      <a href="../opportunity.html">Join Us</a>
+      <a href="../index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ARTICLE -->
+  <main class="detail-main">
+    <article>
+      <div class="container detail-container">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+          <a href="../index.html">Home</a>
+          <span>›</span>
+          <a href="../news.html">News</a>
+          <span>›</span>
+          <span>Lab Visit from Christopher Luxon, Leader of the National Party</span>
+        </nav>
+
+        <!-- Featured image -->
+
+        <!-- Header -->
+        <header class="detail-header">
+          <div class="detail-meta">
+            <span class="news-badge">Visit</span>
+            <span class="detail-date">Nov 2022</span>
+          </div>
+          <h1>Lab Visit from Christopher Luxon, Leader of the National Party</h1>
+          <!-- Resource links (PDF, GitHub, etc.) -->
+
+        </header>
+
+        <!-- Body -->
+        <div class="detail-body">
+<p>On October 17, 2022, <strong>Christopher Luxon</strong>, Leader of the New Zealand National Party and Leader of the Opposition, visited our team.</p>
+<br>
+<p>We showcased our research outcomes and the impact we have created for New Zealand — demonstrating our work on human-robot collaboration, intelligent manufacturing, and AI-powered automation technologies.</p>
+        </div>
+
+        <!-- Footer actions -->
+        <div class="detail-footer">
+          <a href="../news.html" class="btn-ghost">← Back to News</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fuoa-iai.github.io%2Fnews%2Fn20.html" target="_blank" rel="noopener noreferrer" class="linkedin-share-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            Share on LinkedIn
+          </a>
+        </div>
+
+      </div>
+    </article>
+
+  <section class="related-section">
+    <div class="container">
+      <h3 class="related-title">More News</h3>
+      <div class="related-grid">
+        <a class="related-card" href="n-icra2027-ae.html">
+          <span class="news-badge">Award</span>
+          <span class="related-date">Sep 2026</span>
+          <h4>Dr. Yuqian Lu Nominated as Associate Editor for ICRA 2027</h4>
+          <p>Dr. Yuqian Lu has been nominated as an Associate Editor for the 2027 IEEE International Conference on Robotics and Automation (ICRA), the flagship conference of the IEEE Robotics and Automation Society.</p>
+        </a>
+        <a class="related-card" href="n-macd-tase.html">
+          <span class="news-badge">Publication</span>
+          <span class="related-date">Jun 2026</span>
+          <h4>Dazzle Johnson's Continuous Dynamic Flexible Job Shop Scheduling Research Published in IEEE Transactions on Automation Science and Engineering</h4>
+          <p>Dazzle Johnson's PhD research on multi-agent continuous decision-making for dynamic flexible job shop scheduling has been accepted for publication in IEEE Transactions on Automation Science and Engineering.</p>
+        </a>
+        <a class="related-card" href="n-cordis.html">
+          <span class="news-badge">Media</span>
+          <span class="related-date">Apr 2026</span>
+          <h4>EU Horizon Feature — Robots, Smart Tech, and Ageing Workforces</h4>
+          <p>Our team is grateful to contribute to global efforts rethinking work for an ageing Europe, as featured in a recent EU Horizon CORDIS article on the MAIA project.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="../logo_light.svg" alt="Industrial AI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="../logo_dark.svg" alt="Industrial AI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="../index.html#research">Factory Automation</a>
+          <a href="../index.html#research">Human-Robot Collab</a>
+          <a href="../index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="../index.html#team">Team</a>
+          <a href="../publications.html">Publications</a>
+          <a href="../news.html">News</a>
+          <a href="../opportunity.html">Join Us</a>
+      <a href="../index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Industrial AI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="../theme.js"></script>
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+  </script>
 </body>
 </html>
