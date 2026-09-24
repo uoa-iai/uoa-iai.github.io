@@ -274,6 +274,7 @@
 /* ── Charts ───────────────────────────────────────────────── */
 .wp-chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 24px; margin-top: 8px; }
 .wp-chart {
+  min-width: 0;
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius-lg); padding: 28px;
   display: flex; flex-direction: column;
@@ -349,14 +350,14 @@
 /* ── Team ─────────────────────────────────────────────────── */
 .wp-team { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
 .wp-person {
-  display: flex; gap: 18px; align-items: center;
+  display: flex; gap: 14px; align-items: center;
   background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 16px;
+  border-radius: var(--radius); padding: 14px;
 }
 .wp-person-photo {
-  flex: 0 0 96px; width: 96px; height: 112px;
+  flex: 0 0 68px; width: 68px; height: 80px;
   object-fit: cover; object-position: center top;
-  border-radius: 10px; background: var(--bg3);
+  border-radius: 8px; background: var(--bg3);
 }
 .wp-person h4 { font-size: 1rem; font-weight: 600; }
 .wp-person .role { font-size: .72rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--wp-a); margin: 4px 0 8px; }
