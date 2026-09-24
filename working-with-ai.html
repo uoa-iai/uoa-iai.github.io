@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function(){var t=localStorage.getItem('iai_theme')||((new Date().getHours()>=6&&new Date().getHours()<20)?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Working with AI: A Design Framework for Human-AI Collaboration — Industrial AI Group</title>
+  <meta name="description" content="A white paper from the University of Auckland presenting a practical framework for designing human-AI collaboration, tested in a 30-participant cobot assembly study. Read the highlights of the report." />
+  <link rel="canonical" href="https://uoa-iai.github.io/working-with-ai.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Industrial AI Group" />
+  <meta property="og:url" content="https://uoa-iai.github.io/working-with-ai.html" />
+  <meta property="og:title" content="Working with AI: A Design Framework for Human-AI Collaboration" />
+  <meta property="og:description" content="Effective human-AI collaboration must be designed, not assumed. A practical framework and a cobot assembly case study from the University of Auckland." />
+  <meta property="og:image" content="https://uoa-iai.github.io/assets/images/hac-whitepaper/cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Working with AI: A Design Framework for Human-AI Collaboration" />
+  <meta name="twitter:description" content="Effective human-AI collaboration must be designed, not assumed. A practical framework and a cobot assembly case study from the University of Auckland." />
+  <meta name="twitter:image" content="https://uoa-iai.github.io/assets/images/hac-whitepaper/cover.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="working-with-ai.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Report",
+      "name": "Working with AI: A Design Framework for Human-AI Collaboration",
+      "alternateName": "HAC White Paper",
+      "description": "A practical framework for designing human-AI collaboration, with a human-AI collaborative assembly use case involving a collaborative robot.",
+      "datePublished": "2026-09",
+      "inLanguage": "en",
+      "url": "https://uoa-iai.github.io/working-with-ai.html",
+      "image": "https://uoa-iai.github.io/assets/images/hac-whitepaper/cover.jpg",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "publisher": { "@type": "Organization", "name": "The University of Auckland" },
+      "author": [
+        { "@type": "Person", "name": "Yuqian Lu" },
+        { "@type": "Person", "name": "Lixin Jiang" },
+        { "@type": "Person", "name": "Andrew McDaid" },
+        { "@type": "Person", "name": "Regina Lee" },
+        { "@type": "Person", "name": "Rui Zhou" },
+        { "@type": "Person", "name": "Amy Lawrence" }
+      ]
+    }
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo_light.svg" alt="Industrial AI Group" class="nav-logo-img nav-logo-dark" />
+        <img src="logo_dark.svg" alt="Industrial AI Group" class="nav-logo-img nav-logo-light" style="display:none" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#initiatives">Initiatives</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#facility">Facility</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="opportunity.html">Join Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+      <a href="index.html#initiatives">Initiatives</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#facility">Facility</a>
+      <a href="publications.html">Publications</a>
+      <a href="opportunity.html">Join Us</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggleMobile" aria-label="Toggle theme" style="margin:8px 0;align-self:flex-start;">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="wp-main">
+
+    <!-- HERO -->
+    <header class="wp-hero">
+      <div class="wp-wrap wp-hero-grid">
+        <div>
+          <span class="wp-kicker">HAC White Paper</span>
+          <h1>Working with AI</h1>
+          <p class="wp-subtitle">A Design Framework for Human-AI Collaboration</p>
+          <div class="wp-hero-meta">
+            <span><b>The University of Auckland</b></span>
+            <span>September 2026</span>
+            <span>43 pages</span>
+            <span>CC BY-NC-ND</span>
+          </div>
+          <div class="wp-actions">
+            <span class="wp-btn wp-btn-gold wp-btn-soon" aria-disabled="true">Full report coming soon</span>
+            <a class="wp-btn wp-btn-ghost" href="#takeaways">Read the top takeaways</a>
+          </div>
+        </div>
+        <img class="wp-cover" src="assets/images/hac-whitepaper/cover.jpg" alt="Cover of the white paper: Working with AI — A Design Framework for Human-AI Collaboration, The University of Auckland, September 2026" width="935" height="1210" />
+      </div>
+    </header>
+
+    <!-- SUB NAV -->
+    <div class="wp-subnav">
+      <div class="wp-wrap">
+        <ul id="wpSubnav">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#takeaways">Top takeaways</a></li>
+          <li><a href="#why">Why design matters</a></li>
+          <li><a href="#framework">The framework</a></li>
+          <li><a href="#principles">Design principles</a></li>
+          <li><a href="#usecase">Use case</a></li>
+          <li><a href="#results">Results</a></li>
+          <li><a href="#practice">In practice</a></li>
+          <li><a href="#team">Team &amp; citation</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- OVERVIEW -->
+    <section class="wp-section" id="overview">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">About this report</p>
+        <h2>How should human-AI collaboration be designed?</h2>
+        <p class="wp-lead">AI is becoming a routine part of industrial work. It can support decisions, automate routine activities and assist people. But <strong>whether AI adoption succeeds depends on more than what the technology can do. It also depends on how people experience and work with it.</strong></p>
+        <div class="wp-prose">
+          <p>This white paper presents a practical framework for designing human-AI collaboration (HAC). It considers the human, the AI system, the task, the organisation and the wider society. It explains what effective collaboration looks like, which conditions influence it, which requirements must be met, and which design decisions organisations should consider.</p>
+          <p>The report also includes a use case: a human-AI collaborative assembly system with a cobot. The use case shows how design requirements can be translated into specific collaboration features and evaluated in a participant study.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP TAKEAWAYS -->
+    <section class="wp-section alt" id="takeaways">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Key findings</p>
+        <h2>Top takeaways</h2>
+        <p class="wp-lead">Seven messages from the report.</p>
+        <div class="wp-takeaways">
+          <article class="wp-take">
+            <div class="wp-take-num">01</div>
+            <h3>Effective human-AI collaboration must be designed, not assumed.</h3>
+            <p>AI can improve productivity, creativity and performance, but it can also create distrust, anxiety, job insecurity, role ambiguity and loss of autonomy. Favourable outcomes depend on deliberate design, not technical capability alone.</p>
+          </article>
+          <article class="wp-take">
+            <div class="wp-take-num">02</div>
+            <h3>Human-AI collaboration is a socio-technical system.</h3>
+            <p>Collaboration depends on the interaction between the human, AI system, task, organisation and wider societal environment. A change in one domain can affect the others.</p>
+          </article>
+          <article class="wp-take">
+            <div class="wp-take-num">03</div>
+            <h3>Success is more than productivity.</h3>
+            <p>Effective HAC should support positive human experiences, strong collaboration and task performance, and sustainable organisational and societal outcomes.</p>
+          </article>
+          <article class="wp-take">
+            <div class="wp-take-num">04</div>
+            <h3>Context determines the design.</h3>
+            <p>Human capabilities, AI reliability, task demands, organisational support and societal expectations shape which requirements and design decisions matter most.</p>
+          </article>
+          <article class="wp-take">
+            <div class="wp-take-num">05</div>
+            <h3>Human needs and teamwork requirements are central.</h3>
+            <p>HAC should support autonomy, competence, relatedness, safety and privacy, while enabling shared goals, coordination, communication, adaptability, calibrated trust and appropriate human control.</p>
+          </article>
+          <article class="wp-take">
+            <div class="wp-take-num">06</div>
+            <h3>Responsible deployment starts at the design stage.</h3>
+            <p>Fairness, transparency, safety, privacy, security, accountability, training and ongoing support should be built in from the outset rather than added after deployment.</p>
+          </article>
+          <article class="wp-take">
+            <div class="wp-take-num">07</div>
+            <h3>Collaboration should be continuously evaluated and refined.</h3>
+            <p>As people gain experience and technologies or tasks change, requirements may change too. The framework treats design and evaluation as an iterative process.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="wp-section" id="why">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Chapter 1</p>
+        <h2>Why human-AI collaboration needs deliberate design</h2>
+        <div class="wp-prose">
+          <p>The same AI can be seen as an assistant or as a threat, depending on whether users trust it, have prior experience, and are supported through the change. Management support and implementation strategy decide whether AI is accepted or resisted. At the technology level, reliability, transparency, controllability and safety shape how AI is perceived and used.</p>
+          <p>A technically capable system can therefore still fail in practice. This is why the report treats human-AI collaboration as a <strong>socio-technical design challenge</strong>.</p>
+          <p><strong>It is also a national question for New Zealand.</strong> In 2024 Cabinet agreed a national strategic approach to AI. It identified mistrust of AI, together with low uptake across the economy, as key barriers. Trust must be earned through how AI is introduced and experienced, in a single workplace or across a national economy. How HAC is designed is therefore not only an organisational concern.</p>
+        </div>
+        <blockquote class="wp-quote">Effective human-AI collaboration must be designed, not assumed.</blockquote>
+      </div>
+    </section>
+
+    <!-- FRAMEWORK -->
+    <section class="wp-section alt" id="framework">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Chapter 2</p>
+        <h2>A framework for designing human-AI collaboration</h2>
+        <p class="wp-lead">The framework starts from two inputs: the <strong>desired outcomes and requirements</strong>, and the <strong>preconditions</strong> of the human, AI, task, organisation and society. Together they inform the <strong>design principles</strong>. Once deployed, the system produces <strong>actual outcomes</strong>, which are compared with the desired ones to close the loop.</p>
+
+        <figure class="wp-figure">
+          <a href="assets/images/hac-whitepaper/framework.jpg" target="_blank" rel="noopener" title="Open full size"><img src="assets/images/hac-whitepaper/framework.jpg" alt="Diagram of the HAC framework. Desired outcomes and requirements, and preconditions, feed the design principles. The design principles shape the human-AI collaboration system, which produces actual outcomes. A feedback loop compares actual outcomes with desired outcomes." loading="lazy" width="1608" height="806" /></a>
+          <figcaption class="wp-caption">Figure 1 · HAC as a socio-technical system. Source: <em>Working with AI</em> white paper.</figcaption>
+        </figure>
+        <div class="wp-chips" aria-label="The five domains">
+          <span class="wp-chip">Human</span><span class="wp-chip">AI</span><span class="wp-chip">Task</span><span class="wp-chip">Organisation</span><span class="wp-chip">Society</span>
+        </div>
+        <p class="wp-caption" style="margin-top:14px">The five interconnected domains of the socio-technical system.</p>
+
+        <h3 class="wp-h3">2.1 Outputs: what does effective collaboration look like?</h3>
+        <p class="wp-h3-sub">A system is not effective just because task performance improves. Effectiveness is assessed at three levels.</p>
+        <div class="wp-grid c3">
+          <div class="wp-card">
+            <span class="wp-card-tag">Level 1</span>
+            <h4>Human outcomes</h4>
+            <ul>
+              <li>Emotional and psychological responses</li>
+              <li>Professional experience and identity</li>
+              <li>Physical and cognitive well-being</li>
+              <li>Trust and acceptance (calibrated, not blind)</li>
+            </ul>
+          </div>
+          <div class="wp-card">
+            <span class="wp-card-tag">Level 2</span>
+            <h4>Collaboration and task performance</h4>
+            <ul>
+              <li>Collaboration quality: goal alignment, shared understanding, coordination, appropriate control</li>
+              <li>Task performance: accuracy, efficiency, consistency, workload balance</li>
+            </ul>
+          </div>
+          <div class="wp-card">
+            <span class="wp-card-tag">Level 3</span>
+            <h4>Organisational and societal outcomes</h4>
+            <ul>
+              <li>Productivity, ROI, workforce capability and retention, sustainable adoption</li>
+              <li>Public trust, labour-market effects, privacy, regulatory accountability</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="wp-h3">2.2 Requirements: what must be satisfied?</h3>
+        <p class="wp-h3-sub">Achieving the desired outcomes is not automatic. Three layers of requirements must be met.</p>
+        <div class="wp-grid c3">
+          <div class="wp-card">
+            <span class="wp-card-tag">Layer 1</span>
+            <h4>Human needs</h4>
+            <ul>
+              <li><strong>Professional:</strong> job security, learning and growth, meaningful work</li>
+              <li><strong>Psychological:</strong> autonomy, competence, relatedness</li>
+              <li><strong>Personal well-being:</strong> safety and privacy</li>
+            </ul>
+          </div>
+          <div class="wp-card">
+            <span class="wp-card-tag">Layer 2</span>
+            <h4>Human-AI teamwork</h4>
+            <div class="wp-chips">
+              <span class="wp-chip">Shared goals</span><span class="wp-chip">Shared understanding</span><span class="wp-chip">Coordination</span><span class="wp-chip">Communication</span><span class="wp-chip">Adaptability</span><span class="wp-chip">Calibrated trust</span><span class="wp-chip">Appropriate control</span>
+            </div>
+            <p style="margin-top:14px">Drawn from the “Big Five” model of teamwork. Human-AI teams differ in one respect: the human needs a more authoritative role over the AI, for safety.</p>
+          </div>
+          <div class="wp-card">
+            <span class="wp-card-tag">Layer 3</span>
+            <h4>Responsible deployment</h4>
+            <p>Aligned with the OECD AI Principles, which New Zealand's Cabinet strategy also adopts:</p>
+            <ul>
+              <li>Inclusive growth and well-being</li>
+              <li>Human rights and fairness, including privacy</li>
+              <li>Transparency and explainability</li>
+              <li>Robustness, security and safety</li>
+              <li>Accountability</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="wp-h3">2.3 Preconditions: what influences the collaboration?</h3>
+        <p class="wp-h3-sub">The aim is not to decide whether an organisation is “ready” or “not ready”. It is to find where strengths, constraints and risks lie, so the design can respond to them.</p>
+        <div class="wp-grid c3">
+          <div class="wp-card">
+            <h4>Human</h4>
+            <p>AI and technical literacy, prior experience, confidence, motivation, adaptability.</p>
+            <p class="wp-card-assess"><b>Assess with:</b> skills and literacy audit, worker survey</p>
+          </div>
+          <div class="wp-card">
+            <h4>AI</h4>
+            <p>Reliability and accuracy, robustness, transparency and explainability, usability, safety and privacy protection.</p>
+            <p class="wp-card-assess"><b>Assess with:</b> system validation and testing, edge-case testing, safety and privacy audit</p>
+          </div>
+          <div class="wp-card">
+            <h4>Task</h4>
+            <p>Complexity, physical and cognitive demands, observability, time pressure, uncertainty and risk.</p>
+            <p class="wp-card-assess"><b>Assess with:</b> workflow analysis, workload assessment, risk assessment</p>
+          </div>
+          <div class="wp-card">
+            <h4>Organisation</h4>
+            <p>Leadership, culture, management support, training, change management, resources, incentives, technical support.</p>
+            <p class="wp-card-assess"><b>Assess with:</b> readiness assessment, culture survey, resourcing review</p>
+          </div>
+          <div class="wp-card">
+            <h4>Society</h4>
+            <p>Legislation, standards, ethics, labour policies, public expectations and trust, technological maturity.</p>
+            <p class="wp-card-assess"><b>Assess with:</b> regulatory and compliance review, stakeholder consultation, industry standards review</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESIGN PRINCIPLES -->
+    <section class="wp-section" id="principles">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Chapter 3</p>
+        <h2>Six design principles</h2>
+        <p class="wp-lead">The principles turn the framework into action. Each is a set of questions that connect design choices back to the requirements. They are not a fixed checklist: their relative weight depends on the use case. A safety-critical application may need more human control and transparency, while an experienced workforce may need less onboarding and more personalisation.</p>
+        <div class="wp-grid c3">
+          <div class="wp-card wp-principle">
+            <span class="wp-principle-num">01</span>
+            <h4>Task &amp; role design</h4>
+            <ul>
+              <li>What role does the AI play: assistant or autonomous agent?</li>
+              <li>Is task allocation fixed or dynamic?</li>
+              <li>How much autonomy and control does the human keep?</li>
+            </ul>
+          </div>
+          <div class="wp-card wp-principle">
+            <span class="wp-principle-num">02</span>
+            <h4>Transparency design</h4>
+            <ul>
+              <li>What does the human know about what the AI observes, decides and does?</li>
+              <li>What level of explanation is given, by default or on request?</li>
+            </ul>
+          </div>
+          <div class="wp-card wp-principle">
+            <span class="wp-principle-num">03</span>
+            <h4>Communication design</h4>
+            <ul>
+              <li>Which channel is used: voice, screen or gesture?</li>
+              <li>How does the human give commands, confirmations, overrides and feedback?</li>
+            </ul>
+          </div>
+          <div class="wp-card wp-principle">
+            <span class="wp-principle-num">04</span>
+            <h4>Human-centred design</h4>
+            <ul>
+              <li>How is trust established early on?</li>
+              <li>What training or onboarding is provided?</li>
+              <li>Can the human personalise the system and suggest changes?</li>
+            </ul>
+          </div>
+          <div class="wp-card wp-principle">
+            <span class="wp-principle-num">05</span>
+            <h4>Responsible design</h4>
+            <ul>
+              <li>What safety mechanisms exist?</li>
+              <li>Can the human override or stop the AI at any time?</li>
+              <li>How is data protected, and who is accountable?</li>
+            </ul>
+          </div>
+          <div class="wp-card wp-principle">
+            <span class="wp-principle-num">06</span>
+            <h4>Sustainability design</h4>
+            <ul>
+              <li>What ongoing training and support is provided?</li>
+              <li>Who maintains and updates the system?</li>
+              <li>How does it fit existing workflows, tools and processes?</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="wp-h3">Applying the framework: a five-step iterative process</h3>
+        <p class="wp-h3-sub">Treat the steps as a loop, not a one-off sequence. As users gain experience, tasks change or AI capabilities evolve, the preconditions and requirements shift, so the framework can be revisited.</p>
+        <div class="wp-steps">
+          <div class="wp-step"><h4>Understand the use case</h4><p>Identify the preconditions across human, AI, task, organisation and society.</p></div>
+          <div class="wp-step"><h4>Identify desired outcomes and requirements</h4><p>Decide which needs, teamwork and deployment requirements matter most.</p></div>
+          <div class="wp-step"><h4>Apply the design principles</h4><p>Make context-specific design decisions.</p></div>
+          <div class="wp-step"><h4>Implement the design decisions</h4><p>Translate them into task allocation, interfaces, safety mechanisms and support.</p></div>
+          <div class="wp-step"><h4>Evaluate the outcomes</h4><p>Assess against the outcomes defined earlier, then refine and repeat.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- USE CASE -->
+    <section class="wp-section alt" id="usecase">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Chapter 4</p>
+        <h2>Use case: a human-AI collaborative assembly system with cobots</h2>
+        <p class="wp-lead">To show how the framework works in practice, the team designed and evaluated a collaborative assembly system. The task was a sequential assembly of the <strong>BV704 ball valve</strong>, manufactured by supporting partner Oasis Engineering. The worker assembled the valve, while a <strong>Franka Research 3</strong> collaborative robot acted as an assistant and supplied the right tool at each stage.</p>
+
+        <div class="wp-stats">
+          <div class="wp-stat"><div class="wp-stat-num">30</div><div class="wp-stat-label">participants, each completing six assembly runs</div></div>
+          <div class="wp-stat"><div class="wp-stat-num">22 / 30</div><div class="wp-stat-label">had no prior experience with collaborative robots</div></div>
+          <div class="wp-stat"><div class="wp-stat-num">77%</div><div class="wp-stat-label">changed their configuration at least once during the study</div></div>
+          <div class="wp-stat"><div class="wp-stat-num">1</div><div class="wp-stat-label">deliberate robot error in Run 5: the wrong tool was handed over</div></div>
+        </div>
+
+        <div class="wp-prose">
+          <p>The system combined an RGB-D camera with an action-recognition model to detect the current assembly step, plus voice recognition, audio output and a monitor for two-way interaction. The design decisions were turned into <strong>configurable features</strong>: who initiates the tool handover (worker by voice, or robot automatically), whether the robot asks for confirmation, and how much it explains (detailed, brief or none). The worker could <strong>override or stop the robot at any time</strong>, and researchers supervised every session.</p>
+          <p>In Runs 1 to 3, participants were assigned different configuration combinations. In Runs 4 to 6, they chose their own.</p>
+        </div>
+
+        <figure class="wp-figure narrow" style="margin-top:36px">
+          <a href="assets/images/hac-whitepaper/cobot-system.jpg" target="_blank" rel="noopener" title="Open full size"><img src="assets/images/hac-whitepaper/cobot-system.jpg" alt="Annotated photographs of the collaborative assembly system, showing nine implemented design decisions: worker and robot roles, robot speech output, on-screen recognition feedback, real-time tracking, continuous human override, configurable handover initiator, configurable confirmation, configurable explanation, and briefing, training and supervision." loading="lazy" width="1103" height="1273" /></a>
+          <figcaption class="wp-caption">Figure 7 · The implemented design decisions for the human-robot collaborative assembly system. Source: <em>Working with AI</em> white paper.</figcaption>
+        </figure>
+        <p class="wp-caption" style="text-align:center;margin-top:12px">The study illustrates human and task-level outcomes. Organisational and societal outcomes are beyond the scope of a single laboratory study.</p>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="wp-section" id="results">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Findings</p>
+        <h2>What the study found</h2>
+        <p class="wp-lead">Results from 30 participants across six runs each. Survey scores are on a 1 to 7 scale.</p>
+
+        <div class="wp-chart-grid">
+
+          <!-- Trust & reliance -->
+          <div class="wp-chart full">
+            <h4>Trust responded to what the robot actually did</h4>
+            <p class="wp-chart-sub">Mean self-reported trust and reliance (1–7), Runs 1–6. Axis shows 4 to 6.</p>
+            <div class="wp-legend"><span><i style="background:var(--wp-a)"></i>Trust</span><span><i style="background:var(--wp-b)"></i>Reliance</span></div>
+            <svg class="wp-svg" viewBox="0 0 560 250" role="img" aria-labelledby="t1 d1">
+              <title id="t1">Line chart of trust and reliance across six runs</title>
+              <desc id="d1">Trust: 5.47, 5.40, 5.37, 5.87, 4.60, 5.83. Reliance: 4.77, 5.03, 5.43, 5.50, 5.20, 5.77. Trust drops sharply in run 5 when the robot handed over the wrong tool and recovers in run 6.</desc>
+              <line class="grid" x1="56" x2="540" y1="220" y2="220"/><line class="grid" x1="56" x2="540" y1="175" y2="175"/><line class="grid" x1="56" x2="540" y1="130" y2="130"/><line class="grid" x1="56" x2="540" y1="85" y2="85"/><line class="grid" x1="56" x2="540" y1="40" y2="40"/>
+              <text x="48" y="224" text-anchor="end">4.0</text><text x="48" y="179" text-anchor="end">4.5</text><text x="48" y="134" text-anchor="end">5.0</text><text x="48" y="89" text-anchor="end">5.5</text><text x="48" y="44" text-anchor="end">6.0</text>
+              <text x="70" y="242" text-anchor="middle">Run 1</text><text x="160" y="242" text-anchor="middle">Run 2</text><text x="250" y="242" text-anchor="middle">Run 3</text><text x="340" y="242" text-anchor="middle">Run 4</text><text x="430" y="242" text-anchor="middle">Run 5</text><text x="520" y="242" text-anchor="middle">Run 6</text>
+              <line class="flag" x1="430" x2="430" y1="30" y2="220"/>
+              <text class="flag-label" x="424" y="26" text-anchor="end">Wrong tool handed over</text>
+              <polyline class="wp-line-a" points="70,87.7 160,94.0 250,96.7 340,51.7 430,166.0 520,55.3"/>
+              <polyline class="wp-line-b" points="70,150.7 160,127.3 250,91.3 340,85.0 430,112.0 520,60.7"/>
+              <g class="wp-dot-a"><circle cx="70" cy="87.7" r="4"/><circle cx="160" cy="94.0" r="4"/><circle cx="250" cy="96.7" r="4"/><circle cx="340" cy="51.7" r="4"/><circle cx="430" cy="166.0" r="4"/><circle cx="520" cy="55.3" r="4"/></g>
+              <g class="wp-dot-b"><circle cx="70" cy="150.7" r="4"/><circle cx="160" cy="127.3" r="4"/><circle cx="250" cy="91.3" r="4"/><circle cx="340" cy="85.0" r="4"/><circle cx="430" cy="112.0" r="4"/><circle cx="520" cy="60.7" r="4"/></g>
+            </svg>
+            <table class="wp-data">
+              <thead><tr><th></th><th>Run 1</th><th>Run 2</th><th>Run 3</th><th>Run 4</th><th>Run 5</th><th>Run 6</th></tr></thead>
+              <tbody>
+                <tr><td class="a">Trust</td><td>5.47</td><td>5.40</td><td>5.37</td><td>5.87</td><td>4.60</td><td>5.83</td></tr>
+                <tr><td class="b">Reliance</td><td>4.77</td><td>5.03</td><td>5.43</td><td>5.50</td><td>5.20</td><td>5.77</td></tr>
+              </tbody>
+            </table>
+            <p class="wp-chart-note"><strong>One visible error was enough for trust to drop, and one run of correct behaviour was enough to restore it.</strong> This is what appropriate trust should look like: workers adjusted it to the robot's actual performance. Reliance rose steadily from 4.77 to 5.77 as participants became familiar with the robot, because the task was built around the robot delivering every tool.</p>
+          </div>
+
+          <!-- Completion time -->
+          <div class="wp-chart">
+            <h4>The valve was assembled faster with experience</h4>
+            <p class="wp-chart-sub">Mean completion time per run, in seconds.</p>
+            <div class="wp-bars">
+              <div class="wp-bar-row"><span class="wp-bar-label">Run 1</span><span class="wp-bar-track"><span class="wp-bar" style="width:96.7%"></span></span><span class="wp-bar-val">174</span></div>
+              <div class="wp-bar-row"><span class="wp-bar-label">Run 2</span><span class="wp-bar-track"><span class="wp-bar" style="width:83.3%"></span></span><span class="wp-bar-val">150</span></div>
+              <div class="wp-bar-row"><span class="wp-bar-label">Run 3</span><span class="wp-bar-track"><span class="wp-bar" style="width:68.9%"></span></span><span class="wp-bar-val">124</span></div>
+              <div class="wp-bar-row"><span class="wp-bar-label">Run 4</span><span class="wp-bar-track"><span class="wp-bar" style="width:68.3%"></span></span><span class="wp-bar-val">123</span></div>
+              <div class="wp-bar-row"><span class="wp-bar-label">Run 5 · error</span><span class="wp-bar-track"><span class="wp-bar b" style="width:87.2%"></span></span><span class="wp-bar-val">157</span></div>
+              <div class="wp-bar-row"><span class="wp-bar-label">Run 6</span><span class="wp-bar-track"><span class="wp-bar" style="width:65.6%"></span></span><span class="wp-bar-val">118</span></div>
+            </div>
+            <p class="wp-chart-note">Completion time fell from <strong>174 s to 123 s</strong> by Run 4, rose to 157 s when participants handled the wrong tool, and reached its lowest, <strong>118 s</strong>, in Run 6. Mental demand also fell across runs, from 3.13 in Run 1 to 1.87 in Run 6.</p>
+          </div>
+
+          <!-- Control -->
+          <div class="wp-chart">
+            <h4>People need enough control, not maximum control</h4>
+            <p class="wp-chart-sub">Mean perceived control (1–7).</p>
+            <p class="wp-bars-title">Same 23 participants, runs 1–3</p>
+            <div class="wp-bars">
+              <div class="wp-bar-row wide"><span class="wp-bar-label">Human-led</span><span class="wp-bar-track"><span class="wp-bar" style="width:79.7%"></span></span><span class="wp-bar-val">5.58</span></div>
+              <div class="wp-bar-row wide"><span class="wp-bar-label">Robot-led</span><span class="wp-bar-track"><span class="wp-bar dim" style="width:62.4%"></span></span><span class="wp-bar-val">4.37</span></div>
+            </div>
+            <p class="wp-bars-title">Control under robot-led handover</p>
+            <div class="wp-bars">
+              <div class="wp-bar-row wide"><span class="wp-bar-label">Assigned (runs 1–3)</span><span class="wp-bar-track"><span class="wp-bar dim" style="width:61.9%"></span></span><span class="wp-bar-val">4.33</span></div>
+              <div class="wp-bar-row wide"><span class="wp-bar-label">Chosen (runs 4–6)</span><span class="wp-bar-track"><span class="wp-bar b" style="width:71.3%"></span></span><span class="wp-bar-val">4.99</span></div>
+            </div>
+            <p class="wp-chart-note">These participants rated human-led handover as giving more control, <strong>yet 23 of 30 chose robot-led</strong>. Being able to choose the configuration also raised perceived control. Once a baseline of control is met, people will trade some for efficiency.</p>
+          </div>
+
+          <!-- Preferences -->
+          <div class="wp-chart full">
+            <h4>Preferences converged, but individuals kept adjusting</h4>
+            <p class="wp-chart-sub">Share of 30 participants, by their final preferred configuration.</p>
+            <div class="wp-chart-grid" style="margin-top:0">
+              <div>
+                <p class="wp-bars-title">Handover initiator</p>
+                <div class="wp-bars">
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Robot-led</span><span class="wp-bar-track"><span class="wp-bar" style="width:77%"></span></span><span class="wp-bar-val">77%</span></div>
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Human-led</span><span class="wp-bar-track"><span class="wp-bar dim" style="width:23%"></span></span><span class="wp-bar-val">23%</span></div>
+                </div>
+                <p class="wp-bars-title">Confirmation</p>
+                <div class="wp-bars">
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Off</span><span class="wp-bar-track"><span class="wp-bar" style="width:87%"></span></span><span class="wp-bar-val">87%</span></div>
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">On</span><span class="wp-bar-track"><span class="wp-bar dim" style="width:13%"></span></span><span class="wp-bar-val">13%</span></div>
+                </div>
+              </div>
+              <div>
+                <p class="wp-bars-title">Explanation</p>
+                <div class="wp-bars">
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">None</span><span class="wp-bar-track"><span class="wp-bar" style="width:50%"></span></span><span class="wp-bar-val">50%</span></div>
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Brief</span><span class="wp-bar-track"><span class="wp-bar" style="width:47%"></span></span><span class="wp-bar-val">47%</span></div>
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Detailed</span><span class="wp-bar-track"><span class="wp-bar dim" style="width:3%"></span></span><span class="wp-bar-val">3%</span></div>
+                </div>
+                <p class="wp-bars-title">Changes across self-selected runs 4–6</p>
+                <div class="wp-bars">
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Same all 3 runs</span><span class="wp-bar-track"><span class="wp-bar dim" style="width:23%"></span></span><span class="wp-bar-val">23%</span></div>
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Changed once</span><span class="wp-bar-track"><span class="wp-bar b" style="width:40%"></span></span><span class="wp-bar-val">40%</span></div>
+                  <div class="wp-bar-row wide"><span class="wp-bar-label">Changed every run</span><span class="wp-bar-track"><span class="wp-bar b" style="width:37%"></span></span><span class="wp-bar-val">37%</span></div>
+                </div>
+              </div>
+            </div>
+            <p class="wp-chart-note">Overall preferences settled quickly, but <strong>only 23% of participants kept the same configuration across all three self-selected runs</strong>. The system supported every change, because participants could reconfigure before each run.</p>
+          </div>
+        </div>
+
+        <h3 class="wp-h3">What the use case demonstrates</h3>
+        <p class="wp-h3-sub">The same feature can create both benefits and costs, which is why deliberate design matters.</p>
+        <div class="wp-tradeoffs">
+          <div class="wp-trade">
+            <h4>Robot-led initiation</h4>
+            <p class="wp-plus">Improved efficiency</p>
+            <p class="wp-minus">Reduced perceived control</p>
+          </div>
+          <div class="wp-trade">
+            <h4>Confirmation</h4>
+            <p class="wp-plus">Supported oversight</p>
+            <p class="wp-minus">Added interaction burden</p>
+          </div>
+          <div class="wp-trade">
+            <h4>Detailed explanation</h4>
+            <p class="wp-plus">More information</p>
+            <p class="wp-minus">Slower performance</p>
+          </div>
+        </div>
+        <blockquote class="wp-quote">There is no single universally optimal human-AI collaboration configuration.</blockquote>
+      </div>
+    </section>
+
+    <!-- PRACTICE -->
+    <section class="wp-section tint" id="practice">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Chapter 5</p>
+        <h2>Implications for practice</h2>
+        <p class="wp-lead">Organisations should treat human-AI collaboration as a socio-technical design challenge, not simply a technology implementation exercise.</p>
+        <ol class="wp-practice">
+          <li><span><strong>Understand the use case first</strong> by assessing the human, AI, task, organisational and societal preconditions that shape the collaboration.</span></li>
+          <li><span><strong>Prioritise the most important requirements</strong> for the context: worker needs, teamwork quality, safety, transparency, trust and human control.</span></li>
+          <li><span><strong>Make design decisions deliberately</strong> around task allocation, AI autonomy, communication, explanation, worker control, training, privacy, accountability and ongoing support.</span></li>
+          <li><span><strong>Allow the collaboration to adapt over time.</strong> Workers refined their preferences through repeated use, and pointed to efficiency, reliability and personalisation as areas to improve.</span></li>
+          <li><span><strong>Evaluate more than productivity alone.</strong> Effective HAC should also support positive worker experiences, strong collaboration and sustainable organisational and societal outcomes.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="wp-section" id="team">
+      <div class="wp-wrap">
+        <p class="wp-eyebrow">Behind the report</p>
+        <h2>Staff and researchers</h2>
+        <div class="wp-team">
+          <div class="wp-person"><h4>Yuqian Lu</h4><p class="role">Lead Researcher</p><p>Department of Mechanical and Mechatronics Engineering, The University of Auckland</p></div>
+          <div class="wp-person"><h4>Lixin Jiang</h4><p class="role">Researcher</p><p>School of Psychology, The University of Auckland</p></div>
+          <div class="wp-person"><h4>Andrew McDaid</h4><p class="role">Researcher</p><p>Department of Mechanical and Mechatronics Engineering, The University of Auckland</p></div>
+          <div class="wp-person"><h4>Regina Lee</h4><p class="role">Graduate Researcher</p><p>Department of Mechanical and Mechatronics Engineering, The University of Auckland</p></div>
+          <div class="wp-person"><h4>Rui Zhou</h4><p class="role">Graduate Researcher</p><p>Department of Mechanical and Mechatronics Engineering, The University of Auckland</p></div>
+          <div class="wp-person"><h4>Amy Lawrence</h4><p class="role">Graduate Researcher</p><p>School of Psychology, The University of Auckland</p></div>
+        </div>
+        <div class="wp-fine">
+          <p><b>Supporting partner:</b> Oasis Engineering.</p>
+          <p><b>Financial acknowledgement:</b> This report is proudly brought to life with support from the Transdisciplinary Ideation Fund at the University of Auckland.</p>
+          <p><b>How to cite:</b> The University of Auckland, “Working with AI: A Design Framework for Human-AI Collaboration,” HAC White Paper, September 2026.</p>
+          <p><b>Licence:</b> This report is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a> (Attribution-NonCommercial-NoDerivatives).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="wp-cta">
+      <div class="wp-wrap">
+        <h2>The full report is coming soon</h2>
+        <p>43 pages, with the complete framework tables, the detailed use case, references and the post-task survey.</p>
+        <div class="wp-actions">
+          <a class="wp-btn wp-btn-ghost" href="index.html">Back to Industrial AI Group</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="logo_light.svg" alt="Industrial AI Group" class="footer-logo-img footer-logo-dark" />
+        <img src="logo_dark.svg" alt="Industrial AI Group" class="footer-logo-img footer-logo-light" style="display:none" />
+        <p>Industrial Artificial Intelligence Group<br />Advancing intelligence for the factory of the future.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>Research</strong>
+          <a href="index.html#research">Factory Automation</a>
+          <a href="index.html#research">Human-Robot Collab</a>
+          <a href="index.html#research">Embodied Intelligence</a>
+        </div>
+        <div>
+          <strong>Lab</strong>
+          <a href="index.html#team">Team</a>
+          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
+          <a href="opportunity.html">Join Us</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Industrial AI Group. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+
+    // Highlight the sub-nav link for the section currently in view.
+    const links = [...document.querySelectorAll('#wpSubnav a')];
+    const sections = links.map(a => document.querySelector(a.getAttribute('href')));
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
+          links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+        });
+      }, { rootMargin: '-40% 0px -55% 0px' });
+      sections.forEach(s => s && io.observe(s));
+    }
+  </script>
+</body>
+</html>
