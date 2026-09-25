@@ -170,7 +170,7 @@ a:hover { opacity: .75; }
 }
 .mobile-menu.open { display: flex; }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .nav-links { display: none; }
   .hamburger { display: flex; }
 }
