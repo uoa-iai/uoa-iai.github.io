@@ -404,6 +404,13 @@
   display: grid; gap: 14px; max-width: 820px;
 }
 .wp-fine b { color: var(--text); }
+.wp-partner { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.wp-partner-badge {
+  display: inline-flex; align-items: center;
+  background: #fff; border: 1px solid var(--border); border-radius: 8px;
+  padding: 8px 14px;
+}
+.wp-partner-badge img { display: block; height: 22px; width: auto; }
 
 /* ── Closing CTA ──────────────────────────────────────────── */
 .wp-cta {
