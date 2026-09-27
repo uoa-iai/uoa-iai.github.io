@@ -408,9 +408,9 @@
 .wp-partner-badge {
   display: inline-flex; align-items: center;
   background: #fff; border: 1px solid var(--border); border-radius: 8px;
-  padding: 8px 14px;
+  padding: 6px 12px;
 }
-.wp-partner-badge img { display: block; height: 22px; width: auto; }
+.wp-partner-badge img { display: block; height: 16px; width: auto; }
 
 /* ── Closing CTA ──────────────────────────────────────────── */
 .wp-cta {
