@@ -410,7 +410,7 @@
   background: #fff; border: 1px solid var(--border); border-radius: 8px;
   padding: 6px 12px;
 }
-.wp-partner-badge img { display: block; height: 16px; width: auto; }
+.wp-partner-badge img { display: block; height: 19px; width: auto; }
 
 /* ── Closing CTA ──────────────────────────────────────────── */
 .wp-cta {
