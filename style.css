@@ -181,6 +181,8 @@ a:hover { opacity: .75; }
   display: flex;
   align-items: center;
   padding-top: var(--nav-h);
+  /* keep hero content within the same 1140px column as .container */
+  padding-inline: max(0px, calc((100% - 1140px) / 2));
   position: relative;
   overflow: hidden;
 }
@@ -302,7 +304,7 @@ a:hover { opacity: .75; }
 /* Hero visual (right side) */
 .hero-visual {
   position: absolute;
-  right: 5%;
+  right: max(5%, calc((100% - 1140px) / 2 + 24px));
   top: 50%;
   transform: translateY(-50%);
   width: 380px;
@@ -357,6 +359,9 @@ a:hover { opacity: .75; }
   to   { transform: rotate(600deg) translateX(180px) rotate(-600deg); }
 }
 
+@media (min-width: 1240px) {
+  .hero-content { padding-left: 24px; }
+}
 @media (max-width: 768px) {
   .hero-content { padding: 60px 24px; }
 }
