@@ -1,5 +1,14 @@
 const DEFAULT_PUBLICATIONS = [
   {
+    id: 'bAugenstein2026survey',
+    year: '2026',
+    tag: 'hrc',
+    title: 'Intelligent assembly support systems for human-centric manufacturing: A survey',
+    authors: 'Augenstein, T.; Ahn, H.S.; Lu, Y.',
+    venue: 'Journal of Manufacturing Systems, Vol. 89 (2026)',
+    links: [{ label: 'DOI', url: 'https://doi.org/10.1016/j.jmsy.2026.10.006' }],
+  },
+  {
     id: 'bJohnson2026macd',
     year: '2026',
     tag: 'automation',
@@ -1109,6 +1118,38 @@ const DEFAULT_PUBLICATIONS = [
 ];
 
 const DEFAULT_NEWS = [
+  {
+    id: 'n-assembly-survey-jmsy',
+    date: 'Nov 2026',
+    badge: 'Publication',
+    title: 'Travis Augenstein\'s Survey on Intelligent Assembly Support Systems Published in Journal of Manufacturing Systems',
+    body: 'Congratulations to Travis Augenstein, whose survey on intelligent assembly support systems for human-centric manufacturing has been published in the Journal of Manufacturing Systems.',
+    fullContent: `Congratulations to **Travis Augenstein**, whose paper *"Intelligent assembly support systems for human-centric manufacturing: A survey"* has been published in the *Journal of Manufacturing Systems* (Vol. 89, 2026). The paper is co-authored with **Ho Seok Ahn** and **Yuqian Lu**.
+
+![Overview of intelligent assembly support systems](assets/images/news/assembly-survey-jmsy.jpg)
+
+**About the Research**
+
+The survey analyses how intelligent assembly support systems perceive tasks, reason about assembly processes, generate support actions, and interact with human operators in complex industrial environments. It draws on a systematic review of 184 publications from 2015 to 2026, combining thematic analysis with bibliometric and temporal analyses.
+
+**Key Findings**
+
+- Current systems focus mainly on vision-based perception, action recognition, and predefined support strategies. They give limited attention to perception uncertainty, variation in human assembly behaviour, and the different capabilities and needs of workers.
+- The field is moving from recognition-oriented support tools towards uncertainty-aware decision-support systems that enable adaptive human–AI collaboration.
+- Open challenges include robust perception under visual and environmental variability, adaptive support for heterogeneous workers, trustworthy integration of emerging technologies such as large language models and human-centric digital twins, and the practical requirements of industrial deployment.
+- The authors propose that future systems be judged not only on technical performance but also on adaptability, trust calibration, human autonomy, and long-term operational viability.
+
+The findings offer a roadmap for Industry 5.0 assembly environments, where intelligent systems augment rather than replace human expertise.
+
+Congratulations to Travis on this achievement.`,
+    resourceLinks: [
+      { label: 'Read the Paper (DOI)', url: 'https://doi.org/10.1016/j.jmsy.2026.10.006', icon: 'doi' },
+    ],
+    image: 'assets/images/news/assembly-survey-jmsy.jpg',
+    linkText: 'Read more',
+    linkUrl: 'news-detail.html?id=n-assembly-survey-jmsy',
+    featured: true,
+  },
   {
     id: 'n-icra2027-ae',
     date: 'Sep 2026',
