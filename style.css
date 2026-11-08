@@ -854,7 +854,7 @@ a:hover { opacity: .75; }
   grid-column: span 2;
   flex-direction: row;
   border-color: rgba(99,179,237,.25);
-  background: linear-gradient(135deg, #13162a, #0f1020);
+  background: var(--card-featured-bg);
 }
 .featured-news .news-card-img {
   width: 340px;
