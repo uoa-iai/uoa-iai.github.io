@@ -1230,47 +1230,49 @@ We are grateful to be part of this global conversation. Our team's work on intel
     date: 'Mar 2026',
     badge: 'Scholarship',
     title: 'Fully Funded PhD Scholarship — Machine Intelligence towards Collaborative Factory Automation',
-    body: 'A fully funded PhD scholarship is available in the Industrial AI Research Group, focusing on developing intelligent, collaborative automation systems for the factories of the future.',
-    fullContent: `The Industrial AI Research Group at the University of Auckland is offering a fully funded PhD scholarship focused on developing intelligent automation systems for modern factories.
+    body: 'Join the Industrial AI Research Group on a fully funded PhD to build intelligent, collaborative automation systems for the factories of the future. Applications are open until the position is filled.',
+    fullContent: `Are you excited by machines that learn, adapt, and work together? The Industrial AI Research Group at the University of Auckland is offering a **fully funded PhD scholarship** to help build the intelligent automation systems that tomorrow's factories will run on.
 
-**Research Focus**
+**What You Will Work On**
 
-The project aims to create automation systems that can learn, adapt, and collaborate with other machines in modern factories. Key research areas include:
+You will help create automation systems that can learn, adapt, and collaborate with other machines in modern factories. Research directions include:
 
 - Generalised and embodied intelligence for industrial machines
 - Machine learning and adaptive control for collaborative automation
 - Situational awareness in manufacturing
 - System integration with real-world automation systems
 
-**Supervisors**
+**Your Supervisors**
 
-The research will be directed by Dr. Yuqian Lu and Professor Andrea Raith.
+You will be supervised by Dr. Yuqian Lu and Professor Andrea Raith.
 
-**Candidate Requirements**
+**What You Will Bring**
 
-Applicants should have:
-
-- A Master's degree or First-Class Honours in Robotics, Mechatronics, Mechanical Engineering, Computer Science, or related field
+- A Master's degree or First-Class Honours in Robotics, Mechatronics, Mechanical Engineering, Computer Science, or a related field
 - Strong programming skills (Python, ROS, control systems, machine learning frameworks)
 - High motivation for intelligent automation research
-- Excellent interpersonal abilities to collaborate with industry partners
+- Excellent interpersonal skills for working with industry partners
 
-**Ideal Candidate Profile**
+**Who Will Thrive Here**
 
-We are especially keen to hear from candidates who:
+You will get the most out of this PhD if you:
 
-- Are interested in developing new optimisation algorithms
-- Have a keen mindset for rigorously modelling real-world problems as abstract mathematical formulations
+- Are excited to develop new optimisation algorithms
+- Enjoy rigorously modelling real-world problems as abstract mathematical formulations
 - Bring a can-do attitude
-- Have a growth mindset, embrace challenges, and are good at learning from mistakes
+- Have a growth mindset, embrace challenges, and learn from your mistakes
 
-**Funding and Timeline**
+If this sounds like you, we would love to hear from you.
 
-Coverage: Tuition fees plus annual stipend (36 months). Start date by 1 February 2027 at the latest.
+**What We Offer**
+
+- Full tuition fees covered
+- An annual stipend for 36 months
+- A start date of 1 February 2027 at the latest
 
 **How to Apply**
 
-Submit your CV, academic transcript, and a brief research interest statement to Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz. The position is **open until filled**.`,
+Send your CV, academic transcript, and a brief statement of your research interests to Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz. The position is **open until filled**, so we encourage you to apply early.`,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n0',
     featured: true,
