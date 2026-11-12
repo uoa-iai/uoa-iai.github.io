@@ -1255,13 +1255,22 @@ Applicants should have:
 - High motivation for intelligent automation research
 - Excellent interpersonal abilities to collaborate with industry partners
 
+**Ideal Candidate Profile**
+
+We are especially keen to hear from candidates who:
+
+- Are interested in developing new optimisation algorithms
+- Have a keen mindset for rigorously modelling real-world problems as abstract mathematical formulations
+- Bring a can-do attitude
+- Have a growth mindset, embrace challenges, and are good at learning from mistakes
+
 **Funding and Timeline**
 
-Coverage: Tuition fees plus annual stipend (36 months). Start date by September 2026.
+Coverage: Tuition fees plus annual stipend (36 months). Start date by 1 February 2027 at the latest.
 
 **How to Apply**
 
-Submit your CV, academic transcript, and a brief research interest statement to Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz by **April 1, 2026**.`,
+Submit your CV, academic transcript, and a brief research interest statement to Dr. Yuqian Lu at yuqian.lu@auckland.ac.nz. The position is **open until filled**.`,
     linkText: 'Read more',
     linkUrl: 'news-detail.html?id=n0',
     featured: true,
